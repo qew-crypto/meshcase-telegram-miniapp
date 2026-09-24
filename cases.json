@@ -1,0 +1,553 @@
+[
+  {
+    "id": "hw-start",
+    "name": "HolyWorld · старт",
+    "brand": "HOLYWORLD",
+    "type": "server",
+    "price": 19,
+    "desc": "Товары HOLYWORLD из каталога",
+    "accent": "#6de4cb",
+    "drops": [
+      [
+        "ref-14",
+        53.328
+      ],
+      [
+        "ref-15",
+        26.664
+      ],
+      [
+        "ref-16",
+        13.332
+      ],
+      [
+        "ref-17",
+        6.666
+      ],
+      [
+        "ref-18",
+        0.01
+      ]
+    ]
+  },
+  {
+    "id": "hw-ghast",
+    "name": "HolyWorld · Гаст",
+    "brand": "HOLYWORLD",
+    "type": "server",
+    "price": 149,
+    "desc": "Товары HOLYWORLD из каталога",
+    "accent": "#ffa86b",
+    "drops": [
+      [
+        "ref-17",
+        53.328
+      ],
+      [
+        "ref-19",
+        26.664
+      ],
+      [
+        "ref-20",
+        13.332
+      ],
+      [
+        "ref-21",
+        6.666
+      ],
+      [
+        "ref-23",
+        0.01
+      ]
+    ]
+  },
+  {
+    "id": "hw-elite",
+    "name": "HolyWorld · Элита",
+    "brand": "HOLYWORLD",
+    "type": "server",
+    "price": 490,
+    "desc": "Товары HOLYWORLD из каталога",
+    "accent": "#ae86ff",
+    "drops": [
+      [
+        "ref-20",
+        51.6077
+      ],
+      [
+        "ref-22",
+        25.8039
+      ],
+      [
+        "ref-24",
+        12.9019
+      ],
+      [
+        "ref-25",
+        6.451
+      ],
+      [
+        "ref-26",
+        3.2255
+      ],
+      [
+        "ref-29",
+        0.01
+      ]
+    ]
+  },
+  {
+    "id": "hw-legend",
+    "name": "HolyWorld · Легенда",
+    "brand": "HOLYWORLD",
+    "type": "server",
+    "price": 1490,
+    "desc": "Товары HOLYWORLD из каталога",
+    "accent": "#f5d27e",
+    "drops": [
+      [
+        "ref-23",
+        50.7886
+      ],
+      [
+        "ref-24",
+        25.3943
+      ],
+      [
+        "ref-26",
+        12.6971
+      ],
+      [
+        "ref-27",
+        6.3486
+      ],
+      [
+        "ref-28",
+        3.1743
+      ],
+      [
+        "ref-29",
+        1.5871
+      ],
+      [
+        "ref-30",
+        0.01
+      ]
+    ]
+  },
+  {
+    "id": "rw-start",
+    "name": "ReallyWorld · старт",
+    "brand": "REALLYWORLD",
+    "type": "server",
+    "price": 59,
+    "desc": "Товары REALLYWORLD из каталога",
+    "accent": "#74c8ef",
+    "drops": [
+      [
+        "ref-40",
+        57.1371
+      ],
+      [
+        "ref-41",
+        28.5686
+      ],
+      [
+        "ref-42",
+        14.2843
+      ],
+      [
+        "ref-43",
+        0.01
+      ]
+    ]
+  },
+  {
+    "id": "rw-elite",
+    "name": "ReallyWorld · Элита",
+    "brand": "REALLYWORLD",
+    "type": "server",
+    "price": 249,
+    "desc": "Товары REALLYWORLD из каталога",
+    "accent": "#ef7cbf",
+    "drops": [
+      [
+        "ref-40",
+        53.328
+      ],
+      [
+        "ref-42",
+        26.664
+      ],
+      [
+        "ref-43",
+        13.332
+      ],
+      [
+        "ref-44",
+        6.666
+      ],
+      [
+        "ref-45",
+        0.01
+      ]
+    ]
+  },
+  {
+    "id": "rw-legend",
+    "name": "ReallyWorld · Дракон",
+    "brand": "REALLYWORLD",
+    "type": "server",
+    "price": 790,
+    "desc": "Товары REALLYWORLD из каталога",
+    "accent": "#6de4cb",
+    "drops": [
+      [
+        "ref-42",
+        53.328
+      ],
+      [
+        "ref-43",
+        26.664
+      ],
+      [
+        "ref-44",
+        13.332
+      ],
+      [
+        "ref-45",
+        6.666
+      ],
+      [
+        "ref-46",
+        0.01
+      ]
+    ]
+  },
+  {
+    "id": "spooky-start",
+    "name": "SpookyTime · Старт",
+    "brand": "SPOOKYTIME",
+    "type": "server",
+    "price": 15,
+    "desc": "Товары SPOOKYTIME из каталога",
+    "accent": "#ffa86b",
+    "drops": [
+      [
+        "ref-47",
+        57.1371
+      ],
+      [
+        "ref-48",
+        28.5686
+      ],
+      [
+        "ref-49",
+        14.2843
+      ],
+      [
+        "ref-50",
+        0.01
+      ]
+    ]
+  },
+  {
+    "id": "spooky-tokens",
+    "name": "SpookyTime · Токены",
+    "brand": "SPOOKYTIME",
+    "type": "server",
+    "price": 120,
+    "desc": "Товары SPOOKYTIME из каталога",
+    "accent": "#ae86ff",
+    "drops": [
+      [
+        "ref-48",
+        53.328
+      ],
+      [
+        "ref-49",
+        26.664
+      ],
+      [
+        "ref-50",
+        13.332
+      ],
+      [
+        "ref-51",
+        6.666
+      ],
+      [
+        "ref-52",
+        0.01
+      ]
+    ]
+  },
+  {
+    "id": "britva",
+    "name": "Britva",
+    "brand": "BRITVA",
+    "type": "client",
+    "price": 250,
+    "desc": "Товары BRITVA из каталога",
+    "accent": "#f5d27e",
+    "drops": [
+      [
+        "ref-1",
+        80
+      ],
+      [
+        "ref-2",
+        19.99
+      ],
+      [
+        "ref-3",
+        0.01
+      ]
+    ]
+  },
+  {
+    "id": "celestial",
+    "name": "Celestial",
+    "brand": "CELESTIAL",
+    "type": "client",
+    "price": 250,
+    "desc": "Товары CELESTIAL из каталога",
+    "accent": "#74c8ef",
+    "drops": [
+      [
+        "ref-4",
+        80
+      ],
+      [
+        "ref-5",
+        19.99
+      ],
+      [
+        "ref-6",
+        0.01
+      ]
+    ]
+  },
+  {
+    "id": "delta",
+    "name": "Delta",
+    "brand": "DELTA",
+    "type": "client",
+    "price": 330,
+    "desc": "Товары DELTA из каталога",
+    "accent": "#ef7cbf",
+    "drops": [
+      [
+        "ref-7",
+        80
+      ],
+      [
+        "ref-8",
+        19.99
+      ],
+      [
+        "ref-9",
+        0.01
+      ]
+    ]
+  },
+  {
+    "id": "nursultan",
+    "name": "Nursultan",
+    "brand": "NURSULTAN",
+    "type": "client",
+    "price": 350,
+    "desc": "Товары NURSULTAN из каталога",
+    "accent": "#6de4cb",
+    "drops": [
+      [
+        "ref-31",
+        80
+      ],
+      [
+        "ref-32",
+        19.99
+      ],
+      [
+        "ref-33",
+        0.01
+      ]
+    ]
+  },
+  {
+    "id": "pulse",
+    "name": "Pulse Visual",
+    "brand": "PULSE",
+    "type": "client",
+    "price": 170,
+    "desc": "Товары PULSE из каталога",
+    "accent": "#ffa86b",
+    "drops": [
+      [
+        "ref-34",
+        80
+      ],
+      [
+        "ref-35",
+        19.99
+      ],
+      [
+        "ref-36",
+        0.01
+      ]
+    ]
+  },
+  {
+    "id": "reallyvisuals",
+    "name": "ReallyVisuals",
+    "brand": "REALLYVISUALS",
+    "type": "client",
+    "price": 170,
+    "desc": "Товары REALLYVISUALS из каталога",
+    "accent": "#ae86ff",
+    "drops": [
+      [
+        "ref-37",
+        80
+      ],
+      [
+        "ref-38",
+        19.99
+      ],
+      [
+        "ref-39",
+        0.01
+      ]
+    ]
+  },
+  {
+    "id": "wexside",
+    "name": "Wexside",
+    "brand": "WEXSIDE",
+    "type": "client",
+    "price": 350,
+    "desc": "Товары WEXSIDE из каталога",
+    "accent": "#f5d27e",
+    "drops": [
+      [
+        "ref-53",
+        80
+      ],
+      [
+        "ref-54",
+        19.99
+      ],
+      [
+        "ref-55",
+        0.01
+      ]
+    ]
+  },
+  {
+    "id": "wild",
+    "name": "Wild",
+    "brand": "WILD",
+    "type": "client",
+    "price": 290,
+    "desc": "Товары WILD из каталога",
+    "accent": "#74c8ef",
+    "drops": [
+      [
+        "ref-56",
+        80
+      ],
+      [
+        "ref-57",
+        19.99
+      ],
+      [
+        "ref-58",
+        0.01
+      ]
+    ]
+  },
+  {
+    "id": "allin-hw",
+    "name": "ALL IN · HolyWorld",
+    "brand": "HOLYWORLD",
+    "type": "allin",
+    "price": 30,
+    "desc": "Товары HOLYWORLD из каталога",
+    "accent": "#ef7cbf",
+    "drops": [
+      [
+        "ref-14",
+        94
+      ],
+      [
+        "ref-17",
+        5
+      ],
+      [
+        "ref-25",
+        0.99
+      ],
+      [
+        "ref-30",
+        0.01
+      ]
+    ],
+    "minCount": 10
+  },
+  {
+    "id": "allin-rw",
+    "name": "ALL IN · ReallyWorld",
+    "brand": "REALLYWORLD",
+    "type": "allin",
+    "price": 55,
+    "desc": "Товары REALLYWORLD из каталога",
+    "accent": "#6de4cb",
+    "drops": [
+      [
+        "ref-40",
+        94
+      ],
+      [
+        "ref-41",
+        5
+      ],
+      [
+        "ref-44",
+        0.99
+      ],
+      [
+        "ref-46",
+        0.01
+      ]
+    ],
+    "minCount": 10
+  },
+  {
+    "id": "allin-spooky",
+    "name": "ALL IN · SpookyTime",
+    "brand": "SPOOKYTIME",
+    "type": "allin",
+    "price": 25,
+    "desc": "Товары SPOOKYTIME из каталога",
+    "accent": "#ffa86b",
+    "drops": [
+      [
+        "ref-47",
+        94
+      ],
+      [
+        "ref-48",
+        5
+      ],
+      [
+        "ref-50",
+        0.99
+      ],
+      [
+        "ref-52",
+        0.01
+      ]
+    ],
+    "minCount": 10
+  }
+]

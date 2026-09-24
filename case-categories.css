@@ -1,0 +1,19 @@
+/* Original purple MeshCase look, with readable grouped catalog. */
+#caseGrid{display:flex;flex-direction:column;gap:44px}
+.category-section{min-width:0;scroll-margin-top:110px}
+.category-heading{display:flex;align-items:center;gap:14px;margin:0 0 18px;padding-bottom:14px;border-bottom:1px solid #594568}
+.category-mark{width:46px;height:46px;flex:none;border-radius:13px;background:#32233c;border:1px solid #765a8b;display:grid;place-items:center;color:#dfaaff;font-size:24px}
+.category-heading h3{margin:0;font:700 clamp(18px,2.3vw,25px)/1.3 Unbounded,sans-serif;letter-spacing:-.04em;color:#faf6ff}
+.category-count{color:#dcb4ff;font:700 12px Manrope,sans-serif;vertical-align:middle;margin-left:8px}
+.category-heading p{color:#bcb0c8;margin:3px 0 0}
+.filters{display:flex;gap:9px;flex-wrap:wrap;margin:26px 0 30px}
+.filter{background:#241d2d;border:1px solid #594568;color:#ddd0ec;border-radius:100px;padding:10px 16px;cursor:pointer}
+.filter:hover,.filter.active{background:#c993f3;border-color:#c993f3;color:#20102a}
+.case-pic>img{filter:drop-shadow(0 12px 12px #0806138a)}
+@media(max-width:680px){.filters{flex-wrap:nowrap;overflow-x:auto;padding-bottom:9px;scrollbar-width:thin}.filter{flex:none}.category-heading{align-items:flex-start}.category-mark{width:42px;height:42px}}
+
+/* Catalog sections take full width; inner grids contain all cases. */
+#caseGrid{display:flex;flex-direction:column;gap:44px;grid-template-columns:none}
+#caseGrid>.category-section{width:100%;min-width:0}
+body.page-case #caseGrid{display:none}
+.drop-duration{font-size:11px;color:#dcb4ff;padding:3px 9px;border-radius:20px;background:#493050}
