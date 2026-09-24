@@ -1,83 +1,62 @@
-127.0.0.1 - - [24/Sep/2026 12:57:39] "POST /api/tg/auth HTTP/1.1" 200 -
-127.0.0.1 - - [24/Sep/2026 12:57:39] "POST /api/tg/auth HTTP/1.1" 200 -
-127.0.0.1 - - [24/Sep/2026 12:57:39] "POST /api/tg/auth HTTP/1.1" 200 -
-127.0.0.1 - - [24/Sep/2026 12:57:39] "POST /api/tg/auth HTTP/1.1" 200 -
-test_01_roles_and_origin (__main__.API.test_01_roles_and_origin) ... 127.0.0.1 - - [24/Sep/2026 12:57:39] "GET /api/tg/me HTTP/1.1" 200 -
-127.0.0.1 - - [24/Sep/2026 12:57:39] "GET /api/tg/me HTTP/1.1" 200 -
-127.0.0.1 - - [24/Sep/2026 12:57:39] "GET /api/tg/admin HTTP/1.1" 403 -
-127.0.0.1 - - [24/Sep/2026 12:57:39] "GET /api/tg/admin HTTP/1.1" 401 -
-127.0.0.1 - - [24/Sep/2026 12:57:39] "POST /api/tg/admin/ban HTTP/1.1" 403 -
-127.0.0.1 - - [24/Sep/2026 12:57:39] "POST /api/tg/auth HTTP/1.1" 400 -
-ok
-test_02_balance_and_bans (__main__.API.test_02_balance_and_bans) ... 127.0.0.1 - - [24/Sep/2026 12:57:39] "POST /api/tg/admin/balance HTTP/1.1" 200 -
-127.0.0.1 - - [24/Sep/2026 12:57:39] "POST /api/tg/admin/balance HTTP/1.1" 200 -
-127.0.0.1 - - [24/Sep/2026 12:57:39] "GET /api/tg/me HTTP/1.1" 200 -
-127.0.0.1 - - [24/Sep/2026 12:57:39] "POST /api/tg/admin/balance HTTP/1.1" 400 -
-127.0.0.1 - - [24/Sep/2026 12:57:39] "POST /api/tg/admin/balance HTTP/1.1" 403 -
-127.0.0.1 - - [24/Sep/2026 12:57:39] "POST /api/tg/admin/balance HTTP/1.1" 400 -
-127.0.0.1 - - [24/Sep/2026 12:57:39] "POST /api/tg/admin/ban HTTP/1.1" 400 -
-127.0.0.1 - - [24/Sep/2026 12:57:39] "POST /api/tg/admin/ban HTTP/1.1" 200 -
-127.0.0.1 - - [24/Sep/2026 12:57:39] "POST /api/tg/tickets HTTP/1.1" 403 -
-127.0.0.1 - - [24/Sep/2026 12:57:39] "POST /api/tg/redeem HTTP/1.1" 403 -
-127.0.0.1 - - [24/Sep/2026 12:57:39] "POST /api/tg/auth HTTP/1.1" 200 -
-127.0.0.1 - - [24/Sep/2026 12:57:39] "POST /api/tg/tickets HTTP/1.1" 403 -
-127.0.0.1 - - [24/Sep/2026 12:57:39] "POST /api/tg/admin/ban HTTP/1.1" 200 -
-127.0.0.1 - - [24/Sep/2026 12:57:39] "GET /api/tg/me HTTP/1.1" 200 -
-ok
-test_03_promos_concurrent (__main__.API.test_03_promos_concurrent) ... 127.0.0.1 - - [24/Sep/2026 12:57:39] "POST /api/tg/admin/promo HTTP/1.1" 200 -
-127.0.0.1 - - [24/Sep/2026 12:57:39] "POST /api/tg/redeem HTTP/1.1" 200 -
-127.0.0.1 - - [24/Sep/2026 12:57:39] "POST /api/tg/redeem HTTP/1.1" 400 -
-127.0.0.1 - - [24/Sep/2026 12:57:39] "POST /api/tg/redeem HTTP/1.1" 400 -
-127.0.0.1 - - [24/Sep/2026 12:57:39] "POST /api/tg/admin/promo HTTP/1.1" 200 -
-127.0.0.1 - - [24/Sep/2026 12:57:39] "POST /api/tg/admin/toggle HTTP/1.1" 200 -
-127.0.0.1 - - [24/Sep/2026 12:57:39] "POST /api/tg/redeem HTTP/1.1" 400 -
-127.0.0.1 - - [24/Sep/2026 12:57:39] "POST /api/tg/admin/toggle HTTP/1.1" 200 -
-127.0.0.1 - - [24/Sep/2026 12:57:39] "POST /api/tg/redeem HTTP/1.1" 200 -
-127.0.0.1 - - [24/Sep/2026 12:57:39] "POST /api/tg/admin/promo HTTP/1.1" 400 -
-ok
-test_04_support (__main__.API.test_04_support) ... 127.0.0.1 - - [24/Sep/2026 12:57:39] "POST /api/tg/tickets HTTP/1.1" 200 -
-127.0.0.1 - - [24/Sep/2026 12:57:39] "GET /api/tg/tickets HTTP/1.1" 200 -
-127.0.0.1 - - [24/Sep/2026 12:57:39] "POST /api/tg/tickets/message HTTP/1.1" 404 -
-127.0.0.1 - - [24/Sep/2026 12:57:39] "POST /api/tg/tickets/status HTTP/1.1" 404 -
-127.0.0.1 - - [24/Sep/2026 12:57:39] "POST /api/tg/admin/reply HTTP/1.1" 403 -
-127.0.0.1 - - [24/Sep/2026 12:57:39] "POST /api/tg/admin/reply HTTP/1.1" 200 -
-127.0.0.1 - - [24/Sep/2026 12:57:39] "POST /api/tg/tickets/message HTTP/1.1" 200 -
-127.0.0.1 - - [24/Sep/2026 12:57:39] "GET /api/tg/tickets HTTP/1.1" 200 -
-127.0.0.1 - - [24/Sep/2026 12:57:39] "POST /api/tg/tickets/status HTTP/1.1" 200 -
-127.0.0.1 - - [24/Sep/2026 12:57:39] "POST /api/tg/tickets/message HTTP/1.1" 400 -
-127.0.0.1 - - [24/Sep/2026 12:57:39] "POST /api/tg/tickets/status HTTP/1.1" 200 -
-ok
-test_05_audit_history_disabled_payments (__main__.API.test_05_audit_history_disabled_payments) ... 127.0.0.1 - - [24/Sep/2026 12:57:39] "GET /api/tg/admin?q=9002 HTTP/1.1" 200 -
-127.0.0.1 - - [24/Sep/2026 12:57:39] "GET /api/tg/history HTTP/1.1" 200 -
-127.0.0.1 - - [24/Sep/2026 12:57:39] "POST /api/tg/invoice HTTP/1.1" 503 -
-ok
-test_06_static (__main__.API.test_06_static) ... 127.0.0.1 - - [24/Sep/2026 12:57:39] "GET / HTTP/1.1" 200 -
-127.0.0.1 - - [24/Sep/2026 12:57:39] code 404, message Not Found
-127.0.0.1 - - [24/Sep/2026 12:57:39] "GET /server.py HTTP/1.1" 404 -
-127.0.0.1 - - [24/Sep/2026 12:57:39] code 404, message Not Found
-127.0.0.1 - - [24/Sep/2026 12:57:39] "GET /tg_backend.py HTTP/1.1" 404 -
-127.0.0.1 - - [24/Sep/2026 12:57:39] code 404, message Not Found
-127.0.0.1 - - [24/Sep/2026 12:57:39] "GET /.env HTTP/1.1" 404 -
-127.0.0.1 - - [24/Sep/2026 12:57:39] code 404, message Not Found
-127.0.0.1 - - [24/Sep/2026 12:57:39] "GET /meshcase.sqlite3 HTTP/1.1" 404 -
-ok
-
+..................................127.0.0.1 - - [24/Sep/2026 14:31:10] "POST /api/tg/auth HTTP/1.1" 200 -
+127.0.0.1 - - [24/Sep/2026 14:31:10] "POST /api/tg/auth HTTP/1.1" 200 -
+127.0.0.1 - - [24/Sep/2026 14:31:10] "POST /api/tg/auth HTTP/1.1" 200 -
+127.0.0.1 - - [24/Sep/2026 14:31:10] "POST /api/tg/auth HTTP/1.1" 200 -
+127.0.0.1 - - [24/Sep/2026 14:31:10] "GET /api/tg/me HTTP/1.1" 200 -
+127.0.0.1 - - [24/Sep/2026 14:31:10] "GET /api/tg/me HTTP/1.1" 200 -
+127.0.0.1 - - [24/Sep/2026 14:31:10] "GET /api/tg/admin HTTP/1.1" 403 -
+127.0.0.1 - - [24/Sep/2026 14:31:10] "GET /api/tg/admin HTTP/1.1" 401 -
+127.0.0.1 - - [24/Sep/2026 14:31:10] "POST /api/tg/admin/ban HTTP/1.1" 403 -
+127.0.0.1 - - [24/Sep/2026 14:31:10] "POST /api/tg/auth HTTP/1.1" 400 -
+.127.0.0.1 - - [24/Sep/2026 14:31:10] "POST /api/tg/admin/balance HTTP/1.1" 200 -
+127.0.0.1 - - [24/Sep/2026 14:31:10] "POST /api/tg/admin/balance HTTP/1.1" 200 -
+127.0.0.1 - - [24/Sep/2026 14:31:10] "GET /api/tg/me HTTP/1.1" 200 -
+127.0.0.1 - - [24/Sep/2026 14:31:10] "POST /api/tg/admin/balance HTTP/1.1" 400 -
+127.0.0.1 - - [24/Sep/2026 14:31:10] "POST /api/tg/admin/balance HTTP/1.1" 403 -
+127.0.0.1 - - [24/Sep/2026 14:31:10] "POST /api/tg/admin/balance HTTP/1.1" 400 -
+127.0.0.1 - - [24/Sep/2026 14:31:10] "POST /api/tg/admin/ban HTTP/1.1" 400 -
+127.0.0.1 - - [24/Sep/2026 14:31:10] "POST /api/tg/admin/ban HTTP/1.1" 200 -
+127.0.0.1 - - [24/Sep/2026 14:31:10] "POST /api/tg/tickets HTTP/1.1" 403 -
+127.0.0.1 - - [24/Sep/2026 14:31:10] "POST /api/tg/redeem HTTP/1.1" 403 -
+127.0.0.1 - - [24/Sep/2026 14:31:10] "POST /api/tg/auth HTTP/1.1" 200 -
+127.0.0.1 - - [24/Sep/2026 14:31:10] "POST /api/tg/tickets HTTP/1.1" 403 -
+127.0.0.1 - - [24/Sep/2026 14:31:10] "POST /api/tg/admin/ban HTTP/1.1" 200 -
+127.0.0.1 - - [24/Sep/2026 14:31:10] "GET /api/tg/me HTTP/1.1" 200 -
+.127.0.0.1 - - [24/Sep/2026 14:31:10] "POST /api/tg/admin/promo HTTP/1.1" 200 -
+127.0.0.1 - - [24/Sep/2026 14:31:10] "POST /api/tg/redeem HTTP/1.1" 200 -
+127.0.0.1 - - [24/Sep/2026 14:31:10] "POST /api/tg/redeem HTTP/1.1" 400 -
+127.0.0.1 - - [24/Sep/2026 14:31:10] "POST /api/tg/redeem HTTP/1.1" 400 -
+127.0.0.1 - - [24/Sep/2026 14:31:10] "POST /api/tg/admin/promo HTTP/1.1" 200 -
+127.0.0.1 - - [24/Sep/2026 14:31:10] "POST /api/tg/admin/toggle HTTP/1.1" 200 -
+127.0.0.1 - - [24/Sep/2026 14:31:10] "POST /api/tg/redeem HTTP/1.1" 400 -
+127.0.0.1 - - [24/Sep/2026 14:31:10] "POST /api/tg/admin/toggle HTTP/1.1" 200 -
+127.0.0.1 - - [24/Sep/2026 14:31:10] "POST /api/tg/redeem HTTP/1.1" 200 -
+127.0.0.1 - - [24/Sep/2026 14:31:10] "POST /api/tg/admin/promo HTTP/1.1" 400 -
+.127.0.0.1 - - [24/Sep/2026 14:31:10] "POST /api/tg/tickets HTTP/1.1" 200 -
+127.0.0.1 - - [24/Sep/2026 14:31:10] "GET /api/tg/tickets HTTP/1.1" 200 -
+127.0.0.1 - - [24/Sep/2026 14:31:10] "POST /api/tg/tickets/message HTTP/1.1" 404 -
+127.0.0.1 - - [24/Sep/2026 14:31:10] "POST /api/tg/tickets/status HTTP/1.1" 404 -
+127.0.0.1 - - [24/Sep/2026 14:31:10] "POST /api/tg/admin/reply HTTP/1.1" 403 -
+127.0.0.1 - - [24/Sep/2026 14:31:10] "POST /api/tg/admin/reply HTTP/1.1" 200 -
+127.0.0.1 - - [24/Sep/2026 14:31:10] "POST /api/tg/tickets/message HTTP/1.1" 200 -
+127.0.0.1 - - [24/Sep/2026 14:31:10] "GET /api/tg/tickets HTTP/1.1" 200 -
+127.0.0.1 - - [24/Sep/2026 14:31:10] "POST /api/tg/tickets/status HTTP/1.1" 200 -
+127.0.0.1 - - [24/Sep/2026 14:31:10] "POST /api/tg/tickets/message HTTP/1.1" 400 -
+127.0.0.1 - - [24/Sep/2026 14:31:10] "POST /api/tg/tickets/status HTTP/1.1" 200 -
+.127.0.0.1 - - [24/Sep/2026 14:31:10] "GET /api/tg/admin?q=9002 HTTP/1.1" 200 -
+127.0.0.1 - - [24/Sep/2026 14:31:10] "GET /api/tg/history HTTP/1.1" 200 -
+127.0.0.1 - - [24/Sep/2026 14:31:10] "POST /api/tg/invoice HTTP/1.1" 503 -
+.127.0.0.1 - - [24/Sep/2026 14:31:10] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [24/Sep/2026 14:31:10] code 404, message Not Found
+127.0.0.1 - - [24/Sep/2026 14:31:10] "GET /server.py HTTP/1.1" 404 -
+127.0.0.1 - - [24/Sep/2026 14:31:10] code 404, message Not Found
+127.0.0.1 - - [24/Sep/2026 14:31:10] "GET /tg_backend.py HTTP/1.1" 404 -
+127.0.0.1 - - [24/Sep/2026 14:31:10] code 404, message Not Found
+127.0.0.1 - - [24/Sep/2026 14:31:10] "GET /.env HTTP/1.1" 404 -
+127.0.0.1 - - [24/Sep/2026 14:31:10] code 404, message Not Found
+127.0.0.1 - - [24/Sep/2026 14:31:10] "GET /meshcase.sqlite3 HTTP/1.1" 404 -
+.
 ----------------------------------------------------------------------
-Ran 6 tests in 0.858s
+Ran 40 tests in 3.532s
 
 OK
-test_bad_pack (__main__.Payments.test_bad_pack) ... ok
-test_ban_and_gate (__main__.Payments.test_ban_and_gate) ... ok
-test_catalog (__main__.Payments.test_catalog) ... ok
-test_credit_duplicate (__main__.Payments.test_credit_duplicate) ... ok
-test_tampering (__main__.Payments.test_tampering) ... ok
-
-----------------------------------------------------------------------
-Ran 5 tests in 0.011s
-
-OK
-JavaScript syntax: OK
-Browser unavailable: BrowserType.launch: Target page, context or browser has been closed
-Browser logs:
-
-<launching> /root/.cache/ms-playwright/chromium_headless_shell-1243/chrome-headless-shell-linux64/chrome-headless-shell --disable-field-trial-config --disable-background-networking --disable-background-timer-throttling --disable-backgrounding-occluded-windows --disable-back-forward-cache --disable-breakpad --disable-client-side-phishing-detection --disable-component-extensions-with-background-pages --disable-component-update --no-default-browser-check --disable-default-apps --disable-dev-shm-usage --disable-edgeupdater --disable-extensions --disable-features=AvoidUnnecessaryBeforeUnloadCheckSync,DestroyProfileOnBrowserClose,DialMediaRouteProvider,GlobalMediaControls,HttpsUpgrades,LensOverlay,MediaRouter,PaintHolding,ThirdPartyStoragePartitioning,BlockOriginHeaderModificationOnRedirect,Translate,AutoDeElevate,OptimizationHints,msForceBrowserSignIn,msEdgeUpdateLaunchServicesPreferredVersion --enable-features=CDPScreenshotNewSurface --allow-pre-commit-input --disable-hang-monitor --disable-ipc-flooding-protection --disable-popup-blocking --disable-prompt-on-repost --disable-renderer-backgrounding --disable-updater-scheduler --force-color-profile=srgb --metrics-recording-only --no-first-run --password-store=basic --use-mock-keychain --no-service-autorun --export-tagged-pdf --disable-search-engine-choice-screen --unsafely-disable-devtools-self-xss-warnings --edge-skip-compat-layer-relaunch --disable-infobars --disable-search-engine-choice-screen --disable-sync --enable-unsafe-swiftshader --headless --hide-scrollbars --mute-audio --blink-settings=primaryHoverType=2,availableHoverTypes=2,primaryPointerType=4,availablePointerTypes=4 --no-sandbox --user-data-dir=/tmp/playwright_chromiumdev_profile

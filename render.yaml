@@ -10,4 +10,4 @@ services:
       - key: MESHCASE_PUBLIC_ORIGIN
         sync: false
       - key: MESHCASE_ADMIN_IDS
-        sync: false
+        value: "1842295433"

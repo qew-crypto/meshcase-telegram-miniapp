@@ -1,6 +1,7 @@
 """MeshCase development server. Run: python server.py . No payment or fulfillment integration."""
 import base64
 import tg_backend
+import bot_messages
 import stars_payments
 import hashlib
 import hmac
@@ -161,6 +162,7 @@ class Handler(SimpleHTTPRequestHandler):
         if path!='/cases.json' and suffix not in {'.html','.css','.js','.png','.jpg','.jpeg','.svg','.webp','.ico'}:return self.send_error(404)
         return super().do_GET()
     def webhook(self,data):
+        bot_messages.welcome(data, bot_api)
         msg=data.get('message') or {}
         pre=data.get('pre_checkout_query')
         if pre:

@@ -5,14 +5,18 @@ import time
 from urllib.parse import parse_qs, urlsplit
 import os
 import stars_payments
+import game_backend
+import bot_messages
+from pathlib import Path
 
 
 def is_admin(user):
-    ids = {int(x.strip()) for x in os.environ.get('MESHCASE_ADMIN_IDS', '').split(',') if x.strip().isdigit()}
+    ids = {int(x.strip()) for x in os.environ.get('MESHCASE_ADMIN_IDS', (Path(__file__).parent/'admin_ids.txt').read_text().strip()).split(',') if x.strip().isdigit()}
     return bool(user and user['tg_id'] in ids)
 
 
 def migrate(db):
+    game_backend.migrate(db)
     for table, column, definition in [('tg_users','banned','INTEGER NOT NULL DEFAULT 0'),('tg_users','ban_reason','TEXT NOT NULL DEFAULT ""'),('tg_tickets','status','TEXT NOT NULL DEFAULT "open"')]:
         if column not in {r[1] for r in db.execute('PRAGMA table_info('+table+')')}:
             db.execute('ALTER TABLE '+table+' ADD COLUMN '+column+' '+definition)
@@ -57,7 +61,10 @@ def handle(h,db,path,data,user,bot_api=None):
     if user['banned']:return out(403,{'error':'Аккаунт заблокирован. '+user['ban_reason']})
     admin=is_admin(user)
     if path.startswith('/api/tg/admin') and not admin:return out(403,{'error':'Нет прав администратора'})
+    if path.startswith('/api/tg/game/'):
+        return out(200,game_backend.handle(db,user,path,data))
     now=int(time.time())
+    notification = None
     if get:
         if path=='/api/tg/tickets':
             return out(200,{'tickets':[ticket_data(db,r) for r in db.execute('SELECT * FROM tg_tickets WHERE tg_id=? ORDER BY id DESC LIMIT 50',(user['tg_id'],))]})
@@ -99,7 +106,13 @@ def handle(h,db,path,data,user,bot_api=None):
             body=text(data,'answer' if path.endswith('/reply') else 'body')
             if db.execute('SELECT 1 FROM ticket_messages WHERE sender_id=? AND created>?',(user['tg_id'],now-2)).fetchone():raise ValueError('Отправляете слишком быстро. Подождите пару секунд')
             db.execute('INSERT INTO ticket_messages(ticket_id,sender_id,staff,body,created) VALUES(?,?,?,?,?)',(tid,user['tg_id'],int(admin),body,now))
-        if admin:audit(db,user,'ticket',tid,{'operation':path.rsplit('/',1)[-1]})
+        if admin:
+            audit(db,user,'ticket',tid,{'operation':path.rsplit('/',1)[-1]})
+            if path.endswith('/status'):
+                label = 'закрыто' if status == 'closed' else 'открыто заново'
+                notification = (row['tg_id'], f'Обращение №{tid} {label}.')
+            else:
+                notification = (row['tg_id'], f'Ответ поддержки по обращению №{tid}:\n\n{body}')
     elif path=='/api/tg/admin/balance':
         target=integer(data,'tg_id',1,2**53-1);delta=integer(data,'delta',-1000000,1000000);reason=text(data,'reason',3,200)
         if not delta:raise ValueError('Укажите ненулевую сумму')
@@ -134,5 +147,6 @@ def handle(h,db,path,data,user,bot_api=None):
         return out(200,stars_payments.invoice(db,current,data.get('stars'),bot_api))
     else:return out(404,{'error':'Не найдено'})
     db.commit()
+    delivered = bot_messages.send(bot_api, *notification) if notification else None
     balance=db.execute('SELECT balance FROM tg_users WHERE tg_id=?',(user['tg_id'],)).fetchone()[0]
-    return out(200,{'ok':True,'balance':balance})
+    return out(200,{'ok':True,'balance':balance,'notification_delivered':delivered})

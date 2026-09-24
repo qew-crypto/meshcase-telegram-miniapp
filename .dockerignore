@@ -2,3 +2,6 @@
 .env
 *.sqlite3*
 __pycache__
+
+secret.txt
+**/secret.txt

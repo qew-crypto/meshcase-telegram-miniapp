@@ -5,3 +5,5 @@ body.page-case .roll-group h4{margin:0 4px 3px;color:#d9c8e8;font-size:12px;text
 body.page-case .roll-group .roll-lane{min-width:0}
 @media(min-width:681px){body.page-case .roll-stack:has(.roll-group:nth-child(2)){grid-template-columns:repeat(2,minmax(0,1fr));align-items:start}body.page-case .roll-stack:has(.roll-group:nth-child(2)) .roll-count-note{grid-column:1/-1}}
 @media(max-width:680px){body.page-case .roll-group{padding:8px}body.page-case .roll-group h4{font-size:11px}}
+
+.upgrade-image{width:100px;height:100px;object-fit:contain}.bulk-results{display:grid;grid-template-columns:repeat(auto-fit,minmax(120px,1fr));gap:8px;max-height:55vh;overflow:auto}.bulk-results .fx-item{width:auto}#tabs button{min-width:0;font-size:11px}#upgrade select{width:100%;max-width:100%}#openCounts{flex-wrap:wrap}
