@@ -84,6 +84,19 @@ def promo_row(db,code,kind):
     if not row or db.execute('SELECT count(*) FROM promo_uses WHERE code=?',(code,)).fetchone()[0]>=row['uses_limit']:raise ValueError('Промокод недействителен или закончился')
     return row
 
+def allowed_request_origin(headers, origin):
+    """Validate browser POSTs against the configured public origin, or direct host locally."""
+    if not origin:
+        return True  # Non-browser webhook requests authenticate using their own secret.
+    public = os.environ.get('MESHCASE_PUBLIC_ORIGIN', '').strip().rstrip('/')
+    if public:
+        parsed = urlsplit(public)
+        if parsed.scheme not in ('https', 'http') or not parsed.netloc or parsed.path or parsed.query or parsed.fragment or parsed.username or parsed.password:
+            raise ValueError('MESHCASE_PUBLIC_ORIGIN должен быть адресом вида https://example.com')
+        return origin == public
+    proto = 'https' if headers.get('X-Forwarded-Proto') == 'https' else 'http'
+    return origin == proto + '://' + headers.get('Host', '')
+
 class Handler(SimpleHTTPRequestHandler):
     def __init__(self,*args,**kwargs):super().__init__(*args,directory=str(ROOT),**kwargs)
     def end_headers(self):
@@ -112,6 +125,7 @@ class Handler(SimpleHTTPRequestHandler):
         return data
     def do_GET(self):
         path=urlsplit(self.path).path
+        if path == '/healthz':return self.json_out(200, {'ok': True})
         if path.startswith('/api/'):
             with connect() as db:
                 u=self.get_user(db)
@@ -165,8 +179,7 @@ class Handler(SimpleHTTPRequestHandler):
         path=urlsplit(self.path).path
         if not path.startswith('/api/'):return self.send_error(404)
         try:
-            origin=self.headers.get('Origin')
-            if origin and path!='/api/tg/webhook' and origin!=('https://' if self.headers.get('X-Forwarded-Proto')=='https' else 'http://')+self.headers.get('Host',''):return self.json_out(403,{'error':'Неверный Origin'})
+            if path!='/api/tg/webhook' and not allowed_request_origin(self.headers, self.headers.get('Origin')):return self.json_out(403,{'error':'Неверный Origin'})
             data=self.body()
             if path=='/api/tg/webhook':
                 secret=os.environ.get('MESHCASE_WEBHOOK_SECRET','')
@@ -273,5 +286,5 @@ class Handler(SimpleHTTPRequestHandler):
 
 if __name__=='__main__':
     bootstrap()
-    print('MeshCase: http://localhost:8000 (set MESHCASE_ADMIN_PASSWORD before first launch)')
+    print('MeshCase Python server; port=' + os.environ.get('PORT', '8000'), flush=True)
     ThreadingHTTPServer(('0.0.0.0',int(os.environ.get('PORT','8000'))),Handler).serve_forever()

@@ -1,0 +1,11 @@
+services:
+  - type: web
+    name: meshcase
+    runtime: docker
+    plan: free
+    healthCheckPath: /healthz
+    envVars:
+      - key: MESHCASE_BOT_TOKEN
+        sync: false
+      - key: MESHCASE_PUBLIC_ORIGIN
+        sync: false
