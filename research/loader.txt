@@ -1,0 +1,129 @@
+(() => {
+    const grid = document.getElementById('cases-grid');
+    if (!grid) return;
+    const motion = matchMedia('(prefers-reduced-motion: reduce)');
+    const entries = Array.from(grid.querySelectorAll('img[data-case-src]'), img => ({
+        img, card: img.closest('.case-card'), state: 'waiting', visible: false,
+        revealed: false, revealTimer: null, attempts: 0, retryTimer: null
+    })).filter(entry => entry.card);
+    const pendingEntries = new Set(entries);
+    let active = 0, scheduled = false, nextRevealAt = 0;
+    const scrollRoot = grid.closest('.content-area');
+    entries.forEach(entry => {
+        entry.img.classList.add('catalog-image-pending');
+        entry.card.classList.add('catalog-card-pending', 'catalog-loading');
+        const placeholder = document.createElement('span');
+        placeholder.className = 'catalog-placeholder';
+        placeholder.setAttribute('aria-hidden', 'true');
+        entry.img.parentElement.append(placeholder);
+        entry.placeholder = placeholder;
+    });
+    function retire(entry) {
+        if (entry.revealed && entry.state === 'done') pendingEntries.delete(entry);
+    }
+    function reveal(entry) {
+        if (entry.revealed || entry.revealTimer !== null) return;
+        const now = performance.now();
+        const delay = motion.matches ? 0 : Math.min(360, Math.max(0, nextRevealAt - now));
+        nextRevealAt = now + delay + 90;
+        entry.revealTimer = setTimeout(() => {
+            entry.revealTimer = null;
+            if (!entry.visible || !entry.card.getClientRects().length || document.hidden) return;
+            entry.revealed = true;
+            entry.card.classList.remove('catalog-card-pending');
+            entry.card.classList.add('catalog-revealed');
+            retire(entry);
+        }, delay);
+    }
+    function start(entry) {
+        entry.state = 'loading';
+        entry.attempts++;
+        active++;
+        const img = entry.img;
+        img.loading = 'eager';
+        img.fetchPriority = entry.visible ? 'high' : 'low';
+        let finished = false;
+        const finish = ok => {
+            if (finished) return;
+            finished = true;
+            clearTimeout(timeout);
+            img.onload = img.onerror = null;
+            active--;
+            if (ok) {
+                entry.state = 'done';
+                img.style.display = '';
+                img.classList.remove('catalog-image-pending');
+                entry.card.classList.remove('catalog-loading');
+                entry.placeholder.remove();
+                const fallback = entry.card.querySelector('.case-fallback');
+                if (fallback) fallback.style.display = 'none';
+            } else {
+                // Release a stalled request before retrying; never block the other cards.
+                img.removeAttribute('src');
+                if (entry.attempts < 3) {
+                    entry.state = 'cooldown';
+                    entry.retryTimer = setTimeout(() => {
+                        entry.retryTimer = null;
+                        entry.state = 'waiting';
+                        schedule();
+                    }, entry.attempts === 1 ? 1500 : 5000);
+                } else {
+                    entry.state = 'done';
+                    img.style.display = 'none';
+                    entry.card.classList.remove('catalog-loading');
+                    entry.placeholder.remove();
+                    const fallback = entry.card.querySelector('.case-fallback');
+                    if (fallback) { fallback.style.display = 'flex'; fallback.title = 'Изображение временно недоступно. Кейс можно открыть.'; }
+                }
+            }
+            retire(entry);
+            schedule();
+        };
+        img.onload = () => {
+            const decoded = typeof img.decode === 'function' ? img.decode() : Promise.resolve();
+            decoded.catch(() => {}).then(() => finish(img.naturalWidth > 0));
+        };
+        img.onerror = () => finish(false);
+        const timeout = setTimeout(() => finish(false), 10000 * entry.attempts);
+        const url = new URL(img.dataset.caseSrc, location.href);
+        // Preserve the content-version parameter and normal cache hits on first load.
+        if (entry.attempts > 1) url.searchParams.set('catalog_retry', String(entry.attempts - 1));
+        img.src = url.href;
+        if (img.complete && img.naturalWidth) img.onload();
+    }
+    function pump() {
+        scheduled = false;
+        if (document.hidden) return;
+        const rootRect = scrollRoot ? scrollRoot.getBoundingClientRect() : { top: 0, bottom: innerHeight };
+        const top = Math.max(0, rootRect.top), bottom = Math.min(innerHeight, rootRect.bottom);
+        const waiting = [], ready = [];
+        pendingEntries.forEach(entry => {
+            entry.visible = false;
+            if (!entry.card.getClientRects().length) return;
+            const rect = entry.card.getBoundingClientRect();
+            entry.visible = rect.bottom > top && rect.top < bottom;
+            // Card content never waits for an image download or decoding.
+            if (entry.visible && !entry.revealed) ready.push({entry, rect});
+            if (entry.state === 'loading' && entry.visible) entry.img.fetchPriority = 'high';
+            if (entry.state === 'waiting') waiting.push({entry, distance: Math.abs(rect.top - top)});
+        });
+        ready.sort((a,b) => a.rect.top-b.rect.top || a.rect.left-b.rect.left);
+        ready.forEach(({entry}) => reveal(entry));
+        waiting.sort((a,b) => Number(b.entry.visible)-Number(a.entry.visible) || a.entry.attempts-b.entry.attempts || a.distance-b.distance);
+        // Keep one slot available for newly visible cards during background preloading.
+        while (active < 3 && waiting.length) {
+            if (!waiting[0].entry.visible && active >= 2) break;
+            start(waiting.shift().entry);
+        }
+    }
+    function schedule() {
+        if (pendingEntries.size && !scheduled) { scheduled = true; requestAnimationFrame(pump); }
+    }
+    document.addEventListener('scroll', schedule, {passive:true, capture:true});
+    addEventListener('resize', schedule, {passive:true});
+    addEventListener('pageshow', schedule);
+    document.addEventListener('visibilitychange', schedule);
+    motion.addEventListener?.('change', schedule);
+    new MutationObserver(schedule).observe(grid, {attributes:true, subtree:true, attributeFilter:['style']});
+    pump();
+})();

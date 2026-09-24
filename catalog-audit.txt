@@ -1,0 +1,21 @@
+hw-start: price=19, items=13, EV=17.094, RTP=89.97%, >=price=21.819%, max=216
+hw-ghast: price=149, items=31, EV=134.036, RTP=89.96%, >=price=27.936%, max=1390
+hw-elite: price=490, items=42, EV=440.815, RTP=89.96%, >=price=24.124%, max=4449
+hw-legend: price=1490, items=47, EV=1340.507, RTP=89.97%, >=price=22.089%, max=15499
+rw-start: price=59, items=26, EV=53.063, RTP=89.94%, >=price=22.655%, max=649
+rw-elite: price=249, items=33, EV=224.016, RTP=89.97%, >=price=28.843%, max=1899
+rw-legend: price=790, items=35, EV=710.838, RTP=89.98%, >=price=24.221%, max=6666
+spooky-start: price=15, items=12, EV=13.499, RTP=90.00%, >=price=30.410%, max=99
+spooky-tokens: price=120, items=26, EV=107.954, RTP=89.96%, >=price=18.003%, max=1299
+britva: price=472, items=3, EV=424.797, RTP=90.00%, >=price=30.214%, max=699
+celestial: price=458, items=4, EV=412.196, RTP=90.00%, >=price=18.268%, max=599
+delta: price=472, items=3, EV=424.793, RTP=90.00%, >=price=14.997%, max=1249
+nursultan: price=607, items=4, EV=546.297, RTP=90.00%, >=price=17.938%, max=799
+pulse: price=269, items=6, EV=242.089, RTP=90.00%, >=price=21.718%, max=949
+reallyvisuals: price=269, items=4, EV=242.099, RTP=90.00%, >=price=19.399%, max=749
+wexside: price=607, items=4, EV=546.297, RTP=90.00%, >=price=17.938%, max=799
+wild: price=485, items=4, EV=436.497, RTP=90.00%, >=price=11.396%, max=799
+allin-hw: price=30, items=47, EV=27.468, RTP=91.56%, >=price=16.481%, max=15499
+allin-rw: price=55, items=35, EV=49.629, RTP=90.23%, >=price=18.212%, max=6666
+allin-spooky: price=25, items=33, EV=22.324, RTP=89.29%, >=price=7.074%, max=9999
+Цены предметов взяты из существующего каталога, наличие у поставщика не подтверждено. RTP не гарантирует окупаемость отдельного открытия.

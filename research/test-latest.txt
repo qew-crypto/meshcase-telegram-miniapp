@@ -1,0 +1,68 @@
+127.0.0.1 - - [24/Sep/2026 13:29:02] "POST /api/tg/auth HTTP/1.1" 200 -
+127.0.0.1 - - [24/Sep/2026 13:29:02] "POST /api/tg/auth HTTP/1.1" 200 -
+127.0.0.1 - - [24/Sep/2026 13:29:02] "POST /api/tg/auth HTTP/1.1" 200 -
+127.0.0.1 - - [24/Sep/2026 13:29:02] "POST /api/tg/auth HTTP/1.1" 200 -
+test_01_roles_and_origin (__main__.API.test_01_roles_and_origin) ... 127.0.0.1 - - [24/Sep/2026 13:29:02] "GET /api/tg/me HTTP/1.1" 200 -
+127.0.0.1 - - [24/Sep/2026 13:29:02] "GET /api/tg/me HTTP/1.1" 200 -
+127.0.0.1 - - [24/Sep/2026 13:29:02] "GET /api/tg/admin HTTP/1.1" 403 -
+127.0.0.1 - - [24/Sep/2026 13:29:02] "GET /api/tg/admin HTTP/1.1" 401 -
+127.0.0.1 - - [24/Sep/2026 13:29:02] "POST /api/tg/admin/ban HTTP/1.1" 403 -
+127.0.0.1 - - [24/Sep/2026 13:29:03] "POST /api/tg/auth HTTP/1.1" 400 -
+ok
+test_02_balance_and_bans (__main__.API.test_02_balance_and_bans) ... 127.0.0.1 - - [24/Sep/2026 13:29:03] "POST /api/tg/admin/balance HTTP/1.1" 200 -
+127.0.0.1 - - [24/Sep/2026 13:29:03] "POST /api/tg/admin/balance HTTP/1.1" 200 -
+127.0.0.1 - - [24/Sep/2026 13:29:03] "GET /api/tg/me HTTP/1.1" 200 -
+127.0.0.1 - - [24/Sep/2026 13:29:03] "POST /api/tg/admin/balance HTTP/1.1" 400 -
+127.0.0.1 - - [24/Sep/2026 13:29:03] "POST /api/tg/admin/balance HTTP/1.1" 403 -
+127.0.0.1 - - [24/Sep/2026 13:29:03] "POST /api/tg/admin/balance HTTP/1.1" 400 -
+127.0.0.1 - - [24/Sep/2026 13:29:03] "POST /api/tg/admin/ban HTTP/1.1" 400 -
+127.0.0.1 - - [24/Sep/2026 13:29:03] "POST /api/tg/admin/ban HTTP/1.1" 200 -
+127.0.0.1 - - [24/Sep/2026 13:29:03] "POST /api/tg/tickets HTTP/1.1" 403 -
+127.0.0.1 - - [24/Sep/2026 13:29:03] "POST /api/tg/redeem HTTP/1.1" 403 -
+127.0.0.1 - - [24/Sep/2026 13:29:03] "POST /api/tg/auth HTTP/1.1" 200 -
+127.0.0.1 - - [24/Sep/2026 13:29:03] "POST /api/tg/tickets HTTP/1.1" 403 -
+127.0.0.1 - - [24/Sep/2026 13:29:03] "POST /api/tg/admin/ban HTTP/1.1" 200 -
+127.0.0.1 - - [24/Sep/2026 13:29:03] "GET /api/tg/me HTTP/1.1" 200 -
+ok
+test_03_promos_concurrent (__main__.API.test_03_promos_concurrent) ... 127.0.0.1 - - [24/Sep/2026 13:29:03] "POST /api/tg/admin/promo HTTP/1.1" 200 -
+127.0.0.1 - - [24/Sep/2026 13:29:03] "POST /api/tg/redeem HTTP/1.1" 200 -
+127.0.0.1 - - [24/Sep/2026 13:29:03] "POST /api/tg/redeem HTTP/1.1" 400 -
+127.0.0.1 - - [24/Sep/2026 13:29:03] "POST /api/tg/redeem HTTP/1.1" 400 -
+127.0.0.1 - - [24/Sep/2026 13:29:03] "POST /api/tg/admin/promo HTTP/1.1" 200 -
+127.0.0.1 - - [24/Sep/2026 13:29:03] "POST /api/tg/admin/toggle HTTP/1.1" 200 -
+127.0.0.1 - - [24/Sep/2026 13:29:03] "POST /api/tg/redeem HTTP/1.1" 400 -
+127.0.0.1 - - [24/Sep/2026 13:29:03] "POST /api/tg/admin/toggle HTTP/1.1" 200 -
+127.0.0.1 - - [24/Sep/2026 13:29:03] "POST /api/tg/redeem HTTP/1.1" 200 -
+127.0.0.1 - - [24/Sep/2026 13:29:03] "POST /api/tg/admin/promo HTTP/1.1" 400 -
+ok
+test_04_support (__main__.API.test_04_support) ... 127.0.0.1 - - [24/Sep/2026 13:29:03] "POST /api/tg/tickets HTTP/1.1" 200 -
+127.0.0.1 - - [24/Sep/2026 13:29:03] "GET /api/tg/tickets HTTP/1.1" 200 -
+127.0.0.1 - - [24/Sep/2026 13:29:03] "POST /api/tg/tickets/message HTTP/1.1" 404 -
+127.0.0.1 - - [24/Sep/2026 13:29:03] "POST /api/tg/tickets/status HTTP/1.1" 404 -
+127.0.0.1 - - [24/Sep/2026 13:29:03] "POST /api/tg/admin/reply HTTP/1.1" 403 -
+127.0.0.1 - - [24/Sep/2026 13:29:03] "POST /api/tg/admin/reply HTTP/1.1" 200 -
+127.0.0.1 - - [24/Sep/2026 13:29:03] "POST /api/tg/tickets/message HTTP/1.1" 200 -
+127.0.0.1 - - [24/Sep/2026 13:29:03] "GET /api/tg/tickets HTTP/1.1" 200 -
+127.0.0.1 - - [24/Sep/2026 13:29:03] "POST /api/tg/tickets/status HTTP/1.1" 200 -
+127.0.0.1 - - [24/Sep/2026 13:29:03] "POST /api/tg/tickets/message HTTP/1.1" 400 -
+127.0.0.1 - - [24/Sep/2026 13:29:03] "POST /api/tg/tickets/status HTTP/1.1" 200 -
+ok
+test_05_audit_history_disabled_payments (__main__.API.test_05_audit_history_disabled_payments) ... 127.0.0.1 - - [24/Sep/2026 13:29:03] "GET /api/tg/admin?q=9002 HTTP/1.1" 200 -
+127.0.0.1 - - [24/Sep/2026 13:29:03] "GET /api/tg/history HTTP/1.1" 200 -
+127.0.0.1 - - [24/Sep/2026 13:29:03] "POST /api/tg/invoice HTTP/1.1" 503 -
+ok
+test_06_static (__main__.API.test_06_static) ... 127.0.0.1 - - [24/Sep/2026 13:29:03] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [24/Sep/2026 13:29:03] code 404, message Not Found
+127.0.0.1 - - [24/Sep/2026 13:29:03] "GET /server.py HTTP/1.1" 404 -
+127.0.0.1 - - [24/Sep/2026 13:29:03] code 404, message Not Found
+127.0.0.1 - - [24/Sep/2026 13:29:03] "GET /tg_backend.py HTTP/1.1" 404 -
+127.0.0.1 - - [24/Sep/2026 13:29:03] code 404, message Not Found
+127.0.0.1 - - [24/Sep/2026 13:29:03] "GET /.env HTTP/1.1" 404 -
+127.0.0.1 - - [24/Sep/2026 13:29:03] code 404, message Not Found
+127.0.0.1 - - [24/Sep/2026 13:29:03] "GET /meshcase.sqlite3 HTTP/1.1" 404 -
+ok
+
+----------------------------------------------------------------------
+Ran 6 tests in 0.792s
+
+OK

@@ -1,0 +1,4358 @@
+[
+  {
+    "url": "https://minedrop.art/case/12",
+    "case": "Holy-DonLite-Case",
+    "items": [
+      {
+        "id": 291227,
+        "name": "Донат ЕТЕРНИТИ (всегда)",
+        "price": 7690,
+        "index": 0,
+        "chance": 9.452103555901013e-10,
+        "img": "/lossless-images/bb2906556d33477e-ee91bbe0b36b5b8f.png?iv=ee91bbe0b36b5b8f",
+        "serverLabel": "LITE"
+      },
+      {
+        "id": 291228,
+        "name": "Донат СТИНГЕР (90)",
+        "price": 2399,
+        "index": 1,
+        "chance": 1.9903219099231236e-05,
+        "img": "/lossless-images/6bec5eeb816b58ab-129b4a35ae0a705e.png?iv=129b4a35ae0a705e",
+        "serverLabel": "LITE"
+      },
+      {
+        "id": 291229,
+        "name": "Донат ВИЗЕР (90)",
+        "price": 579,
+        "index": 2,
+        "chance": 0.3201185946893644,
+        "img": "/lossless-images/06d887a8603d92ea-913ad2c194b8168e.png?iv=913ad2c194b8168e",
+        "serverLabel": "LITE"
+      },
+      {
+        "id": 291230,
+        "name": "Донат ГАСТ (всегда)",
+        "price": 579,
+        "index": 3,
+        "chance": 1.0438978241168038,
+        "img": "/lossless-images/37b84b83b325f61b-b2d2f2eb46aff0b8.png?iv=b2d2f2eb46aff0b8",
+        "serverLabel": "LITE"
+      },
+      {
+        "id": 291231,
+        "name": "Донат ВИЗЕР (30)",
+        "price": 389,
+        "index": 4,
+        "chance": 5.858152588161316,
+        "img": "/lossless-images/103c04ec558a7d55-225bfbed59a471fd.png?iv=225bfbed59a471fd",
+        "serverLabel": "LITE"
+      },
+      {
+        "id": 291232,
+        "name": "Донат ГАСТ (90)",
+        "price": 286,
+        "index": 5,
+        "chance": 3.894948573755065,
+        "img": "/lossless-images/9ba8a032799be6ca-1ca1a436e659fb1a.png?iv=1ca1a436e659fb1a",
+        "serverLabel": "LITE"
+      },
+      {
+        "id": 291233,
+        "name": "Донат ГАСТ (30)",
+        "price": 179,
+        "index": 6,
+        "chance": 6.1231521589611955,
+        "img": "/lossless-images/4c542c80d615d561-7f02e96b7dded96b.png?iv=7f02e96b7dded96b",
+        "serverLabel": "LITE"
+      },
+      {
+        "id": 291234,
+        "name": "Донат МУСТАНГ (всегда)",
+        "price": 156,
+        "index": 7,
+        "chance": 6.778758926182013,
+        "img": "/lossless-images/64735dc338e26933-690dbd9d0e391a45.png?iv=690dbd9d0e391a45",
+        "serverLabel": "LITE"
+      },
+      {
+        "id": 291235,
+        "name": "Коины 120",
+        "price": 120,
+        "index": 8,
+        "chance": 15.980951429969933,
+        "img": "/lossless-images/bb00fe9764dfd7bb-0080be158244ffce.png?iv=0080be158244ffce",
+        "serverLabel": "LITE"
+      },
+      {
+        "id": 291236,
+        "name": "Коины 100",
+        "price": 100,
+        "index": 9,
+        "chance": 0.6022614954357939,
+        "img": "/lossless-images/bb00fe9764dfd7bb-0080be158244ffce.png?iv=0080be158244ffce",
+        "serverLabel": "LITE"
+      },
+      {
+        "id": 291237,
+        "name": "Донат МУСТАНГ (90)",
+        "price": 89,
+        "index": 10,
+        "chance": 5.29617107582118,
+        "img": "/lossless-images/2f74e4f41124ffac-8c73ab050e7f8ea8.png?iv=8c73ab050e7f8ea8",
+        "serverLabel": "LITE"
+      },
+      {
+        "id": 291238,
+        "name": "Донат МУСТАНГ (30)",
+        "price": 59,
+        "index": 11,
+        "chance": 13.26879755215327,
+        "img": "/lossless-images/56633420e5df86d5-04a77c57d7b95d00.png?iv=04a77c57d7b95d00",
+        "serverLabel": "LITE"
+      },
+      {
+        "id": 291239,
+        "name": "Донат ГРИФЕР (всегда)",
+        "price": 46,
+        "index": 12,
+        "chance": 15.309656282541784,
+        "img": "/lossless-images/7a4dcfaf7bd205e7-b8f92de078d753c0.png?iv=b8f92de078d753c0",
+        "serverLabel": "LITE"
+      },
+      {
+        "id": 291240,
+        "name": "Донат ГРИФЕР (90)",
+        "price": 22,
+        "index": 13,
+        "chance": 11.253485205405326,
+        "img": "/lossless-images/8ef231aa93e649be-2f52d0857ba22da8.png?iv=2f52d0857ba22da8",
+        "serverLabel": "LITE"
+      },
+      {
+        "id": 291241,
+        "name": "Донат ГРИФЕР (30)",
+        "price": 14,
+        "index": 14,
+        "chance": 14.26962838864266,
+        "img": "/lossless-images/1de1816024d063f8-774abb44defe4ac9.png?iv=774abb44defe4ac9",
+        "serverLabel": "LITE"
+      }
+    ]
+  },
+  {
+    "url": "https://minedrop.art/case/13",
+    "case": "Holy-SapLite-Case",
+    "items": [
+      {
+        "id": 291242,
+        "name": "Сапфиры 25,000",
+        "price": 4389,
+        "index": 0,
+        "chance": 0.00018180194176399328,
+        "img": "/lossless-images/71a5d9873d6b9d1f-aafcecb3002b39c8.png?iv=aafcecb3002b39c8",
+        "serverLabel": "LITE"
+      },
+      {
+        "id": 291243,
+        "name": "Сапфиры 12,500",
+        "price": 2299,
+        "index": 1,
+        "chance": 0.0004668355035061161,
+        "img": "/lossless-images/6d2a94a0edec6687-13391f97f010f5f5.png?iv=13391f97f010f5f5",
+        "serverLabel": "LITE"
+      },
+      {
+        "id": 291244,
+        "name": "Сапфиры 7,500",
+        "price": 1399,
+        "index": 2,
+        "chance": 0.0007006993839538216,
+        "img": "/lossless-images/c49295fd0f7f3943-4972a81a06bffbc3.png?iv=4972a81a06bffbc3",
+        "serverLabel": "LITE"
+      },
+      {
+        "id": 291245,
+        "name": "Коины 1000",
+        "price": 1000,
+        "index": 3,
+        "chance": 2.395968842131037,
+        "img": "/lossless-images/85db58a8fd5928a2-ebc610c420fd46b0.png?iv=ebc610c420fd46b0",
+        "serverLabel": "LITE"
+      },
+      {
+        "id": 291246,
+        "name": "Сапфиры 5,000",
+        "price": 949,
+        "index": 4,
+        "chance": 2.439201331924452,
+        "img": "/lossless-images/3142845733ff294b-61dd5c6e44ecb9bc.png?iv=61dd5c6e44ecb9bc",
+        "serverLabel": "LITE"
+      },
+      {
+        "id": 291247,
+        "name": "Коины 500",
+        "price": 500,
+        "index": 5,
+        "chance": 3.123506675959145,
+        "img": "/lossless-images/0f595bae5eabd33e-89435de5ad61f827.png?iv=89435de5ad61f827",
+        "serverLabel": "LITE"
+      },
+      {
+        "id": 291248,
+        "name": "Сапфиры 2,500",
+        "price": 479,
+        "index": 6,
+        "chance": 3.1803539401955914,
+        "img": "/lossless-images/fac3ae111c454971-cf4f6fe8923e1598.png?iv=cf4f6fe8923e1598",
+        "serverLabel": "LITE"
+      },
+      {
+        "id": 291249,
+        "name": "Кейс с Сапфирами x25",
+        "price": 479,
+        "index": 7,
+        "chance": 3.1803539401955914,
+        "img": "/lossless-images/9fbe9d312e20ed76-46b4189210f5d849.png?iv=46b4189210f5d849",
+        "serverLabel": "LITE"
+      },
+      {
+        "id": 291250,
+        "name": "Коины 250",
+        "price": 250,
+        "index": 8,
+        "chance": 25.67926593276496,
+        "img": "/lossless-images/832b8402eba996ea-79608ab215cd796a.png?iv=79608ab215cd796a",
+        "serverLabel": "LITE"
+      },
+      {
+        "id": 291251,
+        "name": "Кейс с Сапфирами x10",
+        "price": 216,
+        "index": 9,
+        "chance": 0.0009331737083109593,
+        "img": "/lossless-images/902202046ccb7b29-c707df8f2d90bce7.png?iv=c707df8f2d90bce7",
+        "serverLabel": "LITE"
+      },
+      {
+        "id": 291252,
+        "name": "Коины 200",
+        "price": 200,
+        "index": 10,
+        "chance": 0.0009261424066811771,
+        "img": "/lossless-images/832b8402eba996ea-79608ab215cd796a.png?iv=79608ab215cd796a",
+        "serverLabel": "LITE"
+      },
+      {
+        "id": 291253,
+        "name": "Сапфиры 1,000",
+        "price": 189,
+        "index": 11,
+        "chance": 6.117046974238461,
+        "img": "/lossless-images/02057ee284306461-c65e2320bab6dacc.png?iv=c65e2320bab6dacc",
+        "serverLabel": "LITE"
+      },
+      {
+        "id": 291254,
+        "name": "Коины 150",
+        "price": 150,
+        "index": 12,
+        "chance": 5.9845044897048005,
+        "img": "/lossless-images/45d3bb21c31d484a-d7a692b4610f0de9.png?iv=d7a692b4610f0de9",
+        "serverLabel": "LITE"
+      },
+      {
+        "id": 291255,
+        "name": "Коины 100",
+        "price": 100,
+        "index": 13,
+        "chance": 7.270052151149355,
+        "img": "/lossless-images/bb00fe9764dfd7bb-0080be158244ffce.png?iv=0080be158244ffce",
+        "serverLabel": "LITE"
+      },
+      {
+        "id": 291256,
+        "name": "Сапфиры 500",
+        "price": 99,
+        "index": 14,
+        "chance": 7.305466750386231,
+        "img": "/lossless-images/1f115e8fabb93093-d1e16099a6546d99.png?iv=d1e16099a6546d99",
+        "serverLabel": "LITE"
+      },
+      {
+        "id": 291257,
+        "name": "Кейс с Сапфирами x3",
+        "price": 69,
+        "index": 15,
+        "chance": 8.70809271884422,
+        "img": "/lossless-images/d29620e9e3c347bf-b55aa287bb840b11.png?iv=b55aa287bb840b11",
+        "serverLabel": "LITE"
+      },
+      {
+        "id": 291258,
+        "name": "Сапфиры 250",
+        "price": 53,
+        "index": 16,
+        "chance": 9.803569925018385,
+        "img": "/lossless-images/87e33a81635b5e83-90fd1615f34b7722.png?iv=90fd1615f34b7722",
+        "serverLabel": "LITE"
+      },
+      {
+        "id": 291259,
+        "name": "Сапфиры 100",
+        "price": 23,
+        "index": 17,
+        "chance": 14.809407674543564,
+        "img": "/lossless-images/f39f033eac51e17d-53680a3c45627379.png?iv=53680a3c45627379",
+        "serverLabel": "LITE"
+      }
+    ]
+  },
+  {
+    "url": "https://minedrop.art/case/14",
+    "case": "Holy-GodLite-Case",
+    "items": [
+      {
+        "id": 291260,
+        "name": "Донат СТАЖЕР (90)",
+        "price": 6499,
+        "index": 0,
+        "chance": 0.034593233344609335,
+        "img": "/lossless-images/49ee83c65cd89dc5-2e2d5393baa5f76e.png?iv=2e2d5393baa5f76e",
+        "serverLabel": "LITE"
+      },
+      {
+        "id": 291261,
+        "name": "Донат КРАКЕН (всегда)",
+        "price": 2149,
+        "index": 1,
+        "chance": 0.002075656806638105,
+        "img": "/lossless-images/17b01949a4c94da7-2929b0b4cd4d45d9.png?iv=2929b0b4cd4d45d9",
+        "serverLabel": "LITE"
+      },
+      {
+        "id": 291262,
+        "name": "Донат ВИЗЕР (всегда)",
+        "price": 1190,
+        "index": 2,
+        "chance": 17.03330480030439,
+        "img": "/lossless-images/dd5a3d8c8dd2313a-fe9effd8854bee4e.png?iv=fe9effd8854bee4e",
+        "serverLabel": "LITE"
+      },
+      {
+        "id": 291263,
+        "name": "Донат КРАКЕН (30)",
+        "price": 759,
+        "index": 3,
+        "chance": 7.364286698244099,
+        "img": "/lossless-images/17b01949a4c94da7-2929b0b4cd4d45d9.png?iv=2929b0b4cd4d45d9",
+        "serverLabel": "LITE"
+      },
+      {
+        "id": 291264,
+        "name": "Донат ГАСТ (всегда)",
+        "price": 579,
+        "index": 4,
+        "chance": 15.565739611300259,
+        "img": "/lossless-images/37b84b83b325f61b-b2d2f2eb46aff0b8.png?iv=b2d2f2eb46aff0b8",
+        "serverLabel": "LITE"
+      },
+      {
+        "id": 291265,
+        "name": "Кейс с Сапфирами x25",
+        "price": 479,
+        "index": 5,
+        "chance": 0.0013688350454186165,
+        "img": "/lossless-images/9fbe9d312e20ed76-46b4189210f5d849.png?iv=46b4189210f5d849",
+        "serverLabel": "LITE"
+      },
+      {
+        "id": 291266,
+        "name": "Сапфиры 2,500",
+        "price": 479,
+        "index": 6,
+        "chance": 6.431882111412997,
+        "img": "/lossless-images/fac3ae111c454971-cf4f6fe8923e1598.png?iv=cf4f6fe8923e1598",
+        "serverLabel": "LITE"
+      },
+      {
+        "id": 291267,
+        "name": "Коины 350",
+        "price": 350,
+        "index": 7,
+        "chance": 10.537689064357192,
+        "img": "/lossless-images/832b8402eba996ea-79608ab215cd796a.png?iv=79608ab215cd796a",
+        "serverLabel": "LITE"
+      },
+      {
+        "id": 291268,
+        "name": "Коины 280",
+        "price": 280,
+        "index": 8,
+        "chance": 10.393913905118634,
+        "img": "/lossless-images/832b8402eba996ea-79608ab215cd796a.png?iv=79608ab215cd796a",
+        "serverLabel": "LITE"
+      },
+      {
+        "id": 291269,
+        "name": "Кейс с Сапфирами x10",
+        "price": 216,
+        "index": 9,
+        "chance": 10.553074966842498,
+        "img": "/lossless-images/902202046ccb7b29-c707df8f2d90bce7.png?iv=c707df8f2d90bce7",
+        "serverLabel": "LITE"
+      },
+      {
+        "id": 291270,
+        "name": "Донат МУСТАНГ (всегда)",
+        "price": 156,
+        "index": 10,
+        "chance": 5.8899738303034805,
+        "img": "/lossless-images/64735dc338e26933-690dbd9d0e391a45.png?iv=690dbd9d0e391a45",
+        "serverLabel": "LITE"
+      },
+      {
+        "id": 291271,
+        "name": "Коины 120",
+        "price": 120,
+        "index": 11,
+        "chance": 6.296454126283724,
+        "img": "/lossless-images/bb00fe9764dfd7bb-0080be158244ffce.png?iv=0080be158244ffce",
+        "serverLabel": "LITE"
+      },
+      {
+        "id": 291272,
+        "name": "Кейс с Сапфирами x3",
+        "price": 69,
+        "index": 12,
+        "chance": 9.895643160636066,
+        "img": "/lossless-images/d29620e9e3c347bf-b55aa287bb840b11.png?iv=b55aa287bb840b11",
+        "serverLabel": "LITE"
+      }
+    ]
+  },
+  {
+    "url": "https://minedrop.art/case/15",
+    "case": "Holy-EcoLite-Case",
+    "items": [
+      {
+        "id": 291273,
+        "name": "Донат ВИЗЕР (всегда)",
+        "price": 1190,
+        "index": 0,
+        "chance": 0.0011362656509729635,
+        "img": "/lossless-images/dd5a3d8c8dd2313a-fe9effd8854bee4e.png?iv=fe9effd8854bee4e",
+        "serverLabel": "LITE"
+      },
+      {
+        "id": 291274,
+        "name": "Донат ГАСТ (всегда)",
+        "price": 579,
+        "index": 1,
+        "chance": 0.033617132413696085,
+        "img": "/lossless-images/37b84b83b325f61b-b2d2f2eb46aff0b8.png?iv=b2d2f2eb46aff0b8",
+        "serverLabel": "LITE"
+      },
+      {
+        "id": 291275,
+        "name": "Донат ГАСТ (90)",
+        "price": 286,
+        "index": 2,
+        "chance": 1.9835224008668193,
+        "img": "/lossless-images/9ba8a032799be6ca-1ca1a436e659fb1a.png?iv=1ca1a436e659fb1a",
+        "serverLabel": "LITE"
+      },
+      {
+        "id": 291276,
+        "name": "Коины 250",
+        "price": 250,
+        "index": 3,
+        "chance": 2.401329830091038,
+        "img": "/lossless-images/832b8402eba996ea-79608ab215cd796a.png?iv=79608ab215cd796a",
+        "serverLabel": "LITE"
+      },
+      {
+        "id": 291277,
+        "name": "Донат ГАСТ (30)",
+        "price": 179,
+        "index": 4,
+        "chance": 3.6233180838998647,
+        "img": "/lossless-images/4c542c80d615d561-7f02e96b7dded96b.png?iv=7f02e96b7dded96b",
+        "serverLabel": "LITE"
+      },
+      {
+        "id": 291278,
+        "name": "Донат МУСТАНГ (всегда)",
+        "price": 156,
+        "index": 5,
+        "chance": 3.9213050726025744,
+        "img": "/lossless-images/64735dc338e26933-690dbd9d0e391a45.png?iv=690dbd9d0e391a45",
+        "serverLabel": "LITE"
+      },
+      {
+        "id": 291279,
+        "name": "Коины 120",
+        "price": 120,
+        "index": 6,
+        "chance": 5.060618753073831,
+        "img": "/lossless-images/bb00fe9764dfd7bb-0080be158244ffce.png?iv=0080be158244ffce",
+        "serverLabel": "LITE"
+      },
+      {
+        "id": 291280,
+        "name": "Донат МУСТАНГ (90)",
+        "price": 89,
+        "index": 7,
+        "chance": 22.975152461401194,
+        "img": "/lossless-images/2f74e4f41124ffac-8c73ab050e7f8ea8.png?iv=8c73ab050e7f8ea8",
+        "serverLabel": "LITE"
+      },
+      {
+        "id": 291281,
+        "name": "Кейс с Сапфирами x3",
+        "price": 69,
+        "index": 8,
+        "chance": 0.0008698963260349449,
+        "img": "/lossless-images/d29620e9e3c347bf-b55aa287bb840b11.png?iv=b55aa287bb840b11",
+        "serverLabel": "LITE"
+      },
+      {
+        "id": 291282,
+        "name": "Донат МУСТАНГ (30)",
+        "price": 59,
+        "index": 9,
+        "chance": 0.757236304201365,
+        "img": "/lossless-images/56633420e5df86d5-04a77c57d7b95d00.png?iv=04a77c57d7b95d00",
+        "serverLabel": "LITE"
+      },
+      {
+        "id": 291283,
+        "name": "Коины 50",
+        "price": 50,
+        "index": 10,
+        "chance": 14.816058691750225,
+        "img": "/lossless-images/45d3bb21c31d484a-d7a692b4610f0de9.png?iv=d7a692b4610f0de9",
+        "serverLabel": "LITE"
+      },
+      {
+        "id": 291284,
+        "name": "Донат ГРИФЕР (всегда)",
+        "price": 46,
+        "index": 11,
+        "chance": 15.66091925486103,
+        "img": "/lossless-images/7a4dcfaf7bd205e7-b8f92de078d753c0.png?iv=b8f92de078d753c0",
+        "serverLabel": "LITE"
+      },
+      {
+        "id": 291285,
+        "name": "Донат ГРИФЕР (90)",
+        "price": 22,
+        "index": 12,
+        "chance": 12.569038151743184,
+        "img": "/lossless-images/8ef231aa93e649be-2f52d0857ba22da8.png?iv=2f52d0857ba22da8",
+        "serverLabel": "LITE"
+      },
+      {
+        "id": 291286,
+        "name": "Донат ГРИФЕР (30)",
+        "price": 14,
+        "index": 13,
+        "chance": 16.195877701118167,
+        "img": "/lossless-images/1de1816024d063f8-774abb44defe4ac9.png?iv=774abb44defe4ac9",
+        "serverLabel": "LITE"
+      }
+    ]
+  },
+  {
+    "url": "https://minedrop.art/case/16",
+    "case": "Holy-BoomLite-Case",
+    "items": [
+      {
+        "id": 291287,
+        "name": "Донат СТИНГЕР (30)",
+        "price": 1390,
+        "index": 0,
+        "chance": 0.996211575488203,
+        "img": "/lossless-images/ae79c1ae57d84945-37e4f14b8869aff9.webp?iv=37e4f14b8869aff9",
+        "serverLabel": "LITE"
+      },
+      {
+        "id": 291288,
+        "name": "Донат КРАКЕН (30)",
+        "price": 759,
+        "index": 1,
+        "chance": 8.324469009581584,
+        "img": "/lossless-images/26afef8d971605f8-df616d7707af0c71.png?iv=df616d7707af0c71",
+        "serverLabel": "LITE"
+      },
+      {
+        "id": 291289,
+        "name": "Донат ГАСТ (90)",
+        "price": 286,
+        "index": 2,
+        "chance": 3.9523959073154193,
+        "img": "/lossless-images/9ba8a032799be6ca-1ca1a436e659fb1a.png?iv=1ca1a436e659fb1a",
+        "serverLabel": "LITE"
+      },
+      {
+        "id": 291290,
+        "name": "Коины 250",
+        "price": 250,
+        "index": 3,
+        "chance": 4.362504834871403,
+        "img": "/lossless-images/832b8402eba996ea-79608ab215cd796a.png?iv=79608ab215cd796a",
+        "serverLabel": "LITE"
+      },
+      {
+        "id": 291291,
+        "name": "Коины 235",
+        "price": 235,
+        "index": 4,
+        "chance": 22.364418672743387,
+        "img": "/lossless-images/832b8402eba996ea-79608ab215cd796a.png?iv=79608ab215cd796a",
+        "serverLabel": "LITE"
+      },
+      {
+        "id": 291292,
+        "name": "Коины 220",
+        "price": 220,
+        "index": 5,
+        "chance": 0.0008755780690931087,
+        "img": "/lossless-images/832b8402eba996ea-79608ab215cd796a.png?iv=79608ab215cd796a",
+        "serverLabel": "LITE"
+      },
+      {
+        "id": 291293,
+        "name": "Кейс с Сапфирами x10",
+        "price": 216,
+        "index": 6,
+        "chance": 0.0008757611775127634,
+        "img": "/lossless-images/902202046ccb7b29-c707df8f2d90bce7.png?iv=c707df8f2d90bce7",
+        "serverLabel": "LITE"
+      },
+      {
+        "id": 291294,
+        "name": "Сапфиры 1,000",
+        "price": 189,
+        "index": 7,
+        "chance": 0.0008776704633455732,
+        "img": "/lossless-images/02057ee284306461-c65e2320bab6dacc.png?iv=c65e2320bab6dacc",
+        "serverLabel": "LITE"
+      },
+      {
+        "id": 291295,
+        "name": "Донат ГАСТ (30)",
+        "price": 179,
+        "index": 8,
+        "chance": 2.0937872891577833,
+        "img": "/lossless-images/4c542c80d615d561-7f02e96b7dded96b.png?iv=7f02e96b7dded96b",
+        "serverLabel": "LITE"
+      },
+      {
+        "id": 291296,
+        "name": "Коины 120",
+        "price": 120,
+        "index": 9,
+        "chance": 14.404905819192232,
+        "img": "/lossless-images/bb00fe9764dfd7bb-0080be158244ffce.png?iv=0080be158244ffce",
+        "serverLabel": "LITE"
+      },
+      {
+        "id": 291297,
+        "name": "Сапфиры 500",
+        "price": 99,
+        "index": 10,
+        "chance": 16.152773605872007,
+        "img": "/lossless-images/1f115e8fabb93093-d1e16099a6546d99.png?iv=d1e16099a6546d99",
+        "serverLabel": "LITE"
+      },
+      {
+        "id": 291298,
+        "name": "Коины 50",
+        "price": 50,
+        "index": 11,
+        "chance": 27.34590427606804,
+        "img": "/lossless-images/45d3bb21c31d484a-d7a692b4610f0de9.png?iv=d7a692b4610f0de9",
+        "serverLabel": "LITE"
+      }
+    ]
+  },
+  {
+    "url": "https://minedrop.art/case/17",
+    "case": "Holy-DonClassic-Case",
+    "items": [
+      {
+        "id": 291299,
+        "name": "Донат КАСТОМНЫЙ (всегда)",
+        "price": 11499,
+        "index": 0,
+        "chance": 0.15804013115493917,
+        "img": "/lossless-images/a51acd20ad97a4b6-e275eff09bd428a2.png?iv=e275eff09bd428a2",
+        "serverLabel": "CLASSIC"
+      },
+      {
+        "id": 291300,
+        "name": "Донат ФАНТОМ (90)",
+        "price": 1999,
+        "index": 1,
+        "chance": 0.001797058913055822,
+        "img": "/lossless-images/0711da49ec0a98f5-5d5bf54415f61fa5.png?iv=5d5bf54415f61fa5",
+        "serverLabel": "CLASSIC"
+      },
+      {
+        "id": 291301,
+        "name": "Донат ГЛАДИАТОР (всегда)",
+        "price": 999,
+        "index": 2,
+        "chance": 0.0011217837637964975,
+        "img": "/lossless-images/3ffbb6f8f814c51a-a67373cca4f67917.png?iv=a67373cca4f67917",
+        "serverLabel": "CLASSIC"
+      },
+      {
+        "id": 291302,
+        "name": "Донат ОВЕРЛОРД (30)",
+        "price": 649,
+        "index": 3,
+        "chance": 0.0009512190564211051,
+        "img": "/lossless-images/6f604251da22e14f-21363b43c86be56f.png?iv=21363b43c86be56f",
+        "serverLabel": "CLASSIC"
+      },
+      {
+        "id": 291303,
+        "name": "Донат ГЛАДИАТОР (90)",
+        "price": 499,
+        "index": 4,
+        "chance": 7.624142155992329,
+        "img": "/lossless-images/80470761f29dc942-af325479867b876b.png?iv=af325479867b876b",
+        "serverLabel": "CLASSIC"
+      },
+      {
+        "id": 291304,
+        "name": "Донат МАСТЕР (всегда)",
+        "price": 496,
+        "index": 5,
+        "chance": 7.565880662824119,
+        "img": "/lossless-images/c61a61136da4804b-737db223fd4f78ce.png?iv=737db223fd4f78ce",
+        "serverLabel": "CLASSIC"
+      },
+      {
+        "id": 291305,
+        "name": "Донат ГЛАДИАТОР (30)",
+        "price": 329,
+        "index": 6,
+        "chance": 6.2529131483706575,
+        "img": "/lossless-images/ffd3883b73e11122-cd51e471fe28f122.webp?iv=cd51e471fe28f122",
+        "serverLabel": "CLASSIC"
+      },
+      {
+        "id": 291306,
+        "name": "Перенос Доната",
+        "price": 249,
+        "index": 7,
+        "chance": 5.404156494414319,
+        "img": "/lossless-images/65f30f0312793955-804304f4d3855d95.png?iv=804304f4d3855d95",
+        "serverLabel": "CLASSIC"
+      },
+      {
+        "id": 291307,
+        "name": "Донат МАСТЕР (90)",
+        "price": 239,
+        "index": 8,
+        "chance": 12.990997345510353,
+        "img": "/lossless-images/f8d7d162935e1f67-c404ea09a64807e7.png?iv=c404ea09a64807e7",
+        "serverLabel": "CLASSIC"
+      },
+      {
+        "id": 291308,
+        "name": "10 Кейсов с Монетками",
+        "price": 179,
+        "index": 9,
+        "chance": 5.952469242464789,
+        "img": "/lossless-images/97395c383ff98fb3-53500e01e30a859c.png?iv=53500e01e30a859c",
+        "serverLabel": "CLASSIC"
+      },
+      {
+        "id": 291309,
+        "name": "Донат МАСТЕР (30)",
+        "price": 149,
+        "index": 10,
+        "chance": 10.732224778209176,
+        "img": "/lossless-images/cc54869426db5115-bcf0d349680f48c3.png?iv=bcf0d349680f48c3",
+        "serverLabel": "CLASSIC"
+      },
+      {
+        "id": 291310,
+        "name": "Донат ПАЛАДИН (всегда)",
+        "price": 129,
+        "index": 11,
+        "chance": 10.74057940627012,
+        "img": "/lossless-images/6e5e4e8a5e159f5b-c467abf31e908224.png?iv=c467abf31e908224",
+        "serverLabel": "CLASSIC"
+      },
+      {
+        "id": 291311,
+        "name": "Донат ПАЛАДИН (90)",
+        "price": 76,
+        "index": 12,
+        "chance": 11.584208128635108,
+        "img": "/lossless-images/37fd3324c92123a9-ce729f91668386b9.png?iv=ce729f91668386b9",
+        "serverLabel": "CLASSIC"
+      },
+      {
+        "id": 291312,
+        "name": "Донат ПАЛАДИН (30)",
+        "price": 49,
+        "index": 13,
+        "chance": 5.955262166970022,
+        "img": "/lossless-images/f3242511033b7507-f1be5ac868299490.png?iv=f1be5ac868299490",
+        "serverLabel": "CLASSIC"
+      },
+      {
+        "id": 291313,
+        "name": "Донат ХОЛИ (всегда)",
+        "price": 39,
+        "index": 14,
+        "chance": 6.441528425060479,
+        "img": "/lossless-images/15385a513b21e784-b6a43738360ec813.png?iv=b6a43738360ec813",
+        "serverLabel": "CLASSIC"
+      },
+      {
+        "id": 291314,
+        "name": "Донат ХОЛИ (90)",
+        "price": 19,
+        "index": 15,
+        "chance": 8.593727852390314,
+        "img": "/lossless-images/6ec5580a599fcd35-4b479f2e3e45f98d.png?iv=4b479f2e3e45f98d",
+        "serverLabel": "CLASSIC"
+      }
+    ]
+  },
+  {
+    "url": "https://minedrop.art/case/18",
+    "case": "Holy-RubClassic-Case",
+    "items": [
+      {
+        "id": 291315,
+        "name": "12,500 Рубинов",
+        "price": 2499,
+        "index": 0,
+        "chance": 9.289460144065181e-05,
+        "img": "/lossless-images/6438e6ab57146308-5e433c47a517e4df.png?iv=5e433c47a517e4df",
+        "serverLabel": "CLASSIC"
+      },
+      {
+        "id": 291316,
+        "name": "5,000 Рубинов",
+        "price": 999,
+        "index": 1,
+        "chance": 0.0005066957990998449,
+        "img": "/lossless-images/0ecc01d0a402b384-1e08ff5f58951ea2.png?iv=1e08ff5f58951ea2",
+        "serverLabel": "CLASSIC"
+      },
+      {
+        "id": 291317,
+        "name": "2,500 Рубинов",
+        "price": 499,
+        "index": 2,
+        "chance": 11.87539021147354,
+        "img": "/lossless-images/a1377f6142dbdb2a-13011ca0d91d520c.png?iv=13011ca0d91d520c",
+        "serverLabel": "CLASSIC"
+      },
+      {
+        "id": 291318,
+        "name": "Донат ГЛАДИАТОР (30)",
+        "price": 329,
+        "index": 3,
+        "chance": 7.637974789982725,
+        "img": "/lossless-images/ffd3883b73e11122-cd51e471fe28f122.webp?iv=cd51e471fe28f122",
+        "serverLabel": "CLASSIC"
+      },
+      {
+        "id": 291319,
+        "name": "Перенос Доната",
+        "price": 249,
+        "index": 4,
+        "chance": 9.58778205072811,
+        "img": "/lossless-images/65f30f0312793955-804304f4d3855d95.png?iv=804304f4d3855d95",
+        "serverLabel": "CLASSIC"
+      },
+      {
+        "id": 291320,
+        "name": "1000 Рубинов",
+        "price": 210,
+        "index": 5,
+        "chance": 10.898253357415065,
+        "img": "/lossless-images/cb0bebc8c97f1629-d3b64dc4198310df.png?iv=d3b64dc4198310df",
+        "serverLabel": "CLASSIC"
+      },
+      {
+        "id": 291321,
+        "name": "Донат ПАЛАДИН (всегда)",
+        "price": 129,
+        "index": 6,
+        "chance": 8.156621852030272,
+        "img": "/lossless-images/6e5e4e8a5e159f5b-c467abf31e908224.png?iv=c467abf31e908224",
+        "serverLabel": "CLASSIC"
+      },
+      {
+        "id": 291322,
+        "name": "500 Рубинов",
+        "price": 106,
+        "index": 7,
+        "chance": 9.228921352979208,
+        "img": "/lossless-images/a2c49126b6361a4b-9c9f23958d2f0993.png?iv=9c9f23958d2f0993",
+        "serverLabel": "CLASSIC"
+      },
+      {
+        "id": 291323,
+        "name": "Боевой Пропуск",
+        "price": 99,
+        "index": 8,
+        "chance": 9.623457015190464,
+        "img": "/lossless-images/3585c78527bda2f2-9d742be0a11195d9.png?iv=9d742be0a11195d9",
+        "serverLabel": "CLASSIC"
+      },
+      {
+        "id": 291324,
+        "name": "250 Рубинов",
+        "price": 55,
+        "index": 9,
+        "chance": 32.99099977980006,
+        "img": "/lossless-images/bc70536211f9cf9e-f22b28c1913ae5ef.png?iv=f22b28c1913ae5ef",
+        "serverLabel": "CLASSIC"
+      }
+    ]
+  },
+  {
+    "url": "https://minedrop.art/case/19",
+    "case": "Holy-VaipClassic-Case",
+    "items": [
+      {
+        "id": 291325,
+        "name": "Донат КИНГ (30)",
+        "price": 1799,
+        "index": 0,
+        "chance": 0.018714596098792925,
+        "img": "/lossless-images/2da39a4d0008e90b-b4129f25ae2a4f85.png?iv=b4129f25ae2a4f85",
+        "serverLabel": "CLASSIC"
+      },
+      {
+        "id": 291326,
+        "name": "7,500 Рубинов",
+        "price": 1490,
+        "index": 1,
+        "chance": 0.009765274898199843,
+        "img": "/lossless-images/4eeebc6a5784eebf-745db8100deb95a7.png?iv=745db8100deb95a7",
+        "serverLabel": "CLASSIC"
+      },
+      {
+        "id": 291327,
+        "name": "Донат ОВЕРЛОРД (90)",
+        "price": 969,
+        "index": 2,
+        "chance": 0.003261162747225616,
+        "img": "/lossless-images/d34f0f90102f08c3-d6288fa88c9bbd98.png?iv=d6288fa88c9bbd98",
+        "serverLabel": "CLASSIC"
+      },
+      {
+        "id": 291328,
+        "name": "2,500 Рубинов",
+        "price": 499,
+        "index": 3,
+        "chance": 8.621113414654854,
+        "img": "/lossless-images/a1377f6142dbdb2a-13011ca0d91d520c.png?iv=13011ca0d91d520c",
+        "serverLabel": "CLASSIC"
+      },
+      {
+        "id": 291329,
+        "name": "Донат МАСТЕР (всегда)",
+        "price": 496,
+        "index": 4,
+        "chance": 8.564850276904743,
+        "img": "/lossless-images/c61a61136da4804b-737db223fd4f78ce.png?iv=737db223fd4f78ce",
+        "serverLabel": "CLASSIC"
+      },
+      {
+        "id": 291330,
+        "name": "Донат ГЛАДИАТОР (30)",
+        "price": 329,
+        "index": 5,
+        "chance": 5.346836493427355,
+        "img": "/lossless-images/ffd3883b73e11122-cd51e471fe28f122.webp?iv=cd51e471fe28f122",
+        "serverLabel": "CLASSIC"
+      },
+      {
+        "id": 291331,
+        "name": "1,000 Рубинов",
+        "price": 210,
+        "index": 6,
+        "chance": 17.435458781268824,
+        "img": "/lossless-images/cb0bebc8c97f1629-d3b64dc4198310df.png?iv=d3b64dc4198310df",
+        "serverLabel": "CLASSIC"
+      },
+      {
+        "id": 291332,
+        "name": "10 Кейсов с Монетками",
+        "price": 179,
+        "index": 7,
+        "chance": 0.0017641466584215136,
+        "img": "/lossless-images/97395c383ff98fb3-53500e01e30a859c.png?iv=53500e01e30a859c",
+        "serverLabel": "CLASSIC"
+      },
+      {
+        "id": 291333,
+        "name": "10 Кейсов с Титулами",
+        "price": 149,
+        "index": 8,
+        "chance": 5.1482686068354715,
+        "img": "/lossless-images/dca403dd5049598d-1ded00e9f101d63e.png?iv=1ded00e9f101d63e",
+        "serverLabel": "CLASSIC"
+      },
+      {
+        "id": 291334,
+        "name": "500 Рубинов",
+        "price": 106,
+        "index": 9,
+        "chance": 22.25611649471093,
+        "img": "/lossless-images/a2c49126b6361a4b-9c9f23958d2f0993.png?iv=9c9f23958d2f0993",
+        "serverLabel": "CLASSIC"
+      },
+      {
+        "id": 291335,
+        "name": "3 Кейса с Монетками",
+        "price": 59,
+        "index": 10,
+        "chance": 15.800140587672887,
+        "img": "/lossless-images/b28da8ae2f54c775-4898ab942eedacde.png?iv=4898ab942eedacde",
+        "serverLabel": "CLASSIC"
+      },
+      {
+        "id": 291336,
+        "name": "3 Кейса с Титулами",
+        "price": 49,
+        "index": 11,
+        "chance": 16.793710164122285,
+        "img": "/lossless-images/1e7b809a5ee2111e-85aa9a78223ca982.png?iv=85aa9a78223ca982",
+        "serverLabel": "CLASSIC"
+      }
+    ]
+  },
+  {
+    "url": "https://minedrop.art/case/32",
+    "case": "Holy-Classic-Case",
+    "items": [
+      {
+        "id": 291479,
+        "name": "12,500 Рубинов",
+        "price": 2499,
+        "index": 0,
+        "chance": 9.564026199019814e-05,
+        "img": "/lossless-images/6438e6ab57146308-5e433c47a517e4df.png?iv=5e433c47a517e4df",
+        "serverLabel": "CLASSIC"
+      },
+      {
+        "id": 291480,
+        "name": "7,500 Рубинов",
+        "price": 1490,
+        "index": 1,
+        "chance": 0.0003038606274981499,
+        "img": "/lossless-images/4eeebc6a5784eebf-745db8100deb95a7.png?iv=745db8100deb95a7",
+        "serverLabel": "CLASSIC"
+      },
+      {
+        "id": 291481,
+        "name": "5,000 Рубинов",
+        "price": 999,
+        "index": 2,
+        "chance": 0.0005333032930796974,
+        "img": "/lossless-images/0ecc01d0a402b384-1e08ff5f58951ea2.png?iv=1e08ff5f58951ea2",
+        "serverLabel": "CLASSIC"
+      },
+      {
+        "id": 291482,
+        "name": "Создать Свой Титул",
+        "price": 555,
+        "index": 3,
+        "chance": 8.08096980098421,
+        "img": "/lossless-images/bf5ee3c115f0fbec-a8e37d45add52258.png?iv=a8e37d45add52258",
+        "serverLabel": "CLASSIC"
+      },
+      {
+        "id": 291483,
+        "name": "2,500 Рубинов",
+        "price": 499,
+        "index": 4,
+        "chance": 8.810799821082824,
+        "img": "/lossless-images/a1377f6142dbdb2a-13011ca0d91d520c.png?iv=13011ca0d91d520c",
+        "serverLabel": "CLASSIC"
+      },
+      {
+        "id": 291484,
+        "name": "Восстановление Аккаунта",
+        "price": 249,
+        "index": 5,
+        "chance": 7.419376860590821,
+        "img": "/lossless-images/2f069c7e4029e0d9-4bdec68c4a5f48db.png?iv=4bdec68c4a5f48db",
+        "serverLabel": "CLASSIC"
+      },
+      {
+        "id": 291485,
+        "name": "Перенос Доната",
+        "price": 249,
+        "index": 6,
+        "chance": 7.419376860590821,
+        "img": "/lossless-images/65f30f0312793955-804304f4d3855d95.png?iv=804304f4d3855d95",
+        "serverLabel": "CLASSIC"
+      },
+      {
+        "id": 291486,
+        "name": "1,000 Рубинов",
+        "price": 210,
+        "index": 7,
+        "chance": 8.268543852568735,
+        "img": "/lossless-images/cb0bebc8c97f1629-d3b64dc4198310df.png?iv=d3b64dc4198310df",
+        "serverLabel": "CLASSIC"
+      },
+      {
+        "id": 291487,
+        "name": "10 Кейсов с Монетками",
+        "price": 170,
+        "index": 8,
+        "chance": 0.0011811605845441957,
+        "img": "/lossless-images/97395c383ff98fb3-53500e01e30a859c.png?iv=53500e01e30a859c",
+        "serverLabel": "CLASSIC"
+      },
+      {
+        "id": 291488,
+        "name": "10 Кейсов с Титулами",
+        "price": 149,
+        "index": 9,
+        "chance": 5.148004011982548,
+        "img": "/lossless-images/dca403dd5049598d-1ded00e9f101d63e.png?iv=1ded00e9f101d63e",
+        "serverLabel": "CLASSIC"
+      },
+      {
+        "id": 291489,
+        "name": "Боевой Пропуск",
+        "price": 99,
+        "index": 10,
+        "chance": 19.755826788486537,
+        "img": "/lossless-images/3585c78527bda2f2-9d742be0a11195d9.png?iv=9d742be0a11195d9",
+        "serverLabel": "CLASSIC"
+      },
+      {
+        "id": 291490,
+        "name": "100 Рубинов",
+        "price": 25,
+        "index": 11,
+        "chance": 35.094988038946376,
+        "img": "/lossless-images/6c681c8780dceb59-e707dd809b5d2d22.png?iv=e707dd809b5d2d22",
+        "serverLabel": "CLASSIC"
+      }
+    ]
+  },
+  {
+    "url": "https://minedrop.art/case/72",
+    "case": "HOLY-CASE",
+    "items": [
+      {
+        "id": 292407,
+        "name": "Донат ЕТЕРНИТИ (30)",
+        "price": 2190,
+        "index": 0,
+        "chance": 0,
+        "img": "/lossless-images/33bf4b143d9c6404-2e73d7b2827099f1.webp?iv=2e73d7b2827099f1",
+        "serverLabel": "LITE"
+      },
+      {
+        "id": 292408,
+        "name": "Донат BEDROCK 30 дней",
+        "price": 1790,
+        "index": 1,
+        "chance": 0,
+        "img": "/lossless-images/ed1ef52ea3a9433b-a7893d179363c5e4.png?iv=a7893d179363c5e4",
+        "serverLabel": "PRIME"
+      },
+      {
+        "id": 292409,
+        "name": "Донат ГЛАДИАТОР (всегда)",
+        "price": 999,
+        "index": 2,
+        "chance": 0,
+        "img": "/lossless-images/3ffbb6f8f814c51a-a67373cca4f67917.png?iv=a67373cca4f67917",
+        "serverLabel": "CLASSIC"
+      },
+      {
+        "id": 292410,
+        "name": "Жетоны 300",
+        "price": 300,
+        "index": 3,
+        "chance": 3.5480447985565133,
+        "img": "/lossless-images/ec327b4a497ee263-d966014a6e201e2c.png?iv=d966014a6e201e2c",
+        "serverLabel": "PRIME"
+      },
+      {
+        "id": 292411,
+        "name": "Коины 270",
+        "price": 270,
+        "index": 4,
+        "chance": 6.8645850980014576,
+        "img": "/lossless-images/832b8402eba996ea-79608ab215cd796a.png?iv=79608ab215cd796a",
+        "serverLabel": "LITE"
+      },
+      {
+        "id": 292412,
+        "name": "Жетоны 250",
+        "price": 250,
+        "index": 5,
+        "chance": 6.143362972787405,
+        "img": "/lossless-images/e59042551bf97c36-901e44b729d5767d.png?iv=901e44b729d5767d",
+        "serverLabel": "PRIME"
+      },
+      {
+        "id": 292413,
+        "name": "Донат МАСТЕР (90)",
+        "price": 239,
+        "index": 6,
+        "chance": 5.7872284804662675,
+        "img": "/lossless-images/f8d7d162935e1f67-c404ea09a64807e7.png?iv=c404ea09a64807e7",
+        "serverLabel": "CLASSIC"
+      },
+      {
+        "id": 292414,
+        "name": "1,000 Рубинов",
+        "price": 210,
+        "index": 7,
+        "chance": 4.971046324002628,
+        "img": "/lossless-images/cb0bebc8c97f1629-d3b64dc4198310df.png?iv=d3b64dc4198310df",
+        "serverLabel": "CLASSIC"
+      },
+      {
+        "id": 292415,
+        "name": "Коины 200",
+        "price": 200,
+        "index": 8,
+        "chance": 4.7268873857416205,
+        "img": "/lossless-images/832b8402eba996ea-79608ab215cd796a.png?iv=79608ab215cd796a",
+        "serverLabel": "LITE"
+      },
+      {
+        "id": 292416,
+        "name": "Жетоны 170",
+        "price": 170,
+        "index": 9,
+        "chance": 4.097281105278487,
+        "img": "/lossless-images/e59042551bf97c36-901e44b729d5767d.png?iv=901e44b729d5767d",
+        "serverLabel": "PRIME"
+      },
+      {
+        "id": 292417,
+        "name": "Донат МУСТАНГ (всегда)",
+        "price": 156,
+        "index": 10,
+        "chance": 3.852285471855626,
+        "img": "/lossless-images/64735dc338e26933-690dbd9d0e391a45.png?iv=690dbd9d0e391a45",
+        "serverLabel": "LITE"
+      },
+      {
+        "id": 292418,
+        "name": "Донат МАСТЕР (30)",
+        "price": 149,
+        "index": 11,
+        "chance": 4.638669936330456,
+        "img": "/lossless-images/cc54869426db5115-bcf0d349680f48c3.png?iv=bcf0d349680f48c3",
+        "serverLabel": "CLASSIC"
+      },
+      {
+        "id": 292419,
+        "name": "Донат ПАЛАДИН (всегда)",
+        "price": 129,
+        "index": 12,
+        "chance": 4.2931858946085315,
+        "img": "/lossless-images/6e5e4e8a5e159f5b-c467abf31e908224.png?iv=c467abf31e908224",
+        "serverLabel": "CLASSIC"
+      },
+      {
+        "id": 292420,
+        "name": "500 Рубинов",
+        "price": 106,
+        "index": 13,
+        "chance": 3.988182330830619,
+        "img": "/lossless-images/a2c49126b6361a4b-9c9f23958d2f0993.png?iv=9c9f23958d2f0993",
+        "serverLabel": "CLASSIC"
+      },
+      {
+        "id": 292421,
+        "name": "Донат МУСТАНГ (90)",
+        "price": 89,
+        "index": 14,
+        "chance": 9.408997489774023,
+        "img": "/lossless-images/2f74e4f41124ffac-8c73ab050e7f8ea8.png?iv=8c73ab050e7f8ea8",
+        "serverLabel": "LITE"
+      },
+      {
+        "id": 292422,
+        "name": "Кейс с Сапфирами x3",
+        "price": 69,
+        "index": 15,
+        "chance": 9.202387033668296,
+        "img": "/lossless-images/d29620e9e3c347bf-b55aa287bb840b11.png?iv=b55aa287bb840b11",
+        "serverLabel": "LITE"
+      },
+      {
+        "id": 292423,
+        "name": "Коины 50",
+        "price": 50,
+        "index": 16,
+        "chance": 9.379414813557958,
+        "img": "/lossless-images/45d3bb21c31d484a-d7a692b4610f0de9.png?iv=d7a692b4610f0de9",
+        "serverLabel": "LITE"
+      },
+      {
+        "id": 292424,
+        "name": "Донат ХОЛИ (всегда)",
+        "price": 39,
+        "index": 17,
+        "chance": 19.098440864540116,
+        "img": "/lossless-images/15385a513b21e784-b6a43738360ec813.png?iv=b6a43738360ec813",
+        "serverLabel": "LITE"
+      }
+    ]
+  },
+  {
+    "url": "https://minedrop.art/case/26",
+    "case": "Cheat-Case",
+    "items": [
+      {
+        "id": 292297,
+        "name": "System DLC - всегда",
+        "price": 5000,
+        "index": 0,
+        "chance": 0,
+        "img": "/lossless-images/240d9052d4a9c0b7-239e230eb12738d3.png?iv=239e230eb12738d3",
+        "serverLabel": "HVH"
+      },
+      {
+        "id": 291407,
+        "name": "Expensive 1.21 - 180 дней",
+        "price": 1399,
+        "index": 1,
+        "chance": 0.1,
+        "img": "/lossless-images/7940e4df15357bef-53437b9490e97dd7.png?iv=53437b9490e97dd7",
+        "serverLabel": "HVH"
+      },
+      {
+        "id": 291409,
+        "name": "DeltaClient 1.21.4 - 180 дней",
+        "price": 1249,
+        "index": 2,
+        "chance": 0.1,
+        "img": "/lossless-images/02ce87189b092c68-5c5befe70e405e2c.png?iv=5c5befe70e405e2c",
+        "serverLabel": "HVH"
+      },
+      {
+        "id": 292298,
+        "name": "Коины 1000",
+        "price": 1000,
+        "index": 3,
+        "chance": 0.8528757161315023,
+        "img": "/lossless-images/85db58a8fd5928a2-ebc610c420fd46b0.png?iv=ebc610c420fd46b0",
+        "serverLabel": "LITE"
+      },
+      {
+        "id": 291412,
+        "name": "Expensive 1.21 - 90 дней",
+        "price": 899,
+        "index": 4,
+        "chance": 1.1299048477101055,
+        "img": "/lossless-images/7940e4df15357bef-53437b9490e97dd7.png?iv=53437b9490e97dd7",
+        "serverLabel": "HVH"
+      },
+      {
+        "id": 291413,
+        "name": "Catlavan - всегда",
+        "price": 850,
+        "index": 5,
+        "chance": 1.3720665557621134,
+        "img": "/lossless-images/4cdc09953d6e3d1c-e2c2b141d3b26405.png?iv=e2c2b141d3b26405",
+        "serverLabel": "HVH"
+      },
+      {
+        "id": 291414,
+        "name": "Catlavan - год",
+        "price": 750,
+        "index": 6,
+        "chance": 2.049950789894688,
+        "img": "/lossless-images/53614497a34e6312-e2c2b141d3b26405.png?iv=e2c2b141d3b26405",
+        "serverLabel": "HVH"
+      },
+      {
+        "id": 291415,
+        "name": "DeltaClient 1.21.4 - 90 дней",
+        "price": 749,
+        "index": 7,
+        "chance": 2.0583318309943124,
+        "img": "/lossless-images/02ce87189b092c68-5c5befe70e405e2c.png?iv=5c5befe70e405e2c",
+        "serverLabel": "HVH"
+      },
+      {
+        "id": 291416,
+        "name": "Celestial 1.16.5 - всегда",
+        "price": 699,
+        "index": 8,
+        "chance": 2.524298517349181,
+        "img": "/lossless-images/40164af7abb787dc-d7649a15d8bbcf0d.png?iv=d7649a15d8bbcf0d",
+        "serverLabel": "HVH"
+      },
+      {
+        "id": 292299,
+        "name": "Cortex Legit 1.12-1.21 - 90 дней",
+        "price": 676,
+        "index": 9,
+        "chance": 2.775220258756956,
+        "img": "/lossless-images/f4bf37c9f7bb8c89-72adc4c6213931ad.png?iv=72adc4c6213931ad",
+        "serverLabel": "HVH"
+      },
+      {
+        "id": 291417,
+        "name": "WildClient 1.21.8 - всегда",
+        "price": 599,
+        "index": 10,
+        "chance": 3.827835536415352,
+        "img": "/lossless-images/cf1ee2a3c5db8e33-b59ea0c152d8c146.png?iv=b59ea0c152d8c146",
+        "serverLabel": "HVH"
+      },
+      {
+        "id": 292300,
+        "name": "Sadnes 1.21.11 - 90 дней",
+        "price": 599,
+        "index": 11,
+        "chance": 3.827835536415352,
+        "img": "/lossless-images/89b3e07594e8cde0-5d14854c6e94f203.png?iv=5d14854c6e94f203",
+        "serverLabel": "HVH"
+      },
+      {
+        "id": 291418,
+        "name": "NeverLose - всегда",
+        "price": 579,
+        "index": 12,
+        "chance": 4.166256510549078,
+        "img": "/lossless-images/6f89b9be12b26006-c20e4ab19294f75d.png?iv=c20e4ab19294f75d",
+        "serverLabel": "HVH"
+      },
+      {
+        "id": 291419,
+        "name": "Catlavan - 30 дней",
+        "price": 550,
+        "index": 13,
+        "chance": 4.716574236285904,
+        "img": "/lossless-images/abc8e966c7ab942f-e2c2b141d3b26405.png?iv=e2c2b141d3b26405",
+        "serverLabel": "HVH"
+      },
+      {
+        "id": 292301,
+        "name": "Deluxe Client - 90 дней",
+        "price": 549,
+        "index": 14,
+        "chance": 4.736704518722112,
+        "img": "/lossless-images/443c6a4e1dadea42-b2a23ddeb61d0585.png?iv=b2a23ddeb61d0585",
+        "serverLabel": "HVH"
+      },
+      {
+        "id": 291421,
+        "name": "Celestial 1.16.5 - 90 дней",
+        "price": 499,
+        "index": 15,
+        "chance": 5.886127758346104,
+        "img": "/lossless-images/4c6d37b2282884ab-d7649a15d8bbcf0d.png?iv=d7649a15d8bbcf0d",
+        "serverLabel": "HVH"
+      },
+      {
+        "id": 292302,
+        "name": "Биржа Баланс 470",
+        "price": 470,
+        "index": 16,
+        "chance": 1.3330581441998441,
+        "img": "/cases/%D0%A1%D0%BF%D1%83%D0%BA%D0%B8%D1%82%D0%B0%D0%B9%D0%BC%20%D0%BF%D0%BD%D0%B3%D1%88%D0%BA%D0%B8/%D0%91%D0%B8%D1%80%D0%B6%D0%B0%20%D0%91%D0%B0%D0%BB%D0%B0%D0%BD%D1%81.png?iv=815504f3d4cb4e30",
+        "serverLabel": "ST"
+      },
+      {
+        "id": 291422,
+        "name": "Wexside 1.21.11 - 30 дней",
+        "price": 449,
+        "index": 17,
+        "chance": 1.464462847892478,
+        "img": "/lossless-images/745f6fa8d8a02b65-1e248b4158e075ae.png?iv=1e248b4158e075ae",
+        "serverLabel": "HVH"
+      },
+      {
+        "id": 291423,
+        "name": "WildClient 1.21.8 - 1 год",
+        "price": 449,
+        "index": 18,
+        "chance": 1.464462847892478,
+        "img": "/lossless-images/1afe74227560dd1d-b59ea0c152d8c146.png?iv=b59ea0c152d8c146",
+        "serverLabel": "HVH"
+      },
+      {
+        "id": 291424,
+        "name": "NeverLose - 90 дней",
+        "price": 399,
+        "index": 19,
+        "chance": 1.840526321881279,
+        "img": "/lossless-images/2f2cdb4714534bb6-c20e4ab19294f75d.png?iv=c20e4ab19294f75d",
+        "serverLabel": "HVH"
+      },
+      {
+        "id": 291425,
+        "name": "WildClient 1.21.8 - 1 месяц",
+        "price": 399,
+        "index": 20,
+        "chance": 1.840526321881279,
+        "img": "/lossless-images/69103b748e8c40dc-b59ea0c152d8c146.png?iv=b59ea0c152d8c146",
+        "serverLabel": "HVH"
+      },
+      {
+        "id": 292303,
+        "name": "Cortex Legit 1.12-1.21 - 30 дней",
+        "price": 390,
+        "index": 21,
+        "chance": 1.919343659204705,
+        "img": "/lossless-images/f4bf37c9f7bb8c89-72adc4c6213931ad.png?iv=72adc4c6213931ad",
+        "serverLabel": "HVH"
+      },
+      {
+        "id": 292304,
+        "name": "Deluxe Client - 30 дней",
+        "price": 379,
+        "index": 22,
+        "chance": 2.020917662928053,
+        "img": "/lossless-images/443c6a4e1dadea42-b2a23ddeb61d0585.png?iv=b2a23ddeb61d0585",
+        "serverLabel": "HVH"
+      },
+      {
+        "id": 292305,
+        "name": "Жетоны 330",
+        "price": 330,
+        "index": 23,
+        "chance": 22.101120814463847,
+        "img": "/lossless-images/ec327b4a497ee263-d966014a6e201e2c.png?iv=d966014a6e201e2c",
+        "serverLabel": "PRIME"
+      },
+      {
+        "id": 292306,
+        "name": "Wexside 1.21.11 - 7 дней",
+        "price": 299,
+        "index": 24,
+        "chance": 25.791598766323283,
+        "img": "/lossless-images/745f6fa8d8a02b65-1e248b4158e075ae.png?iv=1e248b4158e075ae",
+        "serverLabel": "HVH"
+      },
+      {
+        "id": 291426,
+        "name": "Bro9I - Конфиг Nursultan HW",
+        "price": 151,
+        "index": 25,
+        "chance": 0.1,
+        "img": "/lossless-images/3e724ba8f1fbe551-68da98366537ca95.png?iv=68da98366537ca95",
+        "serverLabel": "HVH"
+      }
+    ]
+  },
+  {
+    "url": "https://minedrop.art/case/27",
+    "case": "Cheat-CFG-Case",
+    "items": [
+      {
+        "id": 291429,
+        "name": "Fluger - Конфиг Catlavan RW",
+        "price": 150,
+        "index": 0,
+        "chance": 8.799328084947604,
+        "img": "/lossless-images/25fe22a32af8b65b-f0cca16d093984eb.png?iv=f0cca16d093984eb",
+        "serverLabel": "RW"
+      },
+      {
+        "id": 291430,
+        "name": "Bro9I - Конфиг Nursultan HW",
+        "price": 150,
+        "index": 1,
+        "chance": 8.799328084947604,
+        "img": "/lossless-images/3e724ba8f1fbe551-68da98366537ca95.png?iv=68da98366537ca95",
+        "serverLabel": "CLASSIC"
+      },
+      {
+        "id": 291431,
+        "name": "Bro9I - Конфиг Catlavan",
+        "price": 150,
+        "index": 2,
+        "chance": 8.799328084947604,
+        "img": "/lossless-images/42c79699446e404b-68da98366537ca95.png?iv=68da98366537ca95",
+        "serverLabel": "HVH"
+      },
+      {
+        "id": 291432,
+        "name": "Bro9I - Конфиг Delta Client",
+        "price": 150,
+        "index": 3,
+        "chance": 8.799328084947604,
+        "img": "/lossless-images/b36d2547cc301b26-68da98366537ca95.png?iv=68da98366537ca95",
+        "serverLabel": "HVH"
+      },
+      {
+        "id": 291433,
+        "name": "Дедли - Конфиг CatlavanClient HW",
+        "price": 150,
+        "index": 4,
+        "chance": 8.799328084947604,
+        "img": "/lossless-images/c185de8eec25898c-c5554ff15d29a6d5.png?iv=c5554ff15d29a6d5",
+        "serverLabel": "CLASSIC"
+      },
+      {
+        "id": 291434,
+        "name": "Дедли - Конфиг Nursultan HW",
+        "price": 150,
+        "index": 5,
+        "chance": 8.799328084947604,
+        "img": "/lossless-images/26dfb06077d694c2-c5554ff15d29a6d5.png?iv=c5554ff15d29a6d5",
+        "serverLabel": "CLASSIC"
+      },
+      {
+        "id": 291435,
+        "name": "Нурбек - Конфиг Catlavan RW",
+        "price": 150,
+        "index": 6,
+        "chance": 8.799328084947604,
+        "img": "/lossless-images/6622491156dd99e3-0a56dd7001e0bb58.png?iv=0a56dd7001e0bb58",
+        "serverLabel": "RW"
+      },
+      {
+        "id": 291913,
+        "name": "Fluger - Конфиг CatlavanClient HW",
+        "price": 150,
+        "index": 7,
+        "chance": 8.799328084947604,
+        "img": "/lossless-images/25fe22a32af8b65b-f0cca16d093984eb.png?iv=f0cca16d093984eb",
+        "serverLabel": "HVH"
+      },
+      {
+        "id": 291914,
+        "name": "Fluger - Конфиг WexsideClient RW",
+        "price": 150,
+        "index": 8,
+        "chance": 8.799328084947604,
+        "img": "/lossless-images/25fe22a32af8b65b-f0cca16d093984eb.png?iv=f0cca16d093984eb",
+        "serverLabel": "RW"
+      },
+      {
+        "id": 291915,
+        "name": "Fluger - ВСЕ КОНФИГИ CELESTIAL + ВСЕ ШЕЙДЕРЫ + РЕСУРСПАКИ",
+        "price": 150,
+        "index": 9,
+        "chance": 8.799328084947604,
+        "img": "/lossless-images/bf1495076a1b5e48-07916b12d30990ac.png?iv=07916b12d30990ac",
+        "serverLabel": "HVH"
+      },
+      {
+        "id": 292097,
+        "name": "Биржа Баланс 150 ST",
+        "price": 150,
+        "index": 10,
+        "chance": 0.9071472252523303,
+        "img": "/cases/%D0%A1%D0%BF%D1%83%D0%BA%D0%B8%D1%82%D0%B0%D0%B9%D0%BC%20%D0%BF%D0%BD%D0%B3%D1%88%D0%BA%D0%B8/%D0%91%D0%B8%D1%80%D0%B6%D0%B0%20%D0%91%D0%B0%D0%BB%D0%B0%D0%BD%D1%81.png?iv=815504f3d4cb4e30",
+        "serverLabel": "ST"
+      },
+      {
+        "id": 292098,
+        "name": "Инструментальный Ключ",
+        "price": 18,
+        "index": 11,
+        "chance": 6.742508692253795,
+        "img": "/cases/Spooky-Case/%D0%98%D0%BD%D1%81%D1%82%D1%80%D1%83%D0%BC%D0%B5%D0%BD%D1%82%D0%B0%D0%BB%D1%8C%D0%BD%D1%8B%D0%B9%20%D0%9A%D0%BB%D1%8E%D1%87.png?iv=502a2d3ae527ae0d",
+        "serverLabel": "ST"
+      },
+      {
+        "id": 292099,
+        "name": "Коины 10",
+        "price": 10,
+        "index": 12,
+        "chance": 4.357063233017837,
+        "img": "/lossless-images/4c10b19c849be661-f90959907597d8ed.png?iv=f90959907597d8ed",
+        "serverLabel": "CLASSIC"
+      }
+    ]
+  },
+  {
+    "url": "https://minedrop.art/case/28",
+    "case": "Cheat-Jir-Case",
+    "items": [
+      {
+        "id": 292307,
+        "name": "System DLC - всегда",
+        "price": 5000,
+        "index": 0,
+        "chance": 0,
+        "img": "/lossless-images/240d9052d4a9c0b7-239e230eb12738d3.png?iv=239e230eb12738d3",
+        "serverLabel": "HVH"
+      },
+      {
+        "id": 292308,
+        "name": "Nursultan Всё в одном",
+        "price": 1999,
+        "index": 1,
+        "chance": 0,
+        "img": "/lossless-images/27fecdd8f52eed67-d3edde3e6e54cd9d.webp?iv=d3edde3e6e54cd9d",
+        "serverLabel": "HVH"
+      },
+      {
+        "id": 292309,
+        "name": "Cortex Legit 1.12-1.21 - ВСЕГДА",
+        "price": 1470,
+        "index": 2,
+        "chance": 0,
+        "img": "/lossless-images/f4bf37c9f7bb8c89-72adc4c6213931ad.png?iv=72adc4c6213931ad",
+        "serverLabel": "HVH"
+      },
+      {
+        "id": 291439,
+        "name": "Expensive 1.21 - 180 дней",
+        "price": 1399,
+        "index": 3,
+        "chance": 0,
+        "img": "/lossless-images/7940e4df15357bef-53437b9490e97dd7.png?iv=53437b9490e97dd7",
+        "serverLabel": "HVH"
+      },
+      {
+        "id": 291440,
+        "name": "DeltaClient 1.21.4 - 180 дней",
+        "price": 1249,
+        "index": 4,
+        "chance": 0,
+        "img": "/lossless-images/02ce87189b092c68-5c5befe70e405e2c.png?iv=5c5befe70e405e2c",
+        "serverLabel": "HVH"
+      },
+      {
+        "id": 292310,
+        "name": "Коины 1100",
+        "price": 1100,
+        "index": 5,
+        "chance": 0.1,
+        "img": "/lossless-images/85db58a8fd5928a2-ebc610c420fd46b0.png?iv=ebc610c420fd46b0",
+        "serverLabel": "LITE"
+      },
+      {
+        "id": 291443,
+        "name": "Expensive 1.21 - 90 дней",
+        "price": 899,
+        "index": 6,
+        "chance": 3.4964558670908,
+        "img": "/lossless-images/7940e4df15357bef-53437b9490e97dd7.png?iv=53437b9490e97dd7",
+        "serverLabel": "HVH"
+      },
+      {
+        "id": 292312,
+        "name": "Rockstar Client - 90 дней",
+        "price": 849,
+        "index": 7,
+        "chance": 3.2919597431554086,
+        "img": "/lossless-images/8e742173e39bef0e-9418d42292b452de.png?iv=9418d42292b452de",
+        "serverLabel": "HVH"
+      },
+      {
+        "id": 291445,
+        "name": "DeltaClient 1.16.5 - всегда",
+        "price": 799,
+        "index": 8,
+        "chance": 3.1049011250877356,
+        "img": "/lossless-images/3fddf01b4372514a-56ac3d40c7bbfa1d.png?iv=56ac3d40c7bbfa1d",
+        "serverLabel": "HVH"
+      },
+      {
+        "id": 291446,
+        "name": "Nursultan 1.16.5 - всегда",
+        "price": 799,
+        "index": 9,
+        "chance": 3.1049011250877356,
+        "img": "/lossless-images/8b04bbde470a7126-286e43fa383f82fe.webp?iv=286e43fa383f82fe",
+        "serverLabel": "HVH"
+      },
+      {
+        "id": 291447,
+        "name": "Wexside 1.16.5 - всегда",
+        "price": 799,
+        "index": 10,
+        "chance": 3.1049011250877356,
+        "img": "/lossless-images/94cff6cb2ddf74d1-8af78c08e47f6c77.png?iv=8af78c08e47f6c77",
+        "serverLabel": "HVH"
+      },
+      {
+        "id": 291448,
+        "name": "Catlavan - год",
+        "price": 750,
+        "index": 11,
+        "chance": 2.9373860910766743,
+        "img": "/lossless-images/53614497a34e6312-e2c2b141d3b26405.png?iv=e2c2b141d3b26405",
+        "serverLabel": "HVH"
+      },
+      {
+        "id": 291449,
+        "name": "DeltaClient 1.21.4 - 90 дней",
+        "price": 749,
+        "index": 12,
+        "chance": 2.934149195321142,
+        "img": "/lossless-images/02ce87189b092c68-5c5befe70e405e2c.png?iv=5c5befe70e405e2c",
+        "serverLabel": "HVH"
+      },
+      {
+        "id": 291450,
+        "name": "Celestial 1.16.5 - всегда",
+        "price": 699,
+        "index": 13,
+        "chance": 2.7789722108221273,
+        "img": "/lossless-images/40164af7abb787dc-d7649a15d8bbcf0d.png?iv=d7649a15d8bbcf0d",
+        "serverLabel": "HVH"
+      },
+      {
+        "id": 292313,
+        "name": "Cortex Legit 1.12-1.21 - 90 дней",
+        "price": 676,
+        "index": 14,
+        "chance": 2.71264914645149,
+        "img": "/lossless-images/f4bf37c9f7bb8c89-72adc4c6213931ad.png?iv=72adc4c6213931ad",
+        "serverLabel": "HVH"
+      },
+      {
+        "id": 291451,
+        "name": "WildClient 1.21.8 - всегда",
+        "price": 599,
+        "index": 15,
+        "chance": 2.5132200716829103,
+        "img": "/lossless-images/cf1ee2a3c5db8e33-b59ea0c152d8c146.png?iv=b59ea0c152d8c146",
+        "serverLabel": "HVH"
+      },
+      {
+        "id": 291452,
+        "name": "Wexside 1.16.5 - 90 дней",
+        "price": 599,
+        "index": 16,
+        "chance": 2.5132200716829103,
+        "img": "/lossless-images/75469bc80ed5084e-8af78c08e47f6c77.png?iv=8af78c08e47f6c77",
+        "serverLabel": "HVH"
+      },
+      {
+        "id": 291453,
+        "name": "Nursultan 1.16.5 - 90 дней",
+        "price": 599,
+        "index": 17,
+        "chance": 2.5132200716829103,
+        "img": "/lossless-images/bfefc9d330ce035a-286e43fa383f82fe.webp?iv=286e43fa383f82fe",
+        "serverLabel": "HVH"
+      },
+      {
+        "id": 291455,
+        "name": "NeverLose - всегда",
+        "price": 579,
+        "index": 18,
+        "chance": 2.4670680182493965,
+        "img": "/lossless-images/6f89b9be12b26006-c20e4ab19294f75d.png?iv=c20e4ab19294f75d",
+        "serverLabel": "HVH"
+      },
+      {
+        "id": 292314,
+        "name": "Deluxe Client - 90 дней",
+        "price": 549,
+        "index": 19,
+        "chance": 2.401981511067107,
+        "img": "/lossless-images/443c6a4e1dadea42-b2a23ddeb61d0585.png?iv=b2a23ddeb61d0585",
+        "serverLabel": "HVH"
+      },
+      {
+        "id": 291454,
+        "name": "DeltaClient 1.16.5 - 90 дней",
+        "price": 499,
+        "index": 20,
+        "chance": 1.6136164824969164,
+        "img": "/lossless-images/c9d5ed4bacb1228f-56ac3d40c7bbfa1d.png?iv=56ac3d40c7bbfa1d",
+        "serverLabel": "HVH"
+      },
+      {
+        "id": 291457,
+        "name": "Nursultan 1.21.11 - 30 дней",
+        "price": 499,
+        "index": 21,
+        "chance": 1.6136164824969164,
+        "img": "/lossless-images/77737a2426bfdeb7-b7161a7a2eae6d7c.png?iv=b7161a7a2eae6d7c",
+        "serverLabel": "HVH"
+      },
+      {
+        "id": 291458,
+        "name": "Celestial 1.16.5 - 90 дней",
+        "price": 499,
+        "index": 22,
+        "chance": 1.6136164824969164,
+        "img": "/lossless-images/4c6d37b2282884ab-d7649a15d8bbcf0d.png?iv=d7649a15d8bbcf0d",
+        "serverLabel": "HVH"
+      },
+      {
+        "id": 291459,
+        "name": "Wexside 1.21.11 - 30 дней",
+        "price": 499,
+        "index": 23,
+        "chance": 1.6136164824969164,
+        "img": "/lossless-images/745f6fa8d8a02b65-1e248b4158e075ae.png?iv=1e248b4158e075ae",
+        "serverLabel": "HVH"
+      },
+      {
+        "id": 291460,
+        "name": "Wexside 1.16.5 - 30 дней",
+        "price": 499,
+        "index": 24,
+        "chance": 1.6136164824969164,
+        "img": "/lossless-images/dce8ba349485a7d0-8af78c08e47f6c77.png?iv=8af78c08e47f6c77",
+        "serverLabel": "HVH"
+      },
+      {
+        "id": 291461,
+        "name": "DeltaClient 1.16.5 - 30 дней",
+        "price": 449,
+        "index": 25,
+        "chance": 1.5564631172161287,
+        "img": "/lossless-images/a283fbf123de3f5e-56ac3d40c7bbfa1d.png?iv=56ac3d40c7bbfa1d",
+        "serverLabel": "HVH"
+      },
+      {
+        "id": 291462,
+        "name": "DeltaClient Сброс HWID",
+        "price": 449,
+        "index": 26,
+        "chance": 1.5564631172161287,
+        "img": "/lossless-images/453d6632728ccf6d-20bda5964ff63349.png?iv=20bda5964ff63349",
+        "serverLabel": "HVH"
+      },
+      {
+        "id": 291463,
+        "name": "Nursultan 1.16.5 - 30 дней",
+        "price": 449,
+        "index": 27,
+        "chance": 1.5564631172161287,
+        "img": "/lossless-images/f75f58fc7e093802-286e43fa383f82fe.webp?iv=286e43fa383f82fe",
+        "serverLabel": "HVH"
+      },
+      {
+        "id": 291464,
+        "name": "Wexside Сброс HWID",
+        "price": 449,
+        "index": 28,
+        "chance": 1.5564631172161287,
+        "img": "/lossless-images/888f00922f41ca4f-9c11c8507ef11e43.png?iv=9c11c8507ef11e43",
+        "serverLabel": "HVH"
+      },
+      {
+        "id": 291465,
+        "name": "WildClient 1.21.8 - 1 год",
+        "price": 449,
+        "index": 29,
+        "chance": 1.5564631172161287,
+        "img": "/lossless-images/1afe74227560dd1d-b59ea0c152d8c146.png?iv=b59ea0c152d8c146",
+        "serverLabel": "HVH"
+      },
+      {
+        "id": 291466,
+        "name": "Expensive 1.21 - 30 дней",
+        "price": 429,
+        "index": 30,
+        "chance": 1.5366805812344226,
+        "img": "/lossless-images/7940e4df15357bef-53437b9490e97dd7.png?iv=53437b9490e97dd7",
+        "serverLabel": "HVH"
+      },
+      {
+        "id": 291467,
+        "name": "Catlavan - Сброс HWID",
+        "price": 399,
+        "index": 31,
+        "chance": 1.5107217303023,
+        "img": "/lossless-images/1a829ea6ae547ad1-58440775ddb4a108.png?iv=58440775ddb4a108",
+        "serverLabel": "HVH"
+      },
+      {
+        "id": 291469,
+        "name": "DeltaClient 1.21.4 - 30 дней",
+        "price": 399,
+        "index": 32,
+        "chance": 1.5107217303023,
+        "img": "/lossless-images/02ce87189b092c68-5c5befe70e405e2c.png?iv=5c5befe70e405e2c",
+        "serverLabel": "HVH"
+      },
+      {
+        "id": 291470,
+        "name": "WildClient 1.21.8 - 1 месяц",
+        "price": 399,
+        "index": 33,
+        "chance": 1.5107217303023,
+        "img": "/lossless-images/69103b748e8c40dc-b59ea0c152d8c146.png?iv=b59ea0c152d8c146",
+        "serverLabel": "HVH"
+      },
+      {
+        "id": 292315,
+        "name": "Rockstar Client - 30 дней",
+        "price": 399,
+        "index": 34,
+        "chance": 1.5107217303023,
+        "img": "/lossless-images/8e742173e39bef0e-9418d42292b452de.png?iv=9418d42292b452de",
+        "serverLabel": "HVH"
+      },
+      {
+        "id": 291471,
+        "name": "Nursultan Premium 1.16.5",
+        "price": 299,
+        "index": 35,
+        "chance": 5.190279628186558,
+        "img": "/lossless-images/3d534efbde41aacc-01cbec4ffca49ab5.webp?iv=01cbec4ffca49ab5",
+        "serverLabel": "HVH"
+      },
+      {
+        "id": 291472,
+        "name": "Celestial 1.16.5 - 30 дней",
+        "price": 299,
+        "index": 36,
+        "chance": 5.190279628186558,
+        "img": "/lossless-images/2b6b704e31e1c60b-d7649a15d8bbcf0d.png?iv=d7649a15d8bbcf0d",
+        "serverLabel": "HVH"
+      },
+      {
+        "id": 291473,
+        "name": "Celestial Сброс HWID",
+        "price": 299,
+        "index": 37,
+        "chance": 5.190279628186558,
+        "img": "/lossless-images/0ab4e04c669e30c0-42030a88fc065c34.png?iv=42030a88fc065c34",
+        "serverLabel": "HVH"
+      },
+      {
+        "id": 291474,
+        "name": "WildClient Сброс HWID",
+        "price": 299,
+        "index": 38,
+        "chance": 5.190279628186558,
+        "img": "/lossless-images/8aa4195471687958-3a646c6f48e1928a.png?iv=3a646c6f48e1928a",
+        "serverLabel": "HVH"
+      },
+      {
+        "id": 291475,
+        "name": "Expensive 1.21 - 7 дней",
+        "price": 249,
+        "index": 39,
+        "chance": 5.203963938305538,
+        "img": "/lossless-images/7940e4df15357bef-53437b9490e97dd7.png?iv=53437b9490e97dd7",
+        "serverLabel": "HVH"
+      },
+      {
+        "id": 292316,
+        "name": "Rockstar Client - Сброс HWID",
+        "price": 249,
+        "index": 40,
+        "chance": 5.203963938305538,
+        "img": "/lossless-images/8e742173e39bef0e-9418d42292b452de.png?iv=9418d42292b452de",
+        "serverLabel": "HVH"
+      },
+      {
+        "id": 291477,
+        "name": "NeverLose Сброс HWID",
+        "price": 199,
+        "index": 41,
+        "chance": 5.326002736087776,
+        "img": "/lossless-images/a9a3bba9e8b53915-44950a5ce5fe1564.png?iv=44950a5ce5fe1564",
+        "serverLabel": "HVH"
+      },
+      {
+        "id": 291478,
+        "name": "Expensive Сброс HWID",
+        "price": 120,
+        "index": 42,
+        "chance": 0.1,
+        "img": "/lossless-images/3217944c3a5a89c2-0e6d32289ae7b77f.png?iv=0e6d32289ae7b77f",
+        "serverLabel": "HVH"
+      }
+    ]
+  },
+  {
+    "url": "https://minedrop.art/case/46",
+    "case": "CHEAT-BRO9I-CASE",
+    "items": [
+      {
+        "id": 291649,
+        "name": "1,000,000 Токенов",
+        "price": 3079,
+        "index": 0,
+        "chance": 0,
+        "img": "/lossless-images/c1ccede848d779a0-d16c1bcc76d46e45.png?iv=d16c1bcc76d46e45",
+        "serverLabel": "ST"
+      },
+      {
+        "id": 292317,
+        "name": "Донат ГЕРЦОГ + 500.000 ТК",
+        "price": 2379,
+        "index": 1,
+        "chance": 0,
+        "img": "/cases/Spooky-Case/%D0%93%D0%95%D0%A0%D0%A6%D0%9E%D0%93%20%2B%20500.000%20%D0%A2%D0%9A.png?iv=aa3434bab63d6bfb",
+        "serverLabel": "ST"
+      },
+      {
+        "id": 292318,
+        "name": "Донат КНЯЗЬ + 160.000 ТК",
+        "price": 1299,
+        "index": 2,
+        "chance": 0,
+        "img": "/cases/Spooky-Case/%D0%9A%D0%9D%D0%AF%D0%97%D0%AC%20%2B%20160.000%20%D0%A2%D0%9A.png?iv=d29fa88ae870b31d",
+        "serverLabel": "ST"
+      },
+      {
+        "id": 292319,
+        "name": "Коины 1100",
+        "price": 1100,
+        "index": 3,
+        "chance": 0,
+        "img": "/lossless-images/85db58a8fd5928a2-ebc610c420fd46b0.png?iv=ebc610c420fd46b0",
+        "serverLabel": "LITE"
+      },
+      {
+        "id": 292320,
+        "name": "Донат ГЛАДИАТОР (всегда)",
+        "price": 999,
+        "index": 4,
+        "chance": 0.1,
+        "img": "/lossless-images/3ffbb6f8f814c51a-a67373cca4f67917.png?iv=a67373cca4f67917",
+        "serverLabel": "CLASSIC"
+      },
+      {
+        "id": 291654,
+        "name": "Expensive 1.21 - 90 дней",
+        "price": 899,
+        "index": 5,
+        "chance": 1.7663968359841398,
+        "img": "/lossless-images/7940e4df15357bef-53437b9490e97dd7.png?iv=53437b9490e97dd7",
+        "serverLabel": "HVH"
+      },
+      {
+        "id": 291656,
+        "name": "Catlavan - год",
+        "price": 750,
+        "index": 6,
+        "chance": 3.3434982101480983,
+        "img": "/lossless-images/53614497a34e6312-e2c2b141d3b26405.png?iv=e2c2b141d3b26405",
+        "serverLabel": "HVH"
+      },
+      {
+        "id": 291657,
+        "name": "DeltaClient 1.21.4 - 90 дней",
+        "price": 749,
+        "index": 7,
+        "chance": 3.3579618368539648,
+        "img": "/lossless-images/02ce87189b092c68-5c5befe70e405e2c.png?iv=5c5befe70e405e2c",
+        "serverLabel": "HVH"
+      },
+      {
+        "id": 291652,
+        "name": "Nursultan 1.21.11 - 90 дней",
+        "price": 599,
+        "index": 8,
+        "chance": 6.515908564379279,
+        "img": "/lossless-images/77737a2426bfdeb7-b7161a7a2eae6d7c.png?iv=b7161a7a2eae6d7c",
+        "serverLabel": "HVH"
+      },
+      {
+        "id": 292322,
+        "name": "Sadnes 1.21.11 - 90 дней",
+        "price": 599,
+        "index": 9,
+        "chance": 6.515908564379279,
+        "img": "/lossless-images/89b3e07594e8cde0-5d14854c6e94f203.png?iv=5d14854c6e94f203",
+        "serverLabel": "HVH"
+      },
+      {
+        "id": 292323,
+        "name": "Deluxe Client - 90 дней",
+        "price": 549,
+        "index": 10,
+        "chance": 8.178771716824395,
+        "img": "/lossless-images/443c6a4e1dadea42-b2a23ddeb61d0585.png?iv=b2a23ddeb61d0585",
+        "serverLabel": "HVH"
+      },
+      {
+        "id": 291662,
+        "name": "Wexside 1.21.11 - 30 дней",
+        "price": 499,
+        "index": 11,
+        "chance": 10.308863051031322,
+        "img": "/lossless-images/745f6fa8d8a02b65-1e248b4158e075ae.png?iv=1e248b4158e075ae",
+        "serverLabel": "HVH"
+      },
+      {
+        "id": 291663,
+        "name": "DeltaClient 1.16.5 - 30 дней",
+        "price": 449,
+        "index": 12,
+        "chance": 2.3149709980389774,
+        "img": "/lossless-images/a283fbf123de3f5e-56ac3d40c7bbfa1d.png?iv=56ac3d40c7bbfa1d",
+        "serverLabel": "HVH"
+      },
+      {
+        "id": 292321,
+        "name": "Nursultan 1.21.11 - 30 дней",
+        "price": 449,
+        "index": 13,
+        "chance": 2.3149709980389774,
+        "img": "/lossless-images/77737a2426bfdeb7-b7161a7a2eae6d7c.png?iv=b7161a7a2eae6d7c",
+        "serverLabel": "HVH"
+      },
+      {
+        "id": 291665,
+        "name": "WildClient 1.21.8 - 1 месяц",
+        "price": 399,
+        "index": 14,
+        "chance": 2.951023670719993,
+        "img": "/lossless-images/69103b748e8c40dc-b59ea0c152d8c146.png?iv=b59ea0c152d8c146",
+        "serverLabel": "HVH"
+      },
+      {
+        "id": 292324,
+        "name": "Deluxe Client - 30 дней",
+        "price": 379,
+        "index": 15,
+        "chance": 3.2586894048783916,
+        "img": "/lossless-images/443c6a4e1dadea42-b2a23ddeb61d0585.png?iv=b2a23ddeb61d0585",
+        "serverLabel": "HVH"
+      },
+      {
+        "id": 291666,
+        "name": "340 Риликов",
+        "price": 340,
+        "index": 16,
+        "chance": 3.9707031086111706,
+        "img": "/lossless-images/1b530437f32f4d3f-e8bc5ddc92211597.png?iv=e8bc5ddc92211597",
+        "serverLabel": "RW"
+      },
+      {
+        "id": 291667,
+        "name": "3 Сундука с КИТАМИ",
+        "price": 299,
+        "index": 17,
+        "chance": 16.174014738176858,
+        "img": "/lossless-images/4f41449b607a157f-2ad66a60e137b30d.png?iv=2ad66a60e137b30d",
+        "serverLabel": "RW"
+      },
+      {
+        "id": 292326,
+        "name": "Rockstar Client - 7 дней",
+        "price": 199,
+        "index": 18,
+        "chance": 28.628318301935153,
+        "img": "/lossless-images/8e742173e39bef0e-9418d42292b452de.png?iv=9418d42292b452de",
+        "serverLabel": "HVH"
+      },
+      {
+        "id": 291671,
+        "name": "Bro9I - Конфиг Nursultan HW",
+        "price": 150,
+        "index": 19,
+        "chance": 0.1,
+        "img": "/lossless-images/3e724ba8f1fbe551-68da98366537ca95.png?iv=68da98366537ca95",
+        "serverLabel": "HVH"
+      },
+      {
+        "id": 291672,
+        "name": "Bro9I - Конфиг Catlavan",
+        "price": 150,
+        "index": 20,
+        "chance": 0.1,
+        "img": "/lossless-images/42c79699446e404b-68da98366537ca95.png?iv=68da98366537ca95",
+        "serverLabel": "HVH"
+      },
+      {
+        "id": 291673,
+        "name": "Bro9I - Конфиг Delta Client",
+        "price": 150,
+        "index": 21,
+        "chance": 0.1,
+        "img": "/lossless-images/b36d2547cc301b26-68da98366537ca95.png?iv=68da98366537ca95",
+        "serverLabel": "HVH"
+      }
+    ]
+  },
+  {
+    "url": "https://minedrop.art/case/47",
+    "case": "CHEAT-FLUGER-CASE",
+    "items": [
+      {
+        "id": 292327,
+        "name": "Rockstar Client - 180 дней",
+        "price": 1349,
+        "index": 0,
+        "chance": 0,
+        "img": "/lossless-images/8e742173e39bef0e-9418d42292b452de.png?iv=9418d42292b452de",
+        "serverLabel": "HVH"
+      },
+      {
+        "id": 292328,
+        "name": "Донат КНЯЗЬ + 160.000 ТК",
+        "price": 1299,
+        "index": 1,
+        "chance": 0,
+        "img": "/cases/Spooky-Case/%D0%9A%D0%9D%D0%AF%D0%97%D0%AC%20%2B%20160.000%20%D0%A2%D0%9A.png?iv=d29fa88ae870b31d",
+        "serverLabel": "ST"
+      },
+      {
+        "id": 292329,
+        "name": "Коины 1000",
+        "price": 1000,
+        "index": 2,
+        "chance": 0.1,
+        "img": "/lossless-images/85db58a8fd5928a2-ebc610c420fd46b0.png?iv=ebc610c420fd46b0",
+        "serverLabel": "LITE"
+      },
+      {
+        "id": 291677,
+        "name": "Expensive 1.21 - 90 дней",
+        "price": 899,
+        "index": 3,
+        "chance": 3.268592376729329,
+        "img": "/lossless-images/7940e4df15357bef-53437b9490e97dd7.png?iv=53437b9490e97dd7",
+        "serverLabel": "HVH"
+      },
+      {
+        "id": 292330,
+        "name": "Sadnes 1.21.11 - 180 дней",
+        "price": 799,
+        "index": 4,
+        "chance": 3.914856649846671,
+        "img": "/lossless-images/89b3e07594e8cde0-5d14854c6e94f203.png?iv=5d14854c6e94f203",
+        "serverLabel": "HVH"
+      },
+      {
+        "id": 291679,
+        "name": "DeltaClient 1.21.4 - 90 дней",
+        "price": 749,
+        "index": 5,
+        "chance": 4.2967818822485695,
+        "img": "/lossless-images/02ce87189b092c68-5c5befe70e405e2c.png?iv=5c5befe70e405e2c",
+        "serverLabel": "HVH"
+      },
+      {
+        "id": 292331,
+        "name": "Catlavan - год",
+        "price": 700,
+        "index": 6,
+        "chance": 4.717315897334921,
+        "img": "/lossless-images/53614497a34e6312-e2c2b141d3b26405.png?iv=e2c2b141d3b26405",
+        "serverLabel": "HVH"
+      },
+      {
+        "id": 292332,
+        "name": "Cortex Legit 1.12-1.21 - 90 дней",
+        "price": 676,
+        "index": 7,
+        "chance": 4.942307146654559,
+        "img": "/lossless-images/f4bf37c9f7bb8c89-72adc4c6213931ad.png?iv=72adc4c6213931ad",
+        "serverLabel": "HVH"
+      },
+      {
+        "id": 291681,
+        "name": "5 Сундуков с Донат Вещами",
+        "price": 649,
+        "index": 8,
+        "chance": 5.212422721593678,
+        "img": "/lossless-images/b5c4d5769f4db2bb-ad8e476d8b97afd8.png?iv=ad8e476d8b97afd8",
+        "serverLabel": "RW"
+      },
+      {
+        "id": 292333,
+        "name": "Донат ТИТАН + 60.000 ТК",
+        "price": 549,
+        "index": 9,
+        "chance": 6.399438034769164,
+        "img": "/cases/Spooky-Case/%D0%A2%D0%98%D0%A2%D0%90%D0%9D%20%2B%2060.000%20%D0%A2%D0%9A.png?iv=e9f13c0bd8879102",
+        "serverLabel": "ST"
+      },
+      {
+        "id": 291683,
+        "name": "Wexside 1.16.5 - 30 дней",
+        "price": 499,
+        "index": 10,
+        "chance": 7.132894916597225,
+        "img": "/lossless-images/dce8ba349485a7d0-8af78c08e47f6c77.png?iv=8af78c08e47f6c77",
+        "serverLabel": "HVH"
+      },
+      {
+        "id": 292334,
+        "name": "Nursultan 1.16.5 - 30 дней",
+        "price": 470,
+        "index": 11,
+        "chance": 2.467287927676582,
+        "img": "/lossless-images/f75f58fc7e093802-286e43fa383f82fe.webp?iv=286e43fa383f82fe",
+        "serverLabel": "HVH"
+      },
+      {
+        "id": 291684,
+        "name": "DeltaClient Сброс HWID",
+        "price": 449,
+        "index": 12,
+        "chance": 2.58960171336758,
+        "img": "/lossless-images/453d6632728ccf6d-20bda5964ff63349.png?iv=20bda5964ff63349",
+        "serverLabel": "HVH"
+      },
+      {
+        "id": 291685,
+        "name": "25 Сундуков с Валютой",
+        "price": 399,
+        "index": 13,
+        "chance": 2.919157956757207,
+        "img": "/lossless-images/20d809d5e7c7db46-e63d040f1b574000.png?iv=e63d040f1b574000",
+        "serverLabel": "RW"
+      },
+      {
+        "id": 292335,
+        "name": "Cortex Legit 1.12-1.21 - 30 дней",
+        "price": 390,
+        "index": 14,
+        "chance": 2.9851385864543336,
+        "img": "/lossless-images/f4bf37c9f7bb8c89-72adc4c6213931ad.png?iv=72adc4c6213931ad",
+        "serverLabel": "HVH"
+      },
+      {
+        "id": 292336,
+        "name": "Deluxe Client - 30 дней",
+        "price": 379,
+        "index": 15,
+        "chance": 3.0688116810178245,
+        "img": "/lossless-images/443c6a4e1dadea42-b2a23ddeb61d0585.png?iv=b2a23ddeb61d0585",
+        "serverLabel": "HVH"
+      },
+      {
+        "id": 291686,
+        "name": "WildClient 1.21.8 - 1 месяц",
+        "price": 339,
+        "index": 16,
+        "chance": 12.109047851794479,
+        "img": "/lossless-images/69103b748e8c40dc-b59ea0c152d8c146.png?iv=b59ea0c152d8c146",
+        "serverLabel": "HVH"
+      },
+      {
+        "id": 291687,
+        "name": "WildClient Сброс HWID",
+        "price": 299,
+        "index": 17,
+        "chance": 13.535808990227235,
+        "img": "/lossless-images/8aa4195471687958-3a646c6f48e1928a.png?iv=3a646c6f48e1928a",
+        "serverLabel": "HVH"
+      },
+      {
+        "id": 291688,
+        "name": "Донат ГАСТ (30)",
+        "price": 179,
+        "index": 18,
+        "chance": 20.24053566693065,
+        "img": "/lossless-images/4c542c80d615d561-7f02e96b7dded96b.png?iv=7f02e96b7dded96b",
+        "serverLabel": "LITE"
+      },
+      {
+        "id": 291691,
+        "name": "Fluger - Конфиг Catlavan RW",
+        "price": 150,
+        "index": 19,
+        "chance": 0.1,
+        "img": "/lossless-images/25fe22a32af8b65b-f0cca16d093984eb.png?iv=f0cca16d093984eb",
+        "serverLabel": "HVH"
+      }
+    ]
+  },
+  {
+    "url": "https://minedrop.art/case/48",
+    "case": "CHEAT-SPOOKY-CASE",
+    "items": [
+      {
+        "id": 291697,
+        "name": "Celestial 1.16.5 - всегда",
+        "price": 699,
+        "index": 0,
+        "chance": 0,
+        "img": "/lossless-images/40164af7abb787dc-d7649a15d8bbcf0d.png?iv=d7649a15d8bbcf0d",
+        "serverLabel": "HVH"
+      },
+      {
+        "id": 292337,
+        "name": "Донат ТИТАН + 60.000 ТК",
+        "price": 549,
+        "index": 1,
+        "chance": 0,
+        "img": "/cases/Spooky-Case/%D0%A2%D0%98%D0%A2%D0%90%D0%9D%20%2B%2060.000%20%D0%A2%D0%9A.png?iv=e9f13c0bd8879102",
+        "serverLabel": "ST"
+      },
+      {
+        "id": 291699,
+        "name": "Биржа Баланс 300",
+        "price": 300,
+        "index": 2,
+        "chance": 0.1,
+        "img": "/cases/%D0%A1%D0%BF%D1%83%D0%BA%D0%B8%D1%82%D0%B0%D0%B9%D0%BC%20%D0%BF%D0%BD%D0%B3%D1%88%D0%BA%D0%B8/%D0%91%D0%B8%D1%80%D0%B6%D0%B0%20%D0%91%D0%B0%D0%BB%D0%B0%D0%BD%D1%81.png?iv=815504f3d4cb4e30",
+        "serverLabel": "ST"
+      },
+      {
+        "id": 291700,
+        "name": "СУПЕР КЕЙС С ДОНАТОМ",
+        "price": 289,
+        "index": 3,
+        "chance": 6.000334734461554,
+        "img": "/cases/Spooky-Case/%D0%A1%D0%A3%D0%9F%D0%95%D0%A0%20%D0%9A%D0%B5%D0%B9%D1%81%20%D1%81%20%D0%94%D0%BE%D0%BD%D0%B0%D1%82%D0%BE%D0%BC.png?iv=71642b3d149f36a4",
+        "serverLabel": "ST"
+      },
+      {
+        "id": 292338,
+        "name": "Rockstar Client - Сброс HWID",
+        "price": 249,
+        "index": 4,
+        "chance": 6.302025671222068,
+        "img": "/lossless-images/8e742173e39bef0e-9418d42292b452de.png?iv=9418d42292b452de",
+        "serverLabel": "HVH"
+      },
+      {
+        "id": 291701,
+        "name": "30,000 Токенов",
+        "price": 239,
+        "index": 5,
+        "chance": 6.3916563691866495,
+        "img": "/lossless-images/415e09d2b61b331a-1b8ab8cefebd671e.png?iv=1b8ab8cefebd671e",
+        "serverLabel": "ST"
+      },
+      {
+        "id": 291702,
+        "name": "Биржа Баланс 200",
+        "price": 200,
+        "index": 6,
+        "chance": 6.816026085568619,
+        "img": "/cases/%D0%A1%D0%BF%D1%83%D0%BA%D0%B8%D1%82%D0%B0%D0%B9%D0%BC%20%D0%BF%D0%BD%D0%B3%D1%88%D0%BA%D0%B8/%D0%91%D0%B8%D1%80%D0%B6%D0%B0%20%D0%91%D0%B0%D0%BB%D0%B0%D0%BD%D1%81.png?iv=815504f3d4cb4e30",
+        "serverLabel": "ST"
+      },
+      {
+        "id": 292339,
+        "name": "Cortex Legit 1.12-1.21 - 7 дней",
+        "price": 185,
+        "index": 7,
+        "chance": 7.019558288535061,
+        "img": "/lossless-images/f4bf37c9f7bb8c89-72adc4c6213931ad.png?iv=72adc4c6213931ad",
+        "serverLabel": "HVH"
+      },
+      {
+        "id": 292340,
+        "name": "Биржа Баланс 165",
+        "price": 165,
+        "index": 8,
+        "chance": 7.338958806162633,
+        "img": "/cases/%D0%A1%D0%BF%D1%83%D0%BA%D0%B8%D1%82%D0%B0%D0%B9%D0%BC%20%D0%BF%D0%BD%D0%B3%D1%88%D0%BA%D0%B8/%D0%91%D0%B8%D1%80%D0%B6%D0%B0%20%D0%91%D0%B0%D0%BB%D0%B0%D0%BD%D1%81.png?iv=815504f3d4cb4e30",
+        "serverLabel": "ST"
+      },
+      {
+        "id": 291705,
+        "name": "Bro9I - Конфиг Catlavan",
+        "price": 150,
+        "index": 9,
+        "chance": 6.3989361013921195,
+        "img": "/lossless-images/42c79699446e404b-68da98366537ca95.png?iv=68da98366537ca95",
+        "serverLabel": "HVH"
+      },
+      {
+        "id": 291706,
+        "name": "Bro9I - Конфиг Delta Client",
+        "price": 150,
+        "index": 10,
+        "chance": 6.3989361013921195,
+        "img": "/lossless-images/b36d2547cc301b26-68da98366537ca95.png?iv=68da98366537ca95",
+        "serverLabel": "HVH"
+      },
+      {
+        "id": 292342,
+        "name": "Биржа Баланс 135",
+        "price": 135,
+        "index": 11,
+        "chance": 6.681120545773502,
+        "img": "/cases/%D0%A1%D0%BF%D1%83%D0%BA%D0%B8%D1%82%D0%B0%D0%B9%D0%BC%20%D0%BF%D0%BD%D0%B3%D1%88%D0%BA%D0%B8/%D0%91%D0%B8%D1%80%D0%B6%D0%B0%20%D0%91%D0%B0%D0%BB%D0%B0%D0%BD%D1%81.png?iv=815504f3d4cb4e30",
+        "serverLabel": "ST"
+      },
+      {
+        "id": 292344,
+        "name": "Биржа Баланс 70",
+        "price": 70,
+        "index": 12,
+        "chance": 40.452447296305685,
+        "img": "/cases/%D0%A1%D0%BF%D1%83%D0%BA%D0%B8%D1%82%D0%B0%D0%B9%D0%BC%20%D0%BF%D0%BD%D0%B3%D1%88%D0%BA%D0%B8/%D0%91%D0%B8%D1%80%D0%B6%D0%B0%20%D0%91%D0%B0%D0%BB%D0%B0%D0%BD%D1%81.png?iv=815504f3d4cb4e30",
+        "serverLabel": "ST"
+      },
+      {
+        "id": 292345,
+        "name": "Биржа Баланс 50",
+        "price": 50,
+        "index": 13,
+        "chance": 0.1,
+        "img": "/cases/%D0%A1%D0%BF%D1%83%D0%BA%D0%B8%D1%82%D0%B0%D0%B9%D0%BC%20%D0%BF%D0%BD%D0%B3%D1%88%D0%BA%D0%B8/%D0%91%D0%B8%D1%80%D0%B6%D0%B0%20%D0%91%D0%B0%D0%BB%D0%B0%D0%BD%D1%81.png?iv=815504f3d4cb4e30",
+        "serverLabel": "ST"
+      }
+    ]
+  },
+  {
+    "url": "https://minedrop.art/case/50",
+    "case": "CHEAT-REALLY-CASE",
+    "items": [
+      {
+        "id": 291711,
+        "name": "DeltaClient 1.21.4 - 90 дней",
+        "price": 749,
+        "index": 0,
+        "chance": 0,
+        "img": "/lossless-images/02ce87189b092c68-5c5befe70e405e2c.png?iv=5c5befe70e405e2c",
+        "serverLabel": "HVH"
+      },
+      {
+        "id": 291712,
+        "name": "Catlavan - год",
+        "price": 700,
+        "index": 1,
+        "chance": 0,
+        "img": "/lossless-images/53614497a34e6312-e2c2b141d3b26405.png?iv=e2c2b141d3b26405",
+        "serverLabel": "HVH"
+      },
+      {
+        "id": 292346,
+        "name": "Cortex Legit 1.12-1.21 - 90 дней",
+        "price": 676,
+        "index": 2,
+        "chance": 0,
+        "img": "/lossless-images/f4bf37c9f7bb8c89-72adc4c6213931ad.png?iv=72adc4c6213931ad",
+        "serverLabel": "HVH"
+      },
+      {
+        "id": 291713,
+        "name": "5 Сундуков с Донат Вещами",
+        "price": 649,
+        "index": 3,
+        "chance": 0.1,
+        "img": "/lossless-images/b5c4d5769f4db2bb-ad8e476d8b97afd8.png?iv=ad8e476d8b97afd8",
+        "serverLabel": "RW"
+      },
+      {
+        "id": 291714,
+        "name": "Донат MAGISTER",
+        "price": 589,
+        "index": 4,
+        "chance": 4.852696874299818,
+        "img": "/lossless-images/e13d5f650681f7eb-8408f435cb08c060.png?iv=8408f435cb08c060",
+        "serverLabel": "RW"
+      },
+      {
+        "id": 291715,
+        "name": "5 Сундуков с Китами",
+        "price": 489,
+        "index": 5,
+        "chance": 6.80000354097251,
+        "img": "/lossless-images/9faf3cc0e849d7c6-d8834062d73736c9.png?iv=d8834062d73736c9",
+        "serverLabel": "RW"
+      },
+      {
+        "id": 291716,
+        "name": "25 Сундуков с Валютой",
+        "price": 399,
+        "index": 6,
+        "chance": 6.35305593914494,
+        "img": "/lossless-images/20d809d5e7c7db46-e63d040f1b574000.png?iv=e63d040f1b574000",
+        "serverLabel": "RW"
+      },
+      {
+        "id": 291717,
+        "name": "Донат OVERLORD",
+        "price": 289,
+        "index": 7,
+        "chance": 9.766473889399613,
+        "img": "/lossless-images/fdeb74ba9cd8bbba-4e7c64e8aba3a7fd.png?iv=4e7c64e8aba3a7fd",
+        "serverLabel": "RW"
+      },
+      {
+        "id": 291718,
+        "name": "25 Сундуков с ПРЕФИКСАМИ",
+        "price": 239,
+        "index": 8,
+        "chance": 12.134898619950716,
+        "img": "/lossless-images/31756796b990f5eb-cbe0ffcd86301bc0.png?iv=cbe0ffcd86301bc0",
+        "serverLabel": "RW"
+      },
+      {
+        "id": 292347,
+        "name": "Rockstar Client - 7 дней",
+        "price": 199,
+        "index": 9,
+        "chance": 3.9641730715246,
+        "img": "/lossless-images/8e742173e39bef0e-9418d42292b452de.png?iv=9418d42292b452de",
+        "serverLabel": "HVH"
+      },
+      {
+        "id": 291720,
+        "name": "180 Риликов",
+        "price": 180,
+        "index": 10,
+        "chance": 4.366207556591573,
+        "img": "/lossless-images/1b530437f32f4d3f-e8bc5ddc92211597.png?iv=e8bc5ddc92211597",
+        "serverLabel": "RW"
+      },
+      {
+        "id": 291721,
+        "name": "Нурбек - Конфиг Catlavan RW",
+        "price": 150,
+        "index": 11,
+        "chance": 5.395949105056191,
+        "img": "/lossless-images/6622491156dd99e3-0a56dd7001e0bb58.png?iv=0a56dd7001e0bb58",
+        "serverLabel": "HVH"
+      },
+      {
+        "id": 291722,
+        "name": "Нурбек - Конфиг Delta RW",
+        "price": 120,
+        "index": 12,
+        "chance": 6.491758090266576,
+        "img": "/lossless-images/6622491156dd99e3-0a56dd7001e0bb58.png?iv=0a56dd7001e0bb58",
+        "serverLabel": "HVH"
+      },
+      {
+        "id": 291723,
+        "name": "3 Сундука с Донатом",
+        "price": 119,
+        "index": 13,
+        "chance": 6.5348551430537345,
+        "img": "/lossless-images/74580f26a69f2e47-77190ae6b31b5b6d.png?iv=77190ae6b31b5b6d",
+        "serverLabel": "RW"
+      },
+      {
+        "id": 291724,
+        "name": "1 Сундук с Риликами",
+        "price": 99,
+        "index": 14,
+        "chance": 7.523420360604134,
+        "img": "/lossless-images/98f90c2ca8f69064-f6ee37efc6c33c12.png?iv=f6ee37efc6c33c12",
+        "serverLabel": "RW"
+      },
+      {
+        "id": 291725,
+        "name": "3 Сундука с Префиксами",
+        "price": 59,
+        "index": 15,
+        "chance": 25.6165078091356,
+        "img": "/lossless-images/74580f26a69f2e47-77190ae6b31b5b6d.png?iv=77190ae6b31b5b6d",
+        "serverLabel": "RW"
+      },
+      {
+        "id": 291726,
+        "name": "3 Сундука с Валютой",
+        "price": 46,
+        "index": 16,
+        "chance": 0.1,
+        "img": "/lossless-images/93c50955b19483dd-d2832a5908e77964.png?iv=d2832a5908e77964",
+        "serverLabel": "RW"
+      }
+    ]
+  },
+  {
+    "url": "https://minedrop.art/case/51",
+    "case": "CHEAT-LITE-CASE",
+    "items": [
+      {
+        "id": 291729,
+        "name": "Сапфиры 7,500",
+        "price": 1399,
+        "index": 0,
+        "chance": 0,
+        "img": "/lossless-images/c49295fd0f7f3943-4972a81a06bffbc3.png?iv=4972a81a06bffbc3",
+        "serverLabel": "LITE"
+      },
+      {
+        "id": 291731,
+        "name": "Expensive 1.21 - 90 дней",
+        "price": 899,
+        "index": 1,
+        "chance": 0,
+        "img": "/lossless-images/7940e4df15357bef-53437b9490e97dd7.png?iv=53437b9490e97dd7",
+        "serverLabel": "HVH"
+      },
+      {
+        "id": 292348,
+        "name": "Deluxe Client - ВСЕГДА",
+        "price": 799,
+        "index": 2,
+        "chance": 0,
+        "img": "/lossless-images/443c6a4e1dadea42-b2a23ddeb61d0585.png?iv=b2a23ddeb61d0585",
+        "serverLabel": "HVH"
+      },
+      {
+        "id": 292349,
+        "name": "Deluxe Client - 90 дней",
+        "price": 549,
+        "index": 3,
+        "chance": 1.0052974535458605,
+        "img": "/lossless-images/443c6a4e1dadea42-b2a23ddeb61d0585.png?iv=b2a23ddeb61d0585",
+        "serverLabel": "HVH"
+      },
+      {
+        "id": 291733,
+        "name": "DeltaClient Сброс HWID",
+        "price": 449,
+        "index": 4,
+        "chance": 2.2928086848805056,
+        "img": "/lossless-images/453d6632728ccf6d-20bda5964ff63349.png?iv=20bda5964ff63349",
+        "serverLabel": "HVH"
+      },
+      {
+        "id": 292350,
+        "name": "Cortex Legit 1.12-1.21 - 30 дней",
+        "price": 390,
+        "index": 5,
+        "chance": 3.7708645028467522,
+        "img": "/lossless-images/f4bf37c9f7bb8c89-72adc4c6213931ad.png?iv=72adc4c6213931ad",
+        "serverLabel": "HVH"
+      },
+      {
+        "id": 291734,
+        "name": "Донат ГАСТ (90)",
+        "price": 286,
+        "index": 6,
+        "chance": 6.452219208050026,
+        "img": "/lossless-images/9ba8a032799be6ca-1ca1a436e659fb1a.png?iv=1ca1a436e659fb1a",
+        "serverLabel": "LITE"
+      },
+      {
+        "id": 291735,
+        "name": "Коины 250",
+        "price": 250,
+        "index": 7,
+        "chance": 8.956128076818256,
+        "img": "/lossless-images/832b8402eba996ea-79608ab215cd796a.png?iv=79608ab215cd796a",
+        "serverLabel": "LITE"
+      },
+      {
+        "id": 291737,
+        "name": "Коины 180",
+        "price": 180,
+        "index": 8,
+        "chance": 17.520654229476825,
+        "img": "/lossless-images/832b8402eba996ea-79608ab215cd796a.png?iv=79608ab215cd796a",
+        "serverLabel": "LITE"
+      },
+      {
+        "id": 292351,
+        "name": "Донат ГАСТ (30)",
+        "price": 179,
+        "index": 9,
+        "chance": 3.014708602683074,
+        "img": "/lossless-images/4c542c80d615d561-7f02e96b7dded96b.png?iv=7f02e96b7dded96b",
+        "serverLabel": "LITE"
+      },
+      {
+        "id": 292352,
+        "name": "Дадли - Конфиг CatlavanClient HW",
+        "price": 150,
+        "index": 10,
+        "chance": 4.062688880421662,
+        "img": "/lossless-images/c185de8eec25898c-c5554ff15d29a6d5.png?iv=c5554ff15d29a6d5",
+        "serverLabel": "HVH"
+      },
+      {
+        "id": 291739,
+        "name": "3 Ключа от контейнера",
+        "price": 139,
+        "index": 11,
+        "chance": 4.570230800326997,
+        "img": "/lossless-images/ded8acdfa3fc7b55-ee4fec668bd363f2.png?iv=ee4fec668bd363f2",
+        "serverLabel": "LITE"
+      },
+      {
+        "id": 291740,
+        "name": "Коины 100",
+        "price": 100,
+        "index": 12,
+        "chance": 13.514446323661428,
+        "img": "/lossless-images/bb00fe9764dfd7bb-0080be158244ffce.png?iv=0080be158244ffce",
+        "serverLabel": "LITE"
+      },
+      {
+        "id": 291741,
+        "name": "2 Ключа от контейнера",
+        "price": 95,
+        "index": 13,
+        "chance": 14.376736093304782,
+        "img": "/lossless-images/da28d8a7f896e842-6dde740f50a6e491.png?iv=6dde740f50a6e491",
+        "serverLabel": "LITE"
+      },
+      {
+        "id": 291742,
+        "name": "Кейс с Сапфирами x3",
+        "price": 69,
+        "index": 14,
+        "chance": 20.363217143983835,
+        "img": "/lossless-images/d29620e9e3c347bf-b55aa287bb840b11.png?iv=b55aa287bb840b11",
+        "serverLabel": "LITE"
+      },
+      {
+        "id": 291743,
+        "name": "250 Сапфиров",
+        "price": 53,
+        "index": 15,
+        "chance": 0.1,
+        "img": "/lossless-images/87e33a81635b5e83-90fd1615f34b7722.png?iv=90fd1615f34b7722",
+        "serverLabel": "LITE"
+      }
+    ]
+  },
+  {
+    "url": "https://minedrop.art/case/52",
+    "case": "CHEAT-FIRE-CASE",
+    "items": [
+      {
+        "id": 291745,
+        "name": "1,000,000 Токенов",
+        "price": 3079,
+        "index": 0,
+        "chance": 0,
+        "img": "/lossless-images/c1ccede848d779a0-d16c1bcc76d46e45.png?iv=d16c1bcc76d46e45",
+        "serverLabel": "ST"
+      },
+      {
+        "id": 292353,
+        "name": "Донат ГЕРЦОГ + 500.000 ТК",
+        "price": 2379,
+        "index": 1,
+        "chance": 0,
+        "img": "/cases/Spooky-Case/%D0%93%D0%95%D0%A0%D0%A6%D0%9E%D0%93%20%2B%20500.000%20%D0%A2%D0%9A.png?iv=aa3434bab63d6bfb",
+        "serverLabel": "ST"
+      },
+      {
+        "id": 292354,
+        "name": "Донат КНЯЗЬ + 160.000 ТК",
+        "price": 1299,
+        "index": 2,
+        "chance": 0,
+        "img": "/cases/Spooky-Case/%D0%9A%D0%9D%D0%AF%D0%97%D0%AC%20%2B%20160.000%20%D0%A2%D0%9A.png?iv=d29fa88ae870b31d",
+        "serverLabel": "ST"
+      },
+      {
+        "id": 291748,
+        "name": "DeltaClient 1.21.4 - 90 дней",
+        "price": 749,
+        "index": 3,
+        "chance": 0.1,
+        "img": "/lossless-images/02ce87189b092c68-5c5befe70e405e2c.png?iv=5c5befe70e405e2c",
+        "serverLabel": "HVH"
+      },
+      {
+        "id": 292355,
+        "name": "Sadnes 1.21.11 - 90 дней",
+        "price": 599,
+        "index": 4,
+        "chance": 9.77413511028275,
+        "img": "/lossless-images/89b3e07594e8cde0-5d14854c6e94f203.png?iv=5d14854c6e94f203",
+        "serverLabel": "HVH"
+      },
+      {
+        "id": 291750,
+        "name": "NeverLose - всегда",
+        "price": 579,
+        "index": 5,
+        "chance": 9.243644442283506,
+        "img": "/lossless-images/6f89b9be12b26006-c20e4ab19294f75d.png?iv=c20e4ab19294f75d",
+        "serverLabel": "HVH"
+      },
+      {
+        "id": 292356,
+        "name": "Deluxe Client - 90 дней",
+        "price": 549,
+        "index": 6,
+        "chance": 8.510763200520202,
+        "img": "/lossless-images/443c6a4e1dadea42-b2a23ddeb61d0585.png?iv=b2a23ddeb61d0585",
+        "serverLabel": "HVH"
+      },
+      {
+        "id": 291752,
+        "name": "DeltaClient 1.16.5 - 30 дней",
+        "price": 449,
+        "index": 7,
+        "chance": 6.539837452689536,
+        "img": "/lossless-images/a283fbf123de3f5e-56ac3d40c7bbfa1d.png?iv=56ac3d40c7bbfa1d",
+        "serverLabel": "HVH"
+      },
+      {
+        "id": 291753,
+        "name": "25 Сундуков с Валютой",
+        "price": 399,
+        "index": 8,
+        "chance": 5.7832267624093205,
+        "img": "/lossless-images/20d809d5e7c7db46-e63d040f1b574000.png?iv=e63d040f1b574000",
+        "serverLabel": "RW"
+      },
+      {
+        "id": 292357,
+        "name": "Deluxe Client - 30 дней",
+        "price": 379,
+        "index": 9,
+        "chance": 5.023298068145498,
+        "img": "/lossless-images/443c6a4e1dadea42-b2a23ddeb61d0585.png?iv=b2a23ddeb61d0585",
+        "serverLabel": "HVH"
+      },
+      {
+        "id": 291754,
+        "name": "Коины 360",
+        "price": 360,
+        "index": 10,
+        "chance": 4.809753014128242,
+        "img": "/lossless-images/832b8402eba996ea-79608ab215cd796a.png?iv=79608ab215cd796a",
+        "serverLabel": "LITE"
+      },
+      {
+        "id": 291755,
+        "name": "WildClient 1.21.8 - 1 месяц",
+        "price": 339,
+        "index": 11,
+        "chance": 4.591716271165948,
+        "img": "/lossless-images/69103b748e8c40dc-b59ea0c152d8c146.png?iv=b59ea0c152d8c146",
+        "serverLabel": "HVH"
+      },
+      {
+        "id": 291756,
+        "name": "WildClient Сброс HWID",
+        "price": 299,
+        "index": 12,
+        "chance": 4.226841123601012,
+        "img": "/lossless-images/8aa4195471687958-3a646c6f48e1928a.png?iv=3a646c6f48e1928a",
+        "serverLabel": "HVH"
+      },
+      {
+        "id": 292358,
+        "name": "Rockstar Client - Сброс HWID",
+        "price": 249,
+        "index": 13,
+        "chance": 5.617514621971732,
+        "img": "/lossless-images/8e742173e39bef0e-9418d42292b452de.png?iv=9418d42292b452de",
+        "serverLabel": "HVH"
+      },
+      {
+        "id": 291757,
+        "name": "30,000 Токенов",
+        "price": 239,
+        "index": 14,
+        "chance": 5.528929238072428,
+        "img": "/lossless-images/415e09d2b61b331a-1b8ab8cefebd671e.png?iv=1b8ab8cefebd671e",
+        "serverLabel": "ST"
+      },
+      {
+        "id": 292359,
+        "name": "Rockstar Client - 7 дней",
+        "price": 199,
+        "index": 15,
+        "chance": 5.238232912183127,
+        "img": "/lossless-images/8e742173e39bef0e-9418d42292b452de.png?iv=9418d42292b452de",
+        "serverLabel": "HVH"
+      },
+      {
+        "id": 291758,
+        "name": "Донат ГАСТ (30)",
+        "price": 179,
+        "index": 16,
+        "chance": 5.135367182145752,
+        "img": "/lossless-images/4c542c80d615d561-7f02e96b7dded96b.png?iv=7f02e96b7dded96b",
+        "serverLabel": "LITE"
+      },
+      {
+        "id": 291760,
+        "name": "Донат AVENGER",
+        "price": 129,
+        "index": 17,
+        "chance": 5.042757982787069,
+        "img": "/lossless-images/e9643e187f1d7d83-973ccd83ecd23890.png?iv=973ccd83ecd23890",
+        "serverLabel": "RW"
+      },
+      {
+        "id": 292360,
+        "name": "Жетоны 80",
+        "price": 80,
+        "index": 18,
+        "chance": 14.733982617613872,
+        "img": "/lossless-images/e59042551bf97c36-901e44b729d5767d.png?iv=901e44b729d5767d",
+        "serverLabel": "PRIME"
+      },
+      {
+        "id": 291762,
+        "name": "Кейс со Скинами для Трапки",
+        "price": 45,
+        "index": 19,
+        "chance": 0.1,
+        "img": "/cases/SPOOKY-DON-CASE/%D0%9A%D0%B5%D0%B9%D1%81%20%D1%81%D0%BE%20%D0%A1%D0%BA%D0%B8%D0%BD%D0%B0%D0%BC%D0%B8%20%D0%B4%D0%BB%D1%8F%20%D0%A2%D1%80%D0%B0%D0%BF%D0%BA%D0%B8.png?iv=35873bd1a3ca8885",
+        "serverLabel": "ST"
+      }
+    ]
+  },
+  {
+    "url": "https://minedrop.art/case/53",
+    "case": "CHEAT-SKRIPT-CASE",
+    "items": [
+      {
+        "id": 291763,
+        "name": "DeltaClient 1.16.5 - 90 дней",
+        "price": 599,
+        "index": 0,
+        "chance": 12.639151557739654,
+        "img": "/lossless-images/c9d5ed4bacb1228f-56ac3d40c7bbfa1d.png?iv=56ac3d40c7bbfa1d",
+        "serverLabel": "HVH"
+      },
+      {
+        "id": 291764,
+        "name": "DeltaClient 1.16.5 - 30 дней",
+        "price": 449,
+        "index": 1,
+        "chance": 3.8365740605012495,
+        "img": "/lossless-images/a283fbf123de3f5e-56ac3d40c7bbfa1d.png?iv=56ac3d40c7bbfa1d",
+        "serverLabel": "HVH"
+      },
+      {
+        "id": 291766,
+        "name": "WildClient 1.21.8 - 1 месяц",
+        "price": 399,
+        "index": 2,
+        "chance": 4.546154146111925,
+        "img": "/lossless-images/69103b748e8c40dc-b59ea0c152d8c146.png?iv=b59ea0c152d8c146",
+        "serverLabel": "HVH"
+      },
+      {
+        "id": 291767,
+        "name": "340 Риликов",
+        "price": 340,
+        "index": 3,
+        "chance": 5.611736011185391,
+        "img": "/lossless-images/1b530437f32f4d3f-e8bc5ddc92211597.png?iv=e8bc5ddc92211597",
+        "serverLabel": "RW"
+      },
+      {
+        "id": 291768,
+        "name": "3 Сундука с КИТАМИ",
+        "price": 299,
+        "index": 4,
+        "chance": 6.552458001994302,
+        "img": "/lossless-images/4f41449b607a157f-2ad66a60e137b30d.png?iv=2ad66a60e137b30d",
+        "serverLabel": "RW"
+      },
+      {
+        "id": 291769,
+        "name": "СУПЕР КЕЙС С ДОНАТОМ",
+        "price": 289,
+        "index": 5,
+        "chance": 6.813926222467476,
+        "img": "/cases/Spooky-Case/%D0%A1%D0%A3%D0%9F%D0%95%D0%A0%20%D0%9A%D0%B5%D0%B9%D1%81%20%D1%81%20%D0%94%D0%BE%D0%BD%D0%B0%D1%82%D0%BE%D0%BC.png?iv=71642b3d149f36a4",
+        "serverLabel": "ST"
+      },
+      {
+        "id": 291771,
+        "name": "30,000 Токенов",
+        "price": 239,
+        "index": 6,
+        "chance": 2.5731374552696007,
+        "img": "/lossless-images/415e09d2b61b331a-1b8ab8cefebd671e.png?iv=1b8ab8cefebd671e",
+        "serverLabel": "ST"
+      },
+      {
+        "id": 291773,
+        "name": "Донат ГАСТ (30)",
+        "price": 179,
+        "index": 7,
+        "chance": 3.3955932021652426,
+        "img": "/lossless-images/4c542c80d615d561-7f02e96b7dded96b.png?iv=7f02e96b7dded96b",
+        "serverLabel": "LITE"
+      },
+      {
+        "id": 291774,
+        "name": "Bro9I - Конфиг Nursultan HW",
+        "price": 150,
+        "index": 8,
+        "chance": 9.515391869899771,
+        "img": "/lossless-images/3e724ba8f1fbe551-68da98366537ca95.png?iv=68da98366537ca95",
+        "serverLabel": "HVH"
+      },
+      {
+        "id": 291775,
+        "name": "Донат AVENGER",
+        "price": 129,
+        "index": 9,
+        "chance": 10.748771345308128,
+        "img": "/lossless-images/e9643e187f1d7d83-973ccd83ecd23890.png?iv=973ccd83ecd23890",
+        "serverLabel": "RW"
+      },
+      {
+        "id": 291777,
+        "name": "Кейс со Скинами для Трапки",
+        "price": 45,
+        "index": 10,
+        "chance": 33.76710612735725,
+        "img": "/cases/SPOOKY-DON-CASE/%D0%9A%D0%B5%D0%B9%D1%81%20%D1%81%D0%BE%20%D0%A1%D0%BA%D0%B8%D0%BD%D0%B0%D0%BC%D0%B8%20%D0%B4%D0%BB%D1%8F%20%D0%A2%D1%80%D0%B0%D0%BF%D0%BA%D0%B8.png?iv=35873bd1a3ca8885",
+        "serverLabel": "ST"
+      }
+    ]
+  },
+  {
+    "url": "https://minedrop.art/case/54",
+    "case": "CHEAT-PRIME-CASE",
+    "items": [
+      {
+        "id": 291778,
+        "name": "1,000,000 Токенов",
+        "price": 3079,
+        "index": 0,
+        "chance": 0,
+        "img": "/lossless-images/c1ccede848d779a0-d16c1bcc76d46e45.png?iv=d16c1bcc76d46e45",
+        "serverLabel": "ST"
+      },
+      {
+        "id": 292361,
+        "name": "Донат ГЕРЦОГ + 500.000 ТК",
+        "price": 2379,
+        "index": 1,
+        "chance": 0,
+        "img": "/cases/Spooky-Case/%D0%93%D0%95%D0%A0%D0%A6%D0%9E%D0%93%20%2B%20500.000%20%D0%A2%D0%9A.png?iv=aa3434bab63d6bfb",
+        "serverLabel": "ST"
+      },
+      {
+        "id": 291780,
+        "name": "Донат DRAGON",
+        "price": 1899,
+        "index": 2,
+        "chance": 0.1,
+        "img": "/lossless-images/de988527efdf5d89-409c98f9dbadfaa2.png?iv=409c98f9dbadfaa2",
+        "serverLabel": "RW"
+      },
+      {
+        "id": 292362,
+        "name": "Донат КНЯЗЬ + 160.000 ТК",
+        "price": 1299,
+        "index": 3,
+        "chance": 4.303775270891421,
+        "img": "/cases/Spooky-Case/%D0%9A%D0%9D%D0%AF%D0%97%D0%AC%20%2B%20160.000%20%D0%A2%D0%9A.png?iv=d29fa88ae870b31d",
+        "serverLabel": "ST"
+      },
+      {
+        "id": 292363,
+        "name": "Жетоны 1100",
+        "price": 1100,
+        "index": 4,
+        "chance": 4.8938874311450595,
+        "img": "/lossless-images/90d8788312f9c163-74aa480ba9f8ede1.png?iv=74aa480ba9f8ede1",
+        "serverLabel": "PRIME"
+      },
+      {
+        "id": 291784,
+        "name": "Expensive 1.21 - 90 дней",
+        "price": 899,
+        "index": 5,
+        "chance": 5.66711279739726,
+        "img": "/lossless-images/7940e4df15357bef-53437b9490e97dd7.png?iv=53437b9490e97dd7",
+        "serverLabel": "HVH"
+      },
+      {
+        "id": 291785,
+        "name": "Catlavan - всегда",
+        "price": 850,
+        "index": 6,
+        "chance": 5.893703586652728,
+        "img": "/lossless-images/4cdc09953d6e3d1c-e2c2b141d3b26405.png?iv=e2c2b141d3b26405",
+        "serverLabel": "HVH"
+      },
+      {
+        "id": 292365,
+        "name": "Биржа Баланс 800",
+        "price": 800,
+        "index": 7,
+        "chance": 6.144553918839387,
+        "img": "/cases/%D0%A1%D0%BF%D1%83%D0%BA%D0%B8%D1%82%D0%B0%D0%B9%D0%BC%20%D0%BF%D0%BD%D0%B3%D1%88%D0%BA%D0%B8/%D0%91%D0%B8%D1%80%D0%B6%D0%B0%20%D0%91%D0%B0%D0%BB%D0%B0%D0%BD%D1%81.png?iv=815504f3d4cb4e30",
+        "serverLabel": "ST"
+      },
+      {
+        "id": 291787,
+        "name": "DeltaClient 1.21.4 - 90 дней",
+        "price": 749,
+        "index": 8,
+        "chance": 6.424449979731555,
+        "img": "/lossless-images/02ce87189b092c68-5c5befe70e405e2c.png?iv=5c5befe70e405e2c",
+        "serverLabel": "HVH"
+      },
+      {
+        "id": 292366,
+        "name": "Биржа Баланс 720",
+        "price": 720,
+        "index": 9,
+        "chance": 6.595926359584345,
+        "img": "/cases/%D0%A1%D0%BF%D1%83%D0%BA%D0%B8%D1%82%D0%B0%D0%B9%D0%BC%20%D0%BF%D0%BD%D0%B3%D1%88%D0%BA%D0%B8/%D0%91%D0%B8%D1%80%D0%B6%D0%B0%20%D0%91%D0%B0%D0%BB%D0%B0%D0%BD%D1%81.png?iv=815504f3d4cb4e30",
+        "serverLabel": "ST"
+      },
+      {
+        "id": 291789,
+        "name": "Celestial 1.16.5 - всегда",
+        "price": 699,
+        "index": 10,
+        "chance": 3.197055253974841,
+        "img": "/lossless-images/40164af7abb787dc-d7649a15d8bbcf0d.png?iv=d7649a15d8bbcf0d",
+        "serverLabel": "HVH"
+      },
+      {
+        "id": 291790,
+        "name": "5 Сундуков с Донат Вещами",
+        "price": 649,
+        "index": 11,
+        "chance": 3.355941122350346,
+        "img": "/lossless-images/b5c4d5769f4db2bb-ad8e476d8b97afd8.png?iv=ad8e476d8b97afd8",
+        "serverLabel": "RW"
+      },
+      {
+        "id": 292367,
+        "name": "System DLC - 30 дней",
+        "price": 600,
+        "index": 12,
+        "chance": 3.529387385126383,
+        "img": "/lossless-images/240d9052d4a9c0b7-239e230eb12738d3.png?iv=239e230eb12738d3",
+        "serverLabel": "HVH"
+      },
+      {
+        "id": 292368,
+        "name": "Deluxe Client - 90 дней",
+        "price": 549,
+        "index": 13,
+        "chance": 3.732899725038997,
+        "img": "/lossless-images/443c6a4e1dadea42-b2a23ddeb61d0585.png?iv=b2a23ddeb61d0585",
+        "serverLabel": "HVH"
+      },
+      {
+        "id": 291792,
+        "name": "Wexside 1.16.5 - 30 дней",
+        "price": 499,
+        "index": 14,
+        "chance": 14.285368345084322,
+        "img": "/lossless-images/dce8ba349485a7d0-8af78c08e47f6c77.png?iv=8af78c08e47f6c77",
+        "serverLabel": "HVH"
+      },
+      {
+        "id": 291793,
+        "name": "DeltaClient Сброс HWID",
+        "price": 449,
+        "index": 15,
+        "chance": 15.232326749620203,
+        "img": "/lossless-images/453d6632728ccf6d-20bda5964ff63349.png?iv=20bda5964ff63349",
+        "serverLabel": "HVH"
+      },
+      {
+        "id": 292369,
+        "name": "Rockstar Client - 30 дней",
+        "price": 399,
+        "index": 16,
+        "chance": 16.343612074563158,
+        "img": "/lossless-images/8e742173e39bef0e-9418d42292b452de.png?iv=9418d42292b452de",
+        "serverLabel": "HVH"
+      },
+      {
+        "id": 291795,
+        "name": "WildClient 1.21.8 - 1 месяц",
+        "price": 339,
+        "index": 17,
+        "chance": 0.1,
+        "img": "/lossless-images/69103b748e8c40dc-b59ea0c152d8c146.png?iv=b59ea0c152d8c146",
+        "serverLabel": "HVH"
+      },
+      {
+        "id": 291796,
+        "name": "WildClient Сброс HWID",
+        "price": 299,
+        "index": 18,
+        "chance": 0.1,
+        "img": "/lossless-images/8aa4195471687958-3a646c6f48e1928a.png?iv=3a646c6f48e1928a",
+        "serverLabel": "HVH"
+      },
+      {
+        "id": 291797,
+        "name": "Донат ГАСТ (30)",
+        "price": 179,
+        "index": 19,
+        "chance": 0.1,
+        "img": "/lossless-images/4c542c80d615d561-7f02e96b7dded96b.png?iv=7f02e96b7dded96b",
+        "serverLabel": "LITE"
+      }
+    ]
+  },
+  {
+    "url": "https://minedrop.art/case/70",
+    "case": "CHEAT-HACK-CASE",
+    "items": [
+      {
+        "id": 292371,
+        "name": "Sadnes 1.21.11 - 180 дней",
+        "price": 799,
+        "index": 0,
+        "chance": 0,
+        "img": "/lossless-images/89b3e07594e8cde0-5d14854c6e94f203.png?iv=5d14854c6e94f203",
+        "serverLabel": "HVH"
+      },
+      {
+        "id": 292372,
+        "name": "Rockstar Client - 30 дней",
+        "price": 399,
+        "index": 1,
+        "chance": 2.2919221134903016,
+        "img": "/lossless-images/8e742173e39bef0e-9418d42292b452de.png?iv=9418d42292b452de",
+        "serverLabel": "HVH"
+      },
+      {
+        "id": 292373,
+        "name": "Deluxe Client - 30 дней",
+        "price": 379,
+        "index": 2,
+        "chance": 6.5100279103909,
+        "img": "/lossless-images/443c6a4e1dadea42-b2a23ddeb61d0585.png?iv=b2a23ddeb61d0585",
+        "serverLabel": "HVH"
+      },
+      {
+        "id": 292374,
+        "name": "WildClient Сброс HWID",
+        "price": 299,
+        "index": 3,
+        "chance": 6.253481014615548,
+        "img": "/lossless-images/8aa4195471687958-3a646c6f48e1928a.png?iv=3a646c6f48e1928a",
+        "serverLabel": "HVH"
+      },
+      {
+        "id": 292375,
+        "name": "Биржа Баланс 270",
+        "price": 270,
+        "index": 4,
+        "chance": 6.212780990755531,
+        "img": "/cases/%D0%A1%D0%BF%D1%83%D0%BA%D0%B8%D1%82%D0%B0%D0%B9%D0%BC%20%D0%BF%D0%BD%D0%B3%D1%88%D0%BA%D0%B8/%D0%91%D0%B8%D1%80%D0%B6%D0%B0%20%D0%91%D0%B0%D0%BB%D0%B0%D0%BD%D1%81.png?iv=815504f3d4cb4e30",
+        "serverLabel": "ST"
+      },
+      {
+        "id": 292376,
+        "name": "Rockstar Client - Сброс HWID",
+        "price": 249,
+        "index": 5,
+        "chance": 6.205423108528881,
+        "img": "/lossless-images/8e742173e39bef0e-9418d42292b452de.png?iv=9418d42292b452de",
+        "serverLabel": "HVH"
+      },
+      {
+        "id": 292377,
+        "name": "Жетоны 220",
+        "price": 220,
+        "index": 6,
+        "chance": 6.232684620803777,
+        "img": "/lossless-images/e59042551bf97c36-901e44b729d5767d.png?iv=901e44b729d5767d",
+        "serverLabel": "PRIME"
+      },
+      {
+        "id": 292378,
+        "name": "Rockstar Client - 7 дней",
+        "price": 200,
+        "index": 7,
+        "chance": 6.282534723456539,
+        "img": "/lossless-images/8e742173e39bef0e-9418d42292b452de.png?iv=9418d42292b452de",
+        "serverLabel": "HVH"
+      },
+      {
+        "id": 292379,
+        "name": "Донат ГАСТ (30)",
+        "price": 179,
+        "index": 8,
+        "chance": 6.6322950630087085,
+        "img": "/lossless-images/4c542c80d615d561-7f02e96b7dded96b.png?iv=7f02e96b7dded96b",
+        "serverLabel": "LITE"
+      },
+      {
+        "id": 292381,
+        "name": "3 Ключа от контейнера",
+        "price": 139,
+        "index": 9,
+        "chance": 12.273302415786262,
+        "img": "/lossless-images/ded8acdfa3fc7b55-ee4fec668bd363f2.png?iv=ee4fec668bd363f2",
+        "serverLabel": "LITE"
+      },
+      {
+        "id": 292382,
+        "name": "Донат AVENGER",
+        "price": 129,
+        "index": 10,
+        "chance": 12.489960155526243,
+        "img": "/lossless-images/e9643e187f1d7d83-973ccd83ecd23890.png?iv=973ccd83ecd23890",
+        "serverLabel": "RW"
+      },
+      {
+        "id": 292383,
+        "name": "1 Сундук с Риликами",
+        "price": 99,
+        "index": 11,
+        "chance": 13.43343940248437,
+        "img": "/lossless-images/ed8a043e45b86668-dccd4fcc5c8a9274.png?iv=dccd4fcc5c8a9274",
+        "serverLabel": "RW"
+      },
+      {
+        "id": 292384,
+        "name": "Жетоны 70",
+        "price": 70,
+        "index": 12,
+        "chance": 15.08214848115294,
+        "img": "/lossless-images/e59042551bf97c36-901e44b729d5767d.png?iv=901e44b729d5767d",
+        "serverLabel": "PRIME"
+      },
+      {
+        "id": 292385,
+        "name": "Кейс со Скинами для Трапки",
+        "price": 45,
+        "index": 13,
+        "chance": 0.1,
+        "img": "/cases/SPOOKY-DON-CASE/%D0%9A%D0%B5%D0%B9%D1%81%20%D1%81%D0%BE%20%D0%A1%D0%BA%D0%B8%D0%BD%D0%B0%D0%BC%D0%B8%20%D0%B4%D0%BB%D1%8F%20%D0%A2%D1%80%D0%B0%D0%BF%D0%BA%D0%B8.png?iv=35873bd1a3ca8885",
+        "serverLabel": "ST"
+      }
+    ]
+  },
+  {
+    "url": "https://minedrop.art/case/71",
+    "case": "CHEAT-DIAMOND-CASE",
+    "items": [
+      {
+        "id": 292386,
+        "name": "System DLC - всегда",
+        "price": 5000,
+        "index": 0,
+        "chance": 0,
+        "img": "/lossless-images/240d9052d4a9c0b7-239e230eb12738d3.png?iv=239e230eb12738d3",
+        "serverLabel": "HVH"
+      },
+      {
+        "id": 292387,
+        "name": "System DLC - 180 дней",
+        "price": 1500,
+        "index": 1,
+        "chance": 0.1,
+        "img": "/lossless-images/240d9052d4a9c0b7-239e230eb12738d3.png?iv=239e230eb12738d3",
+        "serverLabel": "HVH"
+      },
+      {
+        "id": 292388,
+        "name": "Rockstar Client - 180 дней",
+        "price": 1349,
+        "index": 2,
+        "chance": 6.895777761221069,
+        "img": "/lossless-images/8e742173e39bef0e-9418d42292b452de.png?iv=9418d42292b452de",
+        "serverLabel": "HVH"
+      },
+      {
+        "id": 292389,
+        "name": "Донат КНЯЗЬ + 160.000 ТК",
+        "price": 1299,
+        "index": 3,
+        "chance": 6.831170595315947,
+        "img": "/cases/Spooky-Case/%D0%9A%D0%9D%D0%AF%D0%97%D0%AC%20%2B%20160.000%20%D0%A2%D0%9A.png?iv=d29fa88ae870b31d",
+        "serverLabel": "ST"
+      },
+      {
+        "id": 292391,
+        "name": "Expensive 1.21 - 90 дней",
+        "price": 899,
+        "index": 4,
+        "chance": 6.548985759879958,
+        "img": "/lossless-images/7940e4df15357bef-53437b9490e97dd7.png?iv=53437b9490e97dd7",
+        "serverLabel": "HVH"
+      },
+      {
+        "id": 292392,
+        "name": "Catlavan - всегда",
+        "price": 850,
+        "index": 5,
+        "chance": 6.551006777051946,
+        "img": "/lossless-images/4cdc09953d6e3d1c-e2c2b141d3b26405.png?iv=e2c2b141d3b26405",
+        "serverLabel": "HVH"
+      },
+      {
+        "id": 292393,
+        "name": "Жетоны 820",
+        "price": 820,
+        "index": 6,
+        "chance": 6.557583027197147,
+        "img": "/lossless-images/a4ceff11e21185a2-c93cdb003f4dcf5d.png?iv=c93cdb003f4dcf5d",
+        "serverLabel": "PRIME"
+      },
+      {
+        "id": 292394,
+        "name": "Deluxe Client - ВСЕГДА",
+        "price": 799,
+        "index": 7,
+        "chance": 6.564848687680652,
+        "img": "/lossless-images/443c6a4e1dadea42-b2a23ddeb61d0585.png?iv=b2a23ddeb61d0585",
+        "serverLabel": "HVH"
+      },
+      {
+        "id": 292395,
+        "name": "Биржа Баланс 780",
+        "price": 780,
+        "index": 8,
+        "chance": 3.2209046190261468,
+        "img": "/cases/%D0%A1%D0%BF%D1%83%D0%BA%D0%B8%D1%82%D0%B0%D0%B9%D0%BC%20%D0%BF%D0%BD%D0%B3%D1%88%D0%BA%D0%B8/%D0%91%D0%B8%D1%80%D0%B6%D0%B0%20%D0%91%D0%B0%D0%BB%D0%B0%D0%BD%D1%81.png?iv=815504f3d4cb4e30",
+        "serverLabel": "ST"
+      },
+      {
+        "id": 292396,
+        "name": "DeltaClient 1.21.4 - 90 дней",
+        "price": 749,
+        "index": 9,
+        "chance": 3.229756534107963,
+        "img": "/lossless-images/02ce87189b092c68-5c5befe70e405e2c.png?iv=5c5befe70e405e2c",
+        "serverLabel": "HVH"
+      },
+      {
+        "id": 292397,
+        "name": "Биржа Баланс 720",
+        "price": 720,
+        "index": 10,
+        "chance": 3.2405234969229793,
+        "img": "/cases/%D0%A1%D0%BF%D1%83%D0%BA%D0%B8%D1%82%D0%B0%D0%B9%D0%BC%20%D0%BF%D0%BD%D0%B3%D1%88%D0%BA%D0%B8/%D0%91%D0%B8%D1%80%D0%B6%D0%B0%20%D0%91%D0%B0%D0%BB%D0%B0%D0%BD%D1%81.png?iv=815504f3d4cb4e30",
+        "serverLabel": "ST"
+      },
+      {
+        "id": 292398,
+        "name": "Celestial 1.16.5 - всегда",
+        "price": 699,
+        "index": 11,
+        "chance": 3.2501168527531723,
+        "img": "/lossless-images/40164af7abb787dc-d7649a15d8bbcf0d.png?iv=d7649a15d8bbcf0d",
+        "serverLabel": "HVH"
+      },
+      {
+        "id": 292399,
+        "name": "5 Сундуков с Донат Вещами",
+        "price": 649,
+        "index": 12,
+        "chance": 3.2788632820795587,
+        "img": "/lossless-images/b5c4d5769f4db2bb-ad8e476d8b97afd8.png?iv=ad8e476d8b97afd8",
+        "serverLabel": "RW"
+      },
+      {
+        "id": 292400,
+        "name": "System DLC - 30 дней",
+        "price": 600,
+        "index": 13,
+        "chance": 3.3169947386044645,
+        "img": "/lossless-images/240d9052d4a9c0b7-239e230eb12738d3.png?iv=239e230eb12738d3",
+        "serverLabel": "HVH"
+      },
+      {
+        "id": 292401,
+        "name": "Deluxe Client - 90 дней",
+        "price": 549,
+        "index": 14,
+        "chance": 7.646322140122532,
+        "img": "/lossless-images/443c6a4e1dadea42-b2a23ddeb61d0585.png?iv=b2a23ddeb61d0585",
+        "serverLabel": "HVH"
+      },
+      {
+        "id": 292402,
+        "name": "Wexside 1.16.5 - 30 дней",
+        "price": 499,
+        "index": 15,
+        "chance": 7.7966536291045685,
+        "img": "/lossless-images/dce8ba349485a7d0-8af78c08e47f6c77.png?iv=8af78c08e47f6c77",
+        "serverLabel": "HVH"
+      },
+      {
+        "id": 292403,
+        "name": "DeltaClient Сброс HWID",
+        "price": 449,
+        "index": 16,
+        "chance": 7.990127752842122,
+        "img": "/lossless-images/453d6632728ccf6d-20bda5964ff63349.png?iv=20bda5964ff63349",
+        "serverLabel": "HVH"
+      },
+      {
+        "id": 292404,
+        "name": "Rockstar Client - 30 дней",
+        "price": 399,
+        "index": 17,
+        "chance": 8.239628529845966,
+        "img": "/lossless-images/8e742173e39bef0e-9418d42292b452de.png?iv=9418d42292b452de",
+        "serverLabel": "HVH"
+      },
+      {
+        "id": 292405,
+        "name": "WildClient 1.21.8 - 1 месяц",
+        "price": 339,
+        "index": 18,
+        "chance": 8.6407358162438,
+        "img": "/lossless-images/69103b748e8c40dc-b59ea0c152d8c146.png?iv=b59ea0c152d8c146",
+        "serverLabel": "HVH"
+      },
+      {
+        "id": 292406,
+        "name": "WildClient Сброс HWID",
+        "price": 299,
+        "index": 19,
+        "chance": 0.1,
+        "img": "/lossless-images/8aa4195471687958-3a646c6f48e1928a.png?iv=3a646c6f48e1928a",
+        "serverLabel": "HVH"
+      }
+    ]
+  },
+  {
+    "url": "https://minedrop.art/case/37",
+    "case": "Spooky-Case",
+    "items": [
+      {
+        "id": 292085,
+        "name": "1,000,000 Токенов",
+        "price": 3079,
+        "index": 0,
+        "chance": 0.14115913544668726,
+        "img": "/lossless-images/c1ccede848d779a0-d16c1bcc76d46e45.png?iv=d16c1bcc76d46e45",
+        "serverLabel": "ST"
+      },
+      {
+        "id": 291541,
+        "name": "Донат ГЕРЦОГ + 500,000 ТК",
+        "price": 2379,
+        "index": 1,
+        "chance": 0.0390520056418554,
+        "img": "/cases/Spooky-Case/%D0%93%D0%95%D0%A0%D0%A6%D0%9E%D0%93%20%2B%20500.000%20%D0%A2%D0%9A.png?iv=aa3434bab63d6bfb",
+        "serverLabel": "ST"
+      },
+      {
+        "id": 292086,
+        "name": "Донат КНЯЗЬ + 160,000 ТК",
+        "price": 1299,
+        "index": 2,
+        "chance": 0.005378086395994164,
+        "img": "/cases/Spooky-Case/%D0%9A%D0%9D%D0%AF%D0%97%D0%AC%20%2B%20160.000%20%D0%A2%D0%9A.png?iv=d29fa88ae870b31d",
+        "serverLabel": "ST"
+      },
+      {
+        "id": 292087,
+        "name": "250,000 Токенов",
+        "price": 979,
+        "index": 3,
+        "chance": 0.0029889045803597695,
+        "img": "/lossless-images/d8c3e50a954c75ad-835447f20677cfb1.png?iv=835447f20677cfb1",
+        "serverLabel": "ST"
+      },
+      {
+        "id": 292088,
+        "name": "Донат ПРИНЦ + 90,000 ТК",
+        "price": 879,
+        "index": 4,
+        "chance": 0.002487644899556778,
+        "img": "/cases/Spooky-Case/%D0%9F%D0%A0%D0%98%D0%9D%D0%A6%20%2B%2090.000%20%D0%A2%D0%9A.png?iv=fb929d42da2fc47f",
+        "serverLabel": "ST"
+      },
+      {
+        "id": 292089,
+        "name": "100,000 Токенов",
+        "price": 569,
+        "index": 5,
+        "chance": 1.6367488348540442,
+        "img": "/lossless-images/d8c3e50a954c75ad-835447f20677cfb1.png?iv=835447f20677cfb1",
+        "serverLabel": "ST"
+      },
+      {
+        "id": 292090,
+        "name": "Донат ТИТАН + 60,000 ТК",
+        "price": 549,
+        "index": 6,
+        "chance": 1.5347526667857094,
+        "img": "/cases/Spooky-Case/%D0%A2%D0%98%D0%A2%D0%90%D0%9D%20%2B%2060.000%20%D0%A2%D0%9A.png?iv=e9f13c0bd8879102",
+        "serverLabel": "ST"
+      },
+      {
+        "id": 291542,
+        "name": "60,000 Токенов",
+        "price": 399,
+        "index": 7,
+        "chance": 13.100747235696069,
+        "img": "/lossless-images/1aa90eb01b172514-ded554e6d71e0744.png?iv=ded554e6d71e0744",
+        "serverLabel": "ST"
+      },
+      {
+        "id": 292092,
+        "name": "Биржа Баланс 350",
+        "price": 350,
+        "index": 8,
+        "chance": 0.8703714982498554,
+        "img": "/cases/%D0%A1%D0%BF%D1%83%D0%BA%D0%B8%D1%82%D0%B0%D0%B9%D0%BC%20%D0%BF%D0%BD%D0%B3%D1%88%D0%BA%D0%B8/%D0%91%D0%B8%D1%80%D0%B6%D0%B0%20%D0%91%D0%B0%D0%BB%D0%B0%D0%BD%D1%81.png?iv=815504f3d4cb4e30",
+        "serverLabel": "ST"
+      },
+      {
+        "id": 292091,
+        "name": "Донат ЭЛИТА + 30,000 ТК",
+        "price": 349,
+        "index": 9,
+        "chance": 0.8682973107708504,
+        "img": "/cases/Spooky-Case/%D0%AD%D0%9B%D0%98%D0%A2%D0%90%20%2B%2030.000%20%D0%A2%D0%9A.png?iv=21406f32b0d2a797",
+        "serverLabel": "ST"
+      },
+      {
+        "id": 291543,
+        "name": "СУПЕР Кейс с Донатом",
+        "price": 289,
+        "index": 10,
+        "chance": 8.004571866793064,
+        "img": "/cases/Spooky-Case/%D0%A1%D0%A3%D0%9F%D0%95%D0%A0%20%D0%9A%D0%B5%D0%B9%D1%81%20%D1%81%20%D0%94%D0%BE%D0%BD%D0%B0%D1%82%D0%BE%D0%BC.png?iv=71642b3d149f36a4",
+        "serverLabel": "ST"
+      },
+      {
+        "id": 291544,
+        "name": "30,000 Токенов",
+        "price": 239,
+        "index": 11,
+        "chance": 7.216132398663209,
+        "img": "/lossless-images/415e09d2b61b331a-1b8ab8cefebd671e.png?iv=1b8ab8cefebd671e",
+        "serverLabel": "ST"
+      },
+      {
+        "id": 291545,
+        "name": "Биржа Баланс 180",
+        "price": 180,
+        "index": 12,
+        "chance": 6.577312411222747,
+        "img": "/cases/%D0%A1%D0%BF%D1%83%D0%BA%D0%B8%D1%82%D0%B0%D0%B9%D0%BC%20%D0%BF%D0%BD%D0%B3%D1%88%D0%BA%D0%B8/%D0%91%D0%B8%D1%80%D0%B6%D0%B0%20%D0%91%D0%B0%D0%BB%D0%B0%D0%BD%D1%81.png?iv=815504f3d4cb4e30",
+        "serverLabel": "ST"
+      },
+      {
+        "id": 291546,
+        "name": "10,000 Токенов",
+        "price": 99,
+        "index": 13,
+        "chance": 7.9502789669349525,
+        "img": "/lossless-images/e8d121c73e3b6cca-7ca23c9ae923be45.png?iv=7ca23c9ae923be45",
+        "serverLabel": "ST"
+      },
+      {
+        "id": 291547,
+        "name": "Кейс с Талисманами",
+        "price": 75,
+        "index": 14,
+        "chance": 8.303326655975091,
+        "img": "/cases/Spooky-Case/%D0%9A%D0%B5%D0%B9%D1%81%20%D1%81%20%D0%A2%D0%B0%D0%BB%D0%B8%D1%81%D0%BC%D0%B0%D0%BD%D0%B0%D0%BC%D0%B8.png?iv=01c390eed071df9a",
+        "serverLabel": "ST"
+      },
+      {
+        "id": 291548,
+        "name": "Кейс со Сферами",
+        "price": 75,
+        "index": 15,
+        "chance": 8.303326655975091,
+        "img": "/cases/Spooky-Case/%D0%9A%D0%B5%D0%B9%D1%81%20%D1%81%D0%BE%20%D0%A1%D1%84%D0%B5%D1%80%D0%B0%D0%BC%D0%B8.png?iv=7e40dfdeca2a4b95",
+        "serverLabel": "ST"
+      },
+      {
+        "id": 292094,
+        "name": "Биржа Баланс 60",
+        "price": 60,
+        "index": 16,
+        "chance": 1.8328262891394498,
+        "img": "/cases/%D0%A1%D0%BF%D1%83%D0%BA%D0%B8%D1%82%D0%B0%D0%B9%D0%BC%20%D0%BF%D0%BD%D0%B3%D1%88%D0%BA%D0%B8/%D0%91%D0%B8%D1%80%D0%B6%D0%B0%20%D0%91%D0%B0%D0%BB%D0%B0%D0%BD%D1%81.png?iv=815504f3d4cb4e30",
+        "serverLabel": "ST"
+      },
+      {
+        "id": 291549,
+        "name": "Броневой Ключ",
+        "price": 18,
+        "index": 17,
+        "chance": 25.924455804244296,
+        "img": "/cases/Spooky-Case/%D0%91%D1%80%D0%BE%D0%BD%D0%B5%D0%B2%D0%BE%D0%B9%20%D0%9A%D0%BB%D1%8E%D1%87.png?iv=8e62f1083040d4fc",
+        "serverLabel": "ST"
+      },
+      {
+        "id": 292095,
+        "name": "Инструментальный Ключ",
+        "price": 18,
+        "index": 18,
+        "chance": 3.8428942605012866,
+        "img": "/cases/Spooky-Case/%D0%98%D0%BD%D1%81%D1%82%D1%80%D1%83%D0%BC%D0%B5%D0%BD%D1%82%D0%B0%D0%BB%D1%8C%D0%BD%D1%8B%D0%B9%20%D0%9A%D0%BB%D1%8E%D1%87.png?iv=502a2d3ae527ae0d",
+        "serverLabel": "ST"
+      },
+      {
+        "id": 292096,
+        "name": "Оружейный Ключ",
+        "price": 18,
+        "index": 19,
+        "chance": 3.842891367229832,
+        "img": "/cases/Spooky-Case/%D0%9E%D1%80%D1%83%D0%B6%D0%B5%D0%B9%D0%BD%D1%8B%D0%B9%20%D0%9A%D0%BB%D1%8E%D1%87.png?iv=e5be467a16c29476",
+        "serverLabel": "ST"
+      }
+    ]
+  },
+  {
+    "url": "https://minedrop.art/case/38",
+    "case": "Spooky-VIP-Case",
+    "items": [
+      {
+        "id": 291550,
+        "name": "1,000,000 Токенов",
+        "price": 3079,
+        "index": 0,
+        "chance": 0.00909480157644704,
+        "img": "/lossless-images/c1ccede848d779a0-d16c1bcc76d46e45.png?iv=d16c1bcc76d46e45",
+        "serverLabel": "ST"
+      },
+      {
+        "id": 292100,
+        "name": "Донат ГЕРЦОГ + 500,000 ТК",
+        "price": 2379,
+        "index": 1,
+        "chance": 0.0047089328515998894,
+        "img": "/cases/Spooky-VIP-Case/%D0%93%D0%95%D0%A0%D0%A6%D0%9E%D0%93%20%2B%20500.000%20%D0%A2%D0%9A.png?iv=aa3434bab63d6bfb",
+        "serverLabel": "ST"
+      },
+      {
+        "id": 291551,
+        "name": "Донат КНЯЗЬ + 160,000 ТК",
+        "price": 1299,
+        "index": 2,
+        "chance": 0.0017055513461380837,
+        "img": "/cases/Spooky-VIP-Case/%D0%9A%D0%9D%D0%AF%D0%97%D0%AC%20%2B%20160.000%20%D0%A2%D0%9A.png?iv=d29fa88ae870b31d",
+        "serverLabel": "ST"
+      },
+      {
+        "id": 292101,
+        "name": "250,000 Токенов",
+        "price": 979,
+        "index": 3,
+        "chance": 8.661700907005283,
+        "img": "/lossless-images/d8c3e50a954c75ad-835447f20677cfb1.png?iv=835447f20677cfb1",
+        "serverLabel": "ST"
+      },
+      {
+        "id": 292102,
+        "name": "Донат ПРИНЦ + 90,000 ТК",
+        "price": 879,
+        "index": 4,
+        "chance": 7.053235830877239,
+        "img": "/cases/Spooky-VIP-Case/%D0%9F%D0%A0%D0%98%D0%9D%D0%A6%20%2B%2090.000%20%D0%A2%D0%9A.png?iv=fb929d42da2fc47f",
+        "serverLabel": "ST"
+      },
+      {
+        "id": 292103,
+        "name": "100,000 Токенов",
+        "price": 569,
+        "index": 5,
+        "chance": 2.1334784224449512,
+        "img": "/lossless-images/d8c3e50a954c75ad-835447f20677cfb1.png?iv=835447f20677cfb1",
+        "serverLabel": "ST"
+      },
+      {
+        "id": 291552,
+        "name": "Донат ТИТАН + 60,000 ТК",
+        "price": 549,
+        "index": 6,
+        "chance": 4.328532811197605,
+        "img": "/cases/Spooky-VIP-Case/%D0%A2%D0%98%D0%A2%D0%90%D0%9D%20%2B%2060.000%20%D0%A2%D0%9A.png?iv=e9f13c0bd8879102",
+        "serverLabel": "ST"
+      },
+      {
+        "id": 291553,
+        "name": "60,000 Токенов",
+        "price": 399,
+        "index": 7,
+        "chance": 3.7195387776431463,
+        "img": "/lossless-images/1aa90eb01b172514-ded554e6d71e0744.png?iv=ded554e6d71e0744",
+        "serverLabel": "ST"
+      },
+      {
+        "id": 292104,
+        "name": "Биржа Баланс 350",
+        "price": 350,
+        "index": 8,
+        "chance": 1.718234541205724,
+        "img": "/cases/%D0%A1%D0%BF%D1%83%D0%BA%D0%B8%D1%82%D0%B0%D0%B9%D0%BC%20%D0%BF%D0%BD%D0%B3%D1%88%D0%BA%D0%B8/%D0%91%D0%B8%D1%80%D0%B6%D0%B0%20%D0%91%D0%B0%D0%BB%D0%B0%D0%BD%D1%81.png?iv=815504f3d4cb4e30",
+        "serverLabel": "ST"
+      },
+      {
+        "id": 291554,
+        "name": "Донат ЭЛИТА + 30,000 ТК",
+        "price": 349,
+        "index": 9,
+        "chance": 12.369769423851865,
+        "img": "/cases/Spooky-VIP-Case/%D0%AD%D0%9B%D0%98%D0%A2%D0%90%20%2B%2030.000%20%D0%A2%D0%9A.png?iv=21406f32b0d2a797",
+        "serverLabel": "ST"
+      },
+      {
+        "id": 291555,
+        "name": "Биржа Баланс 300",
+        "price": 300,
+        "index": 10,
+        "chance": 0.001515287979497975,
+        "img": "/cases/%D0%A1%D0%BF%D1%83%D0%BA%D0%B8%D1%82%D0%B0%D0%B9%D0%BC%20%D0%BF%D0%BD%D0%B3%D1%88%D0%BA%D0%B8/%D0%91%D0%B8%D1%80%D0%B6%D0%B0%20%D0%91%D0%B0%D0%BB%D0%B0%D0%BD%D1%81.png?iv=815504f3d4cb4e30",
+        "serverLabel": "ST"
+      },
+      {
+        "id": 291556,
+        "name": "СУПЕР Кейс с Донатом",
+        "price": 289,
+        "index": 11,
+        "chance": 0.0014762652868180088,
+        "img": "/cases/Spooky-VIP-Case/%D0%A1%D0%A3%D0%9F%D0%95%D0%A0%20%D0%9A%D0%B5%D0%B9%D1%81%20%D1%81%20%D0%94%D0%BE%D0%BD%D0%B0%D1%82%D0%BE%D0%BC.png?iv=71642b3d149f36a4",
+        "serverLabel": "ST"
+      },
+      {
+        "id": 291557,
+        "name": "30,000 Токенов",
+        "price": 239,
+        "index": 12,
+        "chance": 5.997848880588914,
+        "img": "/lossless-images/415e09d2b61b331a-1b8ab8cefebd671e.png?iv=1b8ab8cefebd671e",
+        "serverLabel": "ST"
+      },
+      {
+        "id": 292106,
+        "name": "Разбан CLASSIC",
+        "price": 199,
+        "index": 13,
+        "chance": 3.489755073176316,
+        "img": "/lossless-images/cc4b1fd4e678671c-e221b89361e91dc5.png?iv=e221b89361e91dc5",
+        "serverLabel": "CLASSIC"
+      },
+      {
+        "id": 291558,
+        "name": "10,000 Токенов",
+        "price": 99,
+        "index": 14,
+        "chance": 16.01176368962137,
+        "img": "/lossless-images/e8d121c73e3b6cca-7ca23c9ae923be45.png?iv=7ca23c9ae923be45",
+        "serverLabel": "ST"
+      },
+      {
+        "id": 291559,
+        "name": "Кейс со Скинами для Трапки",
+        "price": 45,
+        "index": 15,
+        "chance": 24.33532395328027,
+        "img": "/cases/Spooky-VIP-Case/%D0%9A%D0%B5%D0%B9%D1%81%20%D1%81%D0%BE%20%D0%A1%D0%BA%D0%B8%D0%BD%D0%B0%D0%BC%D0%B8%20%D0%B4%D0%BB%D1%8F%20%D1%82%D1%80%D0%B0%D0%BF%D0%BA%D0%B8.png?iv=35873bd1a3ca8885",
+        "serverLabel": "ST"
+      },
+      {
+        "id": 292107,
+        "name": "Оружейный Ключ",
+        "price": 18,
+        "index": 16,
+        "chance": 10.162316850066814,
+        "img": "/cases/Spooky-VIP-Case/%D0%9E%D1%80%D1%83%D0%B6%D0%B5%D0%B9%D0%BD%D1%8B%D0%B9%20%D0%9A%D0%BB%D1%8E%D1%87.png?iv=e5be467a16c29476",
+        "serverLabel": "ST"
+      }
+    ]
+  },
+  {
+    "url": "https://minedrop.art/case/39",
+    "case": "Spooky-ECO-Case",
+    "items": [
+      {
+        "id": 292109,
+        "name": "100,000 Токенов",
+        "price": 569,
+        "index": 0,
+        "chance": 0.0005766792845650117,
+        "img": "/lossless-images/d8c3e50a954c75ad-835447f20677cfb1.png?iv=835447f20677cfb1",
+        "serverLabel": "ST"
+      },
+      {
+        "id": 292110,
+        "name": "Донат ТИТАН + 60,000 ТК",
+        "price": 549,
+        "index": 1,
+        "chance": 0.0005925171431938617,
+        "img": "/cases/Spooky-ECO-Case/%D0%A2%D0%98%D0%A2%D0%90%D0%9D%20%2B%2060.000%20%D0%A2%D0%9A.png?iv=e9f13c0bd8879102",
+        "serverLabel": "ST"
+      },
+      {
+        "id": 291560,
+        "name": "Восстановление прав",
+        "price": 499,
+        "index": 2,
+        "chance": 0.0006340410015413945,
+        "img": "/cases/Spooky-ECO-Case/%D0%92%D0%BE%D1%81%D1%81%D1%82%D0%B0%D0%BD%D0%BE%D0%B2%D0%BB%D0%B5%D0%BD%D0%B8%D0%B5%20%D0%BF%D1%80%D0%B0%D0%B2.png?iv=d2edad1e03cb736b",
+        "serverLabel": "ST"
+      },
+      {
+        "id": 292111,
+        "name": "Биржа Баланс 350",
+        "price": 350,
+        "index": 3,
+        "chance": 0.0007758509283509727,
+        "img": "/cases/%D0%A1%D0%BF%D1%83%D0%BA%D0%B8%D1%82%D0%B0%D0%B9%D0%BC%20%D0%BF%D0%BD%D0%B3%D1%88%D0%BA%D0%B8/%D0%91%D0%B8%D1%80%D0%B6%D0%B0%20%D0%91%D0%B0%D0%BB%D0%B0%D0%BD%D1%81.png?iv=815504f3d4cb4e30",
+        "serverLabel": "ST"
+      },
+      {
+        "id": 292112,
+        "name": "Донат ЭЛИТА + 30,000 ТК",
+        "price": 349,
+        "index": 4,
+        "chance": 0.0007769026674737815,
+        "img": "/cases/Spooky-ECO-Case/%D0%AD%D0%9B%D0%98%D0%A2%D0%90%20%2B%2030.000%20%D0%A2%D0%9A.png?iv=21406f32b0d2a797",
+        "serverLabel": "ST"
+      },
+      {
+        "id": 292114,
+        "name": "30,000 Токенов",
+        "price": 239,
+        "index": 5,
+        "chance": 0.0009017429246282996,
+        "img": "/lossless-images/415e09d2b61b331a-1b8ab8cefebd671e.png?iv=1b8ab8cefebd671e",
+        "serverLabel": "ST"
+      },
+      {
+        "id": 291938,
+        "name": "Разбан CLASSIC",
+        "price": 199,
+        "index": 6,
+        "chance": 14.016908031178879,
+        "img": "/lossless-images/cc4b1fd4e678671c-e221b89361e91dc5.png?iv=e221b89361e91dc5",
+        "serverLabel": "CLASSIC"
+      },
+      {
+        "id": 291561,
+        "name": "10,000 Токенов",
+        "price": 99,
+        "index": 7,
+        "chance": 5.064942775021208,
+        "img": "/lossless-images/e8d121c73e3b6cca-7ca23c9ae923be45.png?iv=7ca23c9ae923be45",
+        "serverLabel": "ST"
+      },
+      {
+        "id": 291939,
+        "name": "Размут ST",
+        "price": 90,
+        "index": 8,
+        "chance": 5.214602400526692,
+        "img": "/lossless-images/82fcdde4ffffd176-45b94cf3dbecccd4.png?iv=45b94cf3dbecccd4",
+        "serverLabel": "ST"
+      },
+      {
+        "id": 291562,
+        "name": "Кейс со Сферами",
+        "price": 75,
+        "index": 9,
+        "chance": 10.160690258737247,
+        "img": "/cases/Spooky-ECO-Case/%D0%9A%D0%B5%D0%B9%D1%81%20%D1%81%D0%BE%20%D0%A1%D1%84%D0%B5%D1%80%D0%B0%D0%BC%D0%B8.png?iv=7e40dfdeca2a4b95",
+        "serverLabel": "ST"
+      },
+      {
+        "id": 291563,
+        "name": "Кейс с Талисманами",
+        "price": 75,
+        "index": 10,
+        "chance": 5.538598800586221,
+        "img": "/cases/Spooky-ECO-Case/%D0%9A%D0%B5%D0%B9%D1%81%20%D1%81%20%D0%A2%D0%B0%D0%BB%D0%B8%D1%81%D0%BC%D0%B0%D0%BD%D0%B0%D0%BC%D0%B8.png?iv=01c390eed071df9a",
+        "serverLabel": "ST"
+      },
+      {
+        "id": 291564,
+        "name": "Биржа Баланс 60",
+        "price": 60,
+        "index": 11,
+        "chance": 1.5121962467596424,
+        "img": "/cases/%D0%A1%D0%BF%D1%83%D0%BA%D0%B8%D1%82%D0%B0%D0%B9%D0%BC%20%D0%BF%D0%BD%D0%B3%D1%88%D0%BA%D0%B8/%D0%91%D0%B8%D1%80%D0%B6%D0%B0%20%D0%91%D0%B0%D0%BB%D0%B0%D0%BD%D1%81.png?iv=815504f3d4cb4e30",
+        "serverLabel": "ST"
+      },
+      {
+        "id": 291565,
+        "name": "Кейс со Скинами для Трапки",
+        "price": 45,
+        "index": 12,
+        "chance": 24.79091980472253,
+        "img": "/cases/Spooky-ECO-Case/%D0%9A%D0%B5%D0%B9%D1%81%20%D1%81%D0%BE%20%D0%A1%D0%BA%D0%B8%D0%BD%D0%B0%D0%BC%D0%B8%20%D0%B4%D0%BB%D1%8F%20%D1%82%D1%80%D0%B0%D0%BF%D0%BA%D0%B8.png?iv=35873bd1a3ca8885",
+        "serverLabel": "ST"
+      },
+      {
+        "id": 291566,
+        "name": "Инструментальный Ключ",
+        "price": 18,
+        "index": 13,
+        "chance": 9.966368156910752,
+        "img": "/cases/Spooky-ECO-Case/%D0%98%D0%BD%D1%81%D1%82%D1%80%D1%83%D0%BC%D0%B5%D0%BD%D1%82%D0%B0%D0%BB%D1%8C%D0%BD%D1%8B%D0%B9%20%D0%9A%D0%BB%D1%8E%D1%87.png?iv=502a2d3ae527ae0d",
+        "serverLabel": "ST"
+      },
+      {
+        "id": 291940,
+        "name": "Кейс с Токенами x1 ST",
+        "price": 18,
+        "index": 14,
+        "chance": 9.966368156910752,
+        "img": "/cases/Spooky-ECO-Case/%D0%9A%D0%B5%D0%B9%D1%81%20%D1%81%20%D0%A2%D0%BE%D0%BA%D0%B5%D0%BD%D0%B0%D0%BC%D0%B8.png?iv=5126aeb1e054a371",
+        "serverLabel": "ST"
+      },
+      {
+        "id": 292115,
+        "name": "Оружейный Ключ",
+        "price": 18,
+        "index": 15,
+        "chance": 13.76414763469633,
+        "img": "/cases/Spooky-ECO-Case/%D0%9E%D1%80%D1%83%D0%B6%D0%B5%D0%B9%D0%BD%D1%8B%D0%B9%20%D0%9A%D0%BB%D1%8E%D1%87.png?iv=e5be467a16c29476",
+        "serverLabel": "ST"
+      }
+    ]
+  },
+  {
+    "url": "https://minedrop.art/case/40",
+    "case": "Spooky-TOKEN-Case",
+    "items": [
+      {
+        "id": 291567,
+        "name": "1,000,000 Токенов",
+        "price": 3079,
+        "index": 0,
+        "chance": 0.009508757649590817,
+        "img": "/lossless-images/c1ccede848d779a0-d16c1bcc76d46e45.png?iv=d16c1bcc76d46e45",
+        "serverLabel": "ST"
+      },
+      {
+        "id": 292116,
+        "name": "Донат КНЯЗЬ + 160,000 ТК",
+        "price": 1299,
+        "index": 1,
+        "chance": 0.001899795432893102,
+        "img": "/cases/Spooky-TOKEN-Case/%D0%9A%D0%9D%D0%AF%D0%97%D0%AC%20%2B%20160.000%20%D0%A2%D0%9A.png?iv=d29fa88ae870b31d",
+        "serverLabel": "ST"
+      },
+      {
+        "id": 291568,
+        "name": "250,000 Токенов",
+        "price": 979,
+        "index": 2,
+        "chance": 0.0014222271421090076,
+        "img": "/lossless-images/d8c3e50a954c75ad-835447f20677cfb1.png?iv=835447f20677cfb1",
+        "serverLabel": "ST"
+      },
+      {
+        "id": 292117,
+        "name": "Донат ПРИНЦ + 90,000 ТК",
+        "price": 879,
+        "index": 3,
+        "chance": 6.850669427271246,
+        "img": "/cases/Spooky-TOKEN-Case/%D0%9F%D0%A0%D0%98%D0%9D%D0%A6%20%2B%2090.000%20%D0%A2%D0%9A.png?iv=fb929d42da2fc47f",
+        "serverLabel": "ST"
+      },
+      {
+        "id": 291569,
+        "name": "100,000 Токенов",
+        "price": 569,
+        "index": 4,
+        "chance": 7.059224236708618,
+        "img": "/lossless-images/d8c3e50a954c75ad-835447f20677cfb1.png?iv=835447f20677cfb1",
+        "serverLabel": "ST"
+      },
+      {
+        "id": 292119,
+        "name": "Донат ТИТАН + 60,000 ТК",
+        "price": 549,
+        "index": 5,
+        "chance": 2.813753915191197,
+        "img": "/cases/Spooky-TOKEN-Case/%D0%A2%D0%98%D0%A2%D0%90%D0%9D%20%2B%2060.000%20%D0%A2%D0%9A.png?iv=e9f13c0bd8879102",
+        "serverLabel": "ST"
+      },
+      {
+        "id": 291570,
+        "name": "60,000 Токенов",
+        "price": 399,
+        "index": 6,
+        "chance": 5.263521914163656,
+        "img": "/lossless-images/1aa90eb01b172514-ded554e6d71e0744.png?iv=ded554e6d71e0744",
+        "serverLabel": "ST"
+      },
+      {
+        "id": 291571,
+        "name": "Биржа Баланс 350",
+        "price": 350,
+        "index": 7,
+        "chance": 16.25098462674954,
+        "img": "/cases/%D0%A1%D0%BF%D1%83%D0%BA%D0%B8%D1%82%D0%B0%D0%B9%D0%BC%20%D0%BF%D0%BD%D0%B3%D1%88%D0%BA%D0%B8/%D0%91%D0%B8%D1%80%D0%B6%D0%B0%20%D0%91%D0%B0%D0%BB%D0%B0%D0%BD%D1%81.png?iv=815504f3d4cb4e30",
+        "serverLabel": "ST"
+      },
+      {
+        "id": 292120,
+        "name": "Донат ЭЛИТА + 30,000 ТК",
+        "price": 349,
+        "index": 8,
+        "chance": 1.749015099691154,
+        "img": "/cases/Spooky-TOKEN-Case/%D0%AD%D0%9B%D0%98%D0%A2%D0%90%20%2B%2030.000%20%D0%A2%D0%9A.png?iv=21406f32b0d2a797",
+        "serverLabel": "ST"
+      },
+      {
+        "id": 291573,
+        "name": "30,000 Токенов",
+        "price": 235,
+        "index": 9,
+        "chance": 2.6419941592491814,
+        "img": "/lossless-images/415e09d2b61b331a-1b8ab8cefebd671e.png?iv=1b8ab8cefebd671e",
+        "serverLabel": "ST"
+      },
+      {
+        "id": 291941,
+        "name": "Разбан CLASSIC",
+        "price": 199,
+        "index": 10,
+        "chance": 13.713475735763577,
+        "img": "/lossless-images/cc4b1fd4e678671c-e221b89361e91dc5.png?iv=e221b89361e91dc5",
+        "serverLabel": "CLASSIC"
+      },
+      {
+        "id": 291574,
+        "name": "10,000 Токенов",
+        "price": 99,
+        "index": 11,
+        "chance": 14.737944883825078,
+        "img": "/lossless-images/e8d121c73e3b6cca-7ca23c9ae923be45.png?iv=7ca23c9ae923be45",
+        "serverLabel": "ST"
+      },
+      {
+        "id": 292121,
+        "name": "Размут ST",
+        "price": 99,
+        "index": 12,
+        "chance": 2.098637028039735,
+        "img": "/lossless-images/82fcdde4ffffd176-45b94cf3dbecccd4.png?iv=45b94cf3dbecccd4",
+        "serverLabel": "ST"
+      },
+      {
+        "id": 292122,
+        "name": "Биржа Баланс 60",
+        "price": 60,
+        "index": 13,
+        "chance": 2.237766218720059,
+        "img": "/cases/%D0%A1%D0%BF%D1%83%D0%BA%D0%B8%D1%82%D0%B0%D0%B9%D0%BC%20%D0%BF%D0%BD%D0%B3%D1%88%D0%BA%D0%B8/%D0%91%D0%B8%D1%80%D0%B6%D0%B0%20%D0%91%D0%B0%D0%BB%D0%B0%D0%BD%D1%81.png?iv=815504f3d4cb4e30",
+        "serverLabel": "ST"
+      },
+      {
+        "id": 291575,
+        "name": "Кейс со Скинами для Трапки",
+        "price": 45,
+        "index": 14,
+        "chance": 18.394487114435886,
+        "img": "/cases/Spooky-TOKEN-Case/%D0%9A%D0%B5%D0%B9%D1%81%20%D1%81%D0%BE%20%D0%A1%D0%BA%D0%B8%D0%BD%D0%B0%D0%BC%D0%B8%20%D0%B4%D0%BB%D1%8F%20%D1%82%D1%80%D0%B0%D0%BF%D0%BA%D0%B8.png?iv=35873bd1a3ca8885",
+        "serverLabel": "ST"
+      },
+      {
+        "id": 292123,
+        "name": "Инструментальный Ключ",
+        "price": 18,
+        "index": 15,
+        "chance": 3.087847429983249,
+        "img": "/cases/Spooky-TOKEN-Case/%D0%98%D0%BD%D1%81%D1%82%D1%80%D1%83%D0%BC%D0%B5%D0%BD%D1%82%D0%B0%D0%BB%D1%8C%D0%BD%D1%8B%D0%B9%20%D0%9A%D0%BB%D1%8E%D1%87.png?iv=502a2d3ae527ae0d",
+        "serverLabel": "ST"
+      },
+      {
+        "id": 292124,
+        "name": "Оружейный Ключ",
+        "price": 18,
+        "index": 16,
+        "chance": 3.087847429983249,
+        "img": "/cases/Spooky-TOKEN-Case/%D0%9E%D1%80%D1%83%D0%B6%D0%B5%D0%B9%D0%BD%D1%8B%D0%B9%20%D0%9A%D0%BB%D1%8E%D1%87.png?iv=e5be467a16c29476",
+        "serverLabel": "ST"
+      }
+    ]
+  }
+]

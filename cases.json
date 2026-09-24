@@ -5,30 +5,68 @@
     "brand": "HOLYWORLD",
     "type": "server",
     "price": 19,
-    "desc": "Товары HOLYWORLD из каталога",
+    "desc": "13 товаров · HOLYWORLD",
     "accent": "#6de4cb",
     "drops": [
       [
         "ref-14",
-        53.328
+        78.181
       ],
       [
         "ref-15",
-        26.664
+        17.663
       ],
       [
         "ref-16",
-        13.332
+        1.559
+      ],
+      [
+        "catalog-9",
+        1.559
       ],
       [
         "ref-17",
-        6.666
+        0.687
       ],
       [
         "ref-18",
-        0.01
+        0.177
+      ],
+      [
+        "catalog-240",
+        0.068
+      ],
+      [
+        "ref-19",
+        0.028
+      ],
+      [
+        "catalog-50",
+        0.028
+      ],
+      [
+        "ref-20",
+        0.017
+      ],
+      [
+        "catalog-15",
+        0.012
+      ],
+      [
+        "catalog-85",
+        0.012
+      ],
+      [
+        "catalog-51",
+        0.009
       ]
-    ]
+    ],
+    "metrics": {
+      "rtp": 89.97,
+      "profitChance": 21.819,
+      "maxValue": 216,
+      "items": 13
+    }
   },
   {
     "id": "hw-ghast",
@@ -36,30 +74,140 @@
     "brand": "HOLYWORLD",
     "type": "server",
     "price": 149,
-    "desc": "Товары HOLYWORLD из каталога",
+    "desc": "31 товаров · HOLYWORLD",
     "accent": "#ffa86b",
     "drops": [
       [
+        "ref-14",
+        24.866
+      ],
+      [
+        "ref-15",
+        16.333
+      ],
+      [
+        "ref-16",
+        8.233
+      ],
+      [
+        "catalog-9",
+        8.233
+      ],
+      [
         "ref-17",
-        53.328
+        6.534
+      ],
+      [
+        "ref-18",
+        4.46
+      ],
+      [
+        "catalog-240",
+        3.405
       ],
       [
         "ref-19",
-        26.664
+        2.648
+      ],
+      [
+        "catalog-50",
+        2.648
       ],
       [
         "ref-20",
-        13.332
+        2.331
+      ],
+      [
+        "catalog-15",
+        2.112
+      ],
+      [
+        "catalog-85",
+        2.112
+      ],
+      [
+        "catalog-51",
+        1.957
+      ],
+      [
+        "catalog-52",
+        1.596
       ],
       [
         "ref-21",
-        6.666
+        1.508
+      ],
+      [
+        "catalog-174",
+        1.447
+      ],
+      [
+        "ref-22",
+        1.133
+      ],
+      [
+        "catalog-192",
+        1.058
+      ],
+      [
+        "catalog-22",
+        0.899
       ],
       [
         "ref-23",
-        0.01
+        0.783
+      ],
+      [
+        "ref-24",
+        0.783
+      ],
+      [
+        "catalog-386",
+        0.783
+      ],
+      [
+        "catalog-177",
+        0.675
+      ],
+      [
+        "ref-25",
+        0.609
+      ],
+      [
+        "ref-26",
+        0.472
+      ],
+      [
+        "catalog-40",
+        0.472
+      ],
+      [
+        "ref-27",
+        0.414
+      ],
+      [
+        "ref-28",
+        0.401
+      ],
+      [
+        "catalog-336",
+        0.401
+      ],
+      [
+        "ref-29",
+        0.347
+      ],
+      [
+        "catalog-92",
+        0.347
       ]
-    ]
+    ],
+    "metrics": {
+      "rtp": 89.96,
+      "profitChance": 27.936,
+      "maxValue": 1390,
+      "items": 31
+    }
   },
   {
     "id": "hw-elite",
@@ -67,34 +215,184 @@
     "brand": "HOLYWORLD",
     "type": "server",
     "price": 490,
-    "desc": "Товары HOLYWORLD из каталога",
+    "desc": "42 товаров · HOLYWORLD",
     "accent": "#ae86ff",
     "drops": [
       [
+        "ref-14",
+        11.964
+      ],
+      [
+        "ref-15",
+        9.338
+      ],
+      [
+        "ref-16",
+        6.25
+      ],
+      [
+        "catalog-9",
+        6.25
+      ],
+      [
+        "ref-17",
+        5.458
+      ],
+      [
+        "ref-18",
+        4.364
+      ],
+      [
+        "catalog-240",
+        3.725
+      ],
+      [
+        "ref-19",
+        3.215
+      ],
+      [
+        "catalog-50",
+        3.215
+      ],
+      [
         "ref-20",
-        51.6077
+        2.983
+      ],
+      [
+        "catalog-15",
+        2.816
+      ],
+      [
+        "catalog-85",
+        2.816
+      ],
+      [
+        "catalog-51",
+        2.693
+      ],
+      [
+        "catalog-52",
+        2.39
+      ],
+      [
+        "ref-21",
+        2.311
+      ],
+      [
+        "catalog-174",
+        2.256
       ],
       [
         "ref-22",
-        25.8039
+        1.955
+      ],
+      [
+        "catalog-192",
+        1.877
+      ],
+      [
+        "catalog-22",
+        1.707
+      ],
+      [
+        "ref-23",
+        1.574
       ],
       [
         "ref-24",
-        12.9019
+        1.574
+      ],
+      [
+        "catalog-386",
+        1.574
+      ],
+      [
+        "catalog-177",
+        1.443
       ],
       [
         "ref-25",
-        6.451
+        1.359
       ],
       [
         "ref-26",
-        3.2255
+        1.17
+      ],
+      [
+        "catalog-40",
+        1.17
+      ],
+      [
+        "ref-27",
+        1.084
+      ],
+      [
+        "ref-28",
+        1.063
+      ],
+      [
+        "catalog-336",
+        1.063
       ],
       [
         "ref-29",
-        0.01
+        0.977
+      ],
+      [
+        "catalog-92",
+        0.977
+      ],
+      [
+        "catalog-76",
+        0.802
+      ],
+      [
+        "ref-30",
+        0.771
+      ],
+      [
+        "catalog-268",
+        0.771
+      ],
+      [
+        "catalog-128",
+        0.763
+      ],
+      [
+        "catalog-94",
+        0.726
+      ],
+      [
+        "catalog-129",
+        0.667
+      ],
+      [
+        "catalog-199",
+        0.643
+      ],
+      [
+        "catalog-165",
+        0.611
+      ],
+      [
+        "catalog-130",
+        0.566
+      ],
+      [
+        "catalog-148",
+        0.55
+      ],
+      [
+        "catalog-166",
+        0.519
       ]
-    ]
+    ],
+    "metrics": {
+      "rtp": 89.96,
+      "profitChance": 24.124,
+      "maxValue": 4449,
+      "items": 42
+    }
   },
   {
     "id": "hw-legend",
@@ -102,38 +400,306 @@
     "brand": "HOLYWORLD",
     "type": "server",
     "price": 1490,
-    "desc": "Товары HOLYWORLD из каталога",
+    "desc": "47 товаров · HOLYWORLD",
     "accent": "#f5d27e",
     "drops": [
       [
+        "ref-14",
+        4.623
+      ],
+      [
+        "ref-15",
+        4.176
+      ],
+      [
+        "ref-16",
+        3.568
+      ],
+      [
+        "catalog-9",
+        3.568
+      ],
+      [
+        "ref-17",
+        3.384
+      ],
+      [
+        "ref-18",
+        3.1
+      ],
+      [
+        "catalog-240",
+        2.914
+      ],
+      [
+        "ref-19",
+        2.75
+      ],
+      [
+        "catalog-50",
+        2.75
+      ],
+      [
+        "ref-20",
+        2.671
+      ],
+      [
+        "catalog-15",
+        2.611
+      ],
+      [
+        "catalog-85",
+        2.611
+      ],
+      [
+        "catalog-51",
+        2.566
+      ],
+      [
+        "catalog-52",
+        2.448
+      ],
+      [
+        "ref-21",
+        2.417
+      ],
+      [
+        "catalog-174",
+        2.394
+      ],
+      [
+        "ref-22",
+        2.263
+      ],
+      [
+        "catalog-192",
+        2.228
+      ],
+      [
+        "catalog-22",
+        2.146
+      ],
+      [
         "ref-23",
-        50.7886
+        2.079
       ],
       [
         "ref-24",
-        25.3943
+        2.079
+      ],
+      [
+        "catalog-386",
+        2.079
+      ],
+      [
+        "catalog-177",
+        2.01
+      ],
+      [
+        "ref-25",
+        1.962
       ],
       [
         "ref-26",
-        12.6971
+        1.851
+      ],
+      [
+        "catalog-40",
+        1.851
       ],
       [
         "ref-27",
-        6.3486
+        1.796
       ],
       [
         "ref-28",
-        3.1743
+        1.783
+      ],
+      [
+        "catalog-336",
+        1.783
       ],
       [
         "ref-29",
-        1.5871
+        1.725
+      ],
+      [
+        "catalog-92",
+        1.725
+      ],
+      [
+        "catalog-76",
+        1.596
       ],
       [
         "ref-30",
-        0.01
+        1.572
+      ],
+      [
+        "catalog-268",
+        1.572
+      ],
+      [
+        "catalog-128",
+        1.565
+      ],
+      [
+        "catalog-94",
+        1.535
+      ],
+      [
+        "catalog-129",
+        1.486
+      ],
+      [
+        "catalog-199",
+        1.464
+      ],
+      [
+        "catalog-165",
+        1.435
+      ],
+      [
+        "catalog-130",
+        1.393
+      ],
+      [
+        "catalog-148",
+        1.377
+      ],
+      [
+        "catalog-166",
+        1.346
+      ],
+      [
+        "catalog-396",
+        1.243
+      ],
+      [
+        "catalog-202",
+        1.222
+      ],
+      [
+        "catalog-220",
+        1.198
+      ],
+      [
+        "catalog-291",
+        1.054
+      ],
+      [
+        "catalog-292",
+        1.031
       ]
-    ]
+    ],
+    "metrics": {
+      "rtp": 89.97,
+      "profitChance": 22.089,
+      "maxValue": 15499,
+      "items": 47
+    }
+  },
+  {
+    "id": "hw-premium",
+    "name": "HolyWorld · Премиум",
+    "brand": "HOLYWORLD",
+    "type": "server",
+    "price": 5000,
+    "desc": "21 товар · HOLYWORLD",
+    "accent": "#ffd477",
+    "image": "case-hw-premium.svg",
+    "drops": [
+      [
+        "ref-26",
+        4.464
+      ],
+      [
+        "ref-27",
+        4.477
+      ],
+      [
+        "ref-28",
+        4.481
+      ],
+      [
+        "ref-29",
+        4.498
+      ],
+      [
+        "ref-30",
+        4.565
+      ],
+      [
+        "catalog-40",
+        4.464
+      ],
+      [
+        "catalog-76",
+        4.552
+      ],
+      [
+        "catalog-92",
+        4.498
+      ],
+      [
+        "catalog-94",
+        4.587
+      ],
+      [
+        "catalog-128",
+        4.568
+      ],
+      [
+        "catalog-129",
+        4.622
+      ],
+      [
+        "catalog-130",
+        4.712
+      ],
+      [
+        "catalog-148",
+        4.731
+      ],
+      [
+        "catalog-165",
+        4.667
+      ],
+      [
+        "catalog-166",
+        4.772
+      ],
+      [
+        "catalog-199",
+        4.64
+      ],
+      [
+        "catalog-202",
+        5.013
+      ],
+      [
+        "catalog-220",
+        5.081
+      ],
+      [
+        "catalog-291",
+        5.739
+      ],
+      [
+        "catalog-292",
+        5.909
+      ],
+      [
+        "catalog-396",
+        4.96
+      ]
+    ],
+    "metrics": {
+      "rtp": 90.001,
+      "profitChance": 26.702,
+      "maxValue": 15499,
+      "items": 21
+    }
   },
   {
     "id": "rw-start",
@@ -141,26 +707,120 @@
     "brand": "REALLYWORLD",
     "type": "server",
     "price": 59,
-    "desc": "Товары REALLYWORLD из каталога",
+    "desc": "26 товаров · REALLYWORLD",
     "accent": "#74c8ef",
     "drops": [
       [
         "ref-40",
-        57.1371
+        29.521
+      ],
+      [
+        "catalog-7",
+        29.504
+      ],
+      [
+        "catalog-29",
+        18.32
+      ],
+      [
+        "catalog-10",
+        8.93
       ],
       [
         "ref-41",
-        28.5686
+        2.725
+      ],
+      [
+        "catalog-12",
+        2.725
+      ],
+      [
+        "catalog-187",
+        2.004
+      ],
+      [
+        "catalog-32",
+        1.178
+      ],
+      [
+        "catalog-117",
+        1.178
       ],
       [
         "ref-42",
-        14.2843
+        0.933
+      ],
+      [
+        "catalog-66",
+        0.933
+      ],
+      [
+        "catalog-14",
+        0.615
+      ],
+      [
+        "catalog-33",
+        0.615
+      ],
+      [
+        "catalog-102",
+        0.157
+      ],
+      [
+        "catalog-330",
+        0.139
+      ],
+      [
+        "catalog-243",
+        0.111
       ],
       [
         "ref-43",
-        0.01
+        0.09
+      ],
+      [
+        "catalog-18",
+        0.09
+      ],
+      [
+        "catalog-278",
+        0.082
+      ],
+      [
+        "catalog-104",
+        0.035
+      ],
+      [
+        "catalog-515",
+        0.035
+      ],
+      [
+        "catalog-437",
+        0.031
+      ],
+      [
+        "catalog-54",
+        0.019
+      ],
+      [
+        "ref-44",
+        0.011
+      ],
+      [
+        "catalog-298",
+        0.011
+      ],
+      [
+        "catalog-72",
+        0.008
       ]
-    ]
+    ],
+    "metrics": {
+      "rtp": 89.94,
+      "profitChance": 22.655,
+      "maxValue": 649,
+      "items": 26
+    }
   },
   {
     "id": "rw-elite",
@@ -168,30 +828,148 @@
     "brand": "REALLYWORLD",
     "type": "server",
     "price": 249,
-    "desc": "Товары REALLYWORLD из каталога",
+    "desc": "33 товаров · REALLYWORLD",
     "accent": "#ef7cbf",
     "drops": [
       [
         "ref-40",
-        53.328
+        8.575
+      ],
+      [
+        "catalog-7",
+        8.556
+      ],
+      [
+        "catalog-29",
+        7.664
+      ],
+      [
+        "catalog-10",
+        6.493
+      ],
+      [
+        "ref-41",
+        4.936
+      ],
+      [
+        "catalog-12",
+        4.936
+      ],
+      [
+        "catalog-187",
+        4.598
+      ],
+      [
+        "catalog-32",
+        4.067
+      ],
+      [
+        "catalog-117",
+        4.067
       ],
       [
         "ref-42",
-        26.664
+        3.854
+      ],
+      [
+        "catalog-66",
+        3.854
+      ],
+      [
+        "catalog-14",
+        3.501
+      ],
+      [
+        "catalog-33",
+        3.501
+      ],
+      [
+        "catalog-102",
+        2.555
+      ],
+      [
+        "catalog-330",
+        2.486
+      ],
+      [
+        "catalog-243",
+        2.361
       ],
       [
         "ref-43",
-        13.332
+        2.251
+      ],
+      [
+        "catalog-18",
+        2.251
+      ],
+      [
+        "catalog-278",
+        2.201
+      ],
+      [
+        "catalog-104",
+        1.816
+      ],
+      [
+        "catalog-515",
+        1.816
+      ],
+      [
+        "catalog-437",
+        1.757
+      ],
+      [
+        "catalog-54",
+        1.585
       ],
       [
         "ref-44",
-        6.666
+        1.4
+      ],
+      [
+        "catalog-298",
+        1.4
+      ],
+      [
+        "catalog-72",
+        1.313
+      ],
+      [
+        "catalog-440",
+        1.143
       ],
       [
         "ref-45",
-        0.01
+        0.985
+      ],
+      [
+        "catalog-371",
+        0.985
+      ],
+      [
+        "catalog-521",
+        0.985
+      ],
+      [
+        "catalog-126",
+        0.826
+      ],
+      [
+        "ref-46",
+        0.641
+      ],
+      [
+        "catalog-163",
+        0.641
       ]
-    ]
+    ],
+    "metrics": {
+      "rtp": 89.97,
+      "profitChance": 28.843,
+      "maxValue": 1899,
+      "items": 33
+    }
   },
   {
     "id": "rw-legend",
@@ -199,30 +977,156 @@
     "brand": "REALLYWORLD",
     "type": "server",
     "price": 790,
-    "desc": "Товары REALLYWORLD из каталога",
+    "desc": "35 товаров · REALLYWORLD",
     "accent": "#6de4cb",
     "drops": [
       [
+        "ref-40",
+        3.092
+      ],
+      [
+        "catalog-7",
+        3.076
+      ],
+      [
+        "catalog-29",
+        3.058
+      ],
+      [
+        "catalog-10",
+        3.031
+      ],
+      [
+        "ref-41",
+        2.987
+      ],
+      [
+        "catalog-12",
+        2.987
+      ],
+      [
+        "catalog-187",
+        2.976
+      ],
+      [
+        "catalog-32",
+        2.956
+      ],
+      [
+        "catalog-117",
+        2.956
+      ],
+      [
         "ref-42",
-        53.328
+        2.948
+      ],
+      [
+        "catalog-66",
+        2.948
+      ],
+      [
+        "catalog-14",
+        2.933
+      ],
+      [
+        "catalog-33",
+        2.933
+      ],
+      [
+        "catalog-102",
+        2.884
+      ],
+      [
+        "catalog-330",
+        2.88
+      ],
+      [
+        "catalog-243",
+        2.872
       ],
       [
         "ref-43",
-        26.664
+        2.865
+      ],
+      [
+        "catalog-18",
+        2.865
+      ],
+      [
+        "catalog-278",
+        2.861
+      ],
+      [
+        "catalog-104",
+        2.832
+      ],
+      [
+        "catalog-515",
+        2.832
+      ],
+      [
+        "catalog-437",
+        2.827
+      ],
+      [
+        "catalog-54",
+        2.811
       ],
       [
         "ref-44",
-        13.332
+        2.793
+      ],
+      [
+        "catalog-298",
+        2.793
+      ],
+      [
+        "catalog-72",
+        2.783
+      ],
+      [
+        "catalog-440",
+        2.763
       ],
       [
         "ref-45",
-        6.666
+        2.741
+      ],
+      [
+        "catalog-371",
+        2.741
+      ],
+      [
+        "catalog-521",
+        2.741
+      ],
+      [
+        "catalog-126",
+        2.716
       ],
       [
         "ref-46",
-        0.01
+        2.679
+      ],
+      [
+        "catalog-163",
+        2.679
+      ],
+      [
+        "catalog-253",
+        2.599
+      ],
+      [
+        "catalog-289",
+        2.562
       ]
-    ]
+    ],
+    "metrics": {
+      "rtp": 89.98,
+      "profitChance": 24.221,
+      "maxValue": 6666,
+      "items": 35
+    }
   },
   {
     "id": "spooky-start",
@@ -230,26 +1134,64 @@
     "brand": "SPOOKYTIME",
     "type": "server",
     "price": 15,
-    "desc": "Товары SPOOKYTIME из каталога",
+    "desc": "12 товаров · SPOOKYTIME",
     "accent": "#ffa86b",
     "drops": [
       [
         "ref-47",
-        57.1371
+        23.198
+      ],
+      [
+        "catalog-1",
+        23.196
+      ],
+      [
+        "catalog-2",
+        23.196
       ],
       [
         "ref-48",
-        28.5686
+        7.06
+      ],
+      [
+        "catalog-4",
+        7.06
+      ],
+      [
+        "catalog-5",
+        7.06
+      ],
+      [
+        "catalog-25",
+        7.06
+      ],
+      [
+        "catalog-8",
+        1.105
+      ],
+      [
+        "catalog-11",
+        0.393
       ],
       [
         "ref-49",
-        14.2843
+        0.224
       ],
       [
-        "ref-50",
-        0.01
+        "catalog-13",
+        0.224
+      ],
+      [
+        "catalog-170",
+        0.224
       ]
-    ]
+    ],
+    "metrics": {
+      "rtp": 90.0,
+      "profitChance": 30.41,
+      "maxValue": 99,
+      "items": 12
+    }
   },
   {
     "id": "spooky-tokens",
@@ -257,214 +1199,384 @@
     "brand": "SPOOKYTIME",
     "type": "server",
     "price": 120,
-    "desc": "Товары SPOOKYTIME из каталога",
+    "desc": "26 товаров · SPOOKYTIME",
     "accent": "#ae86ff",
     "drops": [
       [
+        "ref-47",
+        11.047
+      ],
+      [
+        "catalog-1",
+        11.032
+      ],
+      [
+        "catalog-2",
+        11.032
+      ],
+      [
         "ref-48",
-        53.328
+        7.907
+      ],
+      [
+        "catalog-4",
+        7.907
+      ],
+      [
+        "catalog-5",
+        7.907
+      ],
+      [
+        "catalog-25",
+        7.907
+      ],
+      [
+        "catalog-8",
+        4.705
+      ],
+      [
+        "catalog-11",
+        3.523
       ],
       [
         "ref-49",
-        26.664
+        3.01
+      ],
+      [
+        "catalog-13",
+        3.01
+      ],
+      [
+        "catalog-170",
+        3.01
+      ],
+      [
+        "catalog-119",
+        2.026
       ],
       [
         "ref-50",
-        13.332
+        1.827
+      ],
+      [
+        "catalog-190",
+        1.827
+      ],
+      [
+        "catalog-17",
+        1.64
       ],
       [
         "ref-51",
-        6.666
+        1.366
+      ],
+      [
+        "catalog-20",
+        1.366
+      ],
+      [
+        "catalog-176",
+        1.204
       ],
       [
         "ref-52",
-        0.01
+        1.14
+      ],
+      [
+        "catalog-193",
+        1.14
+      ],
+      [
+        "catalog-263",
+        1.117
+      ],
+      [
+        "catalog-124",
+        0.956
+      ],
+      [
+        "catalog-73",
+        0.873
+      ],
+      [
+        "catalog-125",
+        0.821
+      ],
+      [
+        "catalog-407",
+        0.7
       ]
-    ]
+    ],
+    "metrics": {
+      "rtp": 89.96,
+      "profitChance": 18.003,
+      "maxValue": 1299,
+      "items": 26
+    }
   },
   {
     "id": "britva",
     "name": "Britva",
     "brand": "BRITVA",
     "type": "client",
-    "price": 250,
-    "desc": "Товары BRITVA из каталога",
+    "price": 472,
+    "desc": "3 товаров · BRITVA",
     "accent": "#f5d27e",
     "drops": [
       [
         "ref-1",
-        80
+        69.786
       ],
       [
         "ref-2",
-        19.99
+        19.968
       ],
       [
         "ref-3",
-        0.01
+        10.246
       ]
-    ]
+    ],
+    "metrics": {
+      "rtp": 90.0,
+      "profitChance": 30.214,
+      "maxValue": 699,
+      "items": 3
+    }
   },
   {
     "id": "celestial",
     "name": "Celestial",
     "brand": "CELESTIAL",
     "type": "client",
-    "price": 250,
-    "desc": "Товары CELESTIAL из каталога",
+    "price": 458,
+    "desc": "4 товаров · CELESTIAL",
     "accent": "#74c8ef",
     "drops": [
       [
         "ref-4",
-        80
+        58.369
       ],
       [
         "ref-5",
-        19.99
+        23.363
       ],
       [
         "ref-6",
-        0.01
+        9.134
+      ],
+      [
+        "catalog-55",
+        9.134
       ]
-    ]
+    ],
+    "metrics": {
+      "rtp": 90.0,
+      "profitChance": 18.268,
+      "maxValue": 599,
+      "items": 4
+    }
   },
   {
     "id": "delta",
     "name": "Delta",
     "brand": "DELTA",
     "type": "client",
-    "price": 330,
-    "desc": "Товары DELTA из каталога",
+    "price": 472,
+    "desc": "3 товаров · DELTA",
     "accent": "#ef7cbf",
     "drops": [
       [
         "ref-7",
-        80
+        85.003
       ],
       [
         "ref-8",
-        19.99
+        11.836
       ],
       [
         "ref-9",
-        0.01
+        3.161
       ]
-    ]
+    ],
+    "metrics": {
+      "rtp": 90.0,
+      "profitChance": 14.997,
+      "maxValue": 1249,
+      "items": 3
+    }
   },
   {
     "id": "nursultan",
     "name": "Nursultan",
     "brand": "NURSULTAN",
     "type": "client",
-    "price": 350,
-    "desc": "Товары NURSULTAN из каталога",
+    "price": 607,
+    "desc": "4 товаров · NURSULTAN",
     "accent": "#6de4cb",
     "drops": [
       [
         "ref-31",
-        80
+        59.053
       ],
       [
         "ref-32",
-        19.99
+        23.009
       ],
       [
         "ref-33",
-        0.01
+        8.969
+      ],
+      [
+        "catalog-281",
+        8.969
       ]
-    ]
+    ],
+    "metrics": {
+      "rtp": 90.0,
+      "profitChance": 17.938,
+      "maxValue": 799,
+      "items": 4
+    }
   },
   {
     "id": "pulse",
     "name": "Pulse Visual",
     "brand": "PULSE",
     "type": "client",
-    "price": 170,
-    "desc": "Товары PULSE из каталога",
+    "price": 269,
+    "desc": "6 товаров · PULSE",
     "accent": "#ffa86b",
     "drops": [
       [
         "ref-34",
-        80
+        39.143
+      ],
+      [
+        "catalog-242",
+        39.139
       ],
       [
         "ref-35",
-        19.99
+        9.983
+      ],
+      [
+        "catalog-532",
+        9.983
       ],
       [
         "ref-36",
-        0.01
+        0.876
+      ],
+      [
+        "catalog-265",
+        0.876
       ]
-    ]
+    ],
+    "metrics": {
+      "rtp": 90.0,
+      "profitChance": 21.718,
+      "maxValue": 949,
+      "items": 6
+    }
   },
   {
     "id": "reallyvisuals",
     "name": "ReallyVisuals",
     "brand": "REALLYVISUALS",
     "type": "client",
-    "price": 170,
-    "desc": "Товары REALLYVISUALS из каталога",
+    "price": 269,
+    "desc": "4 товаров · REALLYVISUALS",
     "accent": "#ae86ff",
     "drops": [
       [
         "ref-37",
-        80
+        80.601
       ],
       [
         "ref-38",
-        19.99
+        15.899
       ],
       [
         "ref-39",
-        0.01
+        1.75
+      ],
+      [
+        "catalog-550",
+        1.75
       ]
-    ]
+    ],
+    "metrics": {
+      "rtp": 90.0,
+      "profitChance": 19.399,
+      "maxValue": 749,
+      "items": 4
+    }
   },
   {
     "id": "wexside",
     "name": "Wexside",
     "brand": "WEXSIDE",
     "type": "client",
-    "price": 350,
-    "desc": "Товары WEXSIDE из каталога",
+    "price": 607,
+    "desc": "4 товаров · WEXSIDE",
     "accent": "#f5d27e",
     "drops": [
       [
         "ref-53",
-        80
+        59.053
       ],
       [
         "ref-54",
-        19.99
+        23.009
       ],
       [
         "ref-55",
-        0.01
+        8.969
+      ],
+      [
+        "catalog-196",
+        8.969
       ]
-    ]
+    ],
+    "metrics": {
+      "rtp": 90.0,
+      "profitChance": 17.938,
+      "maxValue": 799,
+      "items": 4
+    }
   },
   {
     "id": "wild",
     "name": "Wild",
     "brand": "WILD",
     "type": "client",
-    "price": 290,
-    "desc": "Товары WILD из каталога",
+    "price": 485,
+    "desc": "4 товаров · WILD",
     "accent": "#74c8ef",
     "drops": [
       [
         "ref-56",
-        80
+        58.21
       ],
       [
         "ref-57",
-        19.99
+        30.394
       ],
       [
         "ref-58",
-        0.01
+        5.698
+      ],
+      [
+        "catalog-247",
+        5.698
       ]
-    ]
+    ],
+    "metrics": {
+      "rtp": 90.0,
+      "profitChance": 11.396,
+      "maxValue": 799,
+      "items": 4
+    }
   },
   {
     "id": "allin-hw",
@@ -472,27 +1584,205 @@
     "brand": "HOLYWORLD",
     "type": "allin",
     "price": 30,
-    "desc": "Товары HOLYWORLD из каталога",
+    "desc": "47 товаров · HOLYWORLD",
     "accent": "#ef7cbf",
     "drops": [
       [
         "ref-14",
-        94
+        60.401
+      ],
+      [
+        "ref-15",
+        23.118
+      ],
+      [
+        "ref-16",
+        4.824
+      ],
+      [
+        "catalog-9",
+        4.824
       ],
       [
         "ref-17",
-        5
+        2.842
+      ],
+      [
+        "ref-18",
+        1.187
+      ],
+      [
+        "catalog-240",
+        0.64
+      ],
+      [
+        "ref-19",
+        0.36
+      ],
+      [
+        "catalog-50",
+        0.36
+      ],
+      [
+        "ref-20",
+        0.269
+      ],
+      [
+        "catalog-15",
+        0.214
+      ],
+      [
+        "catalog-85",
+        0.214
+      ],
+      [
+        "catalog-51",
+        0.18
+      ],
+      [
+        "catalog-52",
+        0.113
+      ],
+      [
+        "ref-21",
+        0.099
+      ],
+      [
+        "catalog-174",
+        0.09
+      ],
+      [
+        "ref-22",
+        0.051
+      ],
+      [
+        "catalog-192",
+        0.044
+      ],
+      [
+        "catalog-22",
+        0.03
+      ],
+      [
+        "ref-23",
+        0.022
+      ],
+      [
+        "ref-24",
+        0.022
+      ],
+      [
+        "catalog-386",
+        0.022
+      ],
+      [
+        "catalog-177",
+        0.015
       ],
       [
         "ref-25",
-        0.99
+        0.012
+      ],
+      [
+        "ref-26",
+        0.006
+      ],
+      [
+        "catalog-40",
+        0.006
+      ],
+      [
+        "ref-27",
+        0.005
+      ],
+      [
+        "ref-28",
+        0.004
+      ],
+      [
+        "catalog-336",
+        0.004
+      ],
+      [
+        "ref-29",
+        0.003
+      ],
+      [
+        "catalog-92",
+        0.003
+      ],
+      [
+        "catalog-76",
+        0.001
       ],
       [
         "ref-30",
-        0.01
+        0.001
+      ],
+      [
+        "catalog-268",
+        0.001
+      ],
+      [
+        "catalog-128",
+        0.001
+      ],
+      [
+        "catalog-94",
+        0.001
+      ],
+      [
+        "catalog-129",
+        0.001
+      ],
+      [
+        "catalog-199",
+        0.001
+      ],
+      [
+        "catalog-165",
+        0.001
+      ],
+      [
+        "catalog-130",
+        0.001
+      ],
+      [
+        "catalog-148",
+        0.001
+      ],
+      [
+        "catalog-166",
+        0.001
+      ],
+      [
+        "catalog-396",
+        0.001
+      ],
+      [
+        "catalog-202",
+        0.001
+      ],
+      [
+        "catalog-220",
+        0.001
+      ],
+      [
+        "catalog-291",
+        0.001
+      ],
+      [
+        "catalog-292",
+        0.001
       ]
     ],
-    "minCount": 10
+    "minCount": 10,
+    "metrics": {
+      "rtp": 91.56,
+      "profitChance": 16.481,
+      "maxValue": 15499,
+      "items": 47
+    }
   },
   {
     "id": "allin-rw",
@@ -500,27 +1790,157 @@
     "brand": "REALLYWORLD",
     "type": "allin",
     "price": 55,
-    "desc": "Товары REALLYWORLD из каталога",
+    "desc": "35 товаров · REALLYWORLD",
     "accent": "#6de4cb",
     "drops": [
       [
         "ref-40",
-        94
+        31.657
+      ],
+      [
+        "catalog-7",
+        31.649
+      ],
+      [
+        "catalog-29",
+        18.482
+      ],
+      [
+        "catalog-10",
+        8.213
       ],
       [
         "ref-41",
-        5
+        2.151
+      ],
+      [
+        "catalog-12",
+        2.151
+      ],
+      [
+        "catalog-187",
+        1.52
+      ],
+      [
+        "catalog-32",
+        0.834
+      ],
+      [
+        "catalog-117",
+        0.834
+      ],
+      [
+        "ref-42",
+        0.641
+      ],
+      [
+        "catalog-66",
+        0.641
+      ],
+      [
+        "catalog-14",
+        0.401
+      ],
+      [
+        "catalog-33",
+        0.401
+      ],
+      [
+        "catalog-102",
+        0.086
+      ],
+      [
+        "catalog-330",
+        0.075
+      ],
+      [
+        "catalog-243",
+        0.058
+      ],
+      [
+        "ref-43",
+        0.046
+      ],
+      [
+        "catalog-18",
+        0.046
+      ],
+      [
+        "catalog-278",
+        0.041
+      ],
+      [
+        "catalog-104",
+        0.016
+      ],
+      [
+        "catalog-515",
+        0.016
+      ],
+      [
+        "catalog-437",
+        0.013
+      ],
+      [
+        "catalog-54",
+        0.008
       ],
       [
         "ref-44",
-        0.99
+        0.004
+      ],
+      [
+        "catalog-298",
+        0.004
+      ],
+      [
+        "catalog-72",
+        0.003
+      ],
+      [
+        "catalog-440",
+        0.001
+      ],
+      [
+        "ref-45",
+        0.001
+      ],
+      [
+        "catalog-371",
+        0.001
+      ],
+      [
+        "catalog-521",
+        0.001
+      ],
+      [
+        "catalog-126",
+        0.001
       ],
       [
         "ref-46",
-        0.01
+        0.001
+      ],
+      [
+        "catalog-163",
+        0.001
+      ],
+      [
+        "catalog-253",
+        0.001
+      ],
+      [
+        "catalog-289",
+        0.001
       ]
     ],
-    "minCount": 10
+    "minCount": 10,
+    "metrics": {
+      "rtp": 90.23,
+      "profitChance": 18.212,
+      "maxValue": 6666,
+      "items": 35
+    }
   },
   {
     "id": "allin-spooky",
@@ -528,26 +1948,596 @@
     "brand": "SPOOKYTIME",
     "type": "allin",
     "price": 25,
-    "desc": "Товары SPOOKYTIME из каталога",
+    "desc": "33 товаров · SPOOKYTIME",
     "accent": "#ffa86b",
     "drops": [
       [
         "ref-47",
-        94
+        19.68
+      ],
+      [
+        "catalog-1",
+        19.659
+      ],
+      [
+        "catalog-2",
+        19.659
       ],
       [
         "ref-48",
-        5
+        8.482
+      ],
+      [
+        "catalog-4",
+        8.482
+      ],
+      [
+        "catalog-5",
+        8.482
+      ],
+      [
+        "catalog-25",
+        8.482
+      ],
+      [
+        "catalog-8",
+        2.288
+      ],
+      [
+        "catalog-11",
+        1.102
+      ],
+      [
+        "ref-49",
+        0.74
+      ],
+      [
+        "catalog-13",
+        0.74
+      ],
+      [
+        "catalog-170",
+        0.74
+      ],
+      [
+        "catalog-119",
+        0.273
       ],
       [
         "ref-50",
-        0.99
+        0.21
+      ],
+      [
+        "catalog-190",
+        0.21
+      ],
+      [
+        "catalog-17",
+        0.16
+      ],
+      [
+        "ref-51",
+        0.1
+      ],
+      [
+        "catalog-20",
+        0.1
+      ],
+      [
+        "catalog-176",
+        0.073
       ],
       [
         "ref-52",
-        0.01
+        0.063
+      ],
+      [
+        "catalog-193",
+        0.063
+      ],
+      [
+        "catalog-263",
+        0.06
+      ],
+      [
+        "catalog-124",
+        0.041
+      ],
+      [
+        "catalog-73",
+        0.032
+      ],
+      [
+        "catalog-125",
+        0.027
+      ],
+      [
+        "catalog-407",
+        0.018
+      ],
+      [
+        "catalog-93",
+        0.011
+      ],
+      [
+        "catalog-111",
+        0.007
+      ],
+      [
+        "catalog-146",
+        0.007
+      ],
+      [
+        "catalog-112",
+        0.005
+      ],
+      [
+        "catalog-201",
+        0.002
+      ],
+      [
+        "catalog-255",
+        0.001
+      ],
+      [
+        "catalog-256",
+        0.001
       ]
     ],
-    "minCount": 10
+    "minCount": 10,
+    "metrics": {
+      "rtp": 89.29,
+      "profitChance": 7.074,
+      "maxValue": 9999,
+      "items": 33
+    }
+  },
+  {
+    "id": "source-lite",
+    "name": "HolyWorld · Lite",
+    "brand": "HOLYWORLD",
+    "type": "server",
+    "price": 499,
+    "desc": "42 позиций · каталог MineDrop",
+    "accent": "#60ddba",
+    "image": "source-lite.svg",
+    "drops": [
+      [
+        "md-8a96563f2bfe",
+        2.973
+      ],
+      [
+        "md-db72b0030aaf",
+        2.965
+      ],
+      [
+        "md-5984484b9503",
+        2.964
+      ],
+      [
+        "md-1cd93934516b",
+        2.939
+      ],
+      [
+        "md-9f002e3cb951",
+        2.935
+      ],
+      [
+        "md-249841f9c10b",
+        2.932
+      ],
+      [
+        "md-ab72160c4c00",
+        2.925
+      ],
+      [
+        "md-531e4aeb5bd4",
+        2.915
+      ],
+      [
+        "md-2204ff9700e0",
+        2.893
+      ],
+      [
+        "md-f500c3082d82",
+        2.883
+      ],
+      [
+        "md-98dd6b79820a",
+        2.882
+      ],
+      [
+        "md-c06b5e4e2da4",
+        2.861
+      ],
+      [
+        "md-9c303f9cf465",
+        2.83
+      ],
+      [
+        "md-828892b4068b",
+        2.824
+      ],
+      [
+        "md-3a9a09f2e453",
+        2.8
+      ],
+      [
+        "md-a12e34f43b2d",
+        2.79
+      ],
+      [
+        "md-99c71bfd555b",
+        2.779
+      ],
+      [
+        "md-9ce0d5287496",
+        2.762
+      ],
+      [
+        "md-075f203e4375",
+        2.758
+      ],
+      [
+        "md-7a3ae9be8cc1",
+        2.743
+      ],
+      [
+        "md-66b7779e6ff8",
+        2.728
+      ],
+      [
+        "md-766d75523a5c",
+        2.699
+      ],
+      [
+        "md-5e8d0b7bd408",
+        2.693
+      ],
+      [
+        "md-a6a1b98dc7d3",
+        2.631
+      ],
+      [
+        "md-c56f95af9fbb",
+        2.594
+      ],
+      [
+        "md-bb25c1995ce8",
+        2.51
+      ],
+      [
+        "md-76d56ecda92b",
+        2.51
+      ],
+      [
+        "md-4a6ab27c260e",
+        2.491
+      ],
+      [
+        "md-82680054b1fb",
+        2.42
+      ],
+      [
+        "md-a3b1f11614cb",
+        2.42
+      ],
+      [
+        "md-057eee5d62d2",
+        2.266
+      ],
+      [
+        "md-6c98205d0376",
+        2.114
+      ],
+      [
+        "md-a3ed99df1bb0",
+        2.075
+      ],
+      [
+        "md-ac579dc74904",
+        1.936
+      ],
+      [
+        "md-fbb1f9cab508",
+        1.8
+      ],
+      [
+        "md-a997f9714b4f",
+        1.794
+      ],
+      [
+        "md-e24ba8628a76",
+        1.365
+      ],
+      [
+        "md-c790f2a46c8b",
+        1.292
+      ],
+      [
+        "md-abc3676938dd",
+        1.246
+      ],
+      [
+        "md-cbdeb0a49f81",
+        0.603
+      ],
+      [
+        "md-9edfffe5db74",
+        0.279
+      ],
+      [
+        "md-33a6da8ac681",
+        0.181
+      ]
+    ],
+    "metrics": {
+      "rtp": 89.999,
+      "profitChance": 24.282,
+      "maxValue": 7690,
+      "items": 42
+    }
+  },
+  {
+    "id": "source-classic",
+    "name": "HolyWorld · Classic",
+    "brand": "HOLYWORLD",
+    "type": "server",
+    "price": 990,
+    "desc": "34 позиций · каталог MineDrop",
+    "accent": "#f6b957",
+    "image": "source-classic.svg",
+    "drops": [
+      [
+        "md-a8ea89bf9797",
+        2.898
+      ],
+      [
+        "md-9e1055db913d",
+        2.898
+      ],
+      [
+        "md-55d17717fa9f",
+        2.899
+      ],
+      [
+        "md-e7a73812c733",
+        2.9
+      ],
+      [
+        "md-918ffaa32098",
+        2.9
+      ],
+      [
+        "md-6a6de93dd862",
+        2.9
+      ],
+      [
+        "md-d897b8676388",
+        2.9
+      ],
+      [
+        "md-74cf231d3486",
+        2.901
+      ],
+      [
+        "md-f8e5a07737e5",
+        2.902
+      ],
+      [
+        "md-eaaa45b38ea6",
+        2.903
+      ],
+      [
+        "md-6ac19cdd07fb",
+        2.904
+      ],
+      [
+        "md-629299b905f0",
+        2.905
+      ],
+      [
+        "md-f8e21db423f2",
+        2.905
+      ],
+      [
+        "md-986b933b2704",
+        2.906
+      ],
+      [
+        "md-f0317caf3aa3",
+        2.906
+      ],
+      [
+        "md-d02aedf71f7e",
+        2.908
+      ],
+      [
+        "md-281b43146eab",
+        2.908
+      ],
+      [
+        "md-8619059cd7b9",
+        2.909
+      ],
+      [
+        "md-6a5ae68c4a07",
+        2.91
+      ],
+      [
+        "md-f8f2207e4761",
+        2.91
+      ],
+      [
+        "md-e31a5cbb83ea",
+        2.914
+      ],
+      [
+        "md-58a57d56c403",
+        2.923
+      ],
+      [
+        "md-6a0664c28803",
+        2.923
+      ],
+      [
+        "md-be0148885664",
+        2.923
+      ],
+      [
+        "md-d41b35fe82b1",
+        2.926
+      ],
+      [
+        "md-1f7f77255f95",
+        2.931
+      ],
+      [
+        "md-f3f896f10eba",
+        2.947
+      ],
+      [
+        "md-f77ebb7fd27a",
+        2.949
+      ],
+      [
+        "md-06267322485b",
+        2.949
+      ],
+      [
+        "md-7240259cb884",
+        2.975
+      ],
+      [
+        "md-160fe742f318",
+        2.991
+      ],
+      [
+        "md-a4532b594f81",
+        3.001
+      ],
+      [
+        "md-5f328552d22e",
+        3.028
+      ],
+      [
+        "md-6a428ed9a5aa",
+        3.548
+      ]
+    ],
+    "metrics": {
+      "rtp": 89.968,
+      "profitChance": 21.441,
+      "maxValue": 11499,
+      "items": 34
+    }
+  },
+  {
+    "id": "source-sapphire",
+    "name": "HolyWorld · Сапфиры",
+    "brand": "HOLYWORLD",
+    "type": "server",
+    "price": 1290,
+    "desc": "12 позиций · каталог MineDrop",
+    "accent": "#6ac6ff",
+    "image": "source-sapphire.svg",
+    "drops": [
+      [
+        "md-5984484b9503",
+        7.182
+      ],
+      [
+        "md-249841f9c10b",
+        7.214
+      ],
+      [
+        "md-531e4aeb5bd4",
+        7.231
+      ],
+      [
+        "md-f500c3082d82",
+        7.264
+      ],
+      [
+        "md-a12e34f43b2d",
+        7.362
+      ],
+      [
+        "md-9ce0d5287496",
+        7.392
+      ],
+      [
+        "md-bb25c1995ce8",
+        7.689
+      ],
+      [
+        "md-76d56ecda92b",
+        7.689
+      ],
+      [
+        "md-6c98205d0376",
+        8.249
+      ],
+      [
+        "md-a997f9714b4f",
+        8.824
+      ],
+      [
+        "md-c790f2a46c8b",
+        10.097
+      ],
+      [
+        "md-cbdeb0a49f81",
+        13.807
+      ]
+    ],
+    "metrics": {
+      "rtp": 90.004,
+      "profitChance": 32.728,
+      "maxValue": 4389,
+      "items": 12
+    }
+  },
+  {
+    "id": "source-tokens",
+    "name": "SpookyTime · Токены+",
+    "brand": "SPOOKYTIME",
+    "type": "server",
+    "price": 990,
+    "desc": "6 позиций · каталог MineDrop",
+    "accent": "#b99aff",
+    "image": "source-tokens.svg",
+    "drops": [
+      [
+        "md-f5807af78ee0",
+        16.698
+      ],
+      [
+        "md-367ab65fdace",
+        16.691
+      ],
+      [
+        "md-1a8405608e6a",
+        16.685
+      ],
+      [
+        "md-8f8798bc6935",
+        16.679
+      ],
+      [
+        "md-f32f4ebeefdc",
+        16.663
+      ],
+      [
+        "md-ead8dc0ca1a0",
+        16.584
+      ]
+    ],
+    "metrics": {
+      "rtp": 89.998,
+      "profitChance": 16.584,
+      "maxValue": 3079,
+      "items": 6
+    }
   }
 ]

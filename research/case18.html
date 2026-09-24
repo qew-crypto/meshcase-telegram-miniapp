@@ -1,0 +1,646 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+    <meta name="asset-version" content="55bbf99e8098">
+    <meta name="csrf-token" content="9237fa82b17790d85d0c6bc724d48d0e8bb364ca51dca3c0c84fb4d5b13f449a">
+    <meta name="apay-tag" content="QTTNHM7DPS2HOWVA3YH25MQY5TBJJFRS">
+    <title>MineDrop</title>
+    <link rel="preload" href="/style.css?v=55bbf99e8098" as="style">
+<link rel="stylesheet" href="/fonts.css?v=55bbf99e8098">
+<link rel="stylesheet" href="/ambient-background.css?v=55bbf99e8098">
+<style>body{background:#04070c}.ambient-bg path{fill:none !important}</style>
+
+    <script src="/graphics-quality.js?v=55bbf99e8098"></script>
+    <link rel="stylesheet" href="/graphics-quality.css?v=55bbf99e8098">
+    <script src="/network-recovery.js?v=55bbf99e8098"></script>
+    <link rel="icon" href="/site-icon.png?v=55bbf99e8098" type="image/png">
+    <script>window.MineDropScriptData = window.MineDropScriptData || {}; window.MineDropScriptData["header-page-1"] = [["minedrop.art"]];</script>
+<script src="/header-page-1.js?v=55bbf99e8098"></script>
+    <script src="/header-page-2.js?v=55bbf99e8098"></script>
+    
+    <style>:root{--accent:#22c55e;--accent-hover:#4ade80;--accent-rgb:34,197,94;--accent-dark:#15803d;--theme-path:'/themes/standard/';}</style>
+    <script>window.MineDropScriptData = window.MineDropScriptData || {}; window.MineDropScriptData["header-page-3"] = ["ru","standard"];</script>
+<script src="/header-page-3.js?v=55bbf99e8098"></script>
+    <link rel="stylesheet" href="/style.css?v=55bbf99e8098">
+    <link rel="stylesheet" href="/community.css?v=55bbf99e8098">
+    <link rel="stylesheet" href="/event-prizes.css?v=55bbf99e8098">
+    <script defer src="/community.js?v=55bbf99e8098"></script>
+    <link rel="stylesheet" href="/volume-controls.css?v=55bbf99e8098-3">
+    <script defer src="/volume-controls.js?v=55bbf99e8098-3"></script>
+    <script defer src="/live-wallet.js?v=55bbf99e8098"></script>
+    <script defer src="/interface-update.js?v=55bbf99e8098"></script>
+    <link rel="stylesheet" href="/interface-update.css?v=55bbf99e8098">
+    <link rel="stylesheet" href="/interface-motion.css?v=55bbf99e8098">
+    <style>
+        .live-sidebar .live-header::before { content: none !important; display: none !important; }
+        .role-switch-btn { background: rgba(255,255,255,0.06); border: 1px solid rgba(255,255,255,0.1); color: var(--text-muted); border-radius: 10px; padding: 6px 8px; margin-left: 6px; cursor: pointer; font-size: 13px; line-height: 1; transition: .15s; }
+        .role-switch-btn:hover { background: rgba(255,255,255,0.12); color: #fff; }
+        .role-badge.role-player { background: rgba(34,197,94,0.15); color: #22c55e; border: 1px solid rgba(34,197,94,0.25); }
+    </style>
+</head>
+<body data-user-language="ru">
+    <div class="ambient-bg" aria-hidden="true"></div>
+<script src="/ambient-background.js?v=55bbf99e8098" defer></script>
+
+    <!-- МОБИЛЬНОЕ МЕНЮ -->
+    
+    <div class="mobile-drawer-overlay" id="mobile-drawer-overlay" onclick="closeMobileMenu()"></div>
+    <nav class="mobile-drawer" id="mobile-drawer" aria-hidden="true">
+        <div class="mobile-drawer-head">
+            <a href="/" class="brand-link" aria-label="MineDrop — главная"><div class="logo"><div class="logo-main"><span>MINE</span>DROP</div></div></a>
+            <div class="online-stats mobile-drawer-online" id="mobile-online-count" aria-label="Онлайн на сайте" title="Онлайн на сайте">
+                <img src="/themes/standard/logo-online.png?v=55bbf99e8098" alt="" class="online-stats-icon">
+                <span class="online-stats-value">109</span>
+            </div>
+            <button type="button" class="mobile-drawer-close" aria-label="Закрыть" onclick="closeMobileMenu()">&times;</button>
+        </div>
+        
+        <div class="mobile-drawer-links">
+            <a href="/" class="mobile-drawer-link active">
+                <img src="/themes/standard/logo-cases.png?v=55bbf99e8098" alt="" class="mobile-drawer-nav-icon" data-theme-icon="cases">
+                <span data-i18n="cases">Кейсы</span>
+            </a>
+            <a href="/upgrade" class="mobile-drawer-link ">
+                <img src="/themes/standard/logo-upgrade.png?v=55bbf99e8098" alt="" class="mobile-drawer-nav-icon" data-theme-icon="upgrade">
+                <span data-i18n="upgrade">Апгрейд</span>
+            </a>
+            <div id="mobile-account-area">
+            
+                <a href="/login" class="mobile-drawer-link" data-i18n="login">Войти</a>
+                <a href="/register" class="mobile-drawer-link" data-i18n="register">Регистрация</a>
+            
+            </div>
+        </div>
+    </nav>
+
+    <div class="app-layout">
+        
+        <!-- ЛЕВАЯ ПАНЕЛЬ (LIVE ЛЕНТА) -->
+        <aside class="live-sidebar">
+            <div class="live-header">
+                <svg class="live-feed-logo" xmlns="http://www.w3.org/2000/svg" viewBox="603 590 294 320" width="18" height="20" style="display:block;flex:0 0 18px" aria-hidden="true">
+                    <image data-live-logo href="/themes/standard/live-logo.png?v=55bbf99e8098" x="0" y="0" width="1500" height="1500"/>
+                </svg>
+                <span data-i18n="liveWins">У нас получили</span>
+            </div>
+            <div class="live-items is-loading" aria-busy="true" aria-live="polite">
+                <div class="live-item" style="border-left-color: var(--rarity-epic)" data-key="HERO|250">
+                    <div>⛏️</div>
+                    <div class="item-name">HERO</div>
+                    <div class="item-price">+250 коинов</div>
+                    <div class="live-hover" data-rarity="var(--rarity-epic)">
+                        <div class="lhv-bg"></div>
+                        <div class="lhv-inner">
+                            <div class="lhv-case">RW Case</div>
+                            <div class="lhv-img"><div class="lhv-fallback" style="display:flex;">⛏️</div></div>
+                            <div class="lhv-name">HERO</div>
+                            <div class="lhv-actions"></div>
+                        </div>
+                        <div class="lhv-q">?</div>
+                    </div>
+                </div>
+                <div class="live-item" style="border-left-color: var(--rarity-mythic)" data-key="DRAGON|1500">
+                    <div>⛏️</div>
+                    <div class="item-name">DRAGON</div>
+                    <div class="item-price">+1500 коинов</div>
+                    <div class="live-hover" data-rarity="var(--rarity-mythic)">
+                        <div class="lhv-bg"></div>
+                        <div class="lhv-inner">
+                            <div class="lhv-case">Fun-Case</div>
+                            <div class="lhv-img"><div class="lhv-fallback" style="display:flex;">⛏️</div></div>
+                            <div class="lhv-name">DRAGON</div>
+                            <div class="lhv-actions"></div>
+                        </div>
+                        <div class="lhv-q">?</div>
+                    </div>
+                </div>
+                <div class="live-item" style="border-left-color: var(--rarity-rare)" data-key="GHAST|75">
+                    <div>⛏️</div>
+                    <div class="item-name">GHAST</div>
+                    <div class="item-price">+75 коинов</div>
+                    <div class="live-hover" data-rarity="var(--rarity-rare)">
+                        <div class="lhv-bg"></div>
+                        <div class="lhv-inner">
+                            <div class="lhv-case">HW Lite</div>
+                            <div class="lhv-img"><div class="lhv-fallback" style="display:flex;">⛏️</div></div>
+                            <div class="lhv-name">GHAST</div>
+                            <div class="lhv-actions"></div>
+                        </div>
+                        <div class="lhv-q">?</div>
+                    </div>
+                </div>
+                <div class="live-item" style="border-left-color: var(--rarity-legendary)" data-key="OVERLORD|900">
+                    <div>⛏️</div>
+                    <div class="item-name">OVERLORD</div>
+                    <div class="item-price">+900 коинов</div>
+                    <div class="live-hover" data-rarity="var(--rarity-legendary)">
+                        <div class="lhv-bg"></div>
+                        <div class="lhv-inner">
+                            <div class="lhv-case">HW</div>
+                            <div class="lhv-img"><div class="lhv-fallback" style="display:flex;">⛏️</div></div>
+                            <div class="lhv-name">OVERLORD</div>
+                            <div class="lhv-actions"></div>
+                        </div>
+                        <div class="lhv-q">?</div>
+                    </div>
+                </div>
+                <div class="live-item" style="border-left-color: var(--rarity-common)" data-key="GRIEFER|15">
+                    <div>⛏️</div>
+                    <div class="item-name">GRIEFER</div>
+                    <div class="item-price">+15 коинов</div>
+                    <div class="live-hover" data-rarity="var(--rarity-common)">
+                        <div class="lhv-bg"></div>
+                        <div class="lhv-inner">
+                            <div class="lhv-case">RW</div>
+                            <div class="lhv-img"><div class="lhv-fallback" style="display:flex;">⛏️</div></div>
+                            <div class="lhv-name">GRIEFER</div>
+                            <div class="lhv-actions"></div>
+                        </div>
+                        <div class="lhv-q">?</div>
+                    </div>
+                </div>
+                <div class="live-item" style="border-left-color: var(--rarity-rare)" data-key="CREEPER|80">
+                    <div>⛏️</div>
+                    <div class="item-name">CREEPER</div>
+                    <div class="item-price">+80 коинов</div>
+                    <div class="live-hover" data-rarity="var(--rarity-rare)">
+                        <div class="lhv-bg"></div>
+                        <div class="lhv-inner">
+                            <div class="lhv-case">FT</div>
+                            <div class="lhv-img"><div class="lhv-fallback" style="display:flex;">⛏️</div></div>
+                            <div class="lhv-name">CREEPER</div>
+                            <div class="lhv-actions"></div>
+                        </div>
+                        <div class="lhv-q">?</div>
+                    </div>
+                </div>
+                <div class="live-item" style="border-left-color: var(--rarity-epic)" data-key="ENDER|350">
+                    <div>⛏️</div>
+                    <div class="item-name">ENDER</div>
+                    <div class="item-price">+350 коинов</div>
+                    <div class="live-hover" data-rarity="var(--rarity-epic)">
+                        <div class="lhv-bg"></div>
+                        <div class="lhv-inner">
+                            <div class="lhv-case">RW</div>
+                            <div class="lhv-img"><div class="lhv-fallback" style="display:flex;">⛏️</div></div>
+                            <div class="lhv-name">ENDER</div>
+                            <div class="lhv-actions"></div>
+                        </div>
+                        <div class="lhv-q">?</div>
+                    </div>
+                </div>
+            </div>
+        </aside>
+
+        <!-- ПРАВАЯ ЧАСТЬ -->
+        <div class="main-wrapper">
+            
+            <!-- ВЕРХНЯЯ ШАПКА -->
+            <header class="top-nav">
+                <div class="nav-left">
+                    <button type="button" class="mobile-menu-toggle" id="mobile-menu-toggle" aria-label="Меню" aria-expanded="false" onclick="toggleMobileMenu()">
+                        <span></span><span></span><span></span>
+                    </button>
+                    <a href="/" class="brand-link" aria-label="MineDrop — главная">
+                        <div class="logo"><div class="logo-main"><span>MINE</span>DROP</div></div>
+                    </a>
+                    
+                    
+                    
+                    
+                    <div class="nav-links">
+                        <a href="/" class="nav-tile active">
+                            <span class="nav-tile-icon" aria-hidden="true">
+                                <img src="/themes/standard/logo-cases.png?v=55bbf99e8098" alt="" class="nav-png-icon" onload="this.nextElementSibling.style.display='none'" onerror="this.style.display='none'; this.nextElementSibling.style.display='block'">
+                                <svg viewBox="0 0 128 128" class="nav-icon-svg nav-svg-fallback nav-icon-chest">
+                                    <path d="M26 36c4-14 12-20 21-20h34c9 0 17 6 21 20" class="nav-icon-stroke"></path>
+                                    <rect x="18" y="36" width="92" height="64" rx="12" class="nav-icon-stroke"></rect>
+                                    <path d="M24 64h80" class="nav-icon-core"></path>
+                                    <rect x="52" y="48" width="24" height="28" rx="8" class="nav-icon-stroke"></rect>
+                                    <rect x="60" y="56" width="8" height="12" rx="4" class="nav-icon-core"></rect>
+                                    <path d="M30 40v16" class="nav-icon-core"></path>
+                                    <path d="M98 40v16" class="nav-icon-core"></path>
+                                    <path d="M26 84v8h12" class="nav-icon-core"></path>
+                                    <path d="M102 84v8H90" class="nav-icon-core"></path>
+                                </svg>
+                            </span>
+                            <span class="nav-tile-label" data-i18n="cases">Кейсы</span>
+                        </a>
+                        <a href="/upgrade" class="nav-tile ">
+                            <span class="nav-tile-icon" aria-hidden="true">
+                                <img src="/themes/standard/logo-upgrade.png?v=55bbf99e8098" alt="" class="nav-png-icon" onload="this.nextElementSibling.style.display='none'" onerror="this.style.display='none'; this.nextElementSibling.style.display='block'">
+                                <svg viewBox="0 0 128 128" class="nav-icon-svg nav-svg-fallback nav-icon-book">
+                                    <path d="M18 24c0-6 4-10 10-10h18c10 0 22 5 30 12v76c-8-7-20-12-30-12H28c-6 0-10-4-10-10z" class="nav-icon-stroke"></path>
+                                    <path d="M110 24c0-6-4-10-10-10H82c-10 0-22 5-30 12v76c8-7 20-12 30-12h18c6 0 10-4 10-10z" class="nav-icon-stroke"></path>
+                                    <path d="M64 26v78" class="nav-icon-stroke"></path>
+                                    <path d="M34 38h18" class="nav-icon-core"></path>
+                                    <path d="M34 54h20" class="nav-icon-core"></path>
+                                    <path d="M34 70h18" class="nav-icon-core"></path>
+                                    <path d="M76 38h18" class="nav-icon-core"></path>
+                                    <path d="M74 54h20" class="nav-icon-core"></path>
+                                    <path d="M76 70h18" class="nav-icon-core"></path>
+                                </svg>
+                            </span>
+                            <span class="nav-tile-label" data-i18n="upgrade">Апгрейд</span>
+                        </a>
+                        <div class="online-stats" id="online-count" data-tooltip="Общий онлайн на сайте" data-i18n-tooltip="onlineTooltip" aria-label="Общий онлайн на сайте">
+                            <img src="/themes/standard/logo-online.png?v=55bbf99e8098" alt="Онлайн" class="online-stats-icon" onerror="this.style.display='none'; this.parentElement.classList.add('no-icon');">
+                            <span class="online-stats-value">109</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="nav-right" id="header-account-area">
+<a href="/login" class="header-icon-link header-settings" aria-label="Настройки" title="Настройки"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="m10 3-.6 2.3-1.8 1-2.3-.6-2 3.5L5 11v2l-1.7 1.8 2 3.5 2.3-.6 1.8 1L10 21h4l.6-2.3 1.8-1 2.3.6 2-3.5L19 13v-2l1.7-1.8-2-3.5-2.3.6-1.8-1L14 3Z"/><circle cx="12" cy="12" r="3"/></svg></a><a href="https://t.me/minecraftdrop" class="header-icon-link header-telegram" target="_blank" rel="noopener noreferrer" aria-label="Telegram канал" title="Telegram"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="m21 3-4 18-6-5-3 3v-5L19 5 6 12 2 10Z"/></svg></a>
+                    
+                        <a href="/login" class="btn-deposit" style="text-decoration: none;" data-i18n="login">Войти</a>
+                        <a href="/register" class="btn-deposit" style="text-decoration: none;" data-i18n="register">Регистрация</a>
+                    
+                </div>
+            </header>
+
+            
+
+            <!-- ОБЛАСТЬ КОНТЕНТА -->
+            <main class="content-area">
+
+<script src="/header-page-5.js?v=55bbf99e8098"></script>
+<script>window.MineDropScriptData = window.MineDropScriptData || {}; window.MineDropScriptData["header-page-6"] = ["guest"];</script>
+<script src="/header-page-6.js?v=55bbf99e8098"></script>
+
+
+
+
+<!-- This page-local rule is intentionally stronger than saved per-case sizes.
+     INVITE and VISUAL source images have different transparent padding. -->
+<style id="case-hero-size-guards">
+    .case-v2-image-wrap.case-hero-invite-case .case-v2-image {
+        width: min(124%, 410px) !important;
+        height: min(104%, 330px) !important;
+        max-width: none !important;
+        max-height: none !important;
+        transform: translate(var(--case-visual-x, 0px), var(--case-visual-y, 0px)) scale(.50) !important;
+    }
+    .case-v2-image-wrap.case-hero-invite-case:hover .case-v2-image {
+        transform: translate(var(--case-visual-x, 0px), var(--case-visual-y, 0px)) scale(.52) !important;
+    }
+    .case-v2-image-wrap.case-hero-visual .case-v2-image {
+        width: min(124%, 410px) !important;
+        height: min(104%, 330px) !important;
+        max-width: none !important;
+        max-height: none !important;
+        transform: translate(var(--case-visual-x, 0px), var(--case-visual-y, 0px)) scale(.60) !important;
+    }
+    .case-v2-image-wrap.case-hero-visual:hover .case-v2-image {
+        transform: translate(var(--case-visual-x, 0px), var(--case-visual-y, 0px)) scale(.62) !important;
+    }
+    @media (max-width: 760px) {
+        .case-v2-image-wrap.case-hero-invite-case .case-v2-image { transform: translate(var(--case-visual-x, 0px), var(--case-visual-y, 0px)) scale(.50) !important; }
+        .case-v2-image-wrap.case-hero-visual .case-v2-image { transform: translate(var(--case-visual-x, 0px), var(--case-visual-y, 0px)) scale(.60) !important; }
+    }
+</style>
+
+<div class="case-v2-page">
+    
+    
+    
+    <!-- ЦЕНТРАЛЬНЫЙ БЛОК -->
+    <div class="case-v2-header">
+        <div class="case-v2-top-bar">
+            <div class="case-v2-info-wrap">
+                <div class="case-v2-info-btn">
+                    <span class="info-icon"><img src="/themes/standard/upgrade-info.png" alt="" onerror="this.onerror=null;this.src='/themes/standard/upgrade-info.png';"></span>
+                    <span data-i18n="aboutCase">О КЕЙСЕ</span>
+                </div>
+                <div class="case-v2-tooltip">
+                    <div class="tt-row"><span class="tt-label">КЕЙС:</span> <span class="tt-val">Holy-RubClassic-Case</span></div>
+                    <div class="tt-row"><span class="tt-label">ЦЕНА:</span> <span class="tt-val">199 коинов</span></div>
+                    <div class="tt-row"><span class="tt-label">ПРЕДМЕТОВ:</span> <span class="tt-val">10</span></div>
+                </div>
+            </div>
+            <div class="case-v2-quick-actions">
+            <button type="button" class="case-v2-sound-btn" data-volume-kind="case" aria-label="Звук кейсов"><svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M11 5 6 9H3v6h3l5 4Z"/><path d="M15 8a6 6 0 0 1 0 8M18 5a10 10 0 0 1 0 14"/></svg></button>
+            <div class="case-v2-fav-wrap">
+                <button class="case-v2-fav-btn" id="fav-btn" onclick="toggleFav()">
+                    <span id="fav-icon">&#9825;</span>
+                </button>
+                <div class="fav-tooltip" id="fav-tooltip">Добавить в избранное</div>
+            </div>
+            </div>
+        </div>
+        <div class="case-v2-label" data-i18n="brandCase">ФИРМЕННЫЙ КЕЙС</div>
+        <div class="case-v2-title">&laquo;Holy-RubClassic-Case&raquo;</div>
+        
+        <div class="case-v2-image-wrap case-hero-holy-rubclassic-case case-hero-large case-theme-yellow">
+            <img src="/case-hero-spinner-yellow.png?v=2" alt="" class="case-v2-ring" aria-hidden="true">
+            
+            <img src="/site-images/0203775b2feb7df9-768-a58630bb179304b0.webp?iv=a58630bb179304b0" alt="Holy-RubClassic-Case" class="case-v2-image case-v2-image-loading" style="object-fit:contain" onload="this.classList.remove('case-v2-image-loading'); this.parentElement.classList.remove('is-fallback'); window.centerCaseHeroImage && window.centerCaseHeroImage(this);" onerror="if(!this.dataset.retry){this.dataset.retry='1';setTimeout(()=>{this.style.display='';this.src=this.src+'?r='+Date.now()},1500);}else{this.style.display='none';this.parentElement.classList.add('is-fallback');}">
+        </div>
+
+        <!-- РУЛЕТКА -->
+        <div class="roulette-section" id="roulette-section" style="display:none;">
+            <div class="roulette-container" id="roulette-container"></div>
+            <div class="roulette-result" id="roulette-result"></div>
+            <div class="bulk-summary" id="bulk-summary"></div>
+        </div>
+        
+        
+            <div class="case-v2-balance-info" style="margin-top:15px;">
+                <div class="case-v2-balance-text">
+                    Чтобы открыть кейс, необходимо <a href="/login">войти</a>
+                </div>
+            </div>
+        
+    </div>
+
+    <div class="case-v2-section-title" data-i18n="caseContents">СОДЕРЖИМОЕ КЕЙСА</div>
+    
+    <div class="case-v2-items">
+        
+            <div class="case-v2-item rarity-l5" style="--rarity-color: #f59e0b; --rarity-glow: rgba(245,158,11,0.58); --glow-power: 0.42;">
+                <div class="cv2-item-img">
+                    
+                        <img src="/lossless-images/6438e6ab57146308-5e433c47a517e4df.png?iv=5e433c47a517e4df" alt="12,500 Рубинов" loading="lazy" decoding="async" class="case-item-img case-item-img-loading" onload="this.classList.remove('case-item-img-loading'); if(this.nextElementSibling)this.nextElementSibling.style.display='none';" onerror="this.style.display='none'; if(this.nextElementSibling)this.nextElementSibling.style.display='flex';">
+                        <div class="fallback-icon fallback-icon-silent" style="display:none;">⛏️</div>
+                    
+                    <div class="cv2-item-price">2499 коинов</div>
+                </div>
+                <div class="cv2-item-name">12,500 Рубинов</div>
+                <div class="cv2-item-server">CLASSIC</div>
+                <div class="cv2-item-bar"></div>
+            </div>
+        
+            <div class="case-v2-item rarity-l4" style="--rarity-color: #ef4444; --rarity-glow: rgba(239,68,68,0.48); --glow-power: 0.32;">
+                <div class="cv2-item-img">
+                    
+                        <img src="/lossless-images/0ecc01d0a402b384-1e08ff5f58951ea2.png?iv=1e08ff5f58951ea2" alt="5,000 Рубинов" loading="lazy" decoding="async" class="case-item-img case-item-img-loading" onload="this.classList.remove('case-item-img-loading'); if(this.nextElementSibling)this.nextElementSibling.style.display='none';" onerror="this.style.display='none'; if(this.nextElementSibling)this.nextElementSibling.style.display='flex';">
+                        <div class="fallback-icon fallback-icon-silent" style="display:none;">⛏️</div>
+                    
+                    <div class="cv2-item-price">999 коинов</div>
+                </div>
+                <div class="cv2-item-name">5,000 Рубинов</div>
+                <div class="cv2-item-server">CLASSIC</div>
+                <div class="cv2-item-bar"></div>
+            </div>
+        
+            <div class="case-v2-item rarity-l3" style="--rarity-color: #a855f7; --rarity-glow: rgba(168,85,247,0.42); --glow-power: 0.24;">
+                <div class="cv2-item-img">
+                    
+                        <img src="/lossless-images/a1377f6142dbdb2a-13011ca0d91d520c.png?iv=13011ca0d91d520c" alt="2,500 Рубинов" loading="lazy" decoding="async" class="case-item-img case-item-img-loading" onload="this.classList.remove('case-item-img-loading'); if(this.nextElementSibling)this.nextElementSibling.style.display='none';" onerror="this.style.display='none'; if(this.nextElementSibling)this.nextElementSibling.style.display='flex';">
+                        <div class="fallback-icon fallback-icon-silent" style="display:none;">⛏️</div>
+                    
+                    <div class="cv2-item-price">499 коинов</div>
+                </div>
+                <div class="cv2-item-name">2,500 Рубинов</div>
+                <div class="cv2-item-server">CLASSIC</div>
+                <div class="cv2-item-bar"></div>
+            </div>
+        
+            <div class="case-v2-item rarity-l3" style="--rarity-color: #a855f7; --rarity-glow: rgba(168,85,247,0.42); --glow-power: 0.24;">
+                <div class="cv2-item-img">
+                    
+                        <img src="/lossless-images/ffd3883b73e11122-cd51e471fe28f122.webp?iv=cd51e471fe28f122" alt="Донат ГЛАДИАТОР (30)" loading="lazy" decoding="async" class="case-item-img case-item-img-loading" onload="this.classList.remove('case-item-img-loading'); if(this.nextElementSibling)this.nextElementSibling.style.display='none';" onerror="this.style.display='none'; if(this.nextElementSibling)this.nextElementSibling.style.display='flex';">
+                        <div class="fallback-icon fallback-icon-silent" style="display:none;">⛏️</div>
+                    
+                    <div class="cv2-item-price">329 коинов</div>
+                </div>
+                <div class="cv2-item-name">Донат ГЛАДИАТОР (30)</div>
+                <div class="cv2-item-server">CLASSIC</div>
+                <div class="cv2-item-bar"></div>
+            </div>
+        
+            <div class="case-v2-item rarity-l3" style="--rarity-color: #a855f7; --rarity-glow: rgba(168,85,247,0.42); --glow-power: 0.24;">
+                <div class="cv2-item-img">
+                    
+                        <img src="/lossless-images/65f30f0312793955-804304f4d3855d95.png?iv=804304f4d3855d95" alt="Перенос Доната" loading="lazy" decoding="async" class="case-item-img case-item-img-loading" onload="this.classList.remove('case-item-img-loading'); if(this.nextElementSibling)this.nextElementSibling.style.display='none';" onerror="this.style.display='none'; if(this.nextElementSibling)this.nextElementSibling.style.display='flex';">
+                        <div class="fallback-icon fallback-icon-silent" style="display:none;">⛏️</div>
+                    
+                    <div class="cv2-item-price">249 коинов</div>
+                </div>
+                <div class="cv2-item-name">Перенос Доната</div>
+                <div class="cv2-item-server">CLASSIC</div>
+                <div class="cv2-item-bar"></div>
+            </div>
+        
+            <div class="case-v2-item rarity-l3" style="--rarity-color: #a855f7; --rarity-glow: rgba(168,85,247,0.42); --glow-power: 0.24;">
+                <div class="cv2-item-img">
+                    
+                        <img src="/lossless-images/cb0bebc8c97f1629-d3b64dc4198310df.png?iv=d3b64dc4198310df" alt="1000 Рубинов" loading="lazy" decoding="async" class="case-item-img case-item-img-loading" onload="this.classList.remove('case-item-img-loading'); if(this.nextElementSibling)this.nextElementSibling.style.display='none';" onerror="this.style.display='none'; if(this.nextElementSibling)this.nextElementSibling.style.display='flex';">
+                        <div class="fallback-icon fallback-icon-silent" style="display:none;">⛏️</div>
+                    
+                    <div class="cv2-item-price">210 коинов</div>
+                </div>
+                <div class="cv2-item-name">1000 Рубинов</div>
+                <div class="cv2-item-server">CLASSIC</div>
+                <div class="cv2-item-bar"></div>
+            </div>
+        
+            <div class="case-v2-item rarity-l2" style="--rarity-color: #3b82f6; --rarity-glow: rgba(59,130,246,0.35); --glow-power: 0.18;">
+                <div class="cv2-item-img">
+                    
+                        <img src="/lossless-images/6e5e4e8a5e159f5b-c467abf31e908224.png?iv=c467abf31e908224" alt="Донат ПАЛАДИН (всегда)" loading="lazy" decoding="async" class="case-item-img case-item-img-loading" onload="this.classList.remove('case-item-img-loading'); if(this.nextElementSibling)this.nextElementSibling.style.display='none';" onerror="this.style.display='none'; if(this.nextElementSibling)this.nextElementSibling.style.display='flex';">
+                        <div class="fallback-icon fallback-icon-silent" style="display:none;">⛏️</div>
+                    
+                    <div class="cv2-item-price">129 коинов</div>
+                </div>
+                <div class="cv2-item-name">Донат ПАЛАДИН (всегда)</div>
+                <div class="cv2-item-server">CLASSIC</div>
+                <div class="cv2-item-bar"></div>
+            </div>
+        
+            <div class="case-v2-item rarity-l2" style="--rarity-color: #3b82f6; --rarity-glow: rgba(59,130,246,0.35); --glow-power: 0.18;">
+                <div class="cv2-item-img">
+                    
+                        <img src="/lossless-images/a2c49126b6361a4b-9c9f23958d2f0993.png?iv=9c9f23958d2f0993" alt="500 Рубинов" loading="lazy" decoding="async" class="case-item-img case-item-img-loading" onload="this.classList.remove('case-item-img-loading'); if(this.nextElementSibling)this.nextElementSibling.style.display='none';" onerror="this.style.display='none'; if(this.nextElementSibling)this.nextElementSibling.style.display='flex';">
+                        <div class="fallback-icon fallback-icon-silent" style="display:none;">⛏️</div>
+                    
+                    <div class="cv2-item-price">106 коинов</div>
+                </div>
+                <div class="cv2-item-name">500 Рубинов</div>
+                <div class="cv2-item-server">CLASSIC</div>
+                <div class="cv2-item-bar"></div>
+            </div>
+        
+            <div class="case-v2-item rarity-l2" style="--rarity-color: #3b82f6; --rarity-glow: rgba(59,130,246,0.35); --glow-power: 0.18;">
+                <div class="cv2-item-img">
+                    
+                        <img src="/lossless-images/3585c78527bda2f2-9d742be0a11195d9.png?iv=9d742be0a11195d9" alt="Боевой Пропуск" loading="lazy" decoding="async" class="case-item-img case-item-img-loading" onload="this.classList.remove('case-item-img-loading'); if(this.nextElementSibling)this.nextElementSibling.style.display='none';" onerror="this.style.display='none'; if(this.nextElementSibling)this.nextElementSibling.style.display='flex';">
+                        <div class="fallback-icon fallback-icon-silent" style="display:none;">⛏️</div>
+                    
+                    <div class="cv2-item-price">99 коинов</div>
+                </div>
+                <div class="cv2-item-name">Боевой Пропуск</div>
+                <div class="cv2-item-server">CLASSIC</div>
+                <div class="cv2-item-bar"></div>
+            </div>
+        
+            <div class="case-v2-item rarity-l2" style="--rarity-color: #3b82f6; --rarity-glow: rgba(59,130,246,0.35); --glow-power: 0.18;">
+                <div class="cv2-item-img">
+                    
+                        <img src="/lossless-images/bc70536211f9cf9e-f22b28c1913ae5ef.png?iv=f22b28c1913ae5ef" alt="250 Рубинов" loading="lazy" decoding="async" class="case-item-img case-item-img-loading" onload="this.classList.remove('case-item-img-loading'); if(this.nextElementSibling)this.nextElementSibling.style.display='none';" onerror="this.style.display='none'; if(this.nextElementSibling)this.nextElementSibling.style.display='flex';">
+                        <div class="fallback-icon fallback-icon-silent" style="display:none;">⛏️</div>
+                    
+                    <div class="cv2-item-price">55 коинов</div>
+                </div>
+                <div class="cv2-item-name">250 Рубинов</div>
+                <div class="cv2-item-server">CLASSIC</div>
+                <div class="cv2-item-bar"></div>
+            </div>
+        
+    </div>
+</div>
+
+<div class="case-celebration-layer" id="case-celebration-layer"></div>
+
+<script src="/case-roulette.js?v=55bbf99e8098"></script>
+<script>window.MineDropScriptData = window.MineDropScriptData || {}; window.MineDropScriptData["case-page-1"] = ["55bbf99e8098","55bbf99e8098","55bbf99e8098","55bbf99e8098","55bbf99e8098",199,18,0,false,false,0,0,"coins","Holy-RubClassic-Case",[{"id":291315,"name":"12,500 Рубинов","price":2499,"index":0,"chance":0.00009289460144065181,"img":"/lossless-images/6438e6ab57146308-5e433c47a517e4df.png?iv=5e433c47a517e4df","serverLabel":"CLASSIC"},{"id":291316,"name":"5,000 Рубинов","price":999,"index":1,"chance":0.0005066957990998449,"img":"/lossless-images/0ecc01d0a402b384-1e08ff5f58951ea2.png?iv=1e08ff5f58951ea2","serverLabel":"CLASSIC"},{"id":291317,"name":"2,500 Рубинов","price":499,"index":2,"chance":11.87539021147354,"img":"/lossless-images/a1377f6142dbdb2a-13011ca0d91d520c.png?iv=13011ca0d91d520c","serverLabel":"CLASSIC"},{"id":291318,"name":"Донат ГЛАДИАТОР (30)","price":329,"index":3,"chance":7.637974789982725,"img":"/lossless-images/ffd3883b73e11122-cd51e471fe28f122.webp?iv=cd51e471fe28f122","serverLabel":"CLASSIC"},{"id":291319,"name":"Перенос Доната","price":249,"index":4,"chance":9.58778205072811,"img":"/lossless-images/65f30f0312793955-804304f4d3855d95.png?iv=804304f4d3855d95","serverLabel":"CLASSIC"},{"id":291320,"name":"1000 Рубинов","price":210,"index":5,"chance":10.898253357415065,"img":"/lossless-images/cb0bebc8c97f1629-d3b64dc4198310df.png?iv=d3b64dc4198310df","serverLabel":"CLASSIC"},{"id":291321,"name":"Донат ПАЛАДИН (всегда)","price":129,"index":6,"chance":8.156621852030272,"img":"/lossless-images/6e5e4e8a5e159f5b-c467abf31e908224.png?iv=c467abf31e908224","serverLabel":"CLASSIC"},{"id":291322,"name":"500 Рубинов","price":106,"index":7,"chance":9.228921352979208,"img":"/lossless-images/a2c49126b6361a4b-9c9f23958d2f0993.png?iv=9c9f23958d2f0993","serverLabel":"CLASSIC"},{"id":291323,"name":"Боевой Пропуск","price":99,"index":8,"chance":9.623457015190464,"img":"/lossless-images/3585c78527bda2f2-9d742be0a11195d9.png?iv=9d742be0a11195d9","serverLabel":"CLASSIC"},{"id":291324,"name":"250 Рубинов","price":55,"index":9,"chance":32.99099977980006,"img":"/lossless-images/bc70536211f9cf9e-f22b28c1913ae5ef.png?iv=f22b28c1913ae5ef","serverLabel":"CLASSIC"}]];</script>
+<script src="/case-page-1.js?v=55bbf99e8098"></script>
+
+                
+                <footer class="site-footer">
+                    <div class="site-footer-copy">
+                        <div class="site-footer-brand" data-i18n="footerRights">&copy; 2026 MineDrop. Все права защищены.</div>
+                        <div class="site-footer-line" data-i18n="footerMojang">MineDrop является независимым проектом и не связан с Mojang Studios, Microsoft или администрациями игровых серверов.</div>
+                        <div class="site-footer-line" data-i18n="footerAbout">Кейсы, апгрейды и вывод предметов по Minecraft-серверам в одном месте.</div>
+                        <div class="site-footer-line">Company email: <a href="mailto:supportminedrop@gmail.com">supportminedrop@gmail.com</a></div>
+                        <div class="site-footer-payments" aria-label="Принимаем оплату">
+                            <span>Принимаем</span>
+                            <b>МИР</b>
+                            <b>VISA</b>
+                            <b>Mastercard</b>
+                            <b>СБП</b>
+                        </div>
+                        <nav class="site-footer-legal" aria-label="Юридические документы">
+                            <a href="/terms">Пользовательское соглашение</a>
+                            <a href="/privacy">Политика конфиденциальности</a>
+                            <a href="/consent">Обработка персональных данных</a>
+                            <a href="/rules">Правила</a>
+                            <a href="/refund">Возвраты</a>
+                        </nav>
+                        <p class="site-footer-line">ООО «Транстрейд». Адрес компании: Кыргызская республика, Бишкек, Ленинский район, ул Калык Акиева 66. Номер ОГРН: 310961-3301-ООО. ИНН: 9909710251.</p>
+                    </div>
+                    <div class="site-footer-socials" aria-label="Telegram ссылки">
+                        <a href="https://t.me/minecraftdrop" class="site-footer-telegram" target="_blank" rel="noopener noreferrer" aria-label="Telegram канал">
+                            <img src="/images/social/telegram-channel.png?v=55bbf99e8098" alt="">
+                            <span>Канал</span>
+                        </a>
+                        <a href="https://t.me/MineDropLinkBot" class="site-footer-telegram" target="_blank" rel="noopener noreferrer" aria-label="Telegram бот">
+                            <img src="/images/social/telegram-bot.png?v=55bbf99e8098" alt="">
+                            <span>Бот</span>
+                        </a>
+                    </div>
+                </footer>
+                <div id="deposit-modal" class="modal-overlay" style="display:none;">
+                    <div class="modal-content deposit-modal deposit-v3">
+                        <div class="deposit-v3-handle" aria-hidden="true"><span></span></div>
+                        <button class="modal-close deposit-v3-close" onclick="closeDepositModal()" aria-label="Закрыть">&times;</button>
+
+                        <div class="deposit-v3-hero">
+                            <div class="deposit-v3-brand">
+                                <div class="deposit-v3-logo"><img src="/coin.png?v=55bbf99e8098" alt=""></div>
+                                <div>
+                                    <span>MineDrop Wallet</span>
+                                    <b>Пополнение баланса</b>
+                                </div>
+                            </div>
+                            <div class="deposit-v3-rate">
+                                <span>Курс</span>
+                                <b>1 ₽ = 1 COIN</b>
+                            </div>
+                        </div>
+
+                        <div class="deposit-v3-body">
+                            <section class="deposit-v3-panel deposit-v3-main">
+                                <div class="deposit-v3-section-head">
+                                    <span>Сумма пополнения</span>
+                                    <small>Минимум 50 ₽</small>
+                                </div>
+
+                                <div class="deposit-v3-amount-box">
+                                    <input type="number" min="50" step="1" id="deposit-amount" class="deposit-input deposit-v3-amount-input" value="50" placeholder="50">
+                                    <span>₽</span>
+                                </div>
+
+                                <div class="deposit-quick-amounts deposit-v3-packs" aria-label="Быстрый выбор суммы">
+                                    <button type="button" data-amount="50" class="active"><b>50 ₽</b><span>50 Coins</span></button>
+                                    <button type="button" data-amount="100"><b>100 ₽</b><span>100 Coins</span></button>
+                                    <button type="button" data-amount="300"><b>300 ₽</b><span>300 Coins</span></button>
+                                    <button type="button" data-amount="500"><b>500 ₽</b><span>500 Coins</span></button>
+                                    <button type="button" data-amount="1000"><b>1000 ₽</b><span>1000 Coins</span></button>
+                                    <button type="button" data-amount="2500"><b>2500 ₽</b><span>2500 Coins</span></button>
+                                    <button type="button" data-amount="5000"><b>5000 ₽</b><span>5000 Coins</span></button>
+                                </div>
+
+                                <div class="deposit-v3-promo">
+                                    <input type="text" id="deposit-promo" class="deposit-input" placeholder="Введите промокод, если есть">
+                                </div>
+                                <button type="button" class="deposit-apply-promo-btn" onclick="applyDepositPromo()">Применить</button>
+                                <div id="deposit-promo-msg" class="deposit-promo-msg"></div>
+                            </section>
+
+                            <aside class="deposit-v3-panel deposit-v3-checkout">
+                                <div class="deposit-v3-section-head">
+                                    <span>Способ оплаты</span>
+                                    <small aria-hidden="true">&nbsp;</small>
+                                </div>
+
+                                <div class="deposit-methods deposit-v3-methods">
+                                    
+                                    <button type="button" class="deposit-method " data-provider="lava">
+                                        <span class="deposit-method-logo deposit-method-logo-img"><img src="/nav-icons/lava-payment.png?v=55bbf99e8098" alt="Lava"></span>
+                                        <span class="deposit-method-name">Lava</span>
+                                        <span class="deposit-method-currency">Карты РФ, Карты всего мира</span>
+                                    </button>
+                                    
+                                    
+                                    <button type="button" class="deposit-method active" data-provider="platega">
+                                        <span class="deposit-method-logo deposit-method-logo-img"><img src="/nav-icons/platega-payment.png?v=55bbf99e8098" alt="Platega"></span>
+                                        <span class="deposit-method-name">Platega</span>
+                                        <span class="deposit-method-currency">Карты, СБП, Крипта</span>
+                                    </button>
+                                    
+                                    
+                                    <button type="button" class="deposit-method " data-provider="anypay">
+                                        <span class="deposit-method-logo deposit-method-logo-visa">VISA</span>
+                                        <span class="deposit-method-name">Международные карты</span>
+                                        <span class="deposit-method-currency">VISA / Mastercard · AnyPay</span>
+                                    </button>
+                                    
+                                    
+                                    <button type="button" class="deposit-method " data-provider="cryptobot">
+                                        <span class="deposit-method-logo deposit-method-logo-img"><img src="/nav-icons/cryptobot-payment.png?v=55bbf99e8098" alt="CryptoBot"></span>
+                                        <span class="deposit-method-name">CryptoBot</span>
+                                        <span class="deposit-method-currency">USDT, TON, BTC через Telegram</span>
+                                    </button>
+                                    
+                                </div>
+
+                                <div class="deposit-v3-summary">
+                                    <div><span>ИТОГО</span><b id="deposit-summary-coins"><span id="deposit-summary-paid-coins">50 Coins</span><span id="deposit-summary-bonus" hidden></span></b></div>
+                                </div>
+
+                                <label class="deposit-age-confirm">
+                                    <input type="checkbox" id="deposit-age-confirm">
+                                    <span>Мне испольнилось 18 ЛЕТ.<br>Я понимаю, что COINS — внутренняя единица сервиса.</span>
+                                </label>
+                                <button type="button" class="deposit-submit-btn deposit-v3-pay-btn" onclick="submitDepositRequest()">Перейти к оплате</button>
+                                <p class="deposit-help-text">После оплаты платёжный сервис отправит подтверждение, и баланс обновится автоматически.</p>
+                            </aside>
+                        </div>
+                    </div>
+                </div>
+            </main>
+        </div>
+    </div>
+
+    <script>window.MineDropScriptData = window.MineDropScriptData || {}; window.MineDropScriptData["footer-page-1"] = ["55bbf99e8098","platega","platega"];</script>
+<script src="/footer-page-1.js?v=55bbf99e8098-promo-summary-2"></script>
+    <script src="/footer-page-2.js?v=55bbf99e8098"></script>
+<script src="/event-activity.js?v=55bbf99e8098" defer></script>
+<script src="/event-prize-badge.js?v=55bbf99e8098" defer></script>
+</body>
+</html>
+
+

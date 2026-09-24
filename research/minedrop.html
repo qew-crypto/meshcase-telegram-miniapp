@@ -1,0 +1,2676 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+    <meta name="asset-version" content="55bbf99e8098">
+    <meta name="csrf-token" content="">
+    <meta name="apay-tag" content="QTTNHM7DPS2HOWVA3YH25MQY5TBJJFRS">
+    <title>MineDrop</title>
+    <link rel="preload" href="/style.css?v=55bbf99e8098" as="style">
+<link rel="stylesheet" href="/fonts.css?v=55bbf99e8098">
+<link rel="stylesheet" href="/ambient-background.css?v=55bbf99e8098">
+<style>body{background:#04070c}.ambient-bg path{fill:none !important}</style>
+
+    <script src="/graphics-quality.js?v=55bbf99e8098"></script>
+    <link rel="stylesheet" href="/graphics-quality.css?v=55bbf99e8098">
+    <script src="/network-recovery.js?v=55bbf99e8098"></script>
+    <link rel="icon" href="/site-icon.png?v=55bbf99e8098" type="image/png">
+    <script>window.MineDropScriptData = window.MineDropScriptData || {}; window.MineDropScriptData["header-page-1"] = [["minedrop.art"]];</script>
+<script src="/header-page-1.js?v=55bbf99e8098"></script>
+    <script src="/header-page-2.js?v=55bbf99e8098"></script>
+    
+    <style>:root{--accent:#22c55e;--accent-hover:#4ade80;--accent-rgb:34,197,94;--accent-dark:#15803d;--theme-path:'/themes/standard/';}</style>
+    <script>window.MineDropScriptData = window.MineDropScriptData || {}; window.MineDropScriptData["header-page-3"] = ["ru","standard"];</script>
+<script src="/header-page-3.js?v=55bbf99e8098"></script>
+    <link rel="stylesheet" href="/style.css?v=55bbf99e8098">
+    <link rel="stylesheet" href="/community.css?v=55bbf99e8098">
+    <link rel="stylesheet" href="/event-prizes.css?v=55bbf99e8098">
+    <script defer src="/community.js?v=55bbf99e8098"></script>
+    <link rel="stylesheet" href="/volume-controls.css?v=55bbf99e8098-3">
+    <script defer src="/volume-controls.js?v=55bbf99e8098-3"></script>
+    <script defer src="/live-wallet.js?v=55bbf99e8098"></script>
+    <script defer src="/interface-update.js?v=55bbf99e8098"></script>
+    <link rel="stylesheet" href="/interface-update.css?v=55bbf99e8098">
+    <link rel="stylesheet" href="/interface-motion.css?v=55bbf99e8098">
+    <style>
+        .live-sidebar .live-header::before { content: none !important; display: none !important; }
+        .role-switch-btn { background: rgba(255,255,255,0.06); border: 1px solid rgba(255,255,255,0.1); color: var(--text-muted); border-radius: 10px; padding: 6px 8px; margin-left: 6px; cursor: pointer; font-size: 13px; line-height: 1; transition: .15s; }
+        .role-switch-btn:hover { background: rgba(255,255,255,0.12); color: #fff; }
+        .role-badge.role-player { background: rgba(34,197,94,0.15); color: #22c55e; border: 1px solid rgba(34,197,94,0.25); }
+    </style>
+</head>
+<body data-user-language="ru">
+    <div class="ambient-bg" aria-hidden="true"></div>
+<script src="/ambient-background.js?v=55bbf99e8098" defer></script>
+
+    <!-- МОБИЛЬНОЕ МЕНЮ -->
+    
+    <div class="mobile-drawer-overlay" id="mobile-drawer-overlay" onclick="closeMobileMenu()"></div>
+    <nav class="mobile-drawer" id="mobile-drawer" aria-hidden="true">
+        <div class="mobile-drawer-head">
+            <a href="/" class="brand-link" aria-label="MineDrop — главная"><div class="logo"><div class="logo-main"><span>MINE</span>DROP</div></div></a>
+            <div class="online-stats mobile-drawer-online" id="mobile-online-count" aria-label="Онлайн на сайте" title="Онлайн на сайте">
+                <img src="/themes/standard/logo-online.png?v=55bbf99e8098" alt="" class="online-stats-icon">
+                <span class="online-stats-value">94</span>
+            </div>
+            <button type="button" class="mobile-drawer-close" aria-label="Закрыть" onclick="closeMobileMenu()">&times;</button>
+        </div>
+        
+        <div class="mobile-drawer-links">
+            <a href="/" class="mobile-drawer-link active">
+                <img src="/themes/standard/logo-cases.png?v=55bbf99e8098" alt="" class="mobile-drawer-nav-icon" data-theme-icon="cases">
+                <span data-i18n="cases">Кейсы</span>
+            </a>
+            <a href="/upgrade" class="mobile-drawer-link ">
+                <img src="/themes/standard/logo-upgrade.png?v=55bbf99e8098" alt="" class="mobile-drawer-nav-icon" data-theme-icon="upgrade">
+                <span data-i18n="upgrade">Апгрейд</span>
+            </a>
+            <div id="mobile-account-area">
+            
+                <a href="/login" class="mobile-drawer-link" data-i18n="login">Войти</a>
+                <a href="/register" class="mobile-drawer-link" data-i18n="register">Регистрация</a>
+            
+            </div>
+        </div>
+    </nav>
+
+    <div class="app-layout">
+        
+        <!-- ЛЕВАЯ ПАНЕЛЬ (LIVE ЛЕНТА) -->
+        <aside class="live-sidebar">
+            <div class="live-header">
+                <svg class="live-feed-logo" xmlns="http://www.w3.org/2000/svg" viewBox="603 590 294 320" width="18" height="20" style="display:block;flex:0 0 18px" aria-hidden="true">
+                    <image data-live-logo href="/themes/standard/live-logo.png?v=55bbf99e8098" x="0" y="0" width="1500" height="1500"/>
+                </svg>
+                <span data-i18n="liveWins">У нас получили</span>
+            </div>
+            <div class="live-items is-loading" aria-busy="true" aria-live="polite">
+                <div class="live-item" style="border-left-color: var(--rarity-epic)" data-key="HERO|250">
+                    <div>⛏️</div>
+                    <div class="item-name">HERO</div>
+                    <div class="item-price">+250 коинов</div>
+                    <div class="live-hover" data-rarity="var(--rarity-epic)">
+                        <div class="lhv-bg"></div>
+                        <div class="lhv-inner">
+                            <div class="lhv-case">RW Case</div>
+                            <div class="lhv-img"><div class="lhv-fallback" style="display:flex;">⛏️</div></div>
+                            <div class="lhv-name">HERO</div>
+                            <div class="lhv-actions"></div>
+                        </div>
+                        <div class="lhv-q">?</div>
+                    </div>
+                </div>
+                <div class="live-item" style="border-left-color: var(--rarity-mythic)" data-key="DRAGON|1500">
+                    <div>⛏️</div>
+                    <div class="item-name">DRAGON</div>
+                    <div class="item-price">+1500 коинов</div>
+                    <div class="live-hover" data-rarity="var(--rarity-mythic)">
+                        <div class="lhv-bg"></div>
+                        <div class="lhv-inner">
+                            <div class="lhv-case">Fun-Case</div>
+                            <div class="lhv-img"><div class="lhv-fallback" style="display:flex;">⛏️</div></div>
+                            <div class="lhv-name">DRAGON</div>
+                            <div class="lhv-actions"></div>
+                        </div>
+                        <div class="lhv-q">?</div>
+                    </div>
+                </div>
+                <div class="live-item" style="border-left-color: var(--rarity-rare)" data-key="GHAST|75">
+                    <div>⛏️</div>
+                    <div class="item-name">GHAST</div>
+                    <div class="item-price">+75 коинов</div>
+                    <div class="live-hover" data-rarity="var(--rarity-rare)">
+                        <div class="lhv-bg"></div>
+                        <div class="lhv-inner">
+                            <div class="lhv-case">HW Lite</div>
+                            <div class="lhv-img"><div class="lhv-fallback" style="display:flex;">⛏️</div></div>
+                            <div class="lhv-name">GHAST</div>
+                            <div class="lhv-actions"></div>
+                        </div>
+                        <div class="lhv-q">?</div>
+                    </div>
+                </div>
+                <div class="live-item" style="border-left-color: var(--rarity-legendary)" data-key="OVERLORD|900">
+                    <div>⛏️</div>
+                    <div class="item-name">OVERLORD</div>
+                    <div class="item-price">+900 коинов</div>
+                    <div class="live-hover" data-rarity="var(--rarity-legendary)">
+                        <div class="lhv-bg"></div>
+                        <div class="lhv-inner">
+                            <div class="lhv-case">HW</div>
+                            <div class="lhv-img"><div class="lhv-fallback" style="display:flex;">⛏️</div></div>
+                            <div class="lhv-name">OVERLORD</div>
+                            <div class="lhv-actions"></div>
+                        </div>
+                        <div class="lhv-q">?</div>
+                    </div>
+                </div>
+                <div class="live-item" style="border-left-color: var(--rarity-common)" data-key="GRIEFER|15">
+                    <div>⛏️</div>
+                    <div class="item-name">GRIEFER</div>
+                    <div class="item-price">+15 коинов</div>
+                    <div class="live-hover" data-rarity="var(--rarity-common)">
+                        <div class="lhv-bg"></div>
+                        <div class="lhv-inner">
+                            <div class="lhv-case">RW</div>
+                            <div class="lhv-img"><div class="lhv-fallback" style="display:flex;">⛏️</div></div>
+                            <div class="lhv-name">GRIEFER</div>
+                            <div class="lhv-actions"></div>
+                        </div>
+                        <div class="lhv-q">?</div>
+                    </div>
+                </div>
+                <div class="live-item" style="border-left-color: var(--rarity-rare)" data-key="CREEPER|80">
+                    <div>⛏️</div>
+                    <div class="item-name">CREEPER</div>
+                    <div class="item-price">+80 коинов</div>
+                    <div class="live-hover" data-rarity="var(--rarity-rare)">
+                        <div class="lhv-bg"></div>
+                        <div class="lhv-inner">
+                            <div class="lhv-case">FT</div>
+                            <div class="lhv-img"><div class="lhv-fallback" style="display:flex;">⛏️</div></div>
+                            <div class="lhv-name">CREEPER</div>
+                            <div class="lhv-actions"></div>
+                        </div>
+                        <div class="lhv-q">?</div>
+                    </div>
+                </div>
+                <div class="live-item" style="border-left-color: var(--rarity-epic)" data-key="ENDER|350">
+                    <div>⛏️</div>
+                    <div class="item-name">ENDER</div>
+                    <div class="item-price">+350 коинов</div>
+                    <div class="live-hover" data-rarity="var(--rarity-epic)">
+                        <div class="lhv-bg"></div>
+                        <div class="lhv-inner">
+                            <div class="lhv-case">RW</div>
+                            <div class="lhv-img"><div class="lhv-fallback" style="display:flex;">⛏️</div></div>
+                            <div class="lhv-name">ENDER</div>
+                            <div class="lhv-actions"></div>
+                        </div>
+                        <div class="lhv-q">?</div>
+                    </div>
+                </div>
+            </div>
+        </aside>
+
+        <!-- ПРАВАЯ ЧАСТЬ -->
+        <div class="main-wrapper">
+            
+            <!-- ВЕРХНЯЯ ШАПКА -->
+            <header class="top-nav">
+                <div class="nav-left">
+                    <button type="button" class="mobile-menu-toggle" id="mobile-menu-toggle" aria-label="Меню" aria-expanded="false" onclick="toggleMobileMenu()">
+                        <span></span><span></span><span></span>
+                    </button>
+                    <a href="/" class="brand-link" aria-label="MineDrop — главная">
+                        <div class="logo"><div class="logo-main"><span>MINE</span>DROP</div></div>
+                    </a>
+                    
+                    
+                    
+                    
+                    <div class="nav-links">
+                        <a href="/" class="nav-tile active">
+                            <span class="nav-tile-icon" aria-hidden="true">
+                                <img src="/themes/standard/logo-cases.png?v=55bbf99e8098" alt="" class="nav-png-icon" onload="this.nextElementSibling.style.display='none'" onerror="this.style.display='none'; this.nextElementSibling.style.display='block'">
+                                <svg viewBox="0 0 128 128" class="nav-icon-svg nav-svg-fallback nav-icon-chest">
+                                    <path d="M26 36c4-14 12-20 21-20h34c9 0 17 6 21 20" class="nav-icon-stroke"></path>
+                                    <rect x="18" y="36" width="92" height="64" rx="12" class="nav-icon-stroke"></rect>
+                                    <path d="M24 64h80" class="nav-icon-core"></path>
+                                    <rect x="52" y="48" width="24" height="28" rx="8" class="nav-icon-stroke"></rect>
+                                    <rect x="60" y="56" width="8" height="12" rx="4" class="nav-icon-core"></rect>
+                                    <path d="M30 40v16" class="nav-icon-core"></path>
+                                    <path d="M98 40v16" class="nav-icon-core"></path>
+                                    <path d="M26 84v8h12" class="nav-icon-core"></path>
+                                    <path d="M102 84v8H90" class="nav-icon-core"></path>
+                                </svg>
+                            </span>
+                            <span class="nav-tile-label" data-i18n="cases">Кейсы</span>
+                        </a>
+                        <a href="/upgrade" class="nav-tile ">
+                            <span class="nav-tile-icon" aria-hidden="true">
+                                <img src="/themes/standard/logo-upgrade.png?v=55bbf99e8098" alt="" class="nav-png-icon" onload="this.nextElementSibling.style.display='none'" onerror="this.style.display='none'; this.nextElementSibling.style.display='block'">
+                                <svg viewBox="0 0 128 128" class="nav-icon-svg nav-svg-fallback nav-icon-book">
+                                    <path d="M18 24c0-6 4-10 10-10h18c10 0 22 5 30 12v76c-8-7-20-12-30-12H28c-6 0-10-4-10-10z" class="nav-icon-stroke"></path>
+                                    <path d="M110 24c0-6-4-10-10-10H82c-10 0-22 5-30 12v76c8-7 20-12 30-12h18c6 0 10-4 10-10z" class="nav-icon-stroke"></path>
+                                    <path d="M64 26v78" class="nav-icon-stroke"></path>
+                                    <path d="M34 38h18" class="nav-icon-core"></path>
+                                    <path d="M34 54h20" class="nav-icon-core"></path>
+                                    <path d="M34 70h18" class="nav-icon-core"></path>
+                                    <path d="M76 38h18" class="nav-icon-core"></path>
+                                    <path d="M74 54h20" class="nav-icon-core"></path>
+                                    <path d="M76 70h18" class="nav-icon-core"></path>
+                                </svg>
+                            </span>
+                            <span class="nav-tile-label" data-i18n="upgrade">Апгрейд</span>
+                        </a>
+                        <div class="online-stats" id="online-count" data-tooltip="Общий онлайн на сайте" data-i18n-tooltip="onlineTooltip" aria-label="Общий онлайн на сайте">
+                            <img src="/themes/standard/logo-online.png?v=55bbf99e8098" alt="Онлайн" class="online-stats-icon" onerror="this.style.display='none'; this.parentElement.classList.add('no-icon');">
+                            <span class="online-stats-value">94</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="nav-right" id="header-account-area">
+<a href="/login" class="header-icon-link header-settings" aria-label="Настройки" title="Настройки"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="m10 3-.6 2.3-1.8 1-2.3-.6-2 3.5L5 11v2l-1.7 1.8 2 3.5 2.3-.6 1.8 1L10 21h4l.6-2.3 1.8-1 2.3.6 2-3.5L19 13v-2l1.7-1.8-2-3.5-2.3.6-1.8-1L14 3Z"/><circle cx="12" cy="12" r="3"/></svg></a><a href="https://t.me/minecraftdrop" class="header-icon-link header-telegram" target="_blank" rel="noopener noreferrer" aria-label="Telegram канал" title="Telegram"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="m21 3-4 18-6-5-3 3v-5L19 5 6 12 2 10Z"/></svg></a>
+                    
+                        <a href="/login" class="btn-deposit" style="text-decoration: none;" data-i18n="login">Войти</a>
+                        <a href="/register" class="btn-deposit" style="text-decoration: none;" data-i18n="register">Регистрация</a>
+                    
+                </div>
+            </header>
+
+            
+            <script src="/header-page-4.js?v=55bbf99e8098"></script>
+            
+
+            <!-- ОБЛАСТЬ КОНТЕНТА -->
+            <main class="content-area">
+
+<script src="/header-page-5.js?v=55bbf99e8098"></script>
+<script>window.MineDropScriptData = window.MineDropScriptData || {}; window.MineDropScriptData["header-page-6"] = ["guest"];</script>
+<script src="/header-page-6.js?v=55bbf99e8098"></script>
+
+
+
+
+<!-- Баннеры -->
+<div class="banner-slot banner-carousel" id="banner-carousel" aria-label="Баннеры">
+    <button type="button" id="banner-toggle" class="banner-toggle" aria-label="Скрыть баннер" title="Скрыть баннер" aria-expanded="true" aria-controls="banner-carousel-track"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M2 12s3.5-7 10-7 10 7 10 7-3.5 7-10 7S2 12 2 12Z"/><circle cx="12" cy="12" r="3"/><path class="eye-slash" d="m3 3 18 18"/></svg></button>
+    <div class="banner-carousel-track" id="banner-carousel-track">
+        <div class="banner-carousel-slide">
+            <video muted playsinline preload="none" poster="/banner-2-poster.jpg" aria-label="Баннер 1" onerror="this.style.display='none';this.parentElement?.classList.add('banner-video-failed');">
+                <source src="/banner-2.mp4" type="video/mp4">
+            </video>
+            <div class="banner-placeholder" style="display:none;">
+                <img src="/banner-2-poster.jpg" alt="Баннер MineDrop" decoding="async" draggable="false">
+            </div>
+        </div>
+        <div class="banner-carousel-slide">
+            <video muted playsinline preload="none" poster="/banner-poster.jpg" aria-label="Баннер 2" onerror="this.style.display='none';this.parentElement?.classList.add('banner-video-failed');">
+                <source src="/banner.mp4" type="video/mp4">
+            </video>
+            <div class="banner-placeholder" style="display:none;">
+                <img src="/banner-poster.jpg" alt="Баннер MineDrop" decoding="async" draggable="false">
+            </div>
+        </div>
+    </div>
+    <button type="button" class="banner-arrow banner-prev" data-banner-step="-1" aria-label="Предыдущий баннер"><svg viewBox="0 0 24 24"><path d="m15 4-8 8 8 8"/></svg></button>
+    <button type="button" class="banner-arrow banner-next" data-banner-step="1" aria-label="Следующий баннер"><svg viewBox="0 0 24 24"><path d="m9 4 8 8-8 8"/></svg></button>
+    <div class="banner-carousel-dots" role="group" aria-label="Выбор баннера">
+        <button type="button" class="is-active" data-banner-dot="0" aria-label="Баннер 1"></button>
+        <button type="button" data-banner-dot="1" aria-label="Баннер 2"></button>
+    </div>
+</div>
+
+<div class="case-search-shell">
+    <div class="case-search-label" data-i18n="quickFilter">Быстрый Фильтр:</div>
+    <div class="case-search">
+        <input type="text" id="case-search" placeholder="Что ищем?" data-i18n-placeholder="searchCases" autocomplete="off">
+    </div>
+    <label class="fav-only-toggle">
+        <input type="checkbox" id="fav-only-toggle">
+        <span class="fav-only-slider"></span>
+        <span class="fav-only-text"><span data-i18n="favoritesOnly">Только избранные</span> (<span id="fav-count-label">0</span>)</span>
+    </label>
+</div>
+
+
+
+<div class="cases-sections" id="cases-grid">
+
+    <section class="case-section case-section-best" data-section="best">
+        <div class="section-title case-section-title" data-i18n="">ЛУЧШИЕ КЕЙСЫ</div>
+        <div class="cases-grid">
+
+            <div class="case-row" data-case-row="1">
+
+        
+        
+        
+        
+        
+        
+        
+        
+        <a href="/case/26" class="case-card" data-effect-tier="purple" data-section="best" data-case-id="26" data-name="cheat-case">
+            <div class="case-title">Cheat-Case</div>
+            <div class="case-items-count">
+                26 предметов
+                <span class="case-badge">NEW</span>
+            </div>
+            
+            
+            <div class="case-img-box">
+                
+                
+                <img data-case-src="/site-images/266230f238b9898c-768-cbdd67601bfce9c7.webp?iv=cbdd67601bfce9c7" alt="Cheat-Case" loading="lazy" decoding="async" class="case-card-image case-card-image-large" style="object-fit:contain">
+<noscript><img src="/site-images/266230f238b9898c-768-cbdd67601bfce9c7.webp?iv=cbdd67601bfce9c7" alt="Cheat-Case" loading="lazy" decoding="async" class="case-card-image case-card-image-large" style="object-fit:contain" onerror="if(!this.dataset.retry){this.dataset.retry='1';setTimeout(()=>{this.style.display='';this.src=this.src+'?r='+Date.now()},1500);}else{this.style.display='none';this.parentElement.querySelector('.case-fallback').style.display='flex';}"></noscript>
+                <div class="case-fallback" style="display:none;flex-direction:column;align-items:center;">
+                    <div>🎁</div>
+                </div>
+                <div class="case-price">499 коинов</div>
+            </div>
+            <div class="case-btn" data-i18n="open">ОТКРЫТЬ</div>
+        </a>
+
+        
+        
+        
+        
+        
+        
+        
+        
+        <a href="/case/72" class="case-card" data-effect-tier="blue" data-section="best" data-case-id="72" data-name="holy-case">
+            <div class="case-title">HOLY-CASE</div>
+            <div class="case-items-count">
+                18 предметов
+                <span class="case-badge">NEW</span>
+            </div>
+            
+            
+            <div class="case-img-box">
+                
+                
+                <img data-case-src="/site-images/9a8e855269019969-768-3b613e856cf577cf.webp?iv=3b613e856cf577cf" alt="HOLY-CASE" loading="lazy" decoding="async" class="case-card-image case-card-image-large" style="object-fit:contain">
+<noscript><img src="/site-images/9a8e855269019969-768-3b613e856cf577cf.webp?iv=3b613e856cf577cf" alt="HOLY-CASE" loading="lazy" decoding="async" class="case-card-image case-card-image-large" style="object-fit:contain" onerror="if(!this.dataset.retry){this.dataset.retry='1';setTimeout(()=>{this.style.display='';this.src=this.src+'?r='+Date.now()},1500);}else{this.style.display='none';this.parentElement.querySelector('.case-fallback').style.display='flex';}"></noscript>
+                <div class="case-fallback" style="display:none;flex-direction:column;align-items:center;">
+                    <div>🎁</div>
+                </div>
+                <div class="case-price">150 коинов</div>
+            </div>
+            <div class="case-btn" data-i18n="open">ОТКРЫТЬ</div>
+        </a>
+
+        
+        
+        
+        
+        
+        
+        
+        
+        <a href="/case/29" class="case-card" data-effect-tier="green" data-section="best" data-case-id="29" data-name="free-case">
+            <div class="case-title">Free-Case</div>
+            <div class="case-items-count">
+                17 предметов
+                <span class="case-badge">NEW</span>
+            </div>
+            
+            
+            <div class="case-img-box">
+                
+                
+                <img data-case-src="/site-images/9818bc9dce224a0f-768-88abb7fcca7d38c1.webp?iv=88abb7fcca7d38c1" alt="Free-Case" loading="lazy" decoding="async" class="case-card-image case-card-image-large" style="object-fit:contain">
+<noscript><img src="/site-images/9818bc9dce224a0f-768-88abb7fcca7d38c1.webp?iv=88abb7fcca7d38c1" alt="Free-Case" loading="lazy" decoding="async" class="case-card-image case-card-image-large" style="object-fit:contain" onerror="if(!this.dataset.retry){this.dataset.retry='1';setTimeout(()=>{this.style.display='';this.src=this.src+'?r='+Date.now()},1500);}else{this.style.display='none';this.parentElement.querySelector('.case-fallback').style.display='flex';}"></noscript>
+                <div class="case-fallback" style="display:none;flex-direction:column;align-items:center;">
+                    <div>🎁</div>
+                </div>
+                <div class="case-price">0 коинов</div>
+            </div>
+            <div class="case-btn" data-i18n="open">ОТКРЫТЬ</div>
+        </a>
+
+        
+        
+        
+        
+        
+        
+        
+        
+        <a href="/case/33" class="case-card" data-effect-tier="blue" data-section="best" data-case-id="33" data-name="really-case">
+            <div class="case-title">Really-Case</div>
+            <div class="case-items-count">
+                15 предметов
+                <span class="case-badge">NEW</span>
+            </div>
+            
+            
+            <div class="case-img-box">
+                
+                
+                <img data-case-src="/site-images/1721f448df6a7f85-768-5d7663ce31889e04.webp?iv=5d7663ce31889e04" alt="Really-Case" loading="lazy" decoding="async" class="case-card-image case-card-image-large" style="object-fit:contain">
+<noscript><img src="/site-images/1721f448df6a7f85-768-5d7663ce31889e04.webp?iv=5d7663ce31889e04" alt="Really-Case" loading="lazy" decoding="async" class="case-card-image case-card-image-large" style="object-fit:contain" onerror="if(!this.dataset.retry){this.dataset.retry='1';setTimeout(()=>{this.style.display='';this.src=this.src+'?r='+Date.now()},1500);}else{this.style.display='none';this.parentElement.querySelector('.case-fallback').style.display='flex';}"></noscript>
+                <div class="case-fallback" style="display:none;flex-direction:column;align-items:center;">
+                    <div>🎁</div>
+                </div>
+                <div class="case-price">299 коинов</div>
+            </div>
+            <div class="case-btn" data-i18n="open">ОТКРЫТЬ</div>
+        </a>
+
+        
+        
+        
+        
+        
+        
+        
+        
+        <a href="/case/37" class="case-card" data-effect-tier="blue" data-section="best" data-case-id="37" data-name="spooky-case">
+            <div class="case-title">Spooky-Case</div>
+            <div class="case-items-count">
+                20 предметов
+                <span class="case-badge">NEW</span>
+            </div>
+            
+            
+            <div class="case-img-box">
+                
+                
+                <img data-case-src="/site-images/eb410e214c9f2478-768-e990951d26d0ecad.webp?iv=e990951d26d0ecad" alt="Spooky-Case" loading="lazy" decoding="async" class="case-card-image case-card-image-large case-card-image-spooky" style="object-fit:contain">
+<noscript><img src="/site-images/eb410e214c9f2478-768-e990951d26d0ecad.webp?iv=e990951d26d0ecad" alt="Spooky-Case" loading="lazy" decoding="async" class="case-card-image case-card-image-large case-card-image-spooky" style="object-fit:contain" onerror="if(!this.dataset.retry){this.dataset.retry='1';setTimeout(()=>{this.style.display='';this.src=this.src+'?r='+Date.now()},1500);}else{this.style.display='none';this.parentElement.querySelector('.case-fallback').style.display='flex';}"></noscript>
+                <div class="case-fallback" style="display:none;flex-direction:column;align-items:center;">
+                    <div>🎁</div>
+                </div>
+                <div class="case-price">179 коинов</div>
+            </div>
+            <div class="case-btn" data-i18n="open">ОТКРЫТЬ</div>
+        </a>
+
+            </div>
+
+            <div class="case-row" data-case-row="2">
+
+        
+        
+        
+        
+        
+        
+        
+        
+        <a href="/case/34" class="case-card" data-effect-tier="green" data-section="best" data-case-id="34" data-name="start-case">
+            <div class="case-title">Start-Case</div>
+            <div class="case-items-count">
+                15 предметов
+                <span class="case-badge">NEW</span>
+            </div>
+            
+            
+            <div class="case-img-box">
+                
+                
+                <img data-case-src="/site-images/043d401ff643ff79-768-c77cb839e6aa7e0c.webp?iv=c77cb839e6aa7e0c" alt="Start-Case" loading="lazy" decoding="async" class="case-card-image case-card-image-large" style="object-fit:contain">
+<noscript><img src="/site-images/043d401ff643ff79-768-c77cb839e6aa7e0c.webp?iv=c77cb839e6aa7e0c" alt="Start-Case" loading="lazy" decoding="async" class="case-card-image case-card-image-large" style="object-fit:contain" onerror="if(!this.dataset.retry){this.dataset.retry='1';setTimeout(()=>{this.style.display='';this.src=this.src+'?r='+Date.now()},1500);}else{this.style.display='none';this.parentElement.querySelector('.case-fallback').style.display='flex';}"></noscript>
+                <div class="case-fallback" style="display:none;flex-direction:column;align-items:center;">
+                    <div>🎁</div>
+                </div>
+                <div class="case-price">19 коинов</div>
+            </div>
+            <div class="case-btn" data-i18n="open">ОТКРЫТЬ</div>
+        </a>
+
+        
+        
+        
+        
+        
+        
+        
+        
+        <a href="/case/35" class="case-card" data-effect-tier="green" data-section="best" data-case-id="35" data-name="lucky-case">
+            <div class="case-title">Lucky-Case</div>
+            <div class="case-items-count">
+                14 предметов
+                <span class="case-badge">NEW</span>
+            </div>
+            
+            
+            <div class="case-img-box">
+                
+                
+                <img data-case-src="/site-images/86cbe15a5eddbf2b-768-925e84c709355a57.webp?iv=925e84c709355a57" alt="Lucky-Case" loading="lazy" decoding="async" class="case-card-image case-card-image-large" style="object-fit:contain">
+<noscript><img src="/site-images/86cbe15a5eddbf2b-768-925e84c709355a57.webp?iv=925e84c709355a57" alt="Lucky-Case" loading="lazy" decoding="async" class="case-card-image case-card-image-large" style="object-fit:contain" onerror="if(!this.dataset.retry){this.dataset.retry='1';setTimeout(()=>{this.style.display='';this.src=this.src+'?r='+Date.now()},1500);}else{this.style.display='none';this.parentElement.querySelector('.case-fallback').style.display='flex';}"></noscript>
+                <div class="case-fallback" style="display:none;flex-direction:column;align-items:center;">
+                    <div>🎁</div>
+                </div>
+                <div class="case-price">37 коинов</div>
+            </div>
+            <div class="case-btn" data-i18n="open">ОТКРЫТЬ</div>
+        </a>
+
+        
+        
+        
+        
+        
+        
+        
+        
+        <a href="/case/60" class="case-card" data-effect-tier="green" data-section="best" data-case-id="60" data-name="invite-case">
+            <div class="case-title">INVITE-CASE</div>
+            <div class="case-items-count">
+                14 предметов
+                <span class="case-badge">NEW</span>
+            </div>
+            
+            
+            <div class="case-img-box">
+                
+                
+                <img data-case-src="/site-images/03f4774b868b01bb-768-355d6ccf67b234f9.webp?iv=355d6ccf67b234f9" alt="INVITE-CASE" loading="lazy" decoding="async" class="case-card-image case-card-image-invite" style="object-fit:contain;transform:translateY(1px) scale(.82) !important;object-position:center 52%;">
+<noscript><img src="/site-images/03f4774b868b01bb-768-355d6ccf67b234f9.webp?iv=355d6ccf67b234f9" alt="INVITE-CASE" loading="lazy" decoding="async" class="case-card-image case-card-image-invite" style="object-fit:contain;transform:translateY(1px) scale(.82) !important;object-position:center 52%;" onerror="if(!this.dataset.retry){this.dataset.retry='1';setTimeout(()=>{this.style.display='';this.src=this.src+'?r='+Date.now()},1500);}else{this.style.display='none';this.parentElement.querySelector('.case-fallback').style.display='flex';}"></noscript>
+                <div class="case-fallback" style="display:none;flex-direction:column;align-items:center;">
+                    <div>🎁</div>
+                </div>
+                <div class="case-price">0 коинов</div>
+            </div>
+            <div class="case-btn" data-i18n="open">ОТКРЫТЬ</div>
+        </a>
+
+        
+        
+        
+        
+        
+        
+        
+        
+        <a href="/case/41" class="case-card" data-effect-tier="green" data-section="best" data-case-id="41" data-name="boost-case">
+            <div class="case-title">BOOST-CASE</div>
+            <div class="case-items-count">
+                16 предметов
+                <span class="case-badge">NEW</span>
+            </div>
+            
+            
+            <div class="case-img-box">
+                
+                
+                <img data-case-src="/site-images/e04aecd8035f808e-768-b251e9ba4181fdcb.webp?iv=b251e9ba4181fdcb" alt="BOOST-CASE" loading="lazy" decoding="async" class="case-card-image case-card-image-large" style="object-fit:contain">
+<noscript><img src="/site-images/e04aecd8035f808e-768-b251e9ba4181fdcb.webp?iv=b251e9ba4181fdcb" alt="BOOST-CASE" loading="lazy" decoding="async" class="case-card-image case-card-image-large" style="object-fit:contain" onerror="if(!this.dataset.retry){this.dataset.retry='1';setTimeout(()=>{this.style.display='';this.src=this.src+'?r='+Date.now()},1500);}else{this.style.display='none';this.parentElement.querySelector('.case-fallback').style.display='flex';}"></noscript>
+                <div class="case-fallback" style="display:none;flex-direction:column;align-items:center;">
+                    <div>🎁</div>
+                </div>
+                <div class="case-price">50 коинов</div>
+            </div>
+            <div class="case-btn" data-i18n="open">ОТКРЫТЬ</div>
+        </a>
+
+        
+        
+        
+        
+        
+        
+        
+        
+        <a href="/case/42" class="case-card" data-effect-tier="green" data-section="best" data-case-id="42" data-name="force-case">
+            <div class="case-title">FORCE-CASE</div>
+            <div class="case-items-count">
+                15 предметов
+                <span class="case-badge">NEW</span>
+            </div>
+            
+            
+            <div class="case-img-box">
+                
+                
+                <img data-case-src="/site-images/1cdc9dcc8c1b086e-768-ba8e865d462ae1cf.webp?iv=ba8e865d462ae1cf" alt="FORCE-CASE" loading="lazy" decoding="async" class="case-card-image case-card-image-large" style="object-fit:contain">
+<noscript><img src="/site-images/1cdc9dcc8c1b086e-768-ba8e865d462ae1cf.webp?iv=ba8e865d462ae1cf" alt="FORCE-CASE" loading="lazy" decoding="async" class="case-card-image case-card-image-large" style="object-fit:contain" onerror="if(!this.dataset.retry){this.dataset.retry='1';setTimeout(()=>{this.style.display='';this.src=this.src+'?r='+Date.now()},1500);}else{this.style.display='none';this.parentElement.querySelector('.case-fallback').style.display='flex';}"></noscript>
+                <div class="case-fallback" style="display:none;flex-direction:column;align-items:center;">
+                    <div>🎁</div>
+                </div>
+                <div class="case-price">67 коинов</div>
+            </div>
+            <div class="case-btn" data-i18n="open">ОТКРЫТЬ</div>
+        </a>
+
+            </div>
+
+            <div class="case-row" data-case-row="3">
+
+        
+        
+        
+        
+        
+        
+        
+        
+        <a href="/case/73" class="case-card" data-effect-tier="green" data-section="best" data-case-id="73" data-name="micro-case">
+            <div class="case-title">MICRO-CASE</div>
+            <div class="case-items-count">
+                12 предметов
+                <span class="case-badge">NEW</span>
+            </div>
+            
+            
+            <div class="case-img-box">
+                
+                
+                <img data-case-src="/MICRO-CASE.png?iv=6a46c9ec01f30a11" alt="MICRO-CASE" loading="lazy" decoding="async" class="case-card-image case-card-image-large" style="object-fit:contain">
+<noscript><img src="/MICRO-CASE.png?iv=6a46c9ec01f30a11" alt="MICRO-CASE" loading="lazy" decoding="async" class="case-card-image case-card-image-large" style="object-fit:contain" onerror="if(!this.dataset.retry){this.dataset.retry='1';setTimeout(()=>{this.style.display='';this.src=this.src+'?r='+Date.now()},1500);}else{this.style.display='none';this.parentElement.querySelector('.case-fallback').style.display='flex';}"></noscript>
+                <div class="case-fallback" style="display:none;flex-direction:column;align-items:center;">
+                    <div>🎁</div>
+                </div>
+                <div class="case-price">10 коинов</div>
+            </div>
+            <div class="case-btn" data-i18n="open">ОТКРЫТЬ</div>
+        </a>
+
+        
+        
+        
+        
+        
+        
+        
+        
+        <a href="/case/55" class="case-card" data-effect-tier="purple" data-section="best" data-case-id="55" data-name="visual-case">
+            <div class="case-title">VISUAL-CASE</div>
+            <div class="case-items-count">
+                19 предметов
+                <span class="case-badge">NEW</span>
+            </div>
+            
+            
+            <div class="case-img-box">
+                
+                
+                <img data-case-src="/site-images/3b0dbac72ad4d309-768-31c5af08d33306db.webp?iv=31c5af08d33306db" alt="VISUAL-CASE" loading="lazy" decoding="async" class="case-card-image case-card-image-visual" style="object-fit:contain;transform:translateY(1px) scale(.75) !important;object-position:center 51%;">
+<noscript><img src="/site-images/3b0dbac72ad4d309-768-31c5af08d33306db.webp?iv=31c5af08d33306db" alt="VISUAL-CASE" loading="lazy" decoding="async" class="case-card-image case-card-image-visual" style="object-fit:contain;transform:translateY(1px) scale(.75) !important;object-position:center 51%;" onerror="if(!this.dataset.retry){this.dataset.retry='1';setTimeout(()=>{this.style.display='';this.src=this.src+'?r='+Date.now()},1500);}else{this.style.display='none';this.parentElement.querySelector('.case-fallback').style.display='flex';}"></noscript>
+                <div class="case-fallback" style="display:none;flex-direction:column;align-items:center;">
+                    <div>🎁</div>
+                </div>
+                <div class="case-price">350 коинов</div>
+            </div>
+            <div class="case-btn" data-i18n="open">ОТКРЫТЬ</div>
+        </a>
+
+        
+        
+        
+        
+        
+        
+        
+        
+        <a href="/case/36" class="case-card" data-effect-tier="red" data-section="best" data-case-id="36" data-name="major-case">
+            <div class="case-title">Major-Case</div>
+            <div class="case-items-count">
+                18 предметов
+                <span class="case-badge">NEW</span>
+            </div>
+            
+            
+            <div class="case-img-box">
+                
+                
+                <img data-case-src="/site-images/db6096eafb5a9488-768-2bb48988d0bf6b74.webp?iv=2bb48988d0bf6b74" alt="Major-Case" loading="lazy" decoding="async" class="case-card-image case-card-image-large" style="object-fit:contain">
+<noscript><img src="/site-images/db6096eafb5a9488-768-2bb48988d0bf6b74.webp?iv=2bb48988d0bf6b74" alt="Major-Case" loading="lazy" decoding="async" class="case-card-image case-card-image-large" style="object-fit:contain" onerror="if(!this.dataset.retry){this.dataset.retry='1';setTimeout(()=>{this.style.display='';this.src=this.src+'?r='+Date.now()},1500);}else{this.style.display='none';this.parentElement.querySelector('.case-fallback').style.display='flex';}"></noscript>
+                <div class="case-fallback" style="display:none;flex-direction:column;align-items:center;">
+                    <div>🎁</div>
+                </div>
+                <div class="case-price">2799 коинов</div>
+            </div>
+            <div class="case-btn" data-i18n="open">ОТКРЫТЬ</div>
+        </a>
+
+        
+        
+        
+        
+        
+        
+        
+        
+        <a href="/case/47" class="case-card" data-effect-tier="purple" data-section="best" data-case-id="47" data-name="cheat-fluger-case">
+            <div class="case-title">CHEAT-FLUGER-CASE</div>
+            <div class="case-items-count">
+                20 предметов
+                <span class="case-badge">NEW</span>
+            </div>
+            
+            
+            <div class="case-img-box">
+                
+                
+                <img data-case-src="/site-images/c60da5107c1445ff-768-7945dddaa19071d3.webp?iv=7945dddaa19071d3" alt="CHEAT-FLUGER-CASE" loading="lazy" decoding="async" class="case-card-image case-card-image-large" style="object-fit:contain">
+<noscript><img src="/site-images/c60da5107c1445ff-768-7945dddaa19071d3.webp?iv=7945dddaa19071d3" alt="CHEAT-FLUGER-CASE" loading="lazy" decoding="async" class="case-card-image case-card-image-large" style="object-fit:contain" onerror="if(!this.dataset.retry){this.dataset.retry='1';setTimeout(()=>{this.style.display='';this.src=this.src+'?r='+Date.now()},1500);}else{this.style.display='none';this.parentElement.querySelector('.case-fallback').style.display='flex';}"></noscript>
+                <div class="case-fallback" style="display:none;flex-direction:column;align-items:center;">
+                    <div>🎁</div>
+                </div>
+                <div class="case-price">490 коинов</div>
+            </div>
+            <div class="case-btn" data-i18n="open">ОТКРЫТЬ</div>
+        </a>
+
+        
+        
+        
+        
+        
+        
+        
+        
+        <a href="/case/77" class="case-card" data-effect-tier="green" data-section="best" data-case-id="77" data-name="stone-case">
+            <div class="case-title">STONE-CASE</div>
+            <div class="case-items-count">
+                14 предметов
+                <span class="case-badge">NEW</span>
+            </div>
+            
+            
+            <div class="case-img-box">
+                
+                
+                <img data-case-src="/STONE-CASE.png?iv=66ed77dcee5a97d4" alt="STONE-CASE" loading="lazy" decoding="async" class="case-card-image case-card-image-large" style="object-fit:contain">
+<noscript><img src="/STONE-CASE.png?iv=66ed77dcee5a97d4" alt="STONE-CASE" loading="lazy" decoding="async" class="case-card-image case-card-image-large" style="object-fit:contain" onerror="if(!this.dataset.retry){this.dataset.retry='1';setTimeout(()=>{this.style.display='';this.src=this.src+'?r='+Date.now()},1500);}else{this.style.display='none';this.parentElement.querySelector('.case-fallback').style.display='flex';}"></noscript>
+                <div class="case-fallback" style="display:none;flex-direction:column;align-items:center;">
+                    <div>🎁</div>
+                </div>
+                <div class="case-price">27 коинов</div>
+            </div>
+            <div class="case-btn" data-i18n="open">ОТКРЫТЬ</div>
+        </a>
+
+            </div>
+
+            <div class="case-row" data-case-row="4">
+
+        
+        
+        
+        
+        
+        
+        
+        
+        <a href="/case/43" class="case-card" data-effect-tier="green" data-section="best" data-case-id="43" data-name="hyper-case">
+            <div class="case-title">HYPER-CASE</div>
+            <div class="case-items-count">
+                16 предметов
+                <span class="case-badge">NEW</span>
+            </div>
+            
+            
+            <div class="case-img-box">
+                
+                
+                <img data-case-src="/site-images/e20fedfa9ead9cf6-768-5eaee8e931c7c066.webp?iv=5eaee8e931c7c066" alt="HYPER-CASE" loading="lazy" decoding="async" class="case-card-image case-card-image-large" style="object-fit:contain">
+<noscript><img src="/site-images/e20fedfa9ead9cf6-768-5eaee8e931c7c066.webp?iv=5eaee8e931c7c066" alt="HYPER-CASE" loading="lazy" decoding="async" class="case-card-image case-card-image-large" style="object-fit:contain" onerror="if(!this.dataset.retry){this.dataset.retry='1';setTimeout(()=>{this.style.display='';this.src=this.src+'?r='+Date.now()},1500);}else{this.style.display='none';this.parentElement.querySelector('.case-fallback').style.display='flex';}"></noscript>
+                <div class="case-fallback" style="display:none;flex-direction:column;align-items:center;">
+                    <div>🎁</div>
+                </div>
+                <div class="case-price">80 коинов</div>
+            </div>
+            <div class="case-btn" data-i18n="open">ОТКРЫТЬ</div>
+        </a>
+
+        
+        
+        
+        
+        
+        
+        
+        
+        <a href="/case/74" class="case-card" data-effect-tier="green" data-section="best" data-case-id="74" data-name="mini-case">
+            <div class="case-title">MINI-CASE</div>
+            <div class="case-items-count">
+                12 предметов
+                <span class="case-badge">NEW</span>
+            </div>
+            
+            
+            <div class="case-img-box">
+                
+                
+                <img data-case-src="/MINI-CASE.png?iv=80ea28db72427010" alt="MINI-CASE" loading="lazy" decoding="async" class="case-card-image case-card-image-large" style="object-fit:contain">
+<noscript><img src="/MINI-CASE.png?iv=80ea28db72427010" alt="MINI-CASE" loading="lazy" decoding="async" class="case-card-image case-card-image-large" style="object-fit:contain" onerror="if(!this.dataset.retry){this.dataset.retry='1';setTimeout(()=>{this.style.display='';this.src=this.src+'?r='+Date.now()},1500);}else{this.style.display='none';this.parentElement.querySelector('.case-fallback').style.display='flex';}"></noscript>
+                <div class="case-fallback" style="display:none;flex-direction:column;align-items:center;">
+                    <div>🎁</div>
+                </div>
+                <div class="case-price">15 коинов</div>
+            </div>
+            <div class="case-btn" data-i18n="open">ОТКРЫТЬ</div>
+        </a>
+
+        
+        
+        
+        
+        
+        
+        
+        
+        <a href="/case/75" class="case-card" data-effect-tier="green" data-section="best" data-case-id="75" data-name="eco-case">
+            <div class="case-title">ECO-CASE</div>
+            <div class="case-items-count">
+                13 предметов
+                <span class="case-badge">NEW</span>
+            </div>
+            
+            
+            <div class="case-img-box">
+                
+                
+                <img data-case-src="/ECO-CASE.png?iv=529caa01ecd331ba" alt="ECO-CASE" loading="lazy" decoding="async" class="case-card-image case-card-image-large" style="object-fit:contain">
+<noscript><img src="/ECO-CASE.png?iv=529caa01ecd331ba" alt="ECO-CASE" loading="lazy" decoding="async" class="case-card-image case-card-image-large" style="object-fit:contain" onerror="if(!this.dataset.retry){this.dataset.retry='1';setTimeout(()=>{this.style.display='';this.src=this.src+'?r='+Date.now()},1500);}else{this.style.display='none';this.parentElement.querySelector('.case-fallback').style.display='flex';}"></noscript>
+                <div class="case-fallback" style="display:none;flex-direction:column;align-items:center;">
+                    <div>🎁</div>
+                </div>
+                <div class="case-price">18 коинов</div>
+            </div>
+            <div class="case-btn" data-i18n="open">ОТКРЫТЬ</div>
+        </a>
+
+        
+        
+        
+        
+        
+        
+        
+        
+        <a href="/case/76" class="case-card" data-effect-tier="green" data-section="best" data-case-id="76" data-name="dirt-case">
+            <div class="case-title">DIRT-CASE</div>
+            <div class="case-items-count">
+                13 предметов
+                <span class="case-badge">NEW</span>
+            </div>
+            
+            
+            <div class="case-img-box">
+                
+                
+                <img data-case-src="/DIRT-CASE.png?iv=c2fbf1a6b80e9601" alt="DIRT-CASE" loading="lazy" decoding="async" class="case-card-image case-card-image-large" style="object-fit:contain">
+<noscript><img src="/DIRT-CASE.png?iv=c2fbf1a6b80e9601" alt="DIRT-CASE" loading="lazy" decoding="async" class="case-card-image case-card-image-large" style="object-fit:contain" onerror="if(!this.dataset.retry){this.dataset.retry='1';setTimeout(()=>{this.style.display='';this.src=this.src+'?r='+Date.now()},1500);}else{this.style.display='none';this.parentElement.querySelector('.case-fallback').style.display='flex';}"></noscript>
+                <div class="case-fallback" style="display:none;flex-direction:column;align-items:center;">
+                    <div>🎁</div>
+                </div>
+                <div class="case-price">24 коинов</div>
+            </div>
+            <div class="case-btn" data-i18n="open">ОТКРЫТЬ</div>
+        </a>
+
+        
+        
+        
+        
+        
+        
+        
+        
+        <a href="/case/44" class="case-card" data-effect-tier="green" data-section="best" data-case-id="44" data-name="miner-case">
+            <div class="case-title">MINER-CASE</div>
+            <div class="case-items-count">
+                13 предметов
+                <span class="case-badge">NEW</span>
+            </div>
+            
+            
+            <div class="case-img-box">
+                
+                
+                <img data-case-src="/site-images/a9d46063520cd425-768-1b745e9dfae3b8a3.webp?iv=1b745e9dfae3b8a3" alt="MINER-CASE" loading="lazy" decoding="async" class="case-card-image case-card-image-large" style="object-fit:contain">
+<noscript><img src="/site-images/a9d46063520cd425-768-1b745e9dfae3b8a3.webp?iv=1b745e9dfae3b8a3" alt="MINER-CASE" loading="lazy" decoding="async" class="case-card-image case-card-image-large" style="object-fit:contain" onerror="if(!this.dataset.retry){this.dataset.retry='1';setTimeout(()=>{this.style.display='';this.src=this.src+'?r='+Date.now()},1500);}else{this.style.display='none';this.parentElement.querySelector('.case-fallback').style.display='flex';}"></noscript>
+                <div class="case-fallback" style="display:none;flex-direction:column;align-items:center;">
+                    <div>🎁</div>
+                </div>
+                <div class="case-price">100 коинов</div>
+            </div>
+            <div class="case-btn" data-i18n="open">ОТКРЫТЬ</div>
+        </a>
+
+            </div>
+
+            <div class="case-row" data-case-row="5">
+
+        
+        
+        
+        
+        
+        
+        
+        
+        <a href="/case/78" class="case-card" data-effect-tier="green" data-section="best" data-case-id="78" data-name="hard-case">
+            <div class="case-title">HARD-CASE</div>
+            <div class="case-items-count">
+                13 предметов
+                <span class="case-badge">NEW</span>
+            </div>
+            
+            
+            <div class="case-img-box">
+                
+                
+                <img data-case-src="/HARD-CASE.png?iv=ce74239f4b16bb8a" alt="HARD-CASE" loading="lazy" decoding="async" class="case-card-image case-card-image-large" style="object-fit:contain">
+<noscript><img src="/HARD-CASE.png?iv=ce74239f4b16bb8a" alt="HARD-CASE" loading="lazy" decoding="async" class="case-card-image case-card-image-large" style="object-fit:contain" onerror="if(!this.dataset.retry){this.dataset.retry='1';setTimeout(()=>{this.style.display='';this.src=this.src+'?r='+Date.now()},1500);}else{this.style.display='none';this.parentElement.querySelector('.case-fallback').style.display='flex';}"></noscript>
+                <div class="case-fallback" style="display:none;flex-direction:column;align-items:center;">
+                    <div>🎁</div>
+                </div>
+                <div class="case-price">30 коинов</div>
+            </div>
+            <div class="case-btn" data-i18n="open">ОТКРЫТЬ</div>
+        </a>
+
+        
+        
+        
+        
+        
+        
+        
+        
+        <a href="/case/79" class="case-card" data-effect-tier="green" data-section="best" data-case-id="79" data-name="grind-case">
+            <div class="case-title">GRIND-CASE</div>
+            <div class="case-items-count">
+                11 предметов
+                <span class="case-badge">NEW</span>
+            </div>
+            
+            
+            <div class="case-img-box">
+                
+                
+                <img data-case-src="/GRIND-CASE.png?iv=ff5e77b38574962f" alt="GRIND-CASE" loading="lazy" decoding="async" class="case-card-image case-card-image-large" style="object-fit:contain">
+<noscript><img src="/GRIND-CASE.png?iv=ff5e77b38574962f" alt="GRIND-CASE" loading="lazy" decoding="async" class="case-card-image case-card-image-large" style="object-fit:contain" onerror="if(!this.dataset.retry){this.dataset.retry='1';setTimeout(()=>{this.style.display='';this.src=this.src+'?r='+Date.now()},1500);}else{this.style.display='none';this.parentElement.querySelector('.case-fallback').style.display='flex';}"></noscript>
+                <div class="case-fallback" style="display:none;flex-direction:column;align-items:center;">
+                    <div>🎁</div>
+                </div>
+                <div class="case-price">35 коинов</div>
+            </div>
+            <div class="case-btn" data-i18n="open">ОТКРЫТЬ</div>
+        </a>
+
+        
+        
+        
+        
+        
+        
+        
+        
+        <a href="/case/61" class="case-card" data-effect-tier="green" data-section="best" data-case-id="61" data-name="bonus-emerald-case">
+            <div class="case-title">BONUS-EMERALD-CASE</div>
+            <div class="case-items-count">
+                13 предметов
+                <span class="case-badge">NEW</span>
+            </div>
+            
+            
+            <div class="case-img-box">
+                
+                
+                <img data-case-src="/site-images/ebd4d4398bcaa86e-768-0bfab7e701bb5fac.webp?iv=0bfab7e701bb5fac" alt="BONUS-EMERALD-CASE" loading="lazy" decoding="async" class="case-card-image case-card-image-bonus" style="object-fit:contain">
+<noscript><img src="/site-images/ebd4d4398bcaa86e-768-0bfab7e701bb5fac.webp?iv=0bfab7e701bb5fac" alt="BONUS-EMERALD-CASE" loading="lazy" decoding="async" class="case-card-image case-card-image-bonus" style="object-fit:contain" onerror="if(!this.dataset.retry){this.dataset.retry='1';setTimeout(()=>{this.style.display='';this.src=this.src+'?r='+Date.now()},1500);}else{this.style.display='none';this.parentElement.querySelector('.case-fallback').style.display='flex';}"></noscript>
+                <div class="case-fallback" style="display:none;flex-direction:column;align-items:center;">
+                    <div>🎁</div>
+                </div>
+                <div class="case-price">20 BONUS</div>
+            </div>
+            <div class="case-btn" data-i18n="open">ОТКРЫТЬ</div>
+        </a>
+
+        
+        
+        
+        
+        
+        
+        
+        
+        <a href="/case/80" class="case-card" data-effect-tier="green" data-section="best" data-case-id="80" data-name="aqua-case">
+            <div class="case-title">AQUA-CASE</div>
+            <div class="case-items-count">
+                16 предметов
+                <span class="case-badge">NEW</span>
+            </div>
+            
+            
+            <div class="case-img-box">
+                
+                
+                <img data-case-src="/AQUA-CASE.png?iv=99fc835502d83419" alt="AQUA-CASE" loading="lazy" decoding="async" class="case-card-image case-card-image-large" style="object-fit:contain">
+<noscript><img src="/AQUA-CASE.png?iv=99fc835502d83419" alt="AQUA-CASE" loading="lazy" decoding="async" class="case-card-image case-card-image-large" style="object-fit:contain" onerror="if(!this.dataset.retry){this.dataset.retry='1';setTimeout(()=>{this.style.display='';this.src=this.src+'?r='+Date.now()},1500);}else{this.style.display='none';this.parentElement.querySelector('.case-fallback').style.display='flex';}"></noscript>
+                <div class="case-fallback" style="display:none;flex-direction:column;align-items:center;">
+                    <div>🎁</div>
+                </div>
+                <div class="case-price">45 коинов</div>
+            </div>
+            <div class="case-btn" data-i18n="open">ОТКРЫТЬ</div>
+        </a>
+
+        
+        
+        
+        
+        
+        
+        
+        
+        <a href="/case/81" class="case-card" data-effect-tier="green" data-section="best" data-case-id="81" data-name="lava-case">
+            <div class="case-title">LAVA-CASE</div>
+            <div class="case-items-count">
+                10 предметов
+                <span class="case-badge">NEW</span>
+            </div>
+            
+            
+            <div class="case-img-box">
+                
+                
+                <img data-case-src="/LAVA-CASE.png?iv=74f69279732ea216" alt="LAVA-CASE" loading="lazy" decoding="async" class="case-card-image case-card-image-large" style="object-fit:contain">
+<noscript><img src="/LAVA-CASE.png?iv=74f69279732ea216" alt="LAVA-CASE" loading="lazy" decoding="async" class="case-card-image case-card-image-large" style="object-fit:contain" onerror="if(!this.dataset.retry){this.dataset.retry='1';setTimeout(()=>{this.style.display='';this.src=this.src+'?r='+Date.now()},1500);}else{this.style.display='none';this.parentElement.querySelector('.case-fallback').style.display='flex';}"></noscript>
+                <div class="case-fallback" style="display:none;flex-direction:column;align-items:center;">
+                    <div>🎁</div>
+                </div>
+                <div class="case-price">55 коинов</div>
+            </div>
+            <div class="case-btn" data-i18n="open">ОТКРЫТЬ</div>
+        </a>
+
+            </div>
+
+        </div>
+    </section>
+
+    <section class="case-section case-section-cheat" data-section="cheat">
+        <div class="section-title case-section-title" data-i18n="">CHEAT КЕЙСЫ</div>
+        <div class="cases-grid">
+
+            <div class="case-row" data-case-row="1">
+
+        
+        
+        
+        
+        
+        
+        
+        
+        <a href="/case/26" class="case-card" data-effect-tier="purple" data-section="cheat" data-case-id="26" data-name="cheat-case">
+            <div class="case-title">Cheat-Case</div>
+            <div class="case-items-count">
+                26 предметов
+                <span class="case-badge">NEW</span>
+            </div>
+            
+            
+            <div class="case-img-box">
+                
+                
+                <img data-case-src="/site-images/266230f238b9898c-768-cbdd67601bfce9c7.webp?iv=cbdd67601bfce9c7" alt="Cheat-Case" loading="lazy" decoding="async" class="case-card-image case-card-image-large" style="object-fit:contain">
+<noscript><img src="/site-images/266230f238b9898c-768-cbdd67601bfce9c7.webp?iv=cbdd67601bfce9c7" alt="Cheat-Case" loading="lazy" decoding="async" class="case-card-image case-card-image-large" style="object-fit:contain" onerror="if(!this.dataset.retry){this.dataset.retry='1';setTimeout(()=>{this.style.display='';this.src=this.src+'?r='+Date.now()},1500);}else{this.style.display='none';this.parentElement.querySelector('.case-fallback').style.display='flex';}"></noscript>
+                <div class="case-fallback" style="display:none;flex-direction:column;align-items:center;">
+                    <div>🎁</div>
+                </div>
+                <div class="case-price">499 коинов</div>
+            </div>
+            <div class="case-btn" data-i18n="open">ОТКРЫТЬ</div>
+        </a>
+
+        
+        
+        
+        
+        
+        
+        
+        
+        <a href="/case/47" class="case-card" data-effect-tier="purple" data-section="cheat" data-case-id="47" data-name="cheat-fluger-case">
+            <div class="case-title">CHEAT-FLUGER-CASE</div>
+            <div class="case-items-count">
+                20 предметов
+                <span class="case-badge">NEW</span>
+            </div>
+            
+            
+            <div class="case-img-box">
+                
+                
+                <img data-case-src="/site-images/c60da5107c1445ff-768-7945dddaa19071d3.webp?iv=7945dddaa19071d3" alt="CHEAT-FLUGER-CASE" loading="lazy" decoding="async" class="case-card-image case-card-image-large" style="object-fit:contain">
+<noscript><img src="/site-images/c60da5107c1445ff-768-7945dddaa19071d3.webp?iv=7945dddaa19071d3" alt="CHEAT-FLUGER-CASE" loading="lazy" decoding="async" class="case-card-image case-card-image-large" style="object-fit:contain" onerror="if(!this.dataset.retry){this.dataset.retry='1';setTimeout(()=>{this.style.display='';this.src=this.src+'?r='+Date.now()},1500);}else{this.style.display='none';this.parentElement.querySelector('.case-fallback').style.display='flex';}"></noscript>
+                <div class="case-fallback" style="display:none;flex-direction:column;align-items:center;">
+                    <div>🎁</div>
+                </div>
+                <div class="case-price">490 коинов</div>
+            </div>
+            <div class="case-btn" data-i18n="open">ОТКРЫТЬ</div>
+        </a>
+
+        
+        
+        
+        
+        
+        
+        
+        
+        <a href="/case/28" class="case-card" data-effect-tier="gold" data-section="cheat" data-case-id="28" data-name="cheat-jir-case">
+            <div class="case-title">Cheat-Jir-Case</div>
+            <div class="case-items-count">
+                43 предмета
+                <span class="case-badge">NEW</span>
+            </div>
+            
+            
+            <div class="case-img-box">
+                
+                
+                <img data-case-src="/site-images/e30548fd6e135e80-768-f8bd899d10b3faf7.webp?iv=f8bd899d10b3faf7" alt="Cheat-Jir-Case" loading="lazy" decoding="async" class="case-card-image case-card-image-large" style="object-fit:contain">
+<noscript><img src="/site-images/e30548fd6e135e80-768-f8bd899d10b3faf7.webp?iv=f8bd899d10b3faf7" alt="Cheat-Jir-Case" loading="lazy" decoding="async" class="case-card-image case-card-image-large" style="object-fit:contain" onerror="if(!this.dataset.retry){this.dataset.retry='1';setTimeout(()=>{this.style.display='';this.src=this.src+'?r='+Date.now()},1500);}else{this.style.display='none';this.parentElement.querySelector('.case-fallback').style.display='flex';}"></noscript>
+                <div class="case-fallback" style="display:none;flex-direction:column;align-items:center;">
+                    <div>🎁</div>
+                </div>
+                <div class="case-price">549 коинов</div>
+            </div>
+            <div class="case-btn" data-i18n="open">ОТКРЫТЬ</div>
+        </a>
+
+        
+        
+        
+        
+        
+        
+        
+        
+        <a href="/case/46" class="case-card" data-effect-tier="purple" data-section="cheat" data-case-id="46" data-name="cheat-bro9i-case">
+            <div class="case-title">CHEAT-BRO9I-CASE</div>
+            <div class="case-items-count">
+                22 предмета
+                <span class="case-badge">NEW</span>
+            </div>
+            
+            
+            <div class="case-img-box">
+                
+                
+                <img data-case-src="/site-images/cd39dd3c6ee102e9-768-e2e7715f7bdc6965.webp?iv=e2e7715f7bdc6965" alt="CHEAT-BRO9I-CASE" loading="lazy" decoding="async" class="case-card-image case-card-image-large" style="object-fit:contain">
+<noscript><img src="/site-images/cd39dd3c6ee102e9-768-e2e7715f7bdc6965.webp?iv=e2e7715f7bdc6965" alt="CHEAT-BRO9I-CASE" loading="lazy" decoding="async" class="case-card-image case-card-image-large" style="object-fit:contain" onerror="if(!this.dataset.retry){this.dataset.retry='1';setTimeout(()=>{this.style.display='';this.src=this.src+'?r='+Date.now()},1500);}else{this.style.display='none';this.parentElement.querySelector('.case-fallback').style.display='flex';}"></noscript>
+                <div class="case-fallback" style="display:none;flex-direction:column;align-items:center;">
+                    <div>🎁</div>
+                </div>
+                <div class="case-price">450 коинов</div>
+            </div>
+            <div class="case-btn" data-i18n="open">ОТКРЫТЬ</div>
+        </a>
+
+        
+        
+        
+        
+        
+        
+        
+        
+        <a href="/case/27" class="case-card" data-effect-tier="blue" data-section="cheat" data-case-id="27" data-name="cheat-cfg-case">
+            <div class="case-title">Cheat-CFG-Case</div>
+            <div class="case-items-count">
+                13 предметов
+                <span class="case-badge">NEW</span>
+            </div>
+            
+            
+            <div class="case-img-box">
+                
+                
+                <img data-case-src="/site-images/5c87337510756d8c-768-43ba0fb6bb2fa5ec.webp?iv=43ba0fb6bb2fa5ec" alt="Cheat-CFG-Case" loading="lazy" decoding="async" class="case-card-image case-card-image-large" style="object-fit:contain">
+<noscript><img src="/site-images/5c87337510756d8c-768-43ba0fb6bb2fa5ec.webp?iv=43ba0fb6bb2fa5ec" alt="Cheat-CFG-Case" loading="lazy" decoding="async" class="case-card-image case-card-image-large" style="object-fit:contain" onerror="if(!this.dataset.retry){this.dataset.retry='1';setTimeout(()=>{this.style.display='';this.src=this.src+'?r='+Date.now()},1500);}else{this.style.display='none';this.parentElement.querySelector('.case-fallback').style.display='flex';}"></noscript>
+                <div class="case-fallback" style="display:none;flex-direction:column;align-items:center;">
+                    <div>🎁</div>
+                </div>
+                <div class="case-price">150 коинов</div>
+            </div>
+            <div class="case-btn" data-i18n="open">ОТКРЫТЬ</div>
+        </a>
+
+            </div>
+
+            <div class="case-row" data-case-row="2">
+
+        
+        
+        
+        
+        
+        
+        
+        
+        <a href="/case/48" class="case-card" data-effect-tier="blue" data-section="cheat" data-case-id="48" data-name="cheat-spooky-case">
+            <div class="case-title">CHEAT-SPOOKY-CASE</div>
+            <div class="case-items-count">
+                14 предметов
+                <span class="case-badge">NEW</span>
+            </div>
+            
+            
+            <div class="case-img-box">
+                
+                
+                <img data-case-src="/site-images/f4f15383df571964-768-49b7c54de453cff5.webp?iv=49b7c54de453cff5" alt="CHEAT-SPOOKY-CASE" loading="lazy" decoding="async" class="case-card-image case-card-image-large" style="object-fit:contain">
+<noscript><img src="/site-images/f4f15383df571964-768-49b7c54de453cff5.webp?iv=49b7c54de453cff5" alt="CHEAT-SPOOKY-CASE" loading="lazy" decoding="async" class="case-card-image case-card-image-large" style="object-fit:contain" onerror="if(!this.dataset.retry){this.dataset.retry='1';setTimeout(()=>{this.style.display='';this.src=this.src+'?r='+Date.now()},1500);}else{this.style.display='none';this.parentElement.querySelector('.case-fallback').style.display='flex';}"></noscript>
+                <div class="case-fallback" style="display:none;flex-direction:column;align-items:center;">
+                    <div>🎁</div>
+                </div>
+                <div class="case-price">160 коинов</div>
+            </div>
+            <div class="case-btn" data-i18n="open">ОТКРЫТЬ</div>
+        </a>
+
+        
+        
+        
+        
+        
+        
+        
+        
+        <a href="/case/50" class="case-card" data-effect-tier="blue" data-section="cheat" data-case-id="50" data-name="cheat-really-case">
+            <div class="case-title">CHEAT-REALLY-CASE</div>
+            <div class="case-items-count">
+                17 предметов
+                <span class="case-badge">NEW</span>
+            </div>
+            
+            
+            <div class="case-img-box">
+                
+                
+                <img data-case-src="/site-images/b58a036d7deffa53-768-bba386674b35e788.webp?iv=bba386674b35e788" alt="CHEAT-REALLY-CASE" loading="lazy" decoding="async" class="case-card-image case-card-image-large" style="object-fit:contain">
+<noscript><img src="/site-images/b58a036d7deffa53-768-bba386674b35e788.webp?iv=bba386674b35e788" alt="CHEAT-REALLY-CASE" loading="lazy" decoding="async" class="case-card-image case-card-image-large" style="object-fit:contain" onerror="if(!this.dataset.retry){this.dataset.retry='1';setTimeout(()=>{this.style.display='';this.src=this.src+'?r='+Date.now()},1500);}else{this.style.display='none';this.parentElement.querySelector('.case-fallback').style.display='flex';}"></noscript>
+                <div class="case-fallback" style="display:none;flex-direction:column;align-items:center;">
+                    <div>🎁</div>
+                </div>
+                <div class="case-price">230 коинов</div>
+            </div>
+            <div class="case-btn" data-i18n="open">ОТКРЫТЬ</div>
+        </a>
+
+        
+        
+        
+        
+        
+        
+        
+        
+        <a href="/case/54" class="case-card" data-effect-tier="gold" data-section="cheat" data-case-id="54" data-name="cheat-prime-case">
+            <div class="case-title">CHEAT-PRIME-CASE</div>
+            <div class="case-items-count">
+                20 предметов
+                <span class="case-badge">NEW</span>
+            </div>
+            
+            
+            <div class="case-img-box">
+                
+                
+                <img data-case-src="/site-images/03a2ab298c14726a-768-35748c70ede65bf8.webp?iv=35748c70ede65bf8" alt="CHEAT-PRIME-CASE" loading="lazy" decoding="async" class="case-card-image case-card-image-large" style="object-fit:contain">
+<noscript><img src="/site-images/03a2ab298c14726a-768-35748c70ede65bf8.webp?iv=35748c70ede65bf8" alt="CHEAT-PRIME-CASE" loading="lazy" decoding="async" class="case-card-image case-card-image-large" style="object-fit:contain" onerror="if(!this.dataset.retry){this.dataset.retry='1';setTimeout(()=>{this.style.display='';this.src=this.src+'?r='+Date.now()},1500);}else{this.style.display='none';this.parentElement.querySelector('.case-fallback').style.display='flex';}"></noscript>
+                <div class="case-fallback" style="display:none;flex-direction:column;align-items:center;">
+                    <div>🎁</div>
+                </div>
+                <div class="case-price">720 коинов</div>
+            </div>
+            <div class="case-btn" data-i18n="open">ОТКРЫТЬ</div>
+        </a>
+
+        
+        
+        
+        
+        
+        
+        
+        
+        <a href="/case/51" class="case-card" data-effect-tier="blue" data-section="cheat" data-case-id="51" data-name="cheat-lite-case">
+            <div class="case-title">CHEAT-LITE-CASE</div>
+            <div class="case-items-count">
+                16 предметов
+                <span class="case-badge">NEW</span>
+            </div>
+            
+            
+            <div class="case-img-box">
+                
+                
+                <img data-case-src="/site-images/af5988660f6fd5da-768-cbb35a566db4db3e.webp?iv=cbb35a566db4db3e" alt="CHEAT-LITE-CASE" loading="lazy" decoding="async" class="case-card-image case-card-image-large" style="object-fit:contain">
+<noscript><img src="/site-images/af5988660f6fd5da-768-cbb35a566db4db3e.webp?iv=cbb35a566db4db3e" alt="CHEAT-LITE-CASE" loading="lazy" decoding="async" class="case-card-image case-card-image-large" style="object-fit:contain" onerror="if(!this.dataset.retry){this.dataset.retry='1';setTimeout(()=>{this.style.display='';this.src=this.src+'?r='+Date.now()},1500);}else{this.style.display='none';this.parentElement.querySelector('.case-fallback').style.display='flex';}"></noscript>
+                <div class="case-fallback" style="display:none;flex-direction:column;align-items:center;">
+                    <div>🎁</div>
+                </div>
+                <div class="case-price">180 коинов</div>
+            </div>
+            <div class="case-btn" data-i18n="open">ОТКРЫТЬ</div>
+        </a>
+
+        
+        
+        
+        
+        
+        
+        
+        
+        <a href="/case/53" class="case-card" data-effect-tier="blue" data-section="cheat" data-case-id="53" data-name="cheat-skript-case">
+            <div class="case-title">CHEAT-SKRIPT-CASE</div>
+            <div class="case-items-count">
+                11 предметов
+                <span class="case-badge">NEW</span>
+            </div>
+            
+            
+            <div class="case-img-box">
+                
+                
+                <img data-case-src="/site-images/6cd54be47c4fa66f-768-5102b19b67b9e7e9.webp?iv=5102b19b67b9e7e9" alt="CHEAT-SKRIPT-CASE" loading="lazy" decoding="async" class="case-card-image case-card-image-large" style="object-fit:contain">
+<noscript><img src="/site-images/6cd54be47c4fa66f-768-5102b19b67b9e7e9.webp?iv=5102b19b67b9e7e9" alt="CHEAT-SKRIPT-CASE" loading="lazy" decoding="async" class="case-card-image case-card-image-large" style="object-fit:contain" onerror="if(!this.dataset.retry){this.dataset.retry='1';setTimeout(()=>{this.style.display='';this.src=this.src+'?r='+Date.now()},1500);}else{this.style.display='none';this.parentElement.querySelector('.case-fallback').style.display='flex';}"></noscript>
+                <div class="case-fallback" style="display:none;flex-direction:column;align-items:center;">
+                    <div>🎁</div>
+                </div>
+                <div class="case-price">250 коинов</div>
+            </div>
+            <div class="case-btn" data-i18n="open">ОТКРЫТЬ</div>
+        </a>
+
+            </div>
+
+            <div class="case-row" data-case-row="3">
+
+        
+        
+        
+        
+        
+        
+        
+        
+        <a href="/case/52" class="case-card" data-effect-tier="purple" data-section="cheat" data-case-id="52" data-name="cheat-fire-case">
+            <div class="case-title">CHEAT-FIRE-CASE</div>
+            <div class="case-items-count">
+                20 предметов
+                <span class="case-badge">NEW</span>
+            </div>
+            
+            
+            <div class="case-img-box">
+                
+                
+                <img data-case-src="/site-images/1ab645f898cc3b5b-768-25b6e1de29be469a.webp?iv=25b6e1de29be469a" alt="CHEAT-FIRE-CASE" loading="lazy" decoding="async" class="case-card-image case-card-image-large" style="object-fit:contain">
+<noscript><img src="/site-images/1ab645f898cc3b5b-768-25b6e1de29be469a.webp?iv=25b6e1de29be469a" alt="CHEAT-FIRE-CASE" loading="lazy" decoding="async" class="case-card-image case-card-image-large" style="object-fit:contain" onerror="if(!this.dataset.retry){this.dataset.retry='1';setTimeout(()=>{this.style.display='';this.src=this.src+'?r='+Date.now()},1500);}else{this.style.display='none';this.parentElement.querySelector('.case-fallback').style.display='flex';}"></noscript>
+                <div class="case-fallback" style="display:none;flex-direction:column;align-items:center;">
+                    <div>🎁</div>
+                </div>
+                <div class="case-price">380 коинов</div>
+            </div>
+            <div class="case-btn" data-i18n="open">ОТКРЫТЬ</div>
+        </a>
+
+        
+        
+        
+        
+        
+        
+        
+        
+        <a href="/case/70" class="case-card" data-effect-tier="blue" data-section="cheat" data-case-id="70" data-name="cheat-hack-case">
+            <div class="case-title">CHEAT-HACK-CASE</div>
+            <div class="case-items-count">
+                14 предметов
+                <span class="case-badge">NEW</span>
+            </div>
+            
+            
+            <div class="case-img-box">
+                
+                
+                <img data-case-src="/site-images/c512929d6792bb80-768-ca4acb59f0da2b3e.webp?iv=ca4acb59f0da2b3e" alt="CHEAT-HACK-CASE" loading="lazy" decoding="async" class="case-card-image case-card-image-large" style="object-fit:contain">
+<noscript><img src="/site-images/c512929d6792bb80-768-ca4acb59f0da2b3e.webp?iv=ca4acb59f0da2b3e" alt="CHEAT-HACK-CASE" loading="lazy" decoding="async" class="case-card-image case-card-image-large" style="object-fit:contain" onerror="if(!this.dataset.retry){this.dataset.retry='1';setTimeout(()=>{this.style.display='';this.src=this.src+'?r='+Date.now()},1500);}else{this.style.display='none';this.parentElement.querySelector('.case-fallback').style.display='flex';}"></noscript>
+                <div class="case-fallback" style="display:none;flex-direction:column;align-items:center;">
+                    <div>🎁</div>
+                </div>
+                <div class="case-price">200 коинов</div>
+            </div>
+            <div class="case-btn" data-i18n="open">ОТКРЫТЬ</div>
+        </a>
+
+        
+        
+        
+        
+        
+        
+        
+        
+        <a href="/case/71" class="case-card" data-effect-tier="gold" data-section="cheat" data-case-id="71" data-name="cheat-diamond-case">
+            <div class="case-title">CHEAT-DIAMOND-CASE</div>
+            <div class="case-items-count">
+                20 предметов
+                <span class="case-badge">NEW</span>
+            </div>
+            
+            
+            <div class="case-img-box">
+                
+                
+                <img data-case-src="/site-images/f9276d1246fca9d8-768-27b41191110822f3.webp?iv=27b41191110822f3" alt="CHEAT-DIAMOND-CASE" loading="lazy" decoding="async" class="case-card-image case-card-image-large" style="object-fit:contain">
+<noscript><img src="/site-images/f9276d1246fca9d8-768-27b41191110822f3.webp?iv=27b41191110822f3" alt="CHEAT-DIAMOND-CASE" loading="lazy" decoding="async" class="case-card-image case-card-image-large" style="object-fit:contain" onerror="if(!this.dataset.retry){this.dataset.retry='1';setTimeout(()=>{this.style.display='';this.src=this.src+'?r='+Date.now()},1500);}else{this.style.display='none';this.parentElement.querySelector('.case-fallback').style.display='flex';}"></noscript>
+                <div class="case-fallback" style="display:none;flex-direction:column;align-items:center;">
+                    <div>🎁</div>
+                </div>
+                <div class="case-price">799 коинов</div>
+            </div>
+            <div class="case-btn" data-i18n="open">ОТКРЫТЬ</div>
+        </a>
+
+            </div>
+
+        </div>
+    </section>
+
+    <section class="case-section case-section-holy" data-section="holy">
+        <div class="section-title case-section-title" data-i18n="">HOLY-КЕЙСЫ</div>
+        <div class="cases-grid">
+
+            <div class="case-row" data-case-row="1">
+
+        
+        
+        
+        
+        
+        
+        
+        
+        <a href="/case/12" class="case-card" data-effect-tier="blue" data-section="holy" data-case-id="12" data-name="holy-donlite-case">
+            <div class="case-title">Holy-DonLite-Case</div>
+            <div class="case-items-count">
+                15 предметов
+                <span class="case-badge">NEW</span>
+            </div>
+            
+            
+            <div class="case-img-box">
+                
+                
+                <img data-case-src="/site-images/48f36baef6004319-768-b8185248028c56b4.webp?iv=b8185248028c56b4" alt="Holy-DonLite-Case" loading="lazy" decoding="async" class="case-card-image case-card-image-large" style="object-fit:contain">
+<noscript><img src="/site-images/48f36baef6004319-768-b8185248028c56b4.webp?iv=b8185248028c56b4" alt="Holy-DonLite-Case" loading="lazy" decoding="async" class="case-card-image case-card-image-large" style="object-fit:contain" onerror="if(!this.dataset.retry){this.dataset.retry='1';setTimeout(()=>{this.style.display='';this.src=this.src+'?r='+Date.now()},1500);}else{this.style.display='none';this.parentElement.querySelector('.case-fallback').style.display='flex';}"></noscript>
+                <div class="case-fallback" style="display:none;flex-direction:column;align-items:center;">
+                    <div>🎁</div>
+                </div>
+                <div class="case-price">119 коинов</div>
+            </div>
+            <div class="case-btn" data-i18n="open">ОТКРЫТЬ</div>
+        </a>
+
+        
+        
+        
+        
+        
+        
+        
+        
+        <a href="/case/14" class="case-card" data-effect-tier="gold" data-section="holy" data-case-id="14" data-name="holy-godlite-case">
+            <div class="case-title">Holy-GodLite-Case</div>
+            <div class="case-items-count">
+                13 предметов
+                <span class="case-badge">NEW</span>
+            </div>
+            
+            
+            <div class="case-img-box">
+                
+                
+                <img data-case-src="/site-images/74039acda477554a-768-eb6acbe0dbf9b1d3.webp?iv=eb6acbe0dbf9b1d3" alt="Holy-GodLite-Case" loading="lazy" decoding="async" class="case-card-image case-card-image-large" style="object-fit:contain">
+<noscript><img src="/site-images/74039acda477554a-768-eb6acbe0dbf9b1d3.webp?iv=eb6acbe0dbf9b1d3" alt="Holy-GodLite-Case" loading="lazy" decoding="async" class="case-card-image case-card-image-large" style="object-fit:contain" onerror="if(!this.dataset.retry){this.dataset.retry='1';setTimeout(()=>{this.style.display='';this.src=this.src+'?r='+Date.now()},1500);}else{this.style.display='none';this.parentElement.querySelector('.case-fallback').style.display='flex';}"></noscript>
+                <div class="case-fallback" style="display:none;flex-direction:column;align-items:center;">
+                    <div>🎁</div>
+                </div>
+                <div class="case-price">549 коинов</div>
+            </div>
+            <div class="case-btn" data-i18n="open">ОТКРЫТЬ</div>
+        </a>
+
+        
+        
+        
+        
+        
+        
+        
+        
+        <a href="/case/13" class="case-card" data-effect-tier="blue" data-section="holy" data-case-id="13" data-name="holy-saplite-case">
+            <div class="case-title">Holy-SapLite-Case</div>
+            <div class="case-items-count">
+                18 предметов
+                <span class="case-badge">NEW</span>
+            </div>
+            
+            
+            <div class="case-img-box">
+                
+                
+                <img data-case-src="/site-images/68ceef9d4766e47c-768-88b79fd84b7c7c42.webp?iv=88b79fd84b7c7c42" alt="Holy-SapLite-Case" loading="lazy" decoding="async" class="case-card-image case-card-image-large" style="object-fit:contain">
+<noscript><img src="/site-images/68ceef9d4766e47c-768-88b79fd84b7c7c42.webp?iv=88b79fd84b7c7c42" alt="Holy-SapLite-Case" loading="lazy" decoding="async" class="case-card-image case-card-image-large" style="object-fit:contain" onerror="if(!this.dataset.retry){this.dataset.retry='1';setTimeout(()=>{this.style.display='';this.src=this.src+'?r='+Date.now()},1500);}else{this.style.display='none';this.parentElement.querySelector('.case-fallback').style.display='flex';}"></noscript>
+                <div class="case-fallback" style="display:none;flex-direction:column;align-items:center;">
+                    <div>🎁</div>
+                </div>
+                <div class="case-price">230 коинов</div>
+            </div>
+            <div class="case-btn" data-i18n="open">ОТКРЫТЬ</div>
+        </a>
+
+        
+        
+        
+        
+        
+        
+        
+        
+        <a href="/case/16" class="case-card" data-effect-tier="blue" data-section="holy" data-case-id="16" data-name="holy-boomlite-case">
+            <div class="case-title">Holy-BoomLite-Case</div>
+            <div class="case-items-count">
+                12 предметов
+                <span class="case-badge">NEW</span>
+            </div>
+            
+            
+            <div class="case-img-box">
+                
+                
+                <img data-case-src="/site-images/cb3229e9758ce5d9-768-3dda03d9f2bf2a75.webp?iv=3dda03d9f2bf2a75" alt="Holy-BoomLite-Case" loading="lazy" decoding="async" class="case-card-image case-card-image-large" style="object-fit:contain">
+<noscript><img src="/site-images/cb3229e9758ce5d9-768-3dda03d9f2bf2a75.webp?iv=3dda03d9f2bf2a75" alt="Holy-BoomLite-Case" loading="lazy" decoding="async" class="case-card-image case-card-image-large" style="object-fit:contain" onerror="if(!this.dataset.retry){this.dataset.retry='1';setTimeout(()=>{this.style.display='';this.src=this.src+'?r='+Date.now()},1500);}else{this.style.display='none';this.parentElement.querySelector('.case-fallback').style.display='flex';}"></noscript>
+                <div class="case-fallback" style="display:none;flex-direction:column;align-items:center;">
+                    <div>🎁</div>
+                </div>
+                <div class="case-price">225 коинов</div>
+            </div>
+            <div class="case-btn" data-i18n="open">ОТКРЫТЬ</div>
+        </a>
+
+        
+        
+        
+        
+        
+        
+        
+        
+        <a href="/case/15" class="case-card" data-effect-tier="green" data-section="holy" data-case-id="15" data-name="holy-ecolite-case">
+            <div class="case-title">Holy-EcoLite-Case</div>
+            <div class="case-items-count">
+                14 предметов
+                <span class="case-badge">NEW</span>
+            </div>
+            
+            
+            <div class="case-img-box">
+                
+                
+                <img data-case-src="/site-images/6866befd46376852-768-a8109740463f129f.webp?iv=a8109740463f129f" alt="Holy-EcoLite-Case" loading="lazy" decoding="async" class="case-card-image case-card-image-large" style="object-fit:contain">
+<noscript><img src="/site-images/6866befd46376852-768-a8109740463f129f.webp?iv=a8109740463f129f" alt="Holy-EcoLite-Case" loading="lazy" decoding="async" class="case-card-image case-card-image-large" style="object-fit:contain" onerror="if(!this.dataset.retry){this.dataset.retry='1';setTimeout(()=>{this.style.display='';this.src=this.src+'?r='+Date.now()},1500);}else{this.style.display='none';this.parentElement.querySelector('.case-fallback').style.display='flex';}"></noscript>
+                <div class="case-fallback" style="display:none;flex-direction:column;align-items:center;">
+                    <div>🎁</div>
+                </div>
+                <div class="case-price">79 коинов</div>
+            </div>
+            <div class="case-btn" data-i18n="open">ОТКРЫТЬ</div>
+        </a>
+
+            </div>
+
+            <div class="case-row" data-case-row="2">
+
+        
+        
+        
+        
+        
+        
+        
+        
+        <a href="/case/32" class="case-card" data-effect-tier="blue" data-section="holy" data-case-id="32" data-name="holy-classic-case">
+            <div class="case-title">Holy-Classic-Case</div>
+            <div class="case-items-count">
+                12 предметов
+                <span class="case-badge">NEW</span>
+            </div>
+            
+            
+            <div class="case-img-box">
+                
+                
+                <img data-case-src="/site-images/ad16d03091bcaed1-768-83aa21a682dba523.webp?iv=83aa21a682dba523" alt="Holy-Classic-Case" loading="lazy" decoding="async" class="case-card-image case-card-image-large" style="object-fit:contain">
+<noscript><img src="/site-images/ad16d03091bcaed1-768-83aa21a682dba523.webp?iv=83aa21a682dba523" alt="Holy-Classic-Case" loading="lazy" decoding="async" class="case-card-image case-card-image-large" style="object-fit:contain" onerror="if(!this.dataset.retry){this.dataset.retry='1';setTimeout(()=>{this.style.display='';this.src=this.src+'?r='+Date.now()},1500);}else{this.style.display='none';this.parentElement.querySelector('.case-fallback').style.display='flex';}"></noscript>
+                <div class="case-fallback" style="display:none;flex-direction:column;align-items:center;">
+                    <div>🎁</div>
+                </div>
+                <div class="case-price">199 коинов</div>
+            </div>
+            <div class="case-btn" data-i18n="open">ОТКРЫТЬ</div>
+        </a>
+
+        
+        
+        
+        
+        
+        
+        
+        
+        <a href="/case/19" class="case-card" data-effect-tier="blue" data-section="holy" data-case-id="19" data-name="holy-vaipclassic-case">
+            <div class="case-title">Holy-VaipClassic-Case</div>
+            <div class="case-items-count">
+                12 предметов
+                <span class="case-badge">NEW</span>
+            </div>
+            
+            
+            <div class="case-img-box">
+                
+                
+                <img data-case-src="/site-images/9770809bffe7fcb3-768-ffd5362bfa378ab1.webp?iv=ffd5362bfa378ab1" alt="Holy-VaipClassic-Case" loading="lazy" decoding="async" class="case-card-image case-card-image-large" style="object-fit:contain">
+<noscript><img src="/site-images/9770809bffe7fcb3-768-ffd5362bfa378ab1.webp?iv=ffd5362bfa378ab1" alt="Holy-VaipClassic-Case" loading="lazy" decoding="async" class="case-card-image case-card-image-large" style="object-fit:contain" onerror="if(!this.dataset.retry){this.dataset.retry='1';setTimeout(()=>{this.style.display='';this.src=this.src+'?r='+Date.now()},1500);}else{this.style.display='none';this.parentElement.querySelector('.case-fallback').style.display='flex';}"></noscript>
+                <div class="case-fallback" style="display:none;flex-direction:column;align-items:center;">
+                    <div>🎁</div>
+                </div>
+                <div class="case-price">210 коинов</div>
+            </div>
+            <div class="case-btn" data-i18n="open">ОТКРЫТЬ</div>
+        </a>
+
+        
+        
+        
+        
+        
+        
+        
+        
+        <a href="/case/72" class="case-card" data-effect-tier="blue" data-section="holy" data-case-id="72" data-name="holy-case">
+            <div class="case-title">HOLY-CASE</div>
+            <div class="case-items-count">
+                18 предметов
+                <span class="case-badge">NEW</span>
+            </div>
+            
+            
+            <div class="case-img-box">
+                
+                
+                <img data-case-src="/site-images/9a8e855269019969-768-3b613e856cf577cf.webp?iv=3b613e856cf577cf" alt="HOLY-CASE" loading="lazy" decoding="async" class="case-card-image case-card-image-large" style="object-fit:contain">
+<noscript><img src="/site-images/9a8e855269019969-768-3b613e856cf577cf.webp?iv=3b613e856cf577cf" alt="HOLY-CASE" loading="lazy" decoding="async" class="case-card-image case-card-image-large" style="object-fit:contain" onerror="if(!this.dataset.retry){this.dataset.retry='1';setTimeout(()=>{this.style.display='';this.src=this.src+'?r='+Date.now()},1500);}else{this.style.display='none';this.parentElement.querySelector('.case-fallback').style.display='flex';}"></noscript>
+                <div class="case-fallback" style="display:none;flex-direction:column;align-items:center;">
+                    <div>🎁</div>
+                </div>
+                <div class="case-price">150 коинов</div>
+            </div>
+            <div class="case-btn" data-i18n="open">ОТКРЫТЬ</div>
+        </a>
+
+        
+        
+        
+        
+        
+        
+        
+        
+        <a href="/case/17" class="case-card" data-effect-tier="blue" data-section="holy" data-case-id="17" data-name="holy-donclassic-case">
+            <div class="case-title">Holy-DonClassic-Case</div>
+            <div class="case-items-count">
+                16 предметов
+                <span class="case-badge">NEW</span>
+            </div>
+            
+            
+            <div class="case-img-box">
+                
+                
+                <img data-case-src="/site-images/dacdb4a143c06ee9-768-3af47a946f3c724f.webp?iv=3af47a946f3c724f" alt="Holy-DonClassic-Case" loading="lazy" decoding="async" class="case-card-image case-card-image-large" style="object-fit:contain">
+<noscript><img src="/site-images/dacdb4a143c06ee9-768-3af47a946f3c724f.webp?iv=3af47a946f3c724f" alt="Holy-DonClassic-Case" loading="lazy" decoding="async" class="case-card-image case-card-image-large" style="object-fit:contain" onerror="if(!this.dataset.retry){this.dataset.retry='1';setTimeout(()=>{this.style.display='';this.src=this.src+'?r='+Date.now()},1500);}else{this.style.display='none';this.parentElement.querySelector('.case-fallback').style.display='flex';}"></noscript>
+                <div class="case-fallback" style="display:none;flex-direction:column;align-items:center;">
+                    <div>🎁</div>
+                </div>
+                <div class="case-price">239 коинов</div>
+            </div>
+            <div class="case-btn" data-i18n="open">ОТКРЫТЬ</div>
+        </a>
+
+        
+        
+        
+        
+        
+        
+        
+        
+        <a href="/case/18" class="case-card" data-effect-tier="blue" data-section="holy" data-case-id="18" data-name="holy-rubclassic-case">
+            <div class="case-title">Holy-RubClassic-Case</div>
+            <div class="case-items-count">
+                10 предметов
+                <span class="case-badge">NEW</span>
+            </div>
+            
+            
+            <div class="case-img-box">
+                
+                
+                <img data-case-src="/site-images/0203775b2feb7df9-768-a58630bb179304b0.webp?iv=a58630bb179304b0" alt="Holy-RubClassic-Case" loading="lazy" decoding="async" class="case-card-image case-card-image-large" style="object-fit:contain">
+<noscript><img src="/site-images/0203775b2feb7df9-768-a58630bb179304b0.webp?iv=a58630bb179304b0" alt="Holy-RubClassic-Case" loading="lazy" decoding="async" class="case-card-image case-card-image-large" style="object-fit:contain" onerror="if(!this.dataset.retry){this.dataset.retry='1';setTimeout(()=>{this.style.display='';this.src=this.src+'?r='+Date.now()},1500);}else{this.style.display='none';this.parentElement.querySelector('.case-fallback').style.display='flex';}"></noscript>
+                <div class="case-fallback" style="display:none;flex-direction:column;align-items:center;">
+                    <div>🎁</div>
+                </div>
+                <div class="case-price">199 коинов</div>
+            </div>
+            <div class="case-btn" data-i18n="open">ОТКРЫТЬ</div>
+        </a>
+
+            </div>
+
+            <div class="case-row" data-case-row="3">
+
+        
+        
+        
+        
+        
+        
+        
+        
+        <a href="/case/66" class="case-card" data-effect-tier="red" data-section="holy" data-case-id="66" data-name="holy-viprime-case">
+            <div class="case-title">HOLY-VIPRIME-CASE</div>
+            <div class="case-items-count">
+                22 предмета
+                <span class="case-badge">NEW</span>
+            </div>
+            
+            
+            <div class="case-img-box">
+                
+                
+                <img data-case-src="/site-images/a03104a5b6a36b3d-768-392eb3bc0547d2ec.webp?iv=392eb3bc0547d2ec" alt="HOLY-VIPRIME-CASE" loading="lazy" decoding="async" class="case-card-image case-card-image-large" style="object-fit:contain">
+<noscript><img src="/site-images/a03104a5b6a36b3d-768-392eb3bc0547d2ec.webp?iv=392eb3bc0547d2ec" alt="HOLY-VIPRIME-CASE" loading="lazy" decoding="async" class="case-card-image case-card-image-large" style="object-fit:contain" onerror="if(!this.dataset.retry){this.dataset.retry='1';setTimeout(()=>{this.style.display='';this.src=this.src+'?r='+Date.now()},1500);}else{this.style.display='none';this.parentElement.querySelector('.case-fallback').style.display='flex';}"></noscript>
+                <div class="case-fallback" style="display:none;flex-direction:column;align-items:center;">
+                    <div>🎁</div>
+                </div>
+                <div class="case-price">1490 коинов</div>
+            </div>
+            <div class="case-btn" data-i18n="open">ОТКРЫТЬ</div>
+        </a>
+
+        
+        
+        
+        
+        
+        
+        
+        
+        <a href="/case/67" class="case-card" data-effect-tier="purple" data-section="holy" data-case-id="67" data-name="holy-gemprime-case">
+            <div class="case-title">HOLY-GEMPRIME-CASE</div>
+            <div class="case-items-count">
+                17 предметов
+                <span class="case-badge">NEW</span>
+            </div>
+            
+            
+            <div class="case-img-box">
+                
+                
+                <img data-case-src="/site-images/8fd9b6d872bb10f2-768-26da852429c4fb9d.webp?iv=26da852429c4fb9d" alt="HOLY-GEMPRIME-CASE" loading="lazy" decoding="async" class="case-card-image case-card-image-large" style="object-fit:contain">
+<noscript><img src="/site-images/8fd9b6d872bb10f2-768-26da852429c4fb9d.webp?iv=26da852429c4fb9d" alt="HOLY-GEMPRIME-CASE" loading="lazy" decoding="async" class="case-card-image case-card-image-large" style="object-fit:contain" onerror="if(!this.dataset.retry){this.dataset.retry='1';setTimeout(()=>{this.style.display='';this.src=this.src+'?r='+Date.now()},1500);}else{this.style.display='none';this.parentElement.querySelector('.case-fallback').style.display='flex';}"></noscript>
+                <div class="case-fallback" style="display:none;flex-direction:column;align-items:center;">
+                    <div>🎁</div>
+                </div>
+                <div class="case-price">390 коинов</div>
+            </div>
+            <div class="case-btn" data-i18n="open">ОТКРЫТЬ</div>
+        </a>
+
+        
+        
+        
+        
+        
+        
+        
+        
+        <a href="/case/65" class="case-card" data-effect-tier="gold" data-section="holy" data-case-id="65" data-name="holy-prime-case">
+            <div class="case-title">HOLY-PRIME-CASE</div>
+            <div class="case-items-count">
+                22 предмета
+                <span class="case-badge">NEW</span>
+            </div>
+            
+            
+            <div class="case-img-box">
+                
+                
+                <img data-case-src="/site-images/42acf40cd293108c-768-1a29988c1e62309f.webp?iv=1a29988c1e62309f" alt="HOLY-PRIME-CASE" loading="lazy" decoding="async" class="case-card-image case-card-image-large" style="object-fit:contain">
+<noscript><img src="/site-images/42acf40cd293108c-768-1a29988c1e62309f.webp?iv=1a29988c1e62309f" alt="HOLY-PRIME-CASE" loading="lazy" decoding="async" class="case-card-image case-card-image-large" style="object-fit:contain" onerror="if(!this.dataset.retry){this.dataset.retry='1';setTimeout(()=>{this.style.display='';this.src=this.src+'?r='+Date.now()},1500);}else{this.style.display='none';this.parentElement.querySelector('.case-fallback').style.display='flex';}"></noscript>
+                <div class="case-fallback" style="display:none;flex-direction:column;align-items:center;">
+                    <div>🎁</div>
+                </div>
+                <div class="case-price">850 коинов</div>
+            </div>
+            <div class="case-btn" data-i18n="open">ОТКРЫТЬ</div>
+        </a>
+
+        
+        
+        
+        
+        
+        
+        
+        
+        <a href="/case/68" class="case-card" data-effect-tier="red" data-section="holy" data-case-id="68" data-name="holy-donprime-case">
+            <div class="case-title">HOLY-DONPRIME-CASE</div>
+            <div class="case-items-count">
+                19 предметов
+                <span class="case-badge">NEW</span>
+            </div>
+            
+            
+            <div class="case-img-box">
+                
+                
+                <img data-case-src="/site-images/dd1416e223b5d9e9-768-ea2e850a8a81ded7.webp?iv=ea2e850a8a81ded7" alt="HOLY-DONPRIME-CASE" loading="lazy" decoding="async" class="case-card-image case-card-image-large" style="object-fit:contain">
+<noscript><img src="/site-images/dd1416e223b5d9e9-768-ea2e850a8a81ded7.webp?iv=ea2e850a8a81ded7" alt="HOLY-DONPRIME-CASE" loading="lazy" decoding="async" class="case-card-image case-card-image-large" style="object-fit:contain" onerror="if(!this.dataset.retry){this.dataset.retry='1';setTimeout(()=>{this.style.display='';this.src=this.src+'?r='+Date.now()},1500);}else{this.style.display='none';this.parentElement.querySelector('.case-fallback').style.display='flex';}"></noscript>
+                <div class="case-fallback" style="display:none;flex-direction:column;align-items:center;">
+                    <div>🎁</div>
+                </div>
+                <div class="case-price">1300 коинов</div>
+            </div>
+            <div class="case-btn" data-i18n="open">ОТКРЫТЬ</div>
+        </a>
+
+        
+        
+        
+        
+        
+        
+        
+        
+        <a href="/case/69" class="case-card" data-effect-tier="green" data-section="holy" data-case-id="69" data-name="holy-ecoprime-case">
+            <div class="case-title">HOLY-ECOPRIME-CASE</div>
+            <div class="case-items-count">
+                14 предметов
+                <span class="case-badge">NEW</span>
+            </div>
+            
+            
+            <div class="case-img-box">
+                
+                
+                <img data-case-src="/site-images/cd710ebe64b2e5d9-768-73151b86b7ee131c.webp?iv=73151b86b7ee131c" alt="HOLY-ECOPRIME-CASE" loading="lazy" decoding="async" class="case-card-image case-card-image-large" style="object-fit:contain">
+<noscript><img src="/site-images/cd710ebe64b2e5d9-768-73151b86b7ee131c.webp?iv=73151b86b7ee131c" alt="HOLY-ECOPRIME-CASE" loading="lazy" decoding="async" class="case-card-image case-card-image-large" style="object-fit:contain" onerror="if(!this.dataset.retry){this.dataset.retry='1';setTimeout(()=>{this.style.display='';this.src=this.src+'?r='+Date.now()},1500);}else{this.style.display='none';this.parentElement.querySelector('.case-fallback').style.display='flex';}"></noscript>
+                <div class="case-fallback" style="display:none;flex-direction:column;align-items:center;">
+                    <div>🎁</div>
+                </div>
+                <div class="case-price">100 коинов</div>
+            </div>
+            <div class="case-btn" data-i18n="open">ОТКРЫТЬ</div>
+        </a>
+
+            </div>
+
+        </div>
+    </section>
+
+    <section class="case-section case-section-spooky" data-section="spooky">
+        <div class="section-title case-section-title" data-i18n="">SPOOKY-КЕЙСЫ</div>
+        <div class="cases-grid">
+
+            <div class="case-row" data-case-row="1">
+
+        
+        
+        
+        
+        
+        
+        
+        
+        <a href="/case/37" class="case-card" data-effect-tier="blue" data-section="spooky" data-case-id="37" data-name="spooky-case">
+            <div class="case-title">Spooky-Case</div>
+            <div class="case-items-count">
+                20 предметов
+                <span class="case-badge">NEW</span>
+            </div>
+            
+            
+            <div class="case-img-box">
+                
+                
+                <img data-case-src="/site-images/eb410e214c9f2478-768-e990951d26d0ecad.webp?iv=e990951d26d0ecad" alt="Spooky-Case" loading="lazy" decoding="async" class="case-card-image case-card-image-large case-card-image-spooky" style="object-fit:contain">
+<noscript><img src="/site-images/eb410e214c9f2478-768-e990951d26d0ecad.webp?iv=e990951d26d0ecad" alt="Spooky-Case" loading="lazy" decoding="async" class="case-card-image case-card-image-large case-card-image-spooky" style="object-fit:contain" onerror="if(!this.dataset.retry){this.dataset.retry='1';setTimeout(()=>{this.style.display='';this.src=this.src+'?r='+Date.now()},1500);}else{this.style.display='none';this.parentElement.querySelector('.case-fallback').style.display='flex';}"></noscript>
+                <div class="case-fallback" style="display:none;flex-direction:column;align-items:center;">
+                    <div>🎁</div>
+                </div>
+                <div class="case-price">179 коинов</div>
+            </div>
+            <div class="case-btn" data-i18n="open">ОТКРЫТЬ</div>
+        </a>
+
+        
+        
+        
+        
+        
+        
+        
+        
+        <a href="/case/38" class="case-card" data-effect-tier="purple" data-section="spooky" data-case-id="38" data-name="spooky-vip-case">
+            <div class="case-title">Spooky-VIP-Case</div>
+            <div class="case-items-count">
+                17 предметов
+                <span class="case-badge">NEW</span>
+            </div>
+            
+            
+            <div class="case-img-box">
+                
+                
+                <img data-case-src="/site-images/9937237daea82582-768-0ee377cd2ecf46d6.webp?iv=0ee377cd2ecf46d6" alt="Spooky-VIP-Case" loading="lazy" decoding="async" class="case-card-image case-card-image-large case-card-image-spooky" style="object-fit:contain">
+<noscript><img src="/site-images/9937237daea82582-768-0ee377cd2ecf46d6.webp?iv=0ee377cd2ecf46d6" alt="Spooky-VIP-Case" loading="lazy" decoding="async" class="case-card-image case-card-image-large case-card-image-spooky" style="object-fit:contain" onerror="if(!this.dataset.retry){this.dataset.retry='1';setTimeout(()=>{this.style.display='';this.src=this.src+'?r='+Date.now()},1500);}else{this.style.display='none';this.parentElement.querySelector('.case-fallback').style.display='flex';}"></noscript>
+                <div class="case-fallback" style="display:none;flex-direction:column;align-items:center;">
+                    <div>🎁</div>
+                </div>
+                <div class="case-price">330 коинов</div>
+            </div>
+            <div class="case-btn" data-i18n="open">ОТКРЫТЬ</div>
+        </a>
+
+        
+        
+        
+        
+        
+        
+        
+        
+        <a href="/case/39" class="case-card" data-effect-tier="green" data-section="spooky" data-case-id="39" data-name="spooky-eco-case">
+            <div class="case-title">Spooky-ECO-Case</div>
+            <div class="case-items-count">
+                16 предметов
+                <span class="case-badge">NEW</span>
+            </div>
+            
+            
+            <div class="case-img-box">
+                
+                
+                <img data-case-src="/site-images/bb3f64c7d03e63c1-768-acb82340806b238a.webp?iv=acb82340806b238a" alt="Spooky-ECO-Case" loading="lazy" decoding="async" class="case-card-image case-card-image-large case-card-image-spooky" style="object-fit:contain">
+<noscript><img src="/site-images/bb3f64c7d03e63c1-768-acb82340806b238a.webp?iv=acb82340806b238a" alt="Spooky-ECO-Case" loading="lazy" decoding="async" class="case-card-image case-card-image-large case-card-image-spooky" style="object-fit:contain" onerror="if(!this.dataset.retry){this.dataset.retry='1';setTimeout(()=>{this.style.display='';this.src=this.src+'?r='+Date.now()},1500);}else{this.style.display='none';this.parentElement.querySelector('.case-fallback').style.display='flex';}"></noscript>
+                <div class="case-fallback" style="display:none;flex-direction:column;align-items:center;">
+                    <div>🎁</div>
+                </div>
+                <div class="case-price">75 коинов</div>
+            </div>
+            <div class="case-btn" data-i18n="open">ОТКРЫТЬ</div>
+        </a>
+
+        
+        
+        
+        
+        
+        
+        
+        
+        <a href="/case/40" class="case-card" data-effect-tier="blue" data-section="spooky" data-case-id="40" data-name="spooky-token-case">
+            <div class="case-title">Spooky-TOKEN-Case</div>
+            <div class="case-items-count">
+                17 предметов
+                <span class="case-badge">NEW</span>
+            </div>
+            
+            
+            <div class="case-img-box">
+                
+                
+                <img data-case-src="/site-images/6aae413254df005d-768-0736ea12747e963d.webp?iv=0736ea12747e963d" alt="Spooky-TOKEN-Case" loading="lazy" decoding="async" class="case-card-image case-card-image-large case-card-image-spooky" style="object-fit:contain">
+<noscript><img src="/site-images/6aae413254df005d-768-0736ea12747e963d.webp?iv=0736ea12747e963d" alt="Spooky-TOKEN-Case" loading="lazy" decoding="async" class="case-card-image case-card-image-large case-card-image-spooky" style="object-fit:contain" onerror="if(!this.dataset.retry){this.dataset.retry='1';setTimeout(()=>{this.style.display='';this.src=this.src+'?r='+Date.now()},1500);}else{this.style.display='none';this.parentElement.querySelector('.case-fallback').style.display='flex';}"></noscript>
+                <div class="case-fallback" style="display:none;flex-direction:column;align-items:center;">
+                    <div>🎁</div>
+                </div>
+                <div class="case-price">290 коинов</div>
+            </div>
+            <div class="case-btn" data-i18n="open">ОТКРЫТЬ</div>
+        </a>
+
+        
+        
+        
+        
+        
+        
+        
+        
+        <a href="/case/45" class="case-card" data-effect-tier="blue" data-section="spooky" data-case-id="45" data-name="spooky-don-case">
+            <div class="case-title">SPOOKY-DON-CASE</div>
+            <div class="case-items-count">
+                19 предметов
+                <span class="case-badge">NEW</span>
+            </div>
+            
+            
+            <div class="case-img-box">
+                
+                
+                <img data-case-src="/site-images/72d652b1dfbed5bc-768-84945930f8c74ce9.webp?iv=84945930f8c74ce9" alt="SPOOKY-DON-CASE" loading="lazy" decoding="async" class="case-card-image case-card-image-large" style="object-fit:contain">
+<noscript><img src="/site-images/72d652b1dfbed5bc-768-84945930f8c74ce9.webp?iv=84945930f8c74ce9" alt="SPOOKY-DON-CASE" loading="lazy" decoding="async" class="case-card-image case-card-image-large" style="object-fit:contain" onerror="if(!this.dataset.retry){this.dataset.retry='1';setTimeout(()=>{this.style.display='';this.src=this.src+'?r='+Date.now()},1500);}else{this.style.display='none';this.parentElement.querySelector('.case-fallback').style.display='flex';}"></noscript>
+                <div class="case-fallback" style="display:none;flex-direction:column;align-items:center;">
+                    <div>🎁</div>
+                </div>
+                <div class="case-price">289 коинов</div>
+            </div>
+            <div class="case-btn" data-i18n="open">ОТКРЫТЬ</div>
+        </a>
+
+            </div>
+
+        </div>
+    </section>
+
+    <section class="case-section case-section-really" data-section="really">
+        <div class="section-title case-section-title" data-i18n="">REALLY-КЕЙСЫ</div>
+        <div class="cases-grid">
+
+            <div class="case-row" data-case-row="1">
+
+        
+        
+        
+        
+        
+        
+        
+        
+        <a href="/case/33" class="case-card" data-effect-tier="blue" data-section="really" data-case-id="33" data-name="really-case">
+            <div class="case-title">Really-Case</div>
+            <div class="case-items-count">
+                15 предметов
+                <span class="case-badge">NEW</span>
+            </div>
+            
+            
+            <div class="case-img-box">
+                
+                
+                <img data-case-src="/site-images/1721f448df6a7f85-768-5d7663ce31889e04.webp?iv=5d7663ce31889e04" alt="Really-Case" loading="lazy" decoding="async" class="case-card-image case-card-image-large" style="object-fit:contain">
+<noscript><img src="/site-images/1721f448df6a7f85-768-5d7663ce31889e04.webp?iv=5d7663ce31889e04" alt="Really-Case" loading="lazy" decoding="async" class="case-card-image case-card-image-large" style="object-fit:contain" onerror="if(!this.dataset.retry){this.dataset.retry='1';setTimeout(()=>{this.style.display='';this.src=this.src+'?r='+Date.now()},1500);}else{this.style.display='none';this.parentElement.querySelector('.case-fallback').style.display='flex';}"></noscript>
+                <div class="case-fallback" style="display:none;flex-direction:column;align-items:center;">
+                    <div>🎁</div>
+                </div>
+                <div class="case-price">299 коинов</div>
+            </div>
+            <div class="case-btn" data-i18n="open">ОТКРЫТЬ</div>
+        </a>
+
+        
+        
+        
+        
+        
+        
+        
+        
+        <a href="/case/21" class="case-card" data-effect-tier="blue" data-section="really" data-case-id="21" data-name="really-rilik-case">
+            <div class="case-title">Really-Rilik-Case</div>
+            <div class="case-items-count">
+                13 предметов
+                <span class="case-badge">NEW</span>
+            </div>
+            
+            
+            <div class="case-img-box">
+                
+                
+                <img data-case-src="/site-images/85afe49232f5cad5-768-62151ee882142521.webp?iv=62151ee882142521" alt="Really-Rilik-Case" loading="lazy" decoding="async" class="case-card-image case-card-image-large" style="object-fit:contain">
+<noscript><img src="/site-images/85afe49232f5cad5-768-62151ee882142521.webp?iv=62151ee882142521" alt="Really-Rilik-Case" loading="lazy" decoding="async" class="case-card-image case-card-image-large" style="object-fit:contain" onerror="if(!this.dataset.retry){this.dataset.retry='1';setTimeout(()=>{this.style.display='';this.src=this.src+'?r='+Date.now()},1500);}else{this.style.display='none';this.parentElement.querySelector('.case-fallback').style.display='flex';}"></noscript>
+                <div class="case-fallback" style="display:none;flex-direction:column;align-items:center;">
+                    <div>🎁</div>
+                </div>
+                <div class="case-price">268 коинов</div>
+            </div>
+            <div class="case-btn" data-i18n="open">ОТКРЫТЬ</div>
+        </a>
+
+        
+        
+        
+        
+        
+        
+        
+        
+        <a href="/case/20" class="case-card" data-effect-tier="blue" data-section="really" data-case-id="20" data-name="really-don-case">
+            <div class="case-title">Really-Don-Case</div>
+            <div class="case-items-count">
+                14 предметов
+                <span class="case-badge">NEW</span>
+            </div>
+            
+            
+            <div class="case-img-box">
+                
+                
+                <img data-case-src="/site-images/476ea516a355c069-768-2b471b8a982104d2.webp?iv=2b471b8a982104d2" alt="Really-Don-Case" loading="lazy" decoding="async" class="case-card-image case-card-image-large" style="object-fit:contain">
+<noscript><img src="/site-images/476ea516a355c069-768-2b471b8a982104d2.webp?iv=2b471b8a982104d2" alt="Really-Don-Case" loading="lazy" decoding="async" class="case-card-image case-card-image-large" style="object-fit:contain" onerror="if(!this.dataset.retry){this.dataset.retry='1';setTimeout(()=>{this.style.display='';this.src=this.src+'?r='+Date.now()},1500);}else{this.style.display='none';this.parentElement.querySelector('.case-fallback').style.display='flex';}"></noscript>
+                <div class="case-fallback" style="display:none;flex-direction:column;align-items:center;">
+                    <div>🎁</div>
+                </div>
+                <div class="case-price">289 коинов</div>
+            </div>
+            <div class="case-btn" data-i18n="open">ОТКРЫТЬ</div>
+        </a>
+
+        
+        
+        
+        
+        
+        
+        
+        
+        <a href="/case/25" class="case-card" data-effect-tier="green" data-section="really" data-case-id="25" data-name="really-bomj-case">
+            <div class="case-title">Really-Bomj-Case</div>
+            <div class="case-items-count">
+                9 предметов
+                <span class="case-badge">NEW</span>
+            </div>
+            
+            
+            <div class="case-img-box">
+                
+                
+                <img data-case-src="/site-images/39464273a4025967-768-72c5ba5e1cd565ca.webp?iv=72c5ba5e1cd565ca" alt="Really-Bomj-Case" loading="lazy" decoding="async" class="case-card-image case-card-image-large" style="object-fit:contain">
+<noscript><img src="/site-images/39464273a4025967-768-72c5ba5e1cd565ca.webp?iv=72c5ba5e1cd565ca" alt="Really-Bomj-Case" loading="lazy" decoding="async" class="case-card-image case-card-image-large" style="object-fit:contain" onerror="if(!this.dataset.retry){this.dataset.retry='1';setTimeout(()=>{this.style.display='';this.src=this.src+'?r='+Date.now()},1500);}else{this.style.display='none';this.parentElement.querySelector('.case-fallback').style.display='flex';}"></noscript>
+                <div class="case-fallback" style="display:none;flex-direction:column;align-items:center;">
+                    <div>🎁</div>
+                </div>
+                <div class="case-price">69 коинов</div>
+            </div>
+            <div class="case-btn" data-i18n="open">ОТКРЫТЬ</div>
+        </a>
+
+            </div>
+
+            <div class="case-row" data-case-row="2">
+
+        
+        
+        
+        
+        
+        
+        
+        
+        <a href="/case/23" class="case-card" data-effect-tier="purple" data-section="really" data-case-id="23" data-name="really-chest-case">
+            <div class="case-title">Really-Chest-Case</div>
+            <div class="case-items-count">
+                19 предметов
+                <span class="case-badge">NEW</span>
+            </div>
+            
+            
+            <div class="case-img-box">
+                
+                
+                <img data-case-src="/site-images/92bcb1b93e593688-768-0d68042bc851cb8b.webp?iv=0d68042bc851cb8b" alt="Really-Chest-Case" loading="lazy" decoding="async" class="case-card-image case-card-image-large" style="object-fit:contain">
+<noscript><img src="/site-images/92bcb1b93e593688-768-0d68042bc851cb8b.webp?iv=0d68042bc851cb8b" alt="Really-Chest-Case" loading="lazy" decoding="async" class="case-card-image case-card-image-large" style="object-fit:contain" onerror="if(!this.dataset.retry){this.dataset.retry='1';setTimeout(()=>{this.style.display='';this.src=this.src+'?r='+Date.now()},1500);}else{this.style.display='none';this.parentElement.querySelector('.case-fallback').style.display='flex';}"></noscript>
+                <div class="case-fallback" style="display:none;flex-direction:column;align-items:center;">
+                    <div>🎁</div>
+                </div>
+                <div class="case-price">349 коинов</div>
+            </div>
+            <div class="case-btn" data-i18n="open">ОТКРЫТЬ</div>
+        </a>
+
+        
+        
+        
+        
+        
+        
+        
+        
+        <a href="/case/24" class="case-card" data-effect-tier="gold" data-section="really" data-case-id="24" data-name="really-legend-case">
+            <div class="case-title">Really-Legend-Case</div>
+            <div class="case-items-count">
+                14 предметов
+                <span class="case-badge">NEW</span>
+            </div>
+            
+            
+            <div class="case-img-box">
+                
+                
+                <img data-case-src="/site-images/08471ca6700bd2b6-768-8cc81ba7d89a061b.webp?iv=8cc81ba7d89a061b" alt="Really-Legend-Case" loading="lazy" decoding="async" class="case-card-image case-card-image-large" style="object-fit:contain">
+<noscript><img src="/site-images/08471ca6700bd2b6-768-8cc81ba7d89a061b.webp?iv=8cc81ba7d89a061b" alt="Really-Legend-Case" loading="lazy" decoding="async" class="case-card-image case-card-image-large" style="object-fit:contain" onerror="if(!this.dataset.retry){this.dataset.retry='1';setTimeout(()=>{this.style.display='';this.src=this.src+'?r='+Date.now()},1500);}else{this.style.display='none';this.parentElement.querySelector('.case-fallback').style.display='flex';}"></noscript>
+                <div class="case-fallback" style="display:none;flex-direction:column;align-items:center;">
+                    <div>🎁</div>
+                </div>
+                <div class="case-price">649 коинов</div>
+            </div>
+            <div class="case-btn" data-i18n="open">ОТКРЫТЬ</div>
+        </a>
+
+            </div>
+
+        </div>
+    </section>
+
+    <section class="case-section case-section-visual" data-section="visual">
+        <div class="section-title case-section-title" data-i18n="">VISUAL-КЕЙСЫ</div>
+        <div class="cases-grid">
+
+            <div class="case-row" data-case-row="1">
+
+        
+        
+        
+        
+        
+        
+        
+        
+        <a href="/case/55" class="case-card" data-effect-tier="purple" data-section="visual" data-case-id="55" data-name="visual-case">
+            <div class="case-title">VISUAL-CASE</div>
+            <div class="case-items-count">
+                19 предметов
+                <span class="case-badge">NEW</span>
+            </div>
+            
+            
+            <div class="case-img-box">
+                
+                
+                <img data-case-src="/site-images/3b0dbac72ad4d309-768-31c5af08d33306db.webp?iv=31c5af08d33306db" alt="VISUAL-CASE" loading="lazy" decoding="async" class="case-card-image case-card-image-visual" style="object-fit:contain;transform:translateY(1px) scale(.75) !important;object-position:center 51%;">
+<noscript><img src="/site-images/3b0dbac72ad4d309-768-31c5af08d33306db.webp?iv=31c5af08d33306db" alt="VISUAL-CASE" loading="lazy" decoding="async" class="case-card-image case-card-image-visual" style="object-fit:contain;transform:translateY(1px) scale(.75) !important;object-position:center 51%;" onerror="if(!this.dataset.retry){this.dataset.retry='1';setTimeout(()=>{this.style.display='';this.src=this.src+'?r='+Date.now()},1500);}else{this.style.display='none';this.parentElement.querySelector('.case-fallback').style.display='flex';}"></noscript>
+                <div class="case-fallback" style="display:none;flex-direction:column;align-items:center;">
+                    <div>🎁</div>
+                </div>
+                <div class="case-price">350 коинов</div>
+            </div>
+            <div class="case-btn" data-i18n="open">ОТКРЫТЬ</div>
+        </a>
+
+        
+        
+        
+        
+        
+        
+        
+        
+        <a href="/case/56" class="case-card" data-effect-tier="blue" data-section="visual" data-case-id="56" data-name="visual-cosmetics-case">
+            <div class="case-title">VISUAL-COSMETICS-CASE</div>
+            <div class="case-items-count">
+                21 предмет
+                <span class="case-badge">NEW</span>
+            </div>
+            
+            
+            <div class="case-img-box">
+                
+                
+                <img data-case-src="/site-images/07fa301d4ad51607-768-d890bc71d4b450d5.webp?iv=d890bc71d4b450d5" alt="VISUAL-COSMETICS-CASE" loading="lazy" decoding="async" class="case-card-image case-card-image-visual" style="object-fit:contain;transform:translateY(1px) scale(.75) !important;object-position:center 51%;">
+<noscript><img src="/site-images/07fa301d4ad51607-768-d890bc71d4b450d5.webp?iv=d890bc71d4b450d5" alt="VISUAL-COSMETICS-CASE" loading="lazy" decoding="async" class="case-card-image case-card-image-visual" style="object-fit:contain;transform:translateY(1px) scale(.75) !important;object-position:center 51%;" onerror="if(!this.dataset.retry){this.dataset.retry='1';setTimeout(()=>{this.style.display='';this.src=this.src+'?r='+Date.now()},1500);}else{this.style.display='none';this.parentElement.querySelector('.case-fallback').style.display='flex';}"></noscript>
+                <div class="case-fallback" style="display:none;flex-direction:column;align-items:center;">
+                    <div>🎁</div>
+                </div>
+                <div class="case-price">149 коинов</div>
+            </div>
+            <div class="case-btn" data-i18n="open">ОТКРЫТЬ</div>
+        </a>
+
+        
+        
+        
+        
+        
+        
+        
+        
+        <a href="/case/57" class="case-card" data-effect-tier="green" data-section="visual" data-case-id="57" data-name="visual-cfg-case">
+            <div class="case-title">VISUAL-CFG-CASE</div>
+            <div class="case-items-count">
+                17 предметов
+                <span class="case-badge">NEW</span>
+            </div>
+            
+            
+            <div class="case-img-box">
+                
+                
+                <img data-case-src="/site-images/6cf436e7dac0de06-768-2840a18ba84998e7.webp?iv=2840a18ba84998e7" alt="VISUAL-CFG-CASE" loading="lazy" decoding="async" class="case-card-image case-card-image-visual" style="object-fit:contain;transform:translateY(1px) scale(.75) !important;object-position:center 51%;">
+<noscript><img src="/site-images/6cf436e7dac0de06-768-2840a18ba84998e7.webp?iv=2840a18ba84998e7" alt="VISUAL-CFG-CASE" loading="lazy" decoding="async" class="case-card-image case-card-image-visual" style="object-fit:contain;transform:translateY(1px) scale(.75) !important;object-position:center 51%;" onerror="if(!this.dataset.retry){this.dataset.retry='1';setTimeout(()=>{this.style.display='';this.src=this.src+'?r='+Date.now()},1500);}else{this.style.display='none';this.parentElement.querySelector('.case-fallback').style.display='flex';}"></noscript>
+                <div class="case-fallback" style="display:none;flex-direction:column;align-items:center;">
+                    <div>🎁</div>
+                </div>
+                <div class="case-price">100 коинов</div>
+            </div>
+            <div class="case-btn" data-i18n="open">ОТКРЫТЬ</div>
+        </a>
+
+        
+        
+        
+        
+        
+        
+        
+        
+        <a href="/case/58" class="case-card" data-effect-tier="green" data-section="visual" data-case-id="58" data-name="visual-eco-case">
+            <div class="case-title">VISUAL-ECO-CASE</div>
+            <div class="case-items-count">
+                13 предметов
+                <span class="case-badge">NEW</span>
+            </div>
+            
+            
+            <div class="case-img-box">
+                
+                
+                <img data-case-src="/site-images/1d1952c78f16ac78-768-2858bd5b54be9981.webp?iv=2858bd5b54be9981" alt="VISUAL-ECO-CASE" loading="lazy" decoding="async" class="case-card-image case-card-image-visual" style="object-fit:contain;transform:translateY(1px) scale(.75) !important;object-position:center 51%;">
+<noscript><img src="/site-images/1d1952c78f16ac78-768-2858bd5b54be9981.webp?iv=2858bd5b54be9981" alt="VISUAL-ECO-CASE" loading="lazy" decoding="async" class="case-card-image case-card-image-visual" style="object-fit:contain;transform:translateY(1px) scale(.75) !important;object-position:center 51%;" onerror="if(!this.dataset.retry){this.dataset.retry='1';setTimeout(()=>{this.style.display='';this.src=this.src+'?r='+Date.now()},1500);}else{this.style.display='none';this.parentElement.querySelector('.case-fallback').style.display='flex';}"></noscript>
+                <div class="case-fallback" style="display:none;flex-direction:column;align-items:center;">
+                    <div>🎁</div>
+                </div>
+                <div class="case-price">67 коинов</div>
+            </div>
+            <div class="case-btn" data-i18n="open">ОТКРЫТЬ</div>
+        </a>
+
+        
+        
+        
+        
+        
+        
+        
+        
+        <a href="/case/59" class="case-card" data-effect-tier="gold" data-section="visual" data-case-id="59" data-name="visual-luxe-case">
+            <div class="case-title">VISUAL-LUXE-CASE</div>
+            <div class="case-items-count">
+                15 предметов
+                <span class="case-badge">NEW</span>
+            </div>
+            
+            
+            <div class="case-img-box">
+                
+                
+                <img data-case-src="/site-images/847f3558eae0a529-768-14f1288b6467569c.webp?iv=14f1288b6467569c" alt="VISUAL-LUXE-CASE" loading="lazy" decoding="async" class="case-card-image case-card-image-visual" style="object-fit:contain;transform:translateY(1px) scale(.75) !important;object-position:center 51%;">
+<noscript><img src="/site-images/847f3558eae0a529-768-14f1288b6467569c.webp?iv=14f1288b6467569c" alt="VISUAL-LUXE-CASE" loading="lazy" decoding="async" class="case-card-image case-card-image-visual" style="object-fit:contain;transform:translateY(1px) scale(.75) !important;object-position:center 51%;" onerror="if(!this.dataset.retry){this.dataset.retry='1';setTimeout(()=>{this.style.display='';this.src=this.src+'?r='+Date.now()},1500);}else{this.style.display='none';this.parentElement.querySelector('.case-fallback').style.display='flex';}"></noscript>
+                <div class="case-fallback" style="display:none;flex-direction:column;align-items:center;">
+                    <div>🎁</div>
+                </div>
+                <div class="case-price">520 коинов</div>
+            </div>
+            <div class="case-btn" data-i18n="open">ОТКРЫТЬ</div>
+        </a>
+
+            </div>
+
+        </div>
+    </section>
+
+    <section class="case-section case-section-bonus" data-section="bonus">
+        <div class="section-title case-section-title" data-i18n="">BONUS-КЕЙСЫ</div>
+        <div class="cases-grid">
+
+            <div class="case-row" data-case-row="1">
+
+        
+        
+        
+        
+        
+        
+        
+        
+        <a href="/case/61" class="case-card" data-effect-tier="green" data-section="bonus" data-case-id="61" data-name="bonus-emerald-case">
+            <div class="case-title">BONUS-EMERALD-CASE</div>
+            <div class="case-items-count">
+                13 предметов
+                <span class="case-badge">NEW</span>
+            </div>
+            
+            
+            <div class="case-img-box">
+                
+                
+                <img data-case-src="/site-images/ebd4d4398bcaa86e-768-0bfab7e701bb5fac.webp?iv=0bfab7e701bb5fac" alt="BONUS-EMERALD-CASE" loading="lazy" decoding="async" class="case-card-image case-card-image-bonus" style="object-fit:contain">
+<noscript><img src="/site-images/ebd4d4398bcaa86e-768-0bfab7e701bb5fac.webp?iv=0bfab7e701bb5fac" alt="BONUS-EMERALD-CASE" loading="lazy" decoding="async" class="case-card-image case-card-image-bonus" style="object-fit:contain" onerror="if(!this.dataset.retry){this.dataset.retry='1';setTimeout(()=>{this.style.display='';this.src=this.src+'?r='+Date.now()},1500);}else{this.style.display='none';this.parentElement.querySelector('.case-fallback').style.display='flex';}"></noscript>
+                <div class="case-fallback" style="display:none;flex-direction:column;align-items:center;">
+                    <div>🎁</div>
+                </div>
+                <div class="case-price">20 BONUS</div>
+            </div>
+            <div class="case-btn" data-i18n="open">ОТКРЫТЬ</div>
+        </a>
+
+        
+        
+        
+        
+        
+        
+        
+        
+        <a href="/case/62" class="case-card" data-effect-tier="green" data-section="bonus" data-case-id="62" data-name="bonus-rubin-case">
+            <div class="case-title">BONUS-RUBIN-CASE</div>
+            <div class="case-items-count">
+                13 предметов
+                <span class="case-badge">NEW</span>
+            </div>
+            
+            
+            <div class="case-img-box">
+                
+                
+                <img data-case-src="/site-images/d95d1ed6f404a32d-768-b5d8fc97bddf46a1.webp?iv=b5d8fc97bddf46a1" alt="BONUS-RUBIN-CASE" loading="lazy" decoding="async" class="case-card-image case-card-image-bonus" style="object-fit:contain">
+<noscript><img src="/site-images/d95d1ed6f404a32d-768-b5d8fc97bddf46a1.webp?iv=b5d8fc97bddf46a1" alt="BONUS-RUBIN-CASE" loading="lazy" decoding="async" class="case-card-image case-card-image-bonus" style="object-fit:contain" onerror="if(!this.dataset.retry){this.dataset.retry='1';setTimeout(()=>{this.style.display='';this.src=this.src+'?r='+Date.now()},1500);}else{this.style.display='none';this.parentElement.querySelector('.case-fallback').style.display='flex';}"></noscript>
+                <div class="case-fallback" style="display:none;flex-direction:column;align-items:center;">
+                    <div>🎁</div>
+                </div>
+                <div class="case-price">40 BONUS</div>
+            </div>
+            <div class="case-btn" data-i18n="open">ОТКРЫТЬ</div>
+        </a>
+
+        
+        
+        
+        
+        
+        
+        
+        
+        <a href="/case/63" class="case-card" data-effect-tier="green" data-section="bonus" data-case-id="63" data-name="bonus-gold-case">
+            <div class="case-title">BONUS-GOLD-CASE</div>
+            <div class="case-items-count">
+                12 предметов
+                <span class="case-badge">NEW</span>
+            </div>
+            
+            
+            <div class="case-img-box">
+                
+                
+                <img data-case-src="/site-images/12a3a369c9cd0eca-768-bb548361f415ed36.webp?iv=bb548361f415ed36" alt="BONUS-GOLD-CASE" loading="lazy" decoding="async" class="case-card-image case-card-image-bonus" style="object-fit:contain">
+<noscript><img src="/site-images/12a3a369c9cd0eca-768-bb548361f415ed36.webp?iv=bb548361f415ed36" alt="BONUS-GOLD-CASE" loading="lazy" decoding="async" class="case-card-image case-card-image-bonus" style="object-fit:contain" onerror="if(!this.dataset.retry){this.dataset.retry='1';setTimeout(()=>{this.style.display='';this.src=this.src+'?r='+Date.now()},1500);}else{this.style.display='none';this.parentElement.querySelector('.case-fallback').style.display='flex';}"></noscript>
+                <div class="case-fallback" style="display:none;flex-direction:column;align-items:center;">
+                    <div>🎁</div>
+                </div>
+                <div class="case-price">100 BONUS</div>
+            </div>
+            <div class="case-btn" data-i18n="open">ОТКРЫТЬ</div>
+        </a>
+
+            </div>
+
+        </div>
+    </section>
+
+</div>
+
+<script src="/index-page-1.js?v=55bbf99e8098"></script>
+
+<script src="/case-catalog-loader.js?v=55bbf99e8098" onerror="document.querySelectorAll('img[data-case-src]').forEach(function(img){img.src=img.dataset.caseSrc})"></script>
+                
+                <footer class="site-footer">
+                    <div class="site-footer-copy">
+                        <div class="site-footer-brand" data-i18n="footerRights">&copy; 2026 MineDrop. Все права защищены.</div>
+                        <div class="site-footer-line" data-i18n="footerMojang">MineDrop является независимым проектом и не связан с Mojang Studios, Microsoft или администрациями игровых серверов.</div>
+                        <div class="site-footer-line" data-i18n="footerAbout">Кейсы, апгрейды и вывод предметов по Minecraft-серверам в одном месте.</div>
+                        <div class="site-footer-line">Company email: <a href="mailto:supportminedrop@gmail.com">supportminedrop@gmail.com</a></div>
+                        <div class="site-footer-payments" aria-label="Принимаем оплату">
+                            <span>Принимаем</span>
+                            <b>МИР</b>
+                            <b>VISA</b>
+                            <b>Mastercard</b>
+                            <b>СБП</b>
+                        </div>
+                        <nav class="site-footer-legal" aria-label="Юридические документы">
+                            <a href="/terms">Пользовательское соглашение</a>
+                            <a href="/privacy">Политика конфиденциальности</a>
+                            <a href="/consent">Обработка персональных данных</a>
+                            <a href="/rules">Правила</a>
+                            <a href="/refund">Возвраты</a>
+                        </nav>
+                        <p class="site-footer-line">ООО «Транстрейд». Адрес компании: Кыргызская республика, Бишкек, Ленинский район, ул Калык Акиева 66. Номер ОГРН: 310961-3301-ООО. ИНН: 9909710251.</p>
+                    </div>
+                    <div class="site-footer-socials" aria-label="Telegram ссылки">
+                        <a href="https://t.me/minecraftdrop" class="site-footer-telegram" target="_blank" rel="noopener noreferrer" aria-label="Telegram канал">
+                            <img src="/images/social/telegram-channel.png?v=55bbf99e8098" alt="">
+                            <span>Канал</span>
+                        </a>
+                        <a href="https://t.me/MineDropLinkBot" class="site-footer-telegram" target="_blank" rel="noopener noreferrer" aria-label="Telegram бот">
+                            <img src="/images/social/telegram-bot.png?v=55bbf99e8098" alt="">
+                            <span>Бот</span>
+                        </a>
+                    </div>
+                </footer>
+                <div id="deposit-modal" class="modal-overlay" style="display:none;">
+                    <div class="modal-content deposit-modal deposit-v3">
+                        <div class="deposit-v3-handle" aria-hidden="true"><span></span></div>
+                        <button class="modal-close deposit-v3-close" onclick="closeDepositModal()" aria-label="Закрыть">&times;</button>
+
+                        <div class="deposit-v3-hero">
+                            <div class="deposit-v3-brand">
+                                <div class="deposit-v3-logo"><img src="/coin.png?v=55bbf99e8098" alt=""></div>
+                                <div>
+                                    <span>MineDrop Wallet</span>
+                                    <b>Пополнение баланса</b>
+                                </div>
+                            </div>
+                            <div class="deposit-v3-rate">
+                                <span>Курс</span>
+                                <b>1 ₽ = 1 COIN</b>
+                            </div>
+                        </div>
+
+                        <div class="deposit-v3-body">
+                            <section class="deposit-v3-panel deposit-v3-main">
+                                <div class="deposit-v3-section-head">
+                                    <span>Сумма пополнения</span>
+                                    <small>Минимум 50 ₽</small>
+                                </div>
+
+                                <div class="deposit-v3-amount-box">
+                                    <input type="number" min="50" step="1" id="deposit-amount" class="deposit-input deposit-v3-amount-input" value="50" placeholder="50">
+                                    <span>₽</span>
+                                </div>
+
+                                <div class="deposit-quick-amounts deposit-v3-packs" aria-label="Быстрый выбор суммы">
+                                    <button type="button" data-amount="50" class="active"><b>50 ₽</b><span>50 Coins</span></button>
+                                    <button type="button" data-amount="100"><b>100 ₽</b><span>100 Coins</span></button>
+                                    <button type="button" data-amount="300"><b>300 ₽</b><span>300 Coins</span></button>
+                                    <button type="button" data-amount="500"><b>500 ₽</b><span>500 Coins</span></button>
+                                    <button type="button" data-amount="1000"><b>1000 ₽</b><span>1000 Coins</span></button>
+                                    <button type="button" data-amount="2500"><b>2500 ₽</b><span>2500 Coins</span></button>
+                                    <button type="button" data-amount="5000"><b>5000 ₽</b><span>5000 Coins</span></button>
+                                </div>
+
+                                <div class="deposit-v3-promo">
+                                    <input type="text" id="deposit-promo" class="deposit-input" placeholder="Введите промокод, если есть">
+                                </div>
+                                <button type="button" class="deposit-apply-promo-btn" onclick="applyDepositPromo()">Применить</button>
+                                <div id="deposit-promo-msg" class="deposit-promo-msg"></div>
+                            </section>
+
+                            <aside class="deposit-v3-panel deposit-v3-checkout">
+                                <div class="deposit-v3-section-head">
+                                    <span>Способ оплаты</span>
+                                    <small aria-hidden="true">&nbsp;</small>
+                                </div>
+
+                                <div class="deposit-methods deposit-v3-methods">
+                                    
+                                    <button type="button" class="deposit-method " data-provider="lava">
+                                        <span class="deposit-method-logo deposit-method-logo-img"><img src="/nav-icons/lava-payment.png?v=55bbf99e8098" alt="Lava"></span>
+                                        <span class="deposit-method-name">Lava</span>
+                                        <span class="deposit-method-currency">Карты РФ, Карты всего мира</span>
+                                    </button>
+                                    
+                                    
+                                    <button type="button" class="deposit-method active" data-provider="platega">
+                                        <span class="deposit-method-logo deposit-method-logo-img"><img src="/nav-icons/platega-payment.png?v=55bbf99e8098" alt="Platega"></span>
+                                        <span class="deposit-method-name">Platega</span>
+                                        <span class="deposit-method-currency">Карты, СБП, Крипта</span>
+                                    </button>
+                                    
+                                    
+                                    <button type="button" class="deposit-method " data-provider="anypay">
+                                        <span class="deposit-method-logo deposit-method-logo-visa">VISA</span>
+                                        <span class="deposit-method-name">Международные карты</span>
+                                        <span class="deposit-method-currency">VISA / Mastercard · AnyPay</span>
+                                    </button>
+                                    
+                                    
+                                    <button type="button" class="deposit-method " data-provider="cryptobot">
+                                        <span class="deposit-method-logo deposit-method-logo-img"><img src="/nav-icons/cryptobot-payment.png?v=55bbf99e8098" alt="CryptoBot"></span>
+                                        <span class="deposit-method-name">CryptoBot</span>
+                                        <span class="deposit-method-currency">USDT, TON, BTC через Telegram</span>
+                                    </button>
+                                    
+                                </div>
+
+                                <div class="deposit-v3-summary">
+                                    <div><span>ИТОГО</span><b id="deposit-summary-coins"><span id="deposit-summary-paid-coins">50 Coins</span><span id="deposit-summary-bonus" hidden></span></b></div>
+                                </div>
+
+                                <label class="deposit-age-confirm">
+                                    <input type="checkbox" id="deposit-age-confirm">
+                                    <span>Мне испольнилось 18 ЛЕТ.<br>Я понимаю, что COINS — внутренняя единица сервиса.</span>
+                                </label>
+                                <button type="button" class="deposit-submit-btn deposit-v3-pay-btn" onclick="submitDepositRequest()">Перейти к оплате</button>
+                                <p class="deposit-help-text">После оплаты платёжный сервис отправит подтверждение, и баланс обновится автоматически.</p>
+                            </aside>
+                        </div>
+                    </div>
+                </div>
+            </main>
+        </div>
+    </div>
+
+    <script>window.MineDropScriptData = window.MineDropScriptData || {}; window.MineDropScriptData["footer-page-1"] = ["55bbf99e8098","platega","platega"];</script>
+<script src="/footer-page-1.js?v=55bbf99e8098-promo-summary-2"></script>
+    <script src="/footer-page-2.js?v=55bbf99e8098"></script>
+<script src="/event-activity.js?v=55bbf99e8098" defer></script>
+<script src="/event-prize-badge.js?v=55bbf99e8098" defer></script>
+</body>
+</html>
+
+
+
+
