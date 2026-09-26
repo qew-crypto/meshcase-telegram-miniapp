@@ -162,9 +162,7 @@ class Handler(SimpleHTTPRequestHandler):
         if path!='/cases.json' and suffix not in {'.html','.css','.js','.png','.jpg','.jpeg','.svg','.webp','.ico'}:return self.send_error(404)
         return super().do_GET()
     def webhook(self,data):
-        from bot_greeting import handle_start
-        if handle_start(data, bot_api):
-            return self.json_out(200,{'ok':True})
+        bot_messages.welcome(data, bot_api)
         msg=data.get('message') or {}
         pre=data.get('pre_checkout_query')
         if pre:
